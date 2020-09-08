@@ -1,0 +1,7 @@
+Citations
+==========
+
+If you find VASPKIT code useful in your work, PLEASE cite:
+
+[1] V. Wang, N. Xu, J.C. Liu, G. Tang, W.T. Geng, VASPKIT: A User-Friendly Interface Facilitating High-Throughput Computing and Analysis Using VASP Code, `arXiv:1908.08269 <https://arxiv.org/abs/1908.08269>`_ (2019)
+
