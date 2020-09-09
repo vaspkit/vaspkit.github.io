@@ -40,7 +40,7 @@ Version 1.10 (25 Feb. 2020)
    * Added a new feature to calculate pair correlation function between two elements (task 724);
    * Added a new feature to calculate velocity autocorrelation function (tasks 725 and 726);
    * Added a new feature to calculate vibrational DOS (tasks 727 and 728);
-   * Added a new feature to print the complex transition dipole moment vector in the TDM.dat suggested by G.Tang@BIU and other researches (task 713);
+   * Added a new feature to print the complex transition dipole moment vector in the TDM.dat suggested by G.Tang@BIU and other researchers (task 713);
    * Added a new feature to calculate Fermi velocity (task 917);
    * Added a new feature to calculate angular-dependent effective-mass and Fermi velocity (task 914);
    * Added a new feature to calculate linear optical spectrums for two-dimensional materials (task 710);

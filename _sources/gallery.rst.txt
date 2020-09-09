@@ -3,7 +3,7 @@ Gallery
 
 1. Suggested k-paths
 
-.. image:: ../images/vbz.png
+.. image:: ../images/VBZ.png
     :scale: 45 %
     :align: center
 
