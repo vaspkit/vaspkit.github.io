@@ -266,10 +266,10 @@
 <p>There are at lease five ways to run vaspkit under either the interactive user interface or command line mode. We take the generation of KPOINTS (task 102) as an example to illustrate the useage of vaspkit.</p>
 <ol class="arabic simple">
 <li><p>Just type <code class="docutils literal notranslate"><span class="pre">vaspkit</span></code> in the terminal to launch the interactive user interface mode;</p></li>
-<li><p><code class="docutils literal notranslate"><span class="pre">vaspkit</span> <span class="pre">-task</span> <span class="pre">102</span> <span class="pre">-kpr</span> <span class="pre">0.04</span></code> to generate KPOINTS file with a reciprocal space resolution of <span class="math notranslate nohighlight">\(2\pi \times 0.04\)</span> <span class="math notranslate nohighlight">\(Å^{-1}\)</span>. More details can be get by run <code class="docutils literal notranslate"><span class="pre">vaspkit</span> <span class="pre">-help</span></code>. ot fully supported. Part of the functions is implemented;</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">vaspkit</span> <span class="pre">-task</span> <span class="pre">102</span> <span class="pre">-kpr</span> <span class="pre">0.04</span></code> to generate KPOINTS file with a reciprocal space resolution of <span class="math notranslate nohighlight">\(2\pi \times 0.04\)</span> <span class="math notranslate nohighlight">\(Å^{-1}\)</span>. More details can be get by run <code class="docutils literal notranslate"><span class="pre">vaspkit</span> <span class="pre">-help</span></code>. <strong>Note that part of the functions is implemented</strong>;</p></li>
 <li><p><code class="docutils literal notranslate"><span class="pre">echo</span> <span class="pre">-e</span> <span class="pre">&quot;102\n2\n0.04\n&quot;|</span> <span class="pre">vaspkit</span></code>;</p></li>
 <li><p><code class="docutils literal notranslate"><span class="pre">&quot;(echo</span> <span class="pre">102;</span> <span class="pre">echo</span> <span class="pre">2;</span> <span class="pre">echo</span> <span class="pre">0.04)|vaspkit</span></code>;</p></li>
-<li><p>vi cmd.in (any filename) including the following content:</p></li>
+<li><p>vi cmd.in (any file name if you want) including the following content:</p></li>
 </ol>
 <div class="highlight-none notranslate"><div class="highlight"><pre><span></span>102
 2
@@ -280,7 +280,7 @@
 </div>
 <div class="section" id="generate-input-files">
 <h2>2. Generate Input Files<a class="headerlink" href="#generate-input-files" title="Permalink to this headline">¶</a></h2>
-<p>In order to do a VASP calculation job, usually one need 4 files, INCAR,
+<p>In order to perform a VASP calculation, usually one needs 4 files, INCAR,
 POSCAR, POTCAR and KPOINTS.</p>
 <ol class="arabic simple">
 <li><p>INCAR contains all keywords and tells VASP what to calculate;</p></li>
@@ -726,6 +726,7 @@ website（<a class="reference external" href="https://www.materialscloud.org/wor
    0.0000000000   0.0000000000   0.0000000000     GAMMA
    0.3333333333   0.3333333333   0.0000000000     K
    0.5000000000   0.0000000000   0.0000000000     M
+
 
 If you use this module, please cite the following work:
 [1] V. Wang, N. Xu, VASPKIT: A Pre- and Post-Processing Program for the VASP Code. http://vaspkit.sourceforge.net.
@@ -2102,6 +2103,7 @@ in <code class="docutils literal notranslate"><span class="pre">D_BAND_CENTER</s
     Pt1:            -3.1184
   Total:            -3.1184
 
+
 Notice:
 The energy window of integration is [-11.80 0.00].
 The calculated d-band-center presented here are referenced to Fermi level, i.e., E_F=0 eV.
@@ -2568,7 +2570,7 @@ linear optical spectrums at one shot. The program will read dielectric
 function from vasprun.xml directely if both REAL.in and IMAG.in files
 not exist. We take Si as an example and calcuculate its optical
 properties at GW0+BSE leve, as shown in figure below.</p>
-<a class="reference internal image-reference" href="_images/optical.png"><img alt="_images/optical.png" class="align-center" src="_images/optical.png" style="width: 550.0px; height: 441.6px;" /></a>
+<a class="reference internal image-reference" href="../images/optical.png"><img alt="../images/optical.png" class="align-center" src="../images/optical.png" /></a>
 <div class="highlight-none notranslate"><div class="highlight"><pre><span></span> ------------&gt;&gt;
 71
  ============================ Optical Options ====================
