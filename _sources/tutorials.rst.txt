@@ -19,6 +19,25 @@ There are at lease five ways to run vaspkit under either the interactive user in
    
 and then run ``vaspkit <cmd.in``.     
 
+if one wants to run vaspkit in batch mode, for example, to generate KPOINTS file in several sub-olders:
+
+.. code-block:: none
+
+   for i in `ls`
+   do echo ${i}
+       cd ${i}
+       vaspkit -task 102 -file POSCAR -kpr 0.04
+       cd ..
+   done
+
+Or use ``echo -e`` command to input for VASPKIT:
+
+.. code-block:: none
+
+   echo -e "102\n2\n0.04" | vaspkit
+
+means input ``102``, ``2``, ``0.04`` in turn in VASPKIT.
+
 
 2. Generate Input Files
 -----------------------
@@ -3500,87 +3519,3 @@ LOCPOT/ELFCAR  XcrySDen (.xsf) format               428
 
 11.3 USER interface
 ~~~~~~~~~~~~~~~~~~~
-
-11.4 Batch processing
-~~~~~~~~~~~~~~~~~~~~~
-
-``vaspkit -help`` to check batch potions:
-
-.. code-block:: none
-
-     -task n:       Which task to perform, 
-                  * No default value.
-     -file String:  Which file to read,
-                  * default: POSCAR.
-     -inp String:   INCAR parameters, 
-                  * default: STSR
-     -kpr Real:     Determine K-Mesh grid, 
-                  * default: 0.04.
-     -kprb Real:    Determine k-sampling along different k-paths, 
-                  * default: 0.04.
-     -kps G/M:      G=Gamma, M=Monkhorst-Pack Scheme,
-                  * default: Monkhorst-Pack Scheme.
-     -fermi Real:   Set fermi level, 
-                  * default: Calculated value from DOSCAR.
-     -symprec Real: Tolerance to find symmetry 
-                  * default: 1E-5.
-     -timesym n:    Possesses time reversal symmetry, 1 for yes and 0 for not,
-                  * default: 1.
-     -sc n1 n2 n3:  Sizes of supecell along a, b, c,
-                  * default: 1 1 1.
-     -dim n:        Dimensions of materials. 3 for 3D, 2 for 2D and 1 for 1D,
-                  * default: 3.
-     -iatom n  :    nth atom to read,   
-                  * default: 1
-     -iband n :     nth band to read,   
-                  * default: 1
-     -jband n :     nth band to read,   
-                  * default: 1
-     -ikpt n :      nth k-point to read,   
-                  * default: 1
-     -T Real :      Temperature,   
-                  * default: 300.0 K
-     -fmt c/f/atat/xsf: c=cartestion, f=direct coordinate,
-                    atat=ATAT, xsf=xcrsyden.
-                  * No default value.
-     -dir x/y/z:    Which direction to planar average.  
-                  * default: z
-     e.g.
-     a) vaspkit -task 11
-                Get TDOS. 
-     b) vaspkit -task 4 -file POSCAR -sc 2 3 4
-                Build 2*3*4 supercell from POSCAR.
-     c) vaspkit -task 22 -iatom 0
-                Get PBNAD for each element in POSCAR file. 
-     d) vaspkit -task 8 -dim 3 -symprec 1E-2
-                Get suggested K-Path for bulk material with SYMPREC=1E-2.
-
-Users can run VASPKIT jobs without entering the interactive interface,
-but just by one command line. For example: Run ``vaspkit -task 102`` can
-directly generate the KPOINTS file:
-
-.. code-block:: none
-
-   vaspkit -task 102 -file POSCAR -kpr 0.04 
-
-if one wants to loop all folder, and generates KPOINTS file in those
-folders:
-
-.. code-block:: none
-
-   for i in `ls` 
-   do echo ${i}
-       cd ${i}
-       vaspkit -task 102 -file POSCAR -kpr 0.04
-       cd ..
-   done
-
-Or use ``echo -e`` command to input for VASPKIT:
-
-.. code-block:: none
-
-   echo -e "102\n2\n0.04" | vaspkit
-
-means input ``102``, ``2``, ``0.04`` in turn in VASPKIT.
-
-

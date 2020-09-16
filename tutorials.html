@@ -185,7 +185,6 @@
 <li class="toctree-l3"><a class="reference internal" href="#molecular-dynamics-process">11.1 Molecular Dynamics process</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#file-format-transfer">11.2 File Format Transfer</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#user-interface">11.3 USER interface</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#batch-processing">11.4 Batch processing</a></li>
 </ul>
 </li>
 </ul>
@@ -275,6 +274,20 @@
 </pre></div>
 </div>
 <p>and then run <code class="docutils literal notranslate"><span class="pre">vaspkit</span> <span class="pre">&lt;cmd.in</span></code>.</p>
+<p>if one wants to run vaspkit in batch mode, for example, to generate KPOINTS file in several sub-olders:</p>
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>for i in `ls`
+do echo ${i}
+    cd ${i}
+    vaspkit -task 102 -file POSCAR -kpr 0.04
+    cd ..
+done
+</pre></div>
+</div>
+<p>Or use <code class="docutils literal notranslate"><span class="pre">echo</span> <span class="pre">-e</span></code> command to input for VASPKIT:</p>
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>echo -e &quot;102\n2\n0.04&quot; | vaspkit
+</pre></div>
+</div>
+<p>means input <code class="docutils literal notranslate"><span class="pre">102</span></code>, <code class="docutils literal notranslate"><span class="pre">2</span></code>, <code class="docutils literal notranslate"><span class="pre">0.04</span></code> in turn in VASPKIT.</p>
 </div>
 <div class="section" id="generate-input-files">
 <h2>2. Generate Input Files<a class="headerlink" href="#generate-input-files" title="Permalink to this headline">¶</a></h2>
@@ -3350,79 +3363,6 @@ VASP MD results.</p>
 </div>
 <div class="section" id="user-interface">
 <h3>11.3 USER interface<a class="headerlink" href="#user-interface" title="Permalink to this headline">¶</a></h3>
-</div>
-<div class="section" id="batch-processing">
-<h3>11.4 Batch processing<a class="headerlink" href="#batch-processing" title="Permalink to this headline">¶</a></h3>
-<p><code class="docutils literal notranslate"><span class="pre">vaspkit</span> <span class="pre">-help</span></code> to check batch potions:</p>
-<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>-task n:       Which task to perform,
-             * No default value.
--file String:  Which file to read,
-             * default: POSCAR.
--inp String:   INCAR parameters,
-             * default: STSR
--kpr Real:     Determine K-Mesh grid,
-             * default: 0.04.
--kprb Real:    Determine k-sampling along different k-paths,
-             * default: 0.04.
--kps G/M:      G=Gamma, M=Monkhorst-Pack Scheme,
-             * default: Monkhorst-Pack Scheme.
--fermi Real:   Set fermi level,
-             * default: Calculated value from DOSCAR.
--symprec Real: Tolerance to find symmetry
-             * default: 1E-5.
--timesym n:    Possesses time reversal symmetry, 1 for yes and 0 for not,
-             * default: 1.
--sc n1 n2 n3:  Sizes of supecell along a, b, c,
-             * default: 1 1 1.
--dim n:        Dimensions of materials. 3 for 3D, 2 for 2D and 1 for 1D,
-             * default: 3.
--iatom n  :    nth atom to read,
-             * default: 1
--iband n :     nth band to read,
-             * default: 1
--jband n :     nth band to read,
-             * default: 1
--ikpt n :      nth k-point to read,
-             * default: 1
--T Real :      Temperature,
-             * default: 300.0 K
--fmt c/f/atat/xsf: c=cartestion, f=direct coordinate,
-               atat=ATAT, xsf=xcrsyden.
-             * No default value.
--dir x/y/z:    Which direction to planar average.
-             * default: z
-e.g.
-a) vaspkit -task 11
-           Get TDOS.
-b) vaspkit -task 4 -file POSCAR -sc 2 3 4
-           Build 2*3*4 supercell from POSCAR.
-c) vaspkit -task 22 -iatom 0
-           Get PBNAD for each element in POSCAR file.
-d) vaspkit -task 8 -dim 3 -symprec 1E-2
-           Get suggested K-Path for bulk material with SYMPREC=1E-2.
-</pre></div>
-</div>
-<p>Users can run VASPKIT jobs without entering the interactive interface,
-but just by one command line. For example: Run <code class="docutils literal notranslate"><span class="pre">vaspkit</span> <span class="pre">-task</span> <span class="pre">102</span></code> can
-directly generate the KPOINTS file:</p>
-<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>vaspkit -task 102 -file POSCAR -kpr 0.04
-</pre></div>
-</div>
-<p>if one wants to loop all folder, and generates KPOINTS file in those
-folders:</p>
-<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>for i in `ls`
-do echo ${i}
-    cd ${i}
-    vaspkit -task 102 -file POSCAR -kpr 0.04
-    cd ..
-done
-</pre></div>
-</div>
-<p>Or use <code class="docutils literal notranslate"><span class="pre">echo</span> <span class="pre">-e</span></code> command to input for VASPKIT:</p>
-<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>echo -e &quot;102\n2\n0.04&quot; | vaspkit
-</pre></div>
-</div>
-<p>means input <code class="docutils literal notranslate"><span class="pre">102</span></code>, <code class="docutils literal notranslate"><span class="pre">2</span></code>, <code class="docutils literal notranslate"><span class="pre">0.04</span></code> in turn in VASPKIT.</p>
 </div>
 </div>
 </div>

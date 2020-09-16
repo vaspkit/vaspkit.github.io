@@ -10,7 +10,7 @@ Gallery
 2. Band structure and density of states
 
 .. image:: ../images/PBAND.png
-    :scale: 36 %
+    :scale: 46 %
     :align: center
 
 3. Band structure unfolding
