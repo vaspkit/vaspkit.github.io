@@ -68,5 +68,4 @@ VASPKIT aims at providing a powerful and user-friendly interface to perform high
    changelog
    gallery
    citations
-   acknowledgments
    contact
