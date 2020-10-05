@@ -160,6 +160,3 @@ invoke those functions, users should set the default python version and
 
    PYTHON_BIN                ~/anaconda3/bin/python3 
    PLOT_MATPLOTLIB          .TURE.  
-
-.. container::
-
