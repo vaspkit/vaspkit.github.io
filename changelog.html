@@ -159,6 +159,19 @@
   <div class="section" id="release-notes">
 <h1>Release notes<a class="headerlink" href="#release-notes" title="Permalink to this headline">¶</a></h1>
 <dl class="simple">
+<dt>Version 1.2.1 (01 Oct. 2020)</dt><dd><ul class="simple">
+<li><p>Added a new feature to generate random substitutional alloy with specified number of atoms (task 802);</p></li>
+<li><p>Added a new feature to delete the selected atoms (task 801);</p></li>
+<li><p>Added a new feature to fix (FFF) the selected atoms (task 404);</p></li>
+<li><p>Added a new feature to generate MD trajectories of the selected atoms (task 729);</p></li>
+<li><p>Added a new interface to calculate the normalized trace of interatomic force constant tensors, which is contributed by <a class="reference external" href="mailto:P&#46;F&#46;LIU&#37;&#52;&#48;IHEP">P<span>&#46;</span>F<span>&#46;</span>LIU<span>&#64;</span>IHEP</a> (task 738);</p></li>
+<li><p>Added a new feature to write Fermi surface file with Fermisurfer format (<a class="reference external" href="https://fermisurfer.osdn.jp/">https://fermisurfer.osdn.jp/</a>) task (263);</p></li>
+<li><p>Added the parameter GET_IRREDUCIBLE_KPOINTS in ~/.vaspkit file to control whether to generate k-points in the symmetry-irreducible wedge of the Brillouin Zone. If you perform hybrid band calculations including spin-orbit coupling, I strongly suggest to set GET_IRREDUCIBLE_KPOINTS = FASLE. For more details see vaspkit/how_to_set_environment_variable file;</p></li>
+<li><p>Fixed a bug in calculating transition dipole moment of DFT-band structure calculations (task 713);</p></li>
+<li><p>Online tutorials of vaspkit program are now available on its official website (<a class="reference external" href="http://vaspkit.com">http://vaspkit.com</a>);</p></li>
+<li><p>Minor bug fixes and optimizations.</p></li>
+</ul>
+</dd>
 <dt>Version 1.2.0 (20 Aug. 2020)</dt><dd><ul class="simple">
 <li><p>Added a new feature to calculate elastic contants using stress-strain method (task 200);</p></li>
 <li><p>Added a new feature to calculate temperature dependent elastic constants using stress-strain method together with ab initio molecular dynamic (task 200);</p></li>
