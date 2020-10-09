@@ -2,9 +2,11 @@ Release notes
 =============
 Version 1.2.1 (01 Oct. 2020)
    * Added a new feature to generate random substitutional alloy with specified number of atoms (task 802);
-   * Added a new feature to delete the selected atoms (task 801);
-   * Added a new feature to fix (FFF) the selected atoms (task 404);
-   * Added a new feature to generate MD trajectories of the selected atoms (task 729);
+   * Added a new feature to delete the selected all atoms (task 801);
+   * Added a nea feature to calculate various mechanical properties for 2D polycrystalline materials (tasks 200 & 201);
+   * Added a new feature to fix (FFF) the selected all atoms (task 404);
+   * Added a new feature to move the selected all atoms (task 405);
+   * Added a new feature to generate MD trajectories of the selected all atoms (task 729);
    * Added a new interface to calculate the normalized trace of interatomic force constant tensors, which is contributed by P.F.LIU@IHEP (task 738);
    * Added a new feature to write Fermi surface file with Fermisurfer format (https://fermisurfer.osdn.jp/) task (263);
    * Added the parameter GET_IRREDUCIBLE_KPOINTS in ~/.vaspkit file to control whether to generate k-points in the symmetry-irreducible wedge of the Brillouin Zone. If you perform hybrid band calculations including spin-orbit coupling, I strongly suggest to set GET_IRREDUCIBLE_KPOINTS = FASLE. For more details see vaspkit/how_to_set_environment_variable file;
