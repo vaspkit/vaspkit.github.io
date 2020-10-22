@@ -1,0 +1,72 @@
+.. vaspkit documentation master file, created by
+   sphinx-quickstart on Thu Sep  3 07:51:56 2020.
+   You can adapt this file completely to your liking, but it should at least
+   contain the root `toctree` directive.
+
+Overview
+===================================
+VASPKIT aims at providing a powerful and user-friendly interface to perform high throughput analysis of various material properties from the raw calculated data using the widely-used VASP code. The program can be conveniently run under either the interactive user interface or command line mode. 
+
+.. code-block:: none
+
+    > vaspkit
+
+               \\\///
+              / _  _ \       Hey, you must know what you are doing.
+            (| (o)(o) |)     Otherwise you might get wrong results!
+    +-----.OOOo--()--oOOO.------------------------------------------+
+    |             VASPKIT Version: 1.2.1 (01 Oct. 2020)             |
+    |         Core Developer: Vei WANG (wangvei@icloud.com)         |
+    |     Main Contributors: Nan XU, Jin-Cheng LIU & Gang TANG      |
+    | Online Tutorials Available on the Website: http://vaspkit.com |
+    +-----.oooO-----------------------------------------------------+
+           (   )   Oooo.
+            \ (    (   )
+             \_)    ) /
+                   (_/
+    ===================== Structural Options ========================
+    1)  VASP Input Files              2)  Elastic-Properties
+    3)  K-Path for Band-Structure     4)  Structure Editor
+    5)  Catalysis-ElectroChem Kit     6)  Symmetry Search
+    8)  Advanced Structure Models
+    ===================== Electronic Options ========================
+    11) Density-of-States             21) DFT Band-Structure
+    23) 3D Band-Structure             25) Hybrid-DFT Band-Structure
+    26) Fermi-Surface                 28) Band-Structure Unfolding
+    =========== Charge & Potential & Wavefunction Options ===========
+    31) Charge & Spin Density         42) Potential-Related
+    51) Wave-Function Analysis
+    ====================== Misc Utilities ===========================
+    71) Optical-Properties            72) Molecular-Dynamics Kit
+    73) VASP2other Interface          74) User interface
+    91) Semiconductor Calculator      92) 2D-Materials Kit
+    0)  Quit
+    ------------>>
+   0
+    +---------------------------------------------------------------+
+    |                       * ACKNOWLEDGMENTS *                     |
+    | Other Contributors (in no particular order): Peng-Fei LIU,    |
+    | Xue-Fei LIU, Dao-Xiong WU, Zhao-Fu ZHANG, Tian WANG, Qiang LI,|
+    | Ya-Chao LIU, Jiang-Shan ZHAO, Qi-Jing ZHENG, iGo Li and You!  |
+    | Advisors: Wen-Tong GENG, Yoshiyuki KAWAZOE                    |
+    +---------------------------------------------------------------+
+..
+  News
+  ================
+
+  * VASPKIT version 1.20 released (20 Aug. 2020)
+  * VASPKIT version 1.12 released (01 Mar. 2020)
+  * VASPKIT version 1.11 released (25 Feb. 2020)
+  * VASPKIT version 1.00 released (16 Sep. 2019)
+
+.. toctree::
+   :maxdepth: 2
+
+   features
+   installation
+   tutorials
+   changelog
+   gallery
+   citations
+   contact
+   acknowledgments

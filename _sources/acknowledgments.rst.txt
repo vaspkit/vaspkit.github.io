@@ -1,0 +1,9 @@
+Acknowledgments
+===============
+
+We acknowledge other contributors including Xue-Fei Liu, Peng-Fei Liu,
+Zhao-Fu Zhang, Tian Wang, Dao-Xiong Wu, Qiang Li,  Ya-Chao LIU, Jiang-Shan ZHAO, Qi-Jing ZHENG, iGo Li and etc.. We also
+thank various researchers around the world for reporting bugs and
+suggesting features, which have lead to significant improvements in the
+accuracy and robustness of the package.
+
