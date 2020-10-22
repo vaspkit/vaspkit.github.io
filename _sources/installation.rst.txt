@@ -40,7 +40,7 @@ The compiled version of the program can be obtained from the `latest release pag
 
 Dependencies
 ^^^^^^^^^^^^^
-VASPKIT is supported by Python3. Please install the following dependencies prior to installing VASPKIT. I strongly suggest to use `anaconda <https://www.anaconda.com/download>`_.
+VASPKIT is supported by Python 3.x. Please install the following dependencies prior to installing VASPKIT. I strongly suggest to use `anaconda <https://www.anaconda.com/download>`_ package to manage various python packages.
 
 * `Python <https://www.python.org/>`_ 3.5 or higher
 * `Numpy <http://www.numpy.org/>`_ 1.15.4 or higher
