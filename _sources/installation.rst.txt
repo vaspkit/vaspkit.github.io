@@ -41,6 +41,7 @@ Prerequisites
 * `Numpy <http://www.numpy.org/>`_ 1.15.4 or higher
 * `Scipy <https://www.scipy.org/>`_ 1.1.0 or higher
 * `matplotlib <https://matplotlib.org/>`_ 3.0.1 or higher
+I strongly suggest to use `anaconda <https://www.anaconda.com/download>`_  and python3.
 
 Installation
 ^^^^^^^^^^^^
@@ -159,4 +160,6 @@ invoke those functions, users should set the default python version and
 ::
 
    PYTHON_BIN                ~/anaconda3/bin/python3 
-   PLOT_MATPLOTLIB          .TURE.  
+   PLOT_MATPLOTLIB          .TURE. 
+
+5. The Windows version of vaspkit is still maturing. A few utilities fail to run under Windows system, for example, cannot read the .vaspkit configuration file and generate POTCAR file. 
