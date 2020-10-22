@@ -23,7 +23,7 @@ If you find VASPKIT code useful in your work, PLEASE cite:
 
 Cited publications
 ------------------
-vaspkit was cited in the following published papers. Many thanks to the authors!
+VASPKIT code was cited in the following published papers. Many thanks to the authors!
 
-(to be updated..)
+(to be updated)
 

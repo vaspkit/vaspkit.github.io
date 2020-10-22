@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>Installation &mdash; vaspkit 1.2.0 documentation</title>
+  <title>Installation &mdash; vaspkit 1.2 documentation</title>
   
 
   
@@ -90,7 +90,7 @@
 <li class="toctree-l1 current"><a class="current reference internal" href="#">Installation</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="#usage-agreement">Usage agreement</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#download">Download</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#prerequisites">Prerequisites</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#dependencies">Dependencies</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#id1">Installation</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#installation-faqs">Installation FAQs</a></li>
 </ul>
@@ -184,31 +184,34 @@ This software is provided “as is” without any express or implied warranty.</
 <h2>Download<a class="headerlink" href="#download" title="Permalink to this headline">¶</a></h2>
 <p>Currently we only provide the executable binary files of VASPKIT which can run on Windows, Mac OS X, and Linux. After downloading the package, please take a few minutes to read the instructions in the manual; everything is detailed there.</p>
 <p>The compiled version of the program can be obtained from the <a class="reference external" href="https://sourceforge.net/projects/vaspkit/files/Binaries/">latest release page</a> on sourceforge. At the release page you find the a compressed tarball (tar zxvf vaspkit.*.tar.gz) usually containing the following content:</p>
-<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>drwxr-xr-x    3 vaspkit  staff     96  4 15 15:50 bin/
-drwxr-xr-x   26 vaspkit  staff    832 11 25  2019 crystals/
-drwxr-xr-x    4 vaspkit  staff    128 11 25  2019 docs/
-drwxr-xr-x   26 vaspkit  staff    832  4 15 15:53 examples/
-drwxr-xr-x   12 vaspkit  staff    384 11 25  2019 utilities/
--rw-r--r--    1 vaspkit  staff    249 11 25  2019 acknowledgement
--rw-r--r--    1 vaspkit  staff  24177  4 22 14:19 changelog
-drwxr-xr-x    5 vaspkit  staff    160  3 15 14:42 citations
--rw-r--r--    1 vaspkit  staff    618  4  5 14:02 contributors
--rw-r--r--    1 vaspkit  staff    118  2  9  2020 how_to_install
--rw-r--r--    1 vaspkit  staff   3659  3 30 08:33 how_to_set_environment_variable
--rw-r--r--    1 vaspkit  staff   1243 11 25  2019 license
--rwxr-xr-x    1 vaspkit  staff   1742 12 24  2019 setup.sh
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>vaspkit.1.2.0
+├── acknowledgement
+├── bin/
+│   └── vaspkit
+├── crystals/
+├── docs/
+├── examples/
+├── changelog
+├── citations
+├── contributors
+├── how_to_install
+├── how_to_set_environment_variable
+├── license
+├── setup.sh
+├── utilities
+└── vaspkit_logo.pdf
 </pre></div>
 </div>
 </div>
-<div class="section" id="prerequisites">
-<h2>Prerequisites<a class="headerlink" href="#prerequisites" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="dependencies">
+<h2>Dependencies<a class="headerlink" href="#dependencies" title="Permalink to this headline">¶</a></h2>
+<p>VASPKIT is supported by Python3. Please install the following dependencies prior to installing VASPKIT. I strongly suggest to use <a class="reference external" href="https://www.anaconda.com/download">anaconda</a>.</p>
 <ul class="simple">
 <li><p><a class="reference external" href="https://www.python.org/">Python</a> 3.5 or higher</p></li>
 <li><p><a class="reference external" href="http://www.numpy.org/">Numpy</a> 1.15.4 or higher</p></li>
 <li><p><a class="reference external" href="https://www.scipy.org/">Scipy</a> 1.1.0 or higher</p></li>
 <li><p><a class="reference external" href="https://matplotlib.org/">matplotlib</a> 3.0.1 or higher</p></li>
 </ul>
-<p>I strongly suggest to use <a class="reference external" href="https://www.anaconda.com/download">anaconda</a>  and python3.</p>
 </div>
 <div class="section" id="id1">
 <h2>Installation<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h2>
@@ -231,7 +234,7 @@ the following command under the bash terminal.</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">vi</span> <span class="o">~/.</span><span class="n">vaspkit</span>
 </pre></div>
 </div>
-<p>The configuration file is mainly used to set the environment variables
+<p>The configuration <code class="docutils literal notranslate"><span class="pre">~/.vaspkit</span></code> file is mainly used to set the environment variables
 of VASPKIT, including VASP version information, directory of the target
 pseudo potential, selection of functional, whether to use recommended
 POTCAR, and so on.</p>
@@ -271,6 +274,7 @@ CENTER_SLAB                   .TRUE.                         # Center the slab i
 unzip the VASP PAW_PBE pseudo potentials at <code class="docutils literal notranslate"><span class="pre">~/POTCAR/PBE</span></code>
 directory.</p></li>
 <li><p>Add the absolute path of the vaspkit to the environment variable.</p></li>
+<li><p>The <code class="docutils literal notranslate"><span class="pre">~/.vaspkit</span></code> file needs to be manually updated when use the newest version of vaspkit.</p></li>
 </ol>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">echo</span> <span class="s1">&#39;export PATH=/home/vaspkit.1.00/bin/:$PATH&#39;</span> <span class="o">&gt;&gt;</span> <span class="o">~/.</span><span class="n">bashrc</span>
 <span class="n">source</span> <span class="o">~/.</span><span class="n">bashrc</span>
@@ -309,7 +313,7 @@ invoke those functions, users should set the default python version and
 </pre></div>
 </div>
 <ol class="arabic simple" start="5">
-<li><p>The Windows version of vaspkit is still maturing. A few utilities fail to run under Windows system, for example, cannot read the .vaspkit configuration file and generate POTCAR file.</p></li>
+<li><p>The Windows version of vaspkit is still maturing. A few utilities fail to run under Windows system, for example, cannot read the configuration .vaspkit file and generate POTCAR file.</p></li>
 </ol>
 </div>
 </div>
