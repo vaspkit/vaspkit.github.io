@@ -1,0 +1,10 @@
+Donations
+==========
+VASPKIT is a non-profit project run entirely by unpaid volunteers. We need your funds to pay for software and hosting around continuous integration and future improvements to the project. Every donation will be spent on making VASPKIT better for our users.
+
+Please consider a regular donation through the following QR codes (currently support Alipay or WeChat only).
+
+
+.. image:: ../images/QR.png
+    :scale: 20 %
+    :align: center

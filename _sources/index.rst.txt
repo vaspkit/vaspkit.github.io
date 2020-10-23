@@ -63,10 +63,11 @@ VASPKIT aims at providing a powerful and user-friendly interface to perform high
    :maxdepth: 2
 
    features
+   changelog
    installation
    tutorials
-   changelog
-   gallery
    citations
+   donations
+   gallery
    contact
    acknowledgments
