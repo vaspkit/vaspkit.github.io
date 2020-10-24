@@ -66,8 +66,8 @@ VASPKIT aims at providing a powerful and user-friendly interface to perform high
    changelog
    installation
    tutorials
+   gallery
    citations
    donations
-   gallery
    contact
    acknowledgments

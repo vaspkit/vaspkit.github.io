@@ -6,5 +6,5 @@ Please consider a regular donation through the following QR codes (currently sup
 
 
 .. image:: ../images/QR.png
-    :scale: 20 %
+    :scale: 40 %
     :align: center
