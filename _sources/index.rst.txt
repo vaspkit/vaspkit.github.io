@@ -71,3 +71,4 @@ VASPKIT aims at providing a powerful and user-friendly interface to perform high
    donations
    contact
    acknowledgments
+   database

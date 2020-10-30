@@ -8,7 +8,7 @@ There are at lease five ways to run vaspkit under either the interactive user in
 1. Just type ``vaspkit`` in the terminal to launch the interactive user interface mode;
 2. ``vaspkit -task 102 -kpr 0.04`` to generate KPOINTS file with a reciprocal space resolution of :math:`2\pi \times 0.04` :math:`Å^{-1}`. More details can be get by run ``vaspkit -help``. **Note that part of the functions is implemented yet!**;
 3. ``echo -e "102\n2\n0.04\n"| vaspkit``;
-4. ``"(echo 102; echo 2; echo 0.04)|vaspkit``;
+4. ``(echo 102; echo 2; echo 0.04)|vaspkit``;
 5. vi cmd.in (any file name if you want) including the following content:  
 
 .. code-block:: none     

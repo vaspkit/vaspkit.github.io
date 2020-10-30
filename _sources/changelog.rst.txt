@@ -1,4 +1,4 @@
-Release notes
+Release Notes
 =============
 Version 1.2.1 (01 Oct. 2020)
    * Added a new feature to generate random substitutional alloy with specified number of atoms (task 802);

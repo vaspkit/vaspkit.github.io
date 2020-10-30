@@ -1,0 +1,18 @@
+Materials Database
+=================================
+
+Computational 2D Semiconductor Database
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+I. Short Description
+>>>>>>>>>>>>>>>>>>
+Recently we perfomed high-throughput first-principles calculations to screen around 300 two dimensional nonmagnetic semiconductors from near 1000 monolayers according to the energetic, thermodynamic, mechanical, dynamic and thermal stability criterions. We will present the calculated results including lattice constants, formation energy, Young’s modulus, Poisson’s ratio, shear modulus, band gap, band structure, ionization energy and electron affinity for all the candidates satisfying our criteria [**Come Soon**].
+
+II. The data can be browsed online
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+* `Browse data <./2dsdb/index.html>`_
+
+For more details of this database, please refer to the following reference.
+
+[1] `V. Wang, Y.-Y. Liang, Y. Kawazeo, W.-T. Geng, High-Throughput Computational Screening of Two-Dimensional Semiconductors, arXiv:1806.04285. <https://arxiv.org/abs/1806.04285>`_

@@ -116,7 +116,7 @@ according to your POTCAR path.
     directory.
 
 (3) Add the absolute path of the vaspkit to the environment variable.
-(4) The ``~/.vaspkit`` file needs to be manually updated when use the newest version of vaspkit.
+(4) The ``~/.vaspkit`` file might need to be manually updated if some new environment variables are introduced in the newest version of vaspkit.
 
 ::
 

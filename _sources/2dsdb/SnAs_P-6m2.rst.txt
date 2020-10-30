@@ -1,0 +1,114 @@
+SnAs - P-6m2
+================
+ 
+1. Structure Summary
+--------------------------
+ 
+=========================== ==========
+Date Page Updated           2020-10-30
+Crystal Prototype           AB
+Crystal System              Hexagonal
+Lattice Constant *a* (Å)    3.995
+Lattice Constant *b* (Å)    3.995
+Space Group                 P-6m2
+Formation Energy (eV/f.u.)  0.0851
+=========================== ==========
+ 
+2. Mechanical Properties (PBE)
+------------------------------
+ 
+2.1 Stiffness Tensors
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ 
+==================  =========  ========  =======
+C\ :sub:`ij` (N/m)  *xx*       *yy*       *zz*
+*xx*                  81.987     19.022       0.000
+*yy*                  19.022     81.987       0.000
+*zz*                   0.000      0.000      31.482
+==================  =========  ========  =======
+ 
+==============================  =============
+Youngs's Modulus *Max*. (N/m)   77.574
+Youngs's Modulus *Min*. (N/m)   77.573
+Shear Modulus *Max*. (N/m)      31.483
+Shear Modulus *Min*. (N/m)      31.482
+Poisson's Ratio *Max*.          0.232
+Poisson's Ratio *Min*.          0.232
+==============================  =============
+ 
+ 
+2.2 Orientation-Dependent Mechanical Properties
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ 
+.. image:: ./images/ELASTIC-SnAs_P-6m2.png
+  :width: 600 
+ 
+3. Fundmental Electronic Properties
+-----------------------------------
+ 
+=================================================  ===========================
+Band Character                                     Indirect
+Band Gap (PBE, eV)                                 1.1606
+Band Gap (HSE, eV)                                 1.6963
+Ionization Energy (HSE, eV)                        -5.555
+Electron Affinity (HSE, eV)                        -3.858
+Effective Mass of Electron *Max*. (*m*\ :sub:`0`)    0.140
+Effective Mass of Electron *Min*. (*m*\ :sub:`0`)    0.139
+Effective Mass of Hole *Max*. (*m*\ :sub:`0`)        1.504
+Effective Mass of Hole *Min*. (*m*\ :sub:`0`)        0.785
+Location of Valence Band Maximum                   [0.000000, 0.000000]
+Location of Conduction Band Minimum                [0.000000, 0.000000]
+=================================================  ===========================
+ 
+3.1 Global Band Structure (PBE)
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ 
+.. image:: ./images/3D_band-SnAs_P-6m2.jpg
+  :width: 600 
+ 
+3.2 Band Structure and Density of States (PBE)
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ 
+.. image:: ./images/BAND_LDOS-SnAs_P-6m2.png
+  :width: 600 
+ 
+3.3 Projected Band Structure and Density of States (PBE)
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ 
+ 
+.. image:: ./images/BAND_PDOS_As-SnAs_P-6m2.png
+  :width: 600 
+ 
+ 
+.. image:: ./images/BAND_PDOS_Sn-SnAs_P-6m2.png
+  :width: 600 
+ 
+3.4 Orientation-Dependent effective Masses (PBE)
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ 
+.. image:: ./images/EMC-SnAs_P-6m2.png
+  :width: 600 
+ 
+4. Optical Spectrums (HSE)
+---------------------------------
+ 
+.. image:: ./images/Optical-SnAs_P-6m2.png
+  :width: 600 
+ 
+5. Phonon Spectrum and Density of States (PBE)
+----------------------------------------------
+ 
+.. image:: ./images/phonon_BAND_LDOS-SnAs_P-6m2.png
+  :width: 600 
+ 
+References
+----------------
+ 
+For more details of this database, please refer to the following reference.
+ 
+[1] V. Wang, Y.-Y. Liang, Y. Kawazeo, W.-T. Geng, High-Throughput Computational Screening of Two-Dimensional Semiconductors, `arXiv:1806.04285. <https://arxiv.org/abs/1806.04285>`_
+ 
+License
+----------------
+ 
+The contents of this web page are licensed under a `Creative Commons 4.0 Attribution International License <http://creativecommons.org/licenses/by/4.0/>`_.
