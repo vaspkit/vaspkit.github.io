@@ -103,4 +103,4 @@ For more details of this database, please refer to the following reference.
 License
 ----------------
  
-The contents of this web page are licensed under a `Creative Commons 4.0 Attribution International License <http://creativecommons.org/licenses/by/4.0/>`_.
+The contents of this web page are licensed under a `Creative Commons 4.0 Attribution International License <http://creativecommons.org/licenses/by/4.0/>`_ unless another license is specially mentioned in each web page.

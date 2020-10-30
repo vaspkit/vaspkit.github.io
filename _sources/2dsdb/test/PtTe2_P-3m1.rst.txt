@@ -1,0 +1,116 @@
+PtTe2 - P-3m1
+================
+
+`Retrun to Menu <index.html>`_
+ 
+1. Structure Summary
+--------------------------
+ 
+=========================== ==========
+Date Page Updated           2020-10-30
+Crystal Prototype           AB2
+Crystal System              Hexagonal
+Lattice Constant *a* (Å)    4.003
+Lattice Constant *b* (Å)    4.003
+Space Group                 P-3m1
+Formation Energy (eV/f.u.)  0.0394
+=========================== ==========
+ 
+2. Mechanical Properties (PBE)
+------------------------------
+ 
+2.1 Stiffness Tensors
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ 
+==================  =========  ========  =======
+C\ :sub:`ij` (N/m)  *xx*       *yy*       *zz*
+*xx*                  69.407     20.311       0.000
+*yy*                  20.311     69.407       0.000
+*zz*                   0.000      0.000      24.548
+==================  =========  ========  =======
+ 
+==============================  =============
+Youngs's Modulus *Max*. (N/m)   63.463
+Youngs's Modulus *Min*. (N/m)   63.463
+Shear Modulus *Max*. (N/m)      24.548
+Shear Modulus *Min*. (N/m)      24.548
+Poisson's Ratio *Max*.          0.293
+Poisson's Ratio *Min*.          0.293
+==============================  =============
+ 
+ 
+2.2 Orientation-Dependent Mechanical Properties
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ 
+.. image:: ./images/ELASTIC-PtTe2_P-3m1.png
+  :width: 600 
+ 
+3. Fundmental Electronic Properties
+-----------------------------------
+ 
+=================================================  ===========================
+Band Character                                     Indirect
+Band Gap (PBE, eV)                                 0.7197
+Band Gap (HSE, eV)                                 1.1482
+Ionization Energy (HSE, eV)                        -4.993
+Electron Affinity (HSE, eV)                        -3.864
+Effective Mass of Electron *Max*. (*m*\ :sub:`0`)    0.148
+Effective Mass of Electron *Min*. (*m*\ :sub:`0`)    0.145
+Effective Mass of Hole *Max*. (*m*\ :sub:`0`)        9.352
+Effective Mass of Hole *Min*. (*m*\ :sub:`0`)        -0.104
+Location of Valence Band Maximum                   [0.000000, 0.000000]
+Location of Conduction Band Minimum                [-0.250000, -0.250000]
+=================================================  ===========================
+ 
+3.1 Global Band Structure (PBE)
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ 
+.. image:: ./images/3D_band-PtTe2_P-3m1.jpg
+  :width: 600 
+ 
+3.2 Band Structure and Density of States (PBE)
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ 
+.. image:: ./images/BAND_LDOS-PtTe2_P-3m1.png
+  :width: 600 
+ 
+3.3 Projected Band Structure and Density of States (PBE)
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ 
+ 
+.. image:: ./images/BAND_PDOS_Pt-PtTe2_P-3m1.png
+  :width: 600 
+ 
+ 
+.. image:: ./images/BAND_PDOS_Te-PtTe2_P-3m1.png
+  :width: 600 
+ 
+3.4 Orientation-Dependent effective Masses (PBE)
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ 
+.. image:: ./images/EMC-PtTe2_P-3m1.png
+  :width: 600 
+ 
+4. Optical Spectrums (HSE)
+---------------------------------
+ 
+.. image:: ./images/Optical-PtTe2_P-3m1.png
+  :width: 600 
+ 
+5. Phonon Spectrum and Density of States (PBE)
+----------------------------------------------
+ 
+.. image:: ./images/phonon_BAND_LDOS-PtTe2_P-3m1.png
+  :width: 600 
+ 
+References
+----------------
+ 
+For more details of this database, please refer to the following reference.
+ 
+[1] V. Wang, Y.-Y. Liang, Y. Kawazeo, W.-T. Geng, High-Throughput Computational Screening of Two-Dimensional Semiconductors, `arXiv:1806.04285. <https://arxiv.org/abs/1806.04285>`_
+ 
+License
+----------------
+ 
+The contents of this web page are licensed under a `Creative Commons 4.0 Attribution International License <http://creativecommons.org/licenses/by/4.0/>`_.

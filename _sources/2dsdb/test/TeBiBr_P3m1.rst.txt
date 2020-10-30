@@ -1,0 +1,120 @@
+TeBiBr - P3m1
+================
+
+`Retrun to Menu <index.html>`_
+ 
+1. Structure Summary
+--------------------------
+ 
+=========================== ==========
+Date Page Updated           2020-10-30
+Crystal Prototype           ABC
+Crystal System              Hexagonal
+Lattice Constant *a* (Å)    4.217
+Lattice Constant *b* (Å)    4.217
+Space Group                 P3m1
+Formation Energy (eV/f.u.)  -1.1232
+=========================== ==========
+ 
+2. Mechanical Properties (PBE)
+------------------------------
+ 
+2.1 Stiffness Tensors
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ 
+==================  =========  ========  =======
+C\ :sub:`ij` (N/m)  *xx*       *yy*       *zz*
+*xx*                  34.344      8.278       0.000
+*yy*                   8.278     34.344       0.000
+*zz*                   0.000      0.000      13.033
+==================  =========  ========  =======
+ 
+==============================  =============
+Youngs's Modulus *Max*. (N/m)   32.349
+Youngs's Modulus *Min*. (N/m)   32.349
+Shear Modulus *Max*. (N/m)      13.033
+Shear Modulus *Min*. (N/m)      13.033
+Poisson's Ratio *Max*.          0.241
+Poisson's Ratio *Min*.          0.241
+==============================  =============
+ 
+ 
+2.2 Orientation-Dependent Mechanical Properties
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ 
+.. image:: ./images/ELASTIC-TeBiBr_P3m1.png
+  :width: 600 
+ 
+3. Fundmental Electronic Properties
+-----------------------------------
+ 
+=================================================  ===========================
+Band Character                                     Indirect
+Band Gap (PBE, eV)                                 1.8137
+Band Gap (HSE, eV)                                 2.4179
+Ionization Energy (HSE, eV)                        -6.903
+Electron Affinity (HSE, eV)                        -4.491
+Effective Mass of Electron *Max*. (*m*\ :sub:`0`)    6.886
+Effective Mass of Electron *Min*. (*m*\ :sub:`0`)    0.541
+Effective Mass of Hole *Max*. (*m*\ :sub:`0`)        2.222
+Effective Mass of Hole *Min*. (*m*\ :sub:`0`)        1.993
+Location of Valence Band Maximum                   [-0.088235, -0.088235]
+Location of Conduction Band Minimum                [0.000000, 0.000000]
+=================================================  ===========================
+ 
+3.1 Global Band Structure (PBE)
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ 
+.. image:: ./images/3D_band-TeBiBr_P3m1.jpg
+  :width: 600 
+ 
+3.2 Band Structure and Density of States (PBE)
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ 
+.. image:: ./images/BAND_LDOS-TeBiBr_P3m1.png
+  :width: 600 
+ 
+3.3 Projected Band Structure and Density of States (PBE)
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ 
+ 
+.. image:: ./images/BAND_PDOS_Bi-TeBiBr_P3m1.png
+  :width: 600 
+ 
+ 
+.. image:: ./images/BAND_PDOS_Br-TeBiBr_P3m1.png
+  :width: 600 
+ 
+ 
+.. image:: ./images/BAND_PDOS_Te-TeBiBr_P3m1.png
+  :width: 600 
+ 
+3.4 Orientation-Dependent effective Masses (PBE)
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ 
+.. image:: ./images/EMC-TeBiBr_P3m1.png
+  :width: 600 
+ 
+4. Optical Spectrums (HSE)
+---------------------------------
+ 
+.. image:: ./images/Optical-TeBiBr_P3m1.png
+  :width: 600 
+ 
+5. Phonon Spectrum and Density of States (PBE)
+----------------------------------------------
+ 
+.. image:: ./images/phonon_BAND_LDOS-TeBiBr_P3m1.png
+  :width: 600 
+ 
+References
+----------------
+ 
+For more details of this database, please refer to the following reference.
+ 
+[1] V. Wang, Y.-Y. Liang, Y. Kawazeo, W.-T. Geng, High-Throughput Computational Screening of Two-Dimensional Semiconductors, `arXiv:1806.04285. <https://arxiv.org/abs/1806.04285>`_
+ 
+License
+----------------
+ 
+The contents of this web page are licensed under a `Creative Commons 4.0 Attribution International License <http://creativecommons.org/licenses/by/4.0/>`_.

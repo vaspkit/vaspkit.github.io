@@ -1,0 +1,116 @@
+TiSe2 - P-6m2
+================
+
+`Retrun to Menu <index.html>`_
+ 
+1. Structure Summary
+--------------------------
+ 
+=========================== ==========
+Date Page Updated           2020-10-30
+Crystal Prototype           AB2
+Crystal System              Hexagonal
+Lattice Constant *a* (Å)    3.497
+Lattice Constant *b* (Å)    3.497
+Space Group                 P-6m2
+Formation Energy (eV/f.u.)  -2.8636
+=========================== ==========
+ 
+2. Mechanical Properties (PBE)
+------------------------------
+ 
+2.1 Stiffness Tensors
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ 
+==================  =========  ========  =======
+C\ :sub:`ij` (N/m)  *xx*       *yy*       *zz*
+*xx*                  76.820     25.350       0.000
+*yy*                  25.350     76.820       0.000
+*zz*                   0.000      0.000      25.735
+==================  =========  ========  =======
+ 
+==============================  =============
+Youngs's Modulus *Max*. (N/m)   68.455
+Youngs's Modulus *Min*. (N/m)   68.455
+Shear Modulus *Max*. (N/m)      25.735
+Shear Modulus *Min*. (N/m)      25.735
+Poisson's Ratio *Max*.          0.330
+Poisson's Ratio *Min*.          0.330
+==============================  =============
+ 
+ 
+2.2 Orientation-Dependent Mechanical Properties
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ 
+.. image:: ./images/ELASTIC-TiSe2_P-6m2.png
+  :width: 600 
+ 
+3. Fundmental Electronic Properties
+-----------------------------------
+ 
+=================================================  ===========================
+Band Character                                     Indirect
+Band Gap (PBE, eV)                                 0.5943
+Band Gap (HSE, eV)                                 1.5025
+Ionization Energy (HSE, eV)                        -6.728
+Electron Affinity (HSE, eV)                        -5.345
+Effective Mass of Electron *Max*. (*m*\ :sub:`0`)    2.129
+Effective Mass of Electron *Min*. (*m*\ :sub:`0`)    2.098
+Effective Mass of Hole *Max*. (*m*\ :sub:`0`)        5.278
+Effective Mass of Hole *Min*. (*m*\ :sub:`0`)        0.260
+Location of Valence Band Maximum                   [0.000000, 0.000000]
+Location of Conduction Band Minimum                [0.500000, 0.500000]
+=================================================  ===========================
+ 
+3.1 Global Band Structure (PBE)
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ 
+.. image:: ./images/3D_band-TiSe2_P-6m2.jpg
+  :width: 600 
+ 
+3.2 Band Structure and Density of States (PBE)
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ 
+.. image:: ./images/BAND_LDOS-TiSe2_P-6m2.png
+  :width: 600 
+ 
+3.3 Projected Band Structure and Density of States (PBE)
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ 
+ 
+.. image:: ./images/BAND_PDOS_Ti-TiSe2_P-6m2.png
+  :width: 600 
+ 
+ 
+.. image:: ./images/BAND_PDOS_Se-TiSe2_P-6m2.png
+  :width: 600 
+ 
+3.4 Orientation-Dependent effective Masses (PBE)
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ 
+.. image:: ./images/EMC-TiSe2_P-6m2.png
+  :width: 600 
+ 
+4. Optical Spectrums (HSE)
+---------------------------------
+ 
+.. image:: ./images/Optical-TiSe2_P-6m2.png
+  :width: 600 
+ 
+5. Phonon Spectrum and Density of States (PBE)
+----------------------------------------------
+ 
+.. image:: ./images/phonon_BAND_LDOS-TiSe2_P-6m2.png
+  :width: 600 
+ 
+References
+----------------
+ 
+For more details of this database, please refer to the following reference.
+ 
+[1] V. Wang, Y.-Y. Liang, Y. Kawazeo, W.-T. Geng, High-Throughput Computational Screening of Two-Dimensional Semiconductors, `arXiv:1806.04285. <https://arxiv.org/abs/1806.04285>`_
+ 
+License
+----------------
+ 
+The contents of this web page are licensed under a `Creative Commons 4.0 Attribution International License <http://creativecommons.org/licenses/by/4.0/>`_.

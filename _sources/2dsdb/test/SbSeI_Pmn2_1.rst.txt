@@ -1,0 +1,120 @@
+SbSeI - Pmn2
+================
+
+`Retrun to Menu <index.html>`_
+ 
+1. Structure Summary
+--------------------------
+ 
+=========================== ==========
+Date Page Updated           2020-10-30
+Crystal Prototype           ABC
+Crystal System              Rectangular
+Lattice Constant *a* (Å)    3.877
+Lattice Constant *b* (Å)    7.866
+Space Group                 Pmn2
+Formation Energy (eV/f.u.)  0.2696
+=========================== ==========
+ 
+2. Mechanical Properties (PBE)
+------------------------------
+ 
+2.1 Stiffness Tensors
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ 
+==================  =========  ========  =======
+C\ :sub:`ij` (N/m)  *xx*       *yy*       *zz*
+*xx*                  50.735      1.832       0.000
+*yy*                   1.832      0.845       0.000
+*zz*                   0.000      0.000       1.067
+==================  =========  ========  =======
+ 
+==============================  =============
+Youngs's Modulus *Max*. (N/m)   46.763
+Youngs's Modulus *Min*. (N/m)   0.779
+Shear Modulus *Max*. (N/m)      1.067
+Shear Modulus *Min*. (N/m)      0.715
+Poisson's Ratio *Max*.          2.168
+Poisson's Ratio *Min*.          -0.166
+==============================  =============
+ 
+ 
+2.2 Orientation-Dependent Mechanical Properties
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ 
+.. image:: ./images/ELASTIC-SbSeI_Pmn2_1.png
+  :width: 600 
+ 
+3. Fundmental Electronic Properties
+-----------------------------------
+ 
+=================================================  ===========================
+Band Character                                     Direct
+Band Gap (PBE, eV)                                 1.1111
+Band Gap (HSE, eV)                                 1.8215
+Ionization Energy (HSE, eV)                        -6.435
+Electron Affinity (HSE, eV)                        -4.614
+Effective Mass of Electron *Max*. (*m*\ :sub:`0`)    0.473
+Effective Mass of Electron *Min*. (*m*\ :sub:`0`)    0.157
+Effective Mass of Hole *Max*. (*m*\ :sub:`0`)        2.521
+Effective Mass of Hole *Min*. (*m*\ :sub:`0`)        0.274
+Location of Valence Band Maximum                   [0.000000, 0.000000]
+Location of Conduction Band Minimum                [0.000000, 0.000000]
+=================================================  ===========================
+ 
+3.1 Global Band Structure (PBE)
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ 
+.. image:: ./images/3D_band-SbSeI_Pmn2_1.jpg
+  :width: 600 
+ 
+3.2 Band Structure and Density of States (PBE)
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ 
+.. image:: ./images/BAND_LDOS-SbSeI_Pmn2_1.png
+  :width: 600 
+ 
+3.3 Projected Band Structure and Density of States (PBE)
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ 
+ 
+.. image:: ./images/BAND_PDOS_Sb-SbSeI_Pmn2_1.png
+  :width: 600 
+ 
+ 
+.. image:: ./images/BAND_PDOS_Se-SbSeI_Pmn2_1.png
+  :width: 600 
+ 
+ 
+.. image:: ./images/BAND_PDOS_I-SbSeI_Pmn2_1.png
+  :width: 600 
+ 
+3.4 Orientation-Dependent effective Masses (PBE)
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ 
+.. image:: ./images/EMC-SbSeI_Pmn2_1.png
+  :width: 600 
+ 
+4. Optical Spectrums (HSE)
+---------------------------------
+ 
+.. image:: ./images/Optical-SbSeI_Pmn2_1.png
+  :width: 600 
+ 
+5. Phonon Spectrum and Density of States (PBE)
+----------------------------------------------
+ 
+.. image:: ./images/phonon_BAND_LDOS-SbSeI_Pmn2_1.png
+  :width: 600 
+ 
+References
+----------------
+ 
+For more details of this database, please refer to the following reference.
+ 
+[1] V. Wang, Y.-Y. Liang, Y. Kawazeo, W.-T. Geng, High-Throughput Computational Screening of Two-Dimensional Semiconductors, `arXiv:1806.04285. <https://arxiv.org/abs/1806.04285>`_
+ 
+License
+----------------
+ 
+The contents of this web page are licensed under a `Creative Commons 4.0 Attribution International License <http://creativecommons.org/licenses/by/4.0/>`_.
