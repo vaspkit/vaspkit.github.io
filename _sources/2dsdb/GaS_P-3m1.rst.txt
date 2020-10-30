@@ -1,7 +1,7 @@
-`Retrun to Menu <index.html>`_
-
 GaS - P-3m1
 ================
+
+`Retrun to Menu <index.html>`_
  
 1. Structure Summary
 --------------------------

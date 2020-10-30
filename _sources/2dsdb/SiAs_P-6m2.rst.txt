@@ -1,7 +1,7 @@
-`Retrun to Menu <index.html>`_
-
 SiAs - P-6m2
 ================
+
+`Retrun to Menu <index.html>`_
  
 1. Structure Summary
 --------------------------
