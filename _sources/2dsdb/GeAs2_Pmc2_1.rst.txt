@@ -1,0 +1,108 @@
+GeAs2 - Pmc2
+================
+
+`Retrun to Menu <index.html>`_
+ 
+1. Structure Summary
+--------------------------
+ 
+=========================== ==========
+Date Page Updated           2020-10-31
+Crystal Prototype           AB2
+Crystal System              Rectangular
+Lattice Constant *a* (Å)    3.726
+Lattice Constant *b* (Å)    10.394
+Space Group                 Pmc2
+Formation Energy (eV/f.u.)  0.1713
+=========================== ==========
+ 
+2. Mechanical Properties (PBE)
+------------------------------
+ 
+2.1 Stiffness Tensors
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ 
+==================  =========  ========  =======
+C\ :sub:`ij` (N/m)  *xx*       *yy*       *zz*
+*xx*                 100.891     -0.067       0.000
+*yy*                  -0.067      0.856       0.000
+*zz*                   0.000      0.000       0.733
+==================  =========  ========  =======
+ 
+==============================  =============
+Youngs's Modulus *Max*. (N/m)   100.886
+Youngs's Modulus *Min*. (N/m)   0.856
+Shear Modulus *Max*. (N/m)      0.850
+Shear Modulus *Min*. (N/m)      0.733
+Poisson's Ratio *Max*.          0.113
+Poisson's Ratio *Min*.          -0.078
+==============================  =============
+ 
+ 
+2.2 Orientation-Dependent Mechanical Properties
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ 
+.. image:: ./images/ELASTIC-GeAs2_Pmc2_1.png
+  :width: 600 
+ 
+3. Fundmental Electronic Properties
+-----------------------------------
+ 
+=================================================  ===========================
+Band Character                                     Indirect
+Band Gap (PBE, eV)                                 1.1764
+Band Gap (HSE, eV)                                 1.7825
+Ionization Energy (HSE, eV)                        -5.513
+Electron Affinity (HSE, eV)                        -3.733
+Location of Valence Band Maximum                   [0.058824, 0.058824]
+Location of Conduction Band Minimum                [0.000000, 0.000000]
+=================================================  ===========================
+ 
+3.1 Global Band Structure (PBE)
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ 
+ 
+3.2 Band Structure and Density of States (PBE)
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ 
+.. image:: ./images/BAND_LDOS-GeAs2_Pmc2_1.png
+  :width: 600 
+ 
+3.3 Projected Band Structure and Density of States (PBE)
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ 
+ 
+.. image:: ./images/BAND_PDOS_As-GeAs2_Pmc2_1.png
+  :width: 600 
+ 
+ 
+.. image:: ./images/BAND_PDOS_Ge-GeAs2_Pmc2_1.png
+  :width: 600 
+ 
+3.4 Orientation-Dependent effective Masses (PBE)
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ 
+ 
+4. Optical Spectrums (HSE)
+---------------------------------
+ 
+.. image:: ./images/Optical-GeAs2_Pmc2_1.png
+  :width: 600 
+ 
+5. Phonon Spectrum and Density of States (PBE)
+----------------------------------------------
+ 
+.. image:: ./images/phonon_BAND_LDOS-GeAs2_Pmc2_1.png
+  :width: 600 
+ 
+References
+----------------
+ 
+For more details of this database, please refer to the following reference.
+ 
+[1] V. Wang, Y.-Y. Liang, Y. Kawazeo, W.-T. Geng, High-Throughput Computational Screening of Two-Dimensional Semiconductors, `arXiv:1806.04285. <https://arxiv.org/abs/1806.04285>`_
+ 
+License
+----------------
+ 
+The contents of this web page are licensed under a `Creative Commons 4.0 Attribution International License <http://creativecommons.org/licenses/by/4.0/>`_ unless another license is specially mentioned in each web page.

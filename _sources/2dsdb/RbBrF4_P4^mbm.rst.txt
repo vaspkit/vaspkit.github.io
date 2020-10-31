@@ -1,0 +1,120 @@
+RbBrF4 - P4/mbm
+================
+
+`Retrun to Menu <index.html>`_
+ 
+1. Structure Summary
+--------------------------
+ 
+=========================== ==========
+Date Page Updated           2020-10-31
+Crystal Prototype           ABC4
+Crystal System              Square
+Lattice Constant *a* (Å)    7.110
+Lattice Constant *b* (Å)    7.110
+Space Group                 P4/mbm
+Formation Energy (eV/f.u.)  -14.6543
+=========================== ==========
+ 
+2. Mechanical Properties (PBE)
+------------------------------
+ 
+2.1 Stiffness Tensors
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ 
+==================  =========  ========  =======
+C\ :sub:`ij` (N/m)  *xx*       *yy*       *zz*
+*xx*                  22.078      5.772       0.000
+*yy*                   5.772     22.078       0.000
+*zz*                   0.000      0.000       2.228
+==================  =========  ========  =======
+ 
+==============================  =============
+Youngs's Modulus *Max*. (N/m)   20.569
+Youngs's Modulus *Min*. (N/m)   7.683
+Shear Modulus *Max*. (N/m)      8.153
+Shear Modulus *Min*. (N/m)      2.228
+Poisson's Ratio *Max*.          0.724
+Poisson's Ratio *Min*.          0.261
+==============================  =============
+ 
+ 
+2.2 Orientation-Dependent Mechanical Properties
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ 
+.. image:: ./images/ELASTIC-RbBrF4_P4^mbm.png
+  :width: 600 
+ 
+3. Fundmental Electronic Properties
+-----------------------------------
+ 
+=================================================  ===========================
+Band Character                                     Direct
+Band Gap (PBE, eV)                                 3.4838
+Band Gap (HSE, eV)                                 5.2945
+Ionization Energy (HSE, eV)                        -9.606
+Electron Affinity (HSE, eV)                        -4.312
+Effective Mass of Electron *Max*. (*m*\ :sub:`0`)    3.893
+Effective Mass of Electron *Min*. (*m*\ :sub:`0`)    3.626
+Effective Mass of Hole *Max*. (*m*\ :sub:`0`)        58.084
+Effective Mass of Hole *Min*. (*m*\ :sub:`0`)        11.921
+Location of Valence Band Maximum                   [0.000000, 0.000000]
+Location of Conduction Band Minimum                [0.000000, 0.000000]
+=================================================  ===========================
+ 
+3.1 Global Band Structure (PBE)
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ 
+.. image:: ./images/3D_band-RbBrF4_P4^mbm.jpg
+  :width: 600 
+ 
+3.2 Band Structure and Density of States (PBE)
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ 
+.. image:: ./images/BAND_LDOS-RbBrF4_P4^mbm.png
+  :width: 600 
+ 
+3.3 Projected Band Structure and Density of States (PBE)
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ 
+ 
+.. image:: ./images/BAND_PDOS_Br-RbBrF4_P4^mbm.png
+  :width: 600 
+ 
+ 
+.. image:: ./images/BAND_PDOS_F-RbBrF4_P4^mbm.png
+  :width: 600 
+ 
+ 
+.. image:: ./images/BAND_PDOS_Rb-RbBrF4_P4^mbm.png
+  :width: 600 
+ 
+3.4 Orientation-Dependent effective Masses (PBE)
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ 
+.. image:: ./images/EMC-RbBrF4_P4^mbm.png
+  :width: 600 
+ 
+4. Optical Spectrums (HSE)
+---------------------------------
+ 
+.. image:: ./images/Optical-RbBrF4_P4^mbm.png
+  :width: 600 
+ 
+5. Phonon Spectrum and Density of States (PBE)
+----------------------------------------------
+ 
+.. image:: ./images/phonon_BAND_LDOS-RbBrF4_P4^mbm.png
+  :width: 600 
+ 
+References
+----------------
+ 
+For more details of this database, please refer to the following reference.
+ 
+[1] V. Wang, Y.-Y. Liang, Y. Kawazeo, W.-T. Geng, High-Throughput Computational Screening of Two-Dimensional Semiconductors, `arXiv:1806.04285. <https://arxiv.org/abs/1806.04285>`_
+ 
+License
+----------------
+ 
+The contents of this web page are licensed under a `Creative Commons 4.0 Attribution International License <http://creativecommons.org/licenses/by/4.0/>`_ unless another license is specially mentioned in each web page.

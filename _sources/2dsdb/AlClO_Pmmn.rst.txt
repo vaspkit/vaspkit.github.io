@@ -1,0 +1,120 @@
+AlClO - Pmmn
+================
+
+`Retrun to Menu <index.html>`_
+ 
+1. Structure Summary
+--------------------------
+ 
+=========================== ==========
+Date Page Updated           2020-10-31
+Crystal Prototype           ABC
+Crystal System              Rectangular
+Lattice Constant *a* (Å)    3.171
+Lattice Constant *b* (Å)    3.661
+Space Group                 Pmmn
+Formation Energy (eV/f.u.)  -6.8764
+=========================== ==========
+ 
+2. Mechanical Properties (PBE)
+------------------------------
+ 
+2.1 Stiffness Tensors
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ 
+==================  =========  ========  =======
+C\ :sub:`ij` (N/m)  *xx*       *yy*       *zz*
+*xx*                 156.119     52.175       0.000
+*yy*                  52.175    148.495       0.000
+*zz*                   0.000      0.000      72.965
+==================  =========  ========  =======
+ 
+==============================  =============
+Youngs's Modulus *Max*. (N/m)   170.424
+Youngs's Modulus *Min*. (N/m)   131.058
+Shear Modulus *Max*. (N/m)      72.965
+Shear Modulus *Min*. (N/m)      50.030
+Poisson's Ratio *Max*.          0.351
+Poisson's Ratio *Min*.          0.167
+==============================  =============
+ 
+ 
+2.2 Orientation-Dependent Mechanical Properties
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ 
+.. image:: ./images/ELASTIC-AlClO_Pmmn.png
+  :width: 600 
+ 
+3. Fundmental Electronic Properties
+-----------------------------------
+ 
+=================================================  ===========================
+Band Character                                     Indirect
+Band Gap (PBE, eV)                                 5.8318
+Band Gap (HSE, eV)                                 7.2997
+Ionization Energy (HSE, eV)                        -8.907
+Electron Affinity (HSE, eV)                        -1.608
+Effective Mass of Electron *Max*. (*m*\ :sub:`0`)    8.536
+Effective Mass of Electron *Min*. (*m*\ :sub:`0`)    0.523
+Effective Mass of Hole *Max*. (*m*\ :sub:`0`)        2.064
+Effective Mass of Hole *Min*. (*m*\ :sub:`0`)        0.353
+Location of Valence Band Maximum                   [0.475000, 0.475000]
+Location of Conduction Band Minimum                [0.000000, 0.000000]
+=================================================  ===========================
+ 
+3.1 Global Band Structure (PBE)
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ 
+.. image:: ./images/3D_band-AlClO_Pmmn.jpg
+  :width: 600 
+ 
+3.2 Band Structure and Density of States (PBE)
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ 
+.. image:: ./images/BAND_LDOS-AlClO_Pmmn.png
+  :width: 600 
+ 
+3.3 Projected Band Structure and Density of States (PBE)
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ 
+ 
+.. image:: ./images/BAND_PDOS_Al-AlClO_Pmmn.png
+  :width: 600 
+ 
+ 
+.. image:: ./images/BAND_PDOS_Cl-AlClO_Pmmn.png
+  :width: 600 
+ 
+ 
+.. image:: ./images/BAND_PDOS_O-AlClO_Pmmn.png
+  :width: 600 
+ 
+3.4 Orientation-Dependent effective Masses (PBE)
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ 
+.. image:: ./images/EMC-AlClO_Pmmn.png
+  :width: 600 
+ 
+4. Optical Spectrums (HSE)
+---------------------------------
+ 
+.. image:: ./images/Optical-AlClO_Pmmn.png
+  :width: 600 
+ 
+5. Phonon Spectrum and Density of States (PBE)
+----------------------------------------------
+ 
+.. image:: ./images/phonon_BAND_LDOS-AlClO_Pmmn.png
+  :width: 600 
+ 
+References
+----------------
+ 
+For more details of this database, please refer to the following reference.
+ 
+[1] V. Wang, Y.-Y. Liang, Y. Kawazeo, W.-T. Geng, High-Throughput Computational Screening of Two-Dimensional Semiconductors, `arXiv:1806.04285. <https://arxiv.org/abs/1806.04285>`_
+ 
+License
+----------------
+ 
+The contents of this web page are licensed under a `Creative Commons 4.0 Attribution International License <http://creativecommons.org/licenses/by/4.0/>`_ unless another license is specially mentioned in each web page.

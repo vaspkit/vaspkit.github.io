@@ -1,0 +1,120 @@
+TeRhCl - P2
+================
+
+`Retrun to Menu <index.html>`_
+ 
+1. Structure Summary
+--------------------------
+ 
+=========================== ==========
+Date Page Updated           2020-10-31
+Crystal Prototype           ABC
+Crystal System              Rectangular
+Lattice Constant *a* (Å)    6.716
+Lattice Constant *b* (Å)    3.714
+Space Group                 P2
+Formation Energy (eV/f.u.)  -0.5988
+=========================== ==========
+ 
+2. Mechanical Properties (PBE)
+------------------------------
+ 
+2.1 Stiffness Tensors
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ 
+==================  =========  ========  =======
+C\ :sub:`ij` (N/m)  *xx*       *yy*       *zz*
+*xx*                  51.251     11.751       0.000
+*yy*                  11.751     47.324       0.000
+*zz*                   0.000      0.000      14.985
+==================  =========  ========  =======
+ 
+==============================  =============
+Youngs's Modulus *Max*. (N/m)   48.333
+Youngs's Modulus *Min*. (N/m)   40.090
+Shear Modulus *Max*. (N/m)      18.737
+Shear Modulus *Min*. (N/m)      14.985
+Poisson's Ratio *Max*.          0.341
+Poisson's Ratio *Min*.          0.229
+==============================  =============
+ 
+ 
+2.2 Orientation-Dependent Mechanical Properties
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ 
+.. image:: ./images/ELASTIC-TeRhCl_P2_1^m.png
+  :width: 600 
+ 
+3. Fundmental Electronic Properties
+-----------------------------------
+ 
+=================================================  ===========================
+Band Character                                     Indirect
+Band Gap (PBE, eV)                                 1.1099
+Band Gap (HSE, eV)                                 2.2618
+Ionization Energy (HSE, eV)                        -6.445
+Electron Affinity (HSE, eV)                        -4.183
+Effective Mass of Electron *Max*. (*m*\ :sub:`0`)    0.827
+Effective Mass of Electron *Min*. (*m*\ :sub:`0`)    0.325
+Effective Mass of Hole *Max*. (*m*\ :sub:`0`)        4.669
+Effective Mass of Hole *Min*. (*m*\ :sub:`0`)        2.230
+Location of Valence Band Maximum                   [0.450000, 0.450000]
+Location of Conduction Band Minimum                [0.500000, 0.500000]
+=================================================  ===========================
+ 
+3.1 Global Band Structure (PBE)
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ 
+.. image:: ./images/3D_band-TeRhCl_P2_1^m.jpg
+  :width: 600 
+ 
+3.2 Band Structure and Density of States (PBE)
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ 
+.. image:: ./images/BAND_LDOS-TeRhCl_P2_1^m.png
+  :width: 600 
+ 
+3.3 Projected Band Structure and Density of States (PBE)
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ 
+ 
+.. image:: ./images/BAND_PDOS_Te-TeRhCl_P2_1^m.png
+  :width: 600 
+ 
+ 
+.. image:: ./images/BAND_PDOS_Rh-TeRhCl_P2_1^m.png
+  :width: 600 
+ 
+ 
+.. image:: ./images/BAND_PDOS_Cl-TeRhCl_P2_1^m.png
+  :width: 600 
+ 
+3.4 Orientation-Dependent effective Masses (PBE)
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ 
+.. image:: ./images/EMC-TeRhCl_P2_1^m.png
+  :width: 600 
+ 
+4. Optical Spectrums (HSE)
+---------------------------------
+ 
+.. image:: ./images/Optical-TeRhCl_P2_1^m.png
+  :width: 600 
+ 
+5. Phonon Spectrum and Density of States (PBE)
+----------------------------------------------
+ 
+.. image:: ./images/phonon_BAND_LDOS-TeRhCl_P2_1^m.png
+  :width: 600 
+ 
+References
+----------------
+ 
+For more details of this database, please refer to the following reference.
+ 
+[1] V. Wang, Y.-Y. Liang, Y. Kawazeo, W.-T. Geng, High-Throughput Computational Screening of Two-Dimensional Semiconductors, `arXiv:1806.04285. <https://arxiv.org/abs/1806.04285>`_
+ 
+License
+----------------
+ 
+The contents of this web page are licensed under a `Creative Commons 4.0 Attribution International License <http://creativecommons.org/licenses/by/4.0/>`_ unless another license is specially mentioned in each web page.

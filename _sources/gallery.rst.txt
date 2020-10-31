@@ -1,0 +1,38 @@
+Gallery
+========
+
+1. Suggested k-paths
+
+.. image:: ../images/VBZ.png
+    :scale: 45 %
+    :align: center
+
+2. Band structure and density of states
+
+.. image:: ../images/PBAND.png
+    :scale: 46 %
+    :align: center
+
+3. Band structure unfolding
+
+.. image:: ../images/EBS.png
+    :scale: 40 %
+    :align: center
+
+4. 3D band structure
+
+.. image:: ../images/3D_band.png
+    :scale: 15 %
+    :align: center
+
+5. Fermi surface
+
+.. image:: ../images/Fermisurface.png
+    :scale: 45 %
+    :align: center
+
+6. Angular-dependent effective mass
+
+.. image:: ../images/EMC_anisotropy.png
+    :scale: 25 %
+    :align: center

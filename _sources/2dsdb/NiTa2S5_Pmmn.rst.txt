@@ -1,0 +1,120 @@
+NiTa2S5 - Pmmn
+================
+
+`Retrun to Menu <index.html>`_
+ 
+1. Structure Summary
+--------------------------
+ 
+=========================== ==========
+Date Page Updated           2020-10-31
+Crystal Prototype           AB2C5
+Crystal System              Rectangular
+Lattice Constant *a* (Å)    3.436
+Lattice Constant *b* (Å)    15.008
+Space Group                 Pmmn
+Formation Energy (eV/f.u.)  -5.9082
+=========================== ==========
+ 
+2. Mechanical Properties (PBE)
+------------------------------
+ 
+2.1 Stiffness Tensors
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ 
+==================  =========  ========  =======
+C\ :sub:`ij` (N/m)  *xx*       *yy*       *zz*
+*xx*                  86.533      9.725       0.000
+*yy*                   9.725    104.666       0.000
+*zz*                   0.000      0.000      17.664
+==================  =========  ========  =======
+ 
+==============================  =============
+Youngs's Modulus *Max*. (N/m)   103.573
+Youngs's Modulus *Min*. (N/m)   52.702
+Shear Modulus *Max*. (N/m)      42.547
+Shear Modulus *Min*. (N/m)      17.664
+Poisson's Ratio *Max*.          0.495
+Poisson's Ratio *Min*.          0.093
+==============================  =============
+ 
+ 
+2.2 Orientation-Dependent Mechanical Properties
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ 
+.. image:: ./images/ELASTIC-NiTa2S5_Pmmn.png
+  :width: 600 
+ 
+3. Fundmental Electronic Properties
+-----------------------------------
+ 
+=================================================  ===========================
+Band Character                                     Direct
+Band Gap (PBE, eV)                                 -0.0395
+Band Gap (HSE, eV)                                 0.2419
+Ionization Energy (HSE, eV)                        -5.795
+Electron Affinity (HSE, eV)                        -5.407
+Effective Mass of Electron *Max*. (*m*\ :sub:`0`)    1.379
+Effective Mass of Electron *Min*. (*m*\ :sub:`0`)    0.261
+Effective Mass of Hole *Max*. (*m*\ :sub:`0`)        56.299
+Effective Mass of Hole *Min*. (*m*\ :sub:`0`)        0.527
+Location of Valence Band Maximum                   [0.000000, 0.000000]
+Location of Conduction Band Minimum                [0.000000, 0.000000]
+=================================================  ===========================
+ 
+3.1 Global Band Structure (PBE)
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ 
+.. image:: ./images/3D_band-NiTa2S5_Pmmn.jpg
+  :width: 600 
+ 
+3.2 Band Structure and Density of States (PBE)
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ 
+.. image:: ./images/BAND_LDOS-NiTa2S5_Pmmn.png
+  :width: 600 
+ 
+3.3 Projected Band Structure and Density of States (PBE)
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ 
+ 
+.. image:: ./images/BAND_PDOS_Ni-NiTa2S5_Pmmn.png
+  :width: 600 
+ 
+ 
+.. image:: ./images/BAND_PDOS_S-NiTa2S5_Pmmn.png
+  :width: 600 
+ 
+ 
+.. image:: ./images/BAND_PDOS_Ta-NiTa2S5_Pmmn.png
+  :width: 600 
+ 
+3.4 Orientation-Dependent effective Masses (PBE)
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ 
+.. image:: ./images/EMC-NiTa2S5_Pmmn.png
+  :width: 600 
+ 
+4. Optical Spectrums (HSE)
+---------------------------------
+ 
+.. image:: ./images/Optical-NiTa2S5_Pmmn.png
+  :width: 600 
+ 
+5. Phonon Spectrum and Density of States (PBE)
+----------------------------------------------
+ 
+.. image:: ./images/phonon_BAND_LDOS-NiTa2S5_Pmmn.png
+  :width: 600 
+ 
+References
+----------------
+ 
+For more details of this database, please refer to the following reference.
+ 
+[1] V. Wang, Y.-Y. Liang, Y. Kawazeo, W.-T. Geng, High-Throughput Computational Screening of Two-Dimensional Semiconductors, `arXiv:1806.04285. <https://arxiv.org/abs/1806.04285>`_
+ 
+License
+----------------
+ 
+The contents of this web page are licensed under a `Creative Commons 4.0 Attribution International License <http://creativecommons.org/licenses/by/4.0/>`_ unless another license is specially mentioned in each web page.
