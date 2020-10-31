@@ -1,5 +1,5 @@
 PtTe2 - P2
-================
+===================
 
 `Retrun to Menu <index.html>`_
  

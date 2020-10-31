@@ -1,5 +1,5 @@
 GaN - P-6m2
-================
+===================
 
 `Retrun to Menu <index.html>`_
  

@@ -1,5 +1,5 @@
 BaO2 - P4/mmm
-================
+===================
 
 `Retrun to Menu <index.html>`_
  
