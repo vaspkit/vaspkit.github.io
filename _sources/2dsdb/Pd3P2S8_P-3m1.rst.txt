@@ -7,7 +7,7 @@ Pd3P2S8 - P-3m1
 --------------------------
  
 =========================== ==========
-Date Page Updated           2020-10-30
+Date Page Updated           2020-10-31
 Crystal Prototype           A2B3C8
 Crystal System              Hexagonal
 Lattice Constant *a* (Å)    6.860

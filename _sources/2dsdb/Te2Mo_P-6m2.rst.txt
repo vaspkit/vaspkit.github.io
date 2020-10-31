@@ -7,7 +7,7 @@ Te2Mo - P-6m2
 --------------------------
  
 =========================== ==========
-Date Page Updated           2020-10-30
+Date Page Updated           2020-10-31
 Crystal Prototype           AB2
 Crystal System              Hexagonal
 Lattice Constant *a* (Å)    3.548

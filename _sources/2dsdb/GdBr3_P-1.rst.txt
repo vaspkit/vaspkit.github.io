@@ -7,7 +7,7 @@ GdBr3 - P-1
 --------------------------
  
 =========================== ==========
-Date Page Updated           2020-10-30
+Date Page Updated           2020-10-31
 Crystal Prototype           AB3
 Crystal System              Hexagonal
 Lattice Constant *a* (Å)    6.870

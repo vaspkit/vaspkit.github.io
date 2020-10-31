@@ -7,7 +7,7 @@ IrCl3 - C2/m
 --------------------------
  
 =========================== ==========
-Date Page Updated           2020-10-30
+Date Page Updated           2020-10-31
 Crystal Prototype           AB3
 Crystal System              Rectangular
 Lattice Constant *a* (Å)    6.105

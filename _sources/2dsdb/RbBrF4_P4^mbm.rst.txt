@@ -7,7 +7,7 @@ RbBrF4 - P4/mbm
 --------------------------
  
 =========================== ==========
-Date Page Updated           2020-10-30
+Date Page Updated           2020-10-31
 Crystal Prototype           ABC4
 Crystal System              Square
 Lattice Constant *a* (Å)    7.110

@@ -7,7 +7,7 @@ Al2Mg2Se5 - P-3m1
 --------------------------
  
 =========================== ==========
-Date Page Updated           2020-10-30
+Date Page Updated           2020-10-31
 Crystal Prototype           A2B2C5
 Crystal System              Hexagonal
 Lattice Constant *a* (Å)    3.864

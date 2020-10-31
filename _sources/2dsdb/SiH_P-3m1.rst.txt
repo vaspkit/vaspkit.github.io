@@ -7,7 +7,7 @@ SiH - P-3m1
 --------------------------
  
 =========================== ==========
-Date Page Updated           2020-10-30
+Date Page Updated           2020-10-31
 Crystal Prototype           AB
 Crystal System              Hexagonal
 Lattice Constant *a* (Å)    3.857

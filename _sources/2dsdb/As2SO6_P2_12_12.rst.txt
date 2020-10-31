@@ -7,7 +7,7 @@ As2SO6 - P2
 --------------------------
  
 =========================== ==========
-Date Page Updated           2020-10-30
+Date Page Updated           2020-10-31
 Crystal Prototype           AB2C6
 Crystal System              Rectangular
 Lattice Constant *a* (Å)    4.879

@@ -7,7 +7,7 @@ As - Pmna
 --------------------------
  
 =========================== ==========
-Date Page Updated           2020-10-30
+Date Page Updated           2020-10-31
 Crystal Prototype           A
 Crystal System              Rectangular
 Lattice Constant *a* (Å)    3.676

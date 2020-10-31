@@ -7,7 +7,7 @@ TiPbO3 - P4mm
 --------------------------
  
 =========================== ==========
-Date Page Updated           2020-10-30
+Date Page Updated           2020-10-31
 Crystal Prototype           ABC3
 Crystal System              Square
 Lattice Constant *a* (Å)    3.915

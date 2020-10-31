@@ -7,7 +7,7 @@ SrO2 - P4/mmm
 --------------------------
  
 =========================== ==========
-Date Page Updated           2020-10-30
+Date Page Updated           2020-10-31
 Crystal Prototype           AB2
 Crystal System              Square
 Lattice Constant *a* (Å)    3.466

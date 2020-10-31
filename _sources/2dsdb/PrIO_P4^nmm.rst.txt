@@ -7,7 +7,7 @@ PrIO - P4/nmm
 --------------------------
  
 =========================== ==========
-Date Page Updated           2020-10-30
+Date Page Updated           2020-10-31
 Crystal Prototype           ABC
 Crystal System              Square
 Lattice Constant *a* (Å)    4.121

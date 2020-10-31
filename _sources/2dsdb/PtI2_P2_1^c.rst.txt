@@ -7,7 +7,7 @@ PtI2 - P2
 --------------------------
  
 =========================== ==========
-Date Page Updated           2020-10-30
+Date Page Updated           2020-10-31
 Crystal Prototype           AB2
 Crystal System              Rectangular
 Lattice Constant *a* (Å)    7.034
