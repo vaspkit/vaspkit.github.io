@@ -7,7 +7,7 @@ TaSe3 - P2
 --------------------------
  
 =========================== ==========
-Date Page Updated           2020-10-31
+Date Page Updated           2020-11-02
 Crystal Prototype           AB3
 Crystal System              Rectangular
 Lattice Constant *a* (Å)    3.524

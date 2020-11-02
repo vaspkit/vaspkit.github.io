@@ -7,7 +7,7 @@ Li2S4W - P-42m
 --------------------------
  
 =========================== ==========
-Date Page Updated           2020-10-31
+Date Page Updated           2020-11-02
 Crystal Prototype           AB2C4
 Crystal System              Square
 Lattice Constant *a* (Å)    5.880

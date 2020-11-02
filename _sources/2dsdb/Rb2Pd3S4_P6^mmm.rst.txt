@@ -7,7 +7,7 @@ Rb2Pd3S4 - P6/mmm
 --------------------------
  
 =========================== ==========
-Date Page Updated           2020-10-31
+Date Page Updated           2020-11-02
 Crystal Prototype           A2B3C4
 Crystal System              Rectangular
 Lattice Constant *a* (Å)    6.179

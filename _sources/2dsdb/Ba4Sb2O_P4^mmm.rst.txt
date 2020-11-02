@@ -7,7 +7,7 @@ Ba4Sb2O - P4/mmm
 --------------------------
  
 =========================== ==========
-Date Page Updated           2020-10-31
+Date Page Updated           2020-11-02
 Crystal Prototype           AB2C4
 Crystal System              Square
 Lattice Constant *a* (Å)    5.208

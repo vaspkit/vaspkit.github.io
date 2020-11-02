@@ -7,7 +7,7 @@ Bi2Te2S - P-3m1
 --------------------------
  
 =========================== ==========
-Date Page Updated           2020-10-31
+Date Page Updated           2020-11-02
 Crystal Prototype           AB2C2
 Crystal System              Hexagonal
 Lattice Constant *a* (Å)    4.206

@@ -7,7 +7,7 @@ TlSbO3 - P-31m
 --------------------------
  
 =========================== ==========
-Date Page Updated           2020-10-31
+Date Page Updated           2020-11-02
 Crystal Prototype           ABC3
 Crystal System              Hexagonal
 Lattice Constant *a* (Å)    5.363

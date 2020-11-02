@@ -7,7 +7,7 @@ YI3 - P-3
 --------------------------
  
 =========================== ==========
-Date Page Updated           2020-10-31
+Date Page Updated           2020-11-02
 Crystal Prototype           AB3
 Crystal System              Hexagonal
 Lattice Constant *a* (Å)    7.402

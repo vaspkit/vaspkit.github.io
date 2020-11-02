@@ -7,7 +7,7 @@ As - P21-m
 --------------------------
  
 =========================== ==========
-Date Page Updated           2020-10-31
+Date Page Updated           2020-11-02
 Crystal Prototype           A
 Crystal System              Rectangular
 Lattice Constant *a* (Å)    5.868

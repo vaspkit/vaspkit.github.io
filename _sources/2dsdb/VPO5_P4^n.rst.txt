@@ -7,7 +7,7 @@ VPO5 - P4/n
 --------------------------
  
 =========================== ==========
-Date Page Updated           2020-10-31
+Date Page Updated           2020-11-02
 Crystal Prototype           ABC5
 Crystal System              Square
 Lattice Constant *a* (Å)    6.215

@@ -7,7 +7,7 @@ C - P6/mmm
 --------------------------
  
 =========================== ==========
-Date Page Updated           2020-10-31
+Date Page Updated           2020-11-02
 Crystal Prototype           A
 Crystal System              Hexagonal
 Lattice Constant *a* (Å)    2.469
@@ -52,8 +52,8 @@ Poisson's Ratio *Min*.          0.173
 Band Character                                     Direct
 Band Gap (PBE, eV)                                 0.0000
 Band Gap (HSE, eV)                                 0.0001
-Ionization Energy (HSE, eV)                        -4.887
-Electron Affinity (HSE, eV)                        -3.716
+Ionization Energy (HSE, eV)                        -4.348
+Electron Affinity (HSE, eV)                        -4.348
 Location of Valence Band Maximum                   [0.333333, 0.333333]
 Location of Conduction Band Minimum                [0.333333, 0.333333]
 =================================================  ===========================

@@ -7,7 +7,7 @@ Bi2Pb2Se5 - P-3m1
 --------------------------
  
 =========================== ==========
-Date Page Updated           2020-10-31
+Date Page Updated           2020-11-02
 Crystal Prototype           A2B2C5
 Crystal System              Hexagonal
 Lattice Constant *a* (Å)    4.190

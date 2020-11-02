@@ -7,7 +7,7 @@ SrIF - P4/nmm
 --------------------------
  
 =========================== ==========
-Date Page Updated           2020-10-31
+Date Page Updated           2020-11-02
 Crystal Prototype           ABC
 Crystal System              Square
 Lattice Constant *a* (Å)    4.253
