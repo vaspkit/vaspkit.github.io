@@ -3,7 +3,7 @@ Gallery
 
 1. Suggested k-path in first Brillouin zone
 
-.. image:: ../images/vbz.png
+.. image:: ../images/VBZ.png
     :width: 600
     :align: center
 
