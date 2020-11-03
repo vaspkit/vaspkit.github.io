@@ -1,5 +1,13 @@
 Release Notes
 =============
+
+Version 1.2.2 (01 Nov. 2020)
+   * Added a new feature to calculate orbital-projected Fermi suraface with FermiSurfer format (https://fermisurfer.osdn.jp/) (task 264);
+   * Added the new parameter NORMALIZE_ORBITAL_WEIGHTS in ~/.vaspkit file to control whether to normalize orbital-projected weight in each state;
+   * Added the new parameter REORIENTATE_LATTICE_VECTORS in ~/.vaspkit file to control whether to reorientate lattice vectors when build supercell or heterojunction;
+   * Fixed a bug in writting hybrid band structure and band structure unfolding;
+   * Optimized the sub-menu of structure editor (task 4).
+
 Version 1.2.1 (01 Oct. 2020)
    * Added a new feature to generate random substitutional alloy with specified number of atoms (task 802);
    * Added a new feature to delete the selected all atoms (task 801);

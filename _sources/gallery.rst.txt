@@ -1,38 +1,44 @@
 Gallery
 ========
 
-1. Suggested k-paths
+1. Suggested k-path in first Brillouin zone
 
-.. image:: ../images/VBZ.png
-    :scale: 45 %
+.. image:: ../images/vbz.png
+    :width: 600
     :align: center
 
 2. Band structure and density of states
 
 .. image:: ../images/PBAND.png
-    :scale: 46 %
+    :width: 600
     :align: center
 
 3. Band structure unfolding
 
 .. image:: ../images/EBS.png
-    :scale: 40 %
+    :width: 600
     :align: center
 
 4. 3D band structure
 
 .. image:: ../images/3D_band.png
-    :scale: 15 %
+    :width: 600
     :align: center
 
-5. Fermi surface
+5. Fermi surface (visualized by the `FermiSurfer <http://fermisurfer.osdn.jp/en/_build/html/index.html>`_ package)
 
 .. image:: ../images/Fermisurface.png
-    :scale: 45 %
+    :width: 600
     :align: center
 
-6. Angular-dependent effective mass
+6. Orbital-projected Fermi surface (visualized by the `FermiSurfer <http://fermisurfer.osdn.jp/en/_build/html/index.html>`_ package)
+
+.. image:: ../images/Projected_Fermisurface.png
+    :width: 600
+    :align: center
+
+7. Angular-dependent effective mass
 
 .. image:: ../images/EMC_anisotropy.png
-    :scale: 25 %
+    :width: 600
     :align: center
