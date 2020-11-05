@@ -1,6 +1,8 @@
 Gallery
 ========
 
+The following figures were visualized by using `Matplotlib <https://matplotlib.org/>`_ package unless otherwise stated.
+
 1. Suggested k-path in first Brillouin zone
 
 .. image:: ../images/VBZ.png
@@ -25,13 +27,13 @@ Gallery
     :width: 600
     :align: center
 
-5. Fermi surface (visualized by the `FermiSurfer <http://fermisurfer.osdn.jp/en/_build/html/index.html>`_ package)
+5. Fermi surface (visualized by using `FermiSurfer <http://fermisurfer.osdn.jp/en/_build/html/index.html>`_ package)
 
 .. image:: ../images/Fermisurface.png
     :width: 600
     :align: center
 
-6. Orbital-projected Fermi surface (visualized by the `FermiSurfer <http://fermisurfer.osdn.jp/en/_build/html/index.html>`_ package)
+6. Orbital-projected Fermi surface (visualized by using `FermiSurfer <http://fermisurfer.osdn.jp/en/_build/html/index.html>`_ package)
 
 .. image:: ../images/Projected_Fermisurface.png
     :width: 600
