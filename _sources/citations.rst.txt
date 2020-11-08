@@ -6,7 +6,7 @@ How to cite
 --------------
 If you find VASPKIT code useful in your work, PLEASE cite:
 
-[1] `V. Wang, N. Xu, J.C. Liu, G. Tang, W.T. Geng, VASPKIT: A User-Friendly Interface Facilitating High-Throughput Computing and Analysis Using VASP Code, arXiv:1908.08269 <https://arxiv.org/abs/1908.08269>`_
+[1] V. Wang, N. Xu, J.C. Liu, G. Tang, W.T. Geng, VASPKIT: A User-Friendly Interface Facilitating High-Throughput Computing and Analysis Using VASP Code, `arXiv:1908.08269 <https://arxiv.org/abs/1908.08269>`_
 
 .. code-block:: none
     
@@ -64,7 +64,7 @@ VASPKIT code was cited in the following published papers. Many thanks to the aut
 #. H. Zhong, K. Huang, G. Yu, S. Yuan, Electronic and mechanical properties of few-layer borophene, Phys. Rev. B 98 (2018) 054104. doi:10.1103/PhysRevB.98.054104.
 
 
-**More cited papers can be found in ** `Google Scholar <https://scholar.google.com/scholar?start=10&q=vaspkit&hl=en&as_sdt=1,5>`_.
+**More cited papers can be found in** `Google Scholar <https://scholar.google.com/scholar?start=10&q=vaspkit&hl=en&as_sdt=1,5>`_.
 
 (to be updated)
 
