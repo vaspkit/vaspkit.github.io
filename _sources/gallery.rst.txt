@@ -15,31 +15,43 @@ The following figures were visualized by using `Matplotlib <https://matplotlib.o
     :width: 600
     :align: center
 
-3. Band structure unfolding
+3.  Orbital-Projected band structure
+
+.. image:: ../images/pband-graphene.png
+    :width: 600
+    :align: center
+
+4. Band structure unfolding
+
+.. image:: ../images/unfold_MoS2.png
+    :width: 600
+    :align: center
+
+5. Orbital-Projected band structure unfolding
 
 .. image:: ../images/EBS.png
     :width: 600
     :align: center
 
-4. 3D band structure
+6. 3D band structure
 
 .. image:: ../images/3D_band.png
     :width: 600
     :align: center
 
-5. Fermi surface (visualized by using `FermiSurfer <http://fermisurfer.osdn.jp/en/_build/html/index.html>`_ package)
+7. Fermi surface (visualized by using `FermiSurfer <http://fermisurfer.osdn.jp/en/_build/html/index.html>`_ package)
 
 .. image:: ../images/Fermisurface.png
     :width: 600
     :align: center
 
-6. Orbital-projected Fermi surface (visualized by using `FermiSurfer <http://fermisurfer.osdn.jp/en/_build/html/index.html>`_ package)
+8. Orbital-projected Fermi surface (visualized by using `FermiSurfer <http://fermisurfer.osdn.jp/en/_build/html/index.html>`_ package)
 
 .. image:: ../images/Projected_Fermisurface.png
     :width: 600
     :align: center
 
-7. Angular-dependent effective mass
+9. Angular-dependent effective mass
 
 .. image:: ../images/EMC_anisotropy.png
     :width: 600
