@@ -15,7 +15,7 @@ The following figures were visualized by using `Matplotlib <https://matplotlib.o
     :width: 600
     :align: center
 
-3.  Orbital-Projected band structure
+3.  Orbital-projected band structure
 
 .. image:: ../images/pband-graphene.png
     :width: 600
@@ -27,7 +27,7 @@ The following figures were visualized by using `Matplotlib <https://matplotlib.o
     :width: 600
     :align: center
 
-5. Orbital-Projected band structure unfolding
+5. Orbital-projected band structure unfolding
 
 .. image:: ../images/EBS.png
     :width: 600
