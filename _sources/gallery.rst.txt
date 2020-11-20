@@ -1,7 +1,7 @@
 Gallery
 ========
 
-The following figures were visualized by using `Matplotlib <https://matplotlib.org/>`_ package unless otherwise stated.
+The following figures were plotted by using `Matplotlib <https://matplotlib.org/>`_ package unless otherwise stated.
 
 1. Suggested k-path in first Brillouin zone
 
@@ -54,5 +54,11 @@ The following figures were visualized by using `Matplotlib <https://matplotlib.o
 9. Angular-dependent effective mass
 
 .. image:: ../images/EMC_anisotropy.png
+    :width: 600
+    :align: center
+
+10. Magnetocrystalline Anisotropy Energy
+
+.. image:: ../images/MAE.png
     :width: 600
     :align: center
