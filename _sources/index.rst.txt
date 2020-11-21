@@ -15,7 +15,7 @@ VASPKIT aims at providing a powerful and user-friendly interface to perform high
               / _  _ \       Hey, you must know what you are doing.
             (| (o)(o) |)     Otherwise you might get wrong results!
     +-----.OOOo--()--oOOO.------------------------------------------+
-    |             VASPKIT Version: 1.2.3 (01 Nov. 2020)             |
+    |             VASPKIT Version: 1.2.3 (20 Nov. 2020)             |
     |         Core Developer: Vei WANG (wangvei@icloud.com)         |
     |     Main Contributors: Nan XU, Jin-Cheng LIU & Gang TANG      |
     |  Online Tutorials Available on Website: https://vaspkit.com   |

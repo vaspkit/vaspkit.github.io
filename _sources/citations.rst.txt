@@ -4,7 +4,7 @@ Citations
 
 How to cite
 --------------
-If you find VASPKIT code useful in your work, PLEASE cite:
+If you find VASPKIT code useful in your work, you should cite our papers and the appropriate references therein
 
 [1] V. Wang, N. Xu, J.C. Liu, G. Tang, W.T. Geng, VASPKIT: A User-Friendly Interface Facilitating High-Throughput Computing and Analysis Using VASP Code, `arXiv:1908.08269 <https://arxiv.org/abs/1908.08269>`_
 
@@ -20,6 +20,9 @@ If you find VASPKIT code useful in your work, PLEASE cite:
           url = "https://arxiv.org/abs/1908.08269",
     }    
 
+and state in your manuscript/paper that you have used the VASPKIT program. An appropriate way of acknowledging the use of VASPKIT in your publications would be, for instance, adding a sentence like
+
+"**We used the VASPKIT code for postprocessing of the VASP calculated data.**"
 
 Cited publications
 ------------------
