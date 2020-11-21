@@ -3,7 +3,7 @@ Release Notes
 Version 1.2.3 (20 Nov. 2020)
    * Added a new feature to calculate magnetic anisotropy energy (task 621);
    * Added a new feature to calculate the sum of projected band for selected atoms and orbitals (tasks 216, 257 and 285);
-   * Added a new feature to calculate k-resolved DOS (tasks 216, 257 282 and 285); For more details see two examples in vaspkit/examples/k_resolved_DOS;
+   * Added a new feature to calculate k-resolved DOS (tasks 216, 257, 282 and 285); For more details see two examples in vaspkit/examples/k_resolved_DOS;
    * Added a new reature to calculate transformation matrix from the PRIMCELL.in file when the TRANSMAT.in file does not exist in band unfolding calculations (task 28);
    * Added a new feature to write the raw data when calculate effective mass (task 912);
    * Fixed a minor bug in calculating band structure unfolding.
