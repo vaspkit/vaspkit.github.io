@@ -15,7 +15,7 @@ The following figures were plotted by using `Matplotlib <https://matplotlib.org/
     :width: 600
     :align: center
 
-3.  Orbital-projected band structure
+3.  K-resolved density of states
 
 .. image:: ../images/pband-graphene.png
     :width: 600
