@@ -67,7 +67,6 @@ VASPKIT aims at providing a powerful and user-friendly interface to perform high
    tutorials
    gallery
    citations
-   donations
    contact
    acknowledgments
    database
