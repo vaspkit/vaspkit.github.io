@@ -167,4 +167,8 @@ invoke those functions, users should set the default python version and
    PYTHON_BIN                ~/anaconda3/bin/python3 
    PLOT_MATPLOTLIB          .TURE. 
 
-5. The Windows version of vaspkit is still maturing. A few utilities fail to run under Windows system, for example, cannot read the configuration .vaspkit file and generate POTCAR file. 
+5. The Windows version of vaspkit is still maturing. A few utilities fail to run under Windows system, for example, cannot read the configuration .vaspkit file and generate POTCAR file.
+
+Bug Report
+^^^^^^^^^^^^^^
+Please send bug reports and suggestions for improvements to wangvei@icloud.com 

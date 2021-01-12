@@ -1,0 +1,4 @@
+VASPKIT Pro
+===========
+
+The VASPKIT Pro version provides extended capabilities that can generate high-quality images in the post-processing. The `gallery <https://https://vaspkit.com/gallery.html>`_ contains several examples you can do with VASPKIT Pro. It is under development and requires a paid license. 
