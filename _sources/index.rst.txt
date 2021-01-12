@@ -63,10 +63,10 @@ VASPKIT aims at providing a powerful and user-friendly interface to perform high
 
    features
    changelog
+   vaspkitpro
    installation
    tutorials
    gallery
    citations
-   vaspkitpro
    acknowledgments
    database
