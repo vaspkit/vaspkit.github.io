@@ -30,47 +30,47 @@ VASPKIT code was cited in the following published papers. Many thanks to the aut
 
 # Bao, H., Qiu, Y., Peng, X. et al. Isolated copper single sites for high-performance electroreduction of carbon monoxide to multicarbon products. **Nat. Commun**. 12, 238 (2021). https://doi.org/10.1038/s41467-020-20336-4
 
-#. F. Yu, W. Liu, S.-W. Ke, M. Kurmoo, J.-L. Zuo, Q. Zhang, Electrochromic two-dimensional covalent organic framework with a reversible dark-to-transparent switch, **Nat. Commun**. 11 (1) (2020) 5534. https://doi.org/10.1038/s41467-020-19315-6.
+#. F. Yu, W. Liu, S.-W. Ke, M. Kurmoo, J.-L. Zuo, Q. Zhang, Electrochromic two-dimensional covalent organic framework with a reversible dark-to-transparent switch, **Nat. Commun**. 11 (1) (2020) 5534. https://doi.org/10.1038/s41467-020-19315-6
 
 #. C. Wu, L. Lin, J. Liu, J. Zhang, F. Zhang, T. Zhou, N. Rui, S. Yao, Y. Deng, F. Yang, W. Xu, J. Luo, Y. Zhao, B. Yan, X.-D. Wen, Jose A. Rodriguez, D. Ma, Inverse ZrO2/Cu as a highly efficient methanol synthesis catalyst from CO2 hydrogenation,  **Nat. Commun**. 11 (1) (2020) 5767. https://doi.org/10.1038/s41467-020-19634-8
 
-#. D. Luo, X. Qiao, R. Dronskowski, Predicting Nitrogen-based Families of Compounds: Transition-metal Guanidinates TCN3 (T= V, Nb, Ta) and Ortho-nitrido Carbonates T2CN4 (T= Ti, Zr, Hf), **Angew. Chem. Int. Ed**. (2020) 202011196. https://doi.org/10.1002/anie.202011196.
+#. D. Luo, X. Qiao, R. Dronskowski, Predicting Nitrogen-based Families of Compounds: Transition-metal Guanidinates TCN3 (T= V, Nb, Ta) and Ortho-nitrido Carbonates T2CN4 (T= Ti, Zr, Hf), **Angew. Chem. Int. Ed**. (2020) 202011196. https://doi.org/10.1002/anie.202011196
 
-#. Y. Wang, P. Wu, Z. Wang, M. Luo, F. Zhong, X. Ge, K. Zhang, M. Peng, Y. Ye, Q. Li, H. Ge, J. Ye, T. He, Y. Chen, T. Xu, C. Yu, Y. Wang, Z. Hu, X. Zhou, C. Shan, M. Long, P. Wang, P. Zhou, W. Hu, Air-Stable Low-Symmetry Narrow-Bandgap 2D Sulfide Niobium for Polarization Photodetection, **Adv. Mater**. (2020) 2005037. https://doi.org/10.1002/adma.202005037.
+#. Y. Wang, P. Wu, Z. Wang, M. Luo, F. Zhong, X. Ge, K. Zhang, M. Peng, Y. Ye, Q. Li, H. Ge, J. Ye, T. He, Y. Chen, T. Xu, C. Yu, Y. Wang, Z. Hu, X. Zhou, C. Shan, M. Long, P. Wang, P. Zhou, W. Hu, Air-Stable Low-Symmetry Narrow-Bandgap 2D Sulfide Niobium for Polarization Photodetection, **Adv. Mater**. (2020) 2005037. https://doi.org/10.1002/adma.202005037
 
-#. S. Liu, Z. Hu, Y. Wu, J. Zhang, Y. Zhang, B. Cui, C. Liu, S. Hu, N. Zhao, X. Han, A. Cao, Y. Chen, Y. Deng, W. Hu, Dislocation-Strained IrNi Alloy Nanoparticles Driven by Thermal Shock for the Hydrogen Evolution Reaction, **Adv. Mater**. (2020) 2006034. https://doi.org/10.1002/adma.202006034.
+#. S. Liu, Z. Hu, Y. Wu, J. Zhang, Y. Zhang, B. Cui, C. Liu, S. Hu, N. Zhao, X. Han, A. Cao, Y. Chen, Y. Deng, W. Hu, Dislocation-Strained IrNi Alloy Nanoparticles Driven by Thermal Shock for the Hydrogen Evolution Reaction, **Adv. Mater**. (2020) 2006034. https://doi.org/10.1002/adma.202006034
 
-#. N. Zhang, J. Ma, R. Li, H. Jiao, Hydrocracking of Fused Aromatic Hydrocarbons Catalyzed by Al-Substituted HZSM-5A Case Study of 9,10-Dihydroanthracene, **ACS Catal**. 10 (16) (2020) 9215-9226. https://doi.org/10.1021/acscatal.0c00946.
+#. N. Zhang, J. Ma, R. Li, H. Jiao, Hydrocracking of Fused Aromatic Hydrocarbons Catalyzed by Al-Substituted HZSM-5A Case Study of 9,10-Dihydroanthracene, **ACS Catal**. 10 (16) (2020) 9215-9226. https://doi.org/10.1021/acscatal.0c00946
 
-#. J. Sheng, Y. He, J. Li, C. Yuan, H. Huang, S. Wang, Y. Sun, Z. Wang, F. Dong, Identification of Halogen-Associated Active Sites on Bismuth-Based Perovskite Quantum Dots for Efficient and Selective CO2-to-CO Photoreduction, **ACS Nano** 14 (10) (2020) 13103-13114. https://doi.org/10.1021/acsnano.0c04659.
+#. J. Sheng, Y. He, J. Li, C. Yuan, H. Huang, S. Wang, Y. Sun, Z. Wang, F. Dong, Identification of Halogen-Associated Active Sites on Bismuth-Based Perovskite Quantum Dots for Efficient and Selective CO2-to-CO Photoreduction, **ACS Nano** 14 (10) (2020) 13103-13114. https://doi.org/10.1021/acsnano.0c04659
 
-#. T. Meng, B. Li, Q. Wang, J. Hao, B. Huang, F. L. Gu, H. Xu, P. Liu, Y. Tong, Large-Scale Electric-Field Confined Silicon with Optimized Charge-Transfer Kinetics and Structural Stability for High-Rate Lithium-Ion Batteries, **ACS Nano** 14 (6) (2020) 7066-7076. https://doi.org/10.1021/acsnano.0c01796.
+#. T. Meng, B. Li, Q. Wang, J. Hao, B. Huang, F. L. Gu, H. Xu, P. Liu, Y. Tong, Large-Scale Electric-Field Confined Silicon with Optimized Charge-Transfer Kinetics and Structural Stability for High-Rate Lithium-Ion Batteries, **ACS Nano** 14 (6) (2020) 7066-7076. https://doi.org/10.1021/acsnano.0c01796
 
-#. H. Huang, J. Zhao, Y. Du, C. Zhou, M. Zhang, Z. Wang, Y. Weng, J. Long, J. Hofkens, J. A. Steele, M. B. J. Roeaers, Direct Z-Scheme Heterojunction of Semicoherent FAPbBr3/Bi2WO6 Interface for Photoredox Reaction with Large Driving Force, **ACS Nano** (Jun. 2020). https://doi.org/10.1021/acsnano.0c03146.
+#. H. Huang, J. Zhao, Y. Du, C. Zhou, M. Zhang, Z. Wang, Y. Weng, J. Long, J. Hofkens, J. A. Steele, M. B. J. Roeaers, Direct Z-Scheme Heterojunction of Semicoherent FAPbBr3/Bi2WO6 Interface for Photoredox Reaction with Large Driving Force, **ACS Nano** (Jun. 2020). https://doi.org/10.1021/acsnano.0c03146
 
-#. F. Hou, Q. Yao, C.-S. Zhou, X.-M. Ma, M. Han, Y.-J. Hao, X. Wu, Y. Zhang, H. Sun, C. Liu, Y. Zhao, Q. Liu, J. Lin, Te-Vacancy-Induced Surface Collapse and Reconstruction in Antiferromagnetic Topological Insulator MnBi2Te4, **ACS Nano** 14 (9) (2020) 11262-11272. https://doi.org/10.1021/acsnano.0c03149.
+#. F. Hou, Q. Yao, C.-S. Zhou, X.-M. Ma, M. Han, Y.-J. Hao, X. Wu, Y. Zhang, H. Sun, C. Liu, Y. Zhao, Q. Liu, J. Lin, Te-Vacancy-Induced Surface Collapse and Reconstruction in Antiferromagnetic Topological Insulator MnBi2Te4, **ACS Nano** 14 (9) (2020) 11262-11272. https://doi.org/10.1021/acsnano.0c03149
 
-#. L. Chen, O. Skibitzki, L. Pedesseau, A. Létoublon, J. Stervinou, R. Bernard, C. Levallois, R. Piron, M. Perrin, M. A. Schubert, et al., Strong ElectronPhonon Interaction in 2D Vertical Homovalent IIIV Singularities, **ACS Nano** 14 (10) (2020) 13127-13136. https://doi.org/10.1021/acsnano.0c04702.
+#. L. Chen, O. Skibitzki, L. Pedesseau, A. Létoublon, J. Stervinou, R. Bernard, C. Levallois, R. Piron, M. Perrin, M. A. Schubert, et al., Strong ElectronPhonon Interaction in 2D Vertical Homovalent IIIV Singularities, **ACS Nano** 14 (10) (2020) 13127-13136. https://doi.org/10.1021/acsnano.0c04702
 
-#. Y. Jin, M. Cheng, H. Liu, M. Ouzounian, T. S. Hu, B. You, G. Shao, X. Liu, Y. Liu, H. Li, S. Li, J. Guan, S. Liu,Na2SO4-Regulated High-Quality Growth of Transition Metal Dichalcogenides by Controlling Diffusion, **Chem. Mater**. 32 (13) (2020) 5616-5625. https://doi.org/10.1021/acs.chemmater.0c01089.
+#. Y. Jin, M. Cheng, H. Liu, M. Ouzounian, T. S. Hu, B. You, G. Shao, X. Liu, Y. Liu, H. Li, S. Li, J. Guan, S. Liu,Na2SO4-Regulated High-Quality Growth of Transition Metal Dichalcogenides by Controlling Diffusion, **Chem. Mater**. 32 (13) (2020) 5616-5625. https://doi.org/10.1021/acs.chemmater.0c01089
 
-#. N. Xu, L. Li, Y. He, Y. Tong, Y. Lu, Understanding the molecular mechanism of lithium deposition for practical high-energy lithium-metal batteries, **J. Mater. Chem. A** 8 (2020) 6229-6237. https://doi.org/10.1039/D0TA01044H.
+#. N. Xu, L. Li, Y. He, Y. Tong, Y. Lu, Understanding the molecular mechanism of lithium deposition for practical high-energy lithium-metal batteries, **J. Mater. Chem. A** 8 (2020) 6229-6237. https://doi.org/10.1039/D0TA01044H
 
-#. V. Wang, Y. C. Liu, Y. Kawazoe, W. T. Geng, Role of Interlayer Coupling on the Evolution of Band Edges in Few-Layer Phosphorene, **J. Phys. Chem. Lett**. 6 (24) (2015) 4876-4883. https://doi.org/10.1021/acs.jpclett.5b02047.
+#. V. Wang, Y. C. Liu, Y. Kawazoe, W. T. Geng, Role of Interlayer Coupling on the Evolution of Band Edges in Few-Layer Phosphorene, **J. Phys. Chem. Lett**. 6 (24) (2015) 4876-4883. https://doi.org/10.1021/acs.jpclett.5b02047
 
-#. A. Sugathan, B. Bhattacharyya, V. V. R. Kishore, A. Kumar, G. P. Rajasekar, D. D. Sarma, A. Pandey, Why Does CuFeS2 Resemble Gold?, **J. Phys. Chem. Lett**. 9 (4) (2018) 696-701. https://doi.org/10.1021/acs.jpclett.7b03190.
+#. A. Sugathan, B. Bhattacharyya, V. V. R. Kishore, A. Kumar, G. P. Rajasekar, D. D. Sarma, A. Pandey, Why Does CuFeS2 Resemble Gold?, **J. Phys. Chem. Lett**. 9 (4) (2018) 696-701. https://doi.org/10.1021/acs.jpclett.7b03190
 
-#. B. Li, R. Long, Q. Yao, Z. Zhu, Q. Mi, Band Alignment Boosts Charge-Carrier Collection in Sn-based Perovskite over Pb Counterparts, **J. Phys. Chem. Lett**. 10 (13) (2019) 3699-3703. https://doi.org/10.1021/acs.jpclett.9b01405.
+#. B. Li, R. Long, Q. Yao, Z. Zhu, Q. Mi, Band Alignment Boosts Charge-Carrier Collection in Sn-based Perovskite over Pb Counterparts, **J. Phys. Chem. Lett**. 10 (13) (2019) 3699-3703. https://doi.org/10.1021/acs.jpclett.9b01405
         
-#. A. V. Kuklin, L. Gao, H. Zhang, H. Agren, Two-Dimensional Gold Halides: Novel Semiconductors with Giant Spin-Orbit Splitting and Tunable Optoelectronic Properties, **J. Phys. Chem. Lett**. 11 (2020) 9759-9765. https://doi.org/10.1021/acs.jpclett.0c02788.   
+#. A. V. Kuklin, L. Gao, H. Zhang, H. Agren, Two-Dimensional Gold Halides: Novel Semiconductors with Giant Spin-Orbit Splitting and Tunable Optoelectronic Properties, **J. Phys. Chem. Lett**. 11 (2020) 9759-9765. https://doi.org/10.1021/acs.jpclett.0c02788   
 
-#. W. T. Geng, V. Wang, Y. C. Liu, T. Ohno, J. Nara, Moire Potential, Lattice Corrugation, and Band Gap Spatial Variation in a Twist-Free MoTe2/MoS2 Heterobilayer, **J. Phys. Chem. Lett**. 11 (7) (2020) 2637-2646. https://doi.org/10.1021/acs.jpclett.0c00605.
+#. W. T. Geng, V. Wang, Y. C. Liu, T. Ohno, J. Nara, Moire Potential, Lattice Corrugation, and Band Gap Spatial Variation in a Twist-Free MoTe2/MoS2 Heterobilayer, **J. Phys. Chem. Lett**. 11 (7) (2020) 2637-2646. https://doi.org/10.1021/acs.jpclett.0c00605
 
-#. M. K. Mohanta, A. De Sarkar, Coupled spin and valley polarization in monolayer HfN2 and valley-contrasting physics at the HfN2-WSe2 interface, **Phys. Rev. B** 102 (2020) 125414. https://doi.org/10.1103/PhysRevB.102.125414.
+#. M. K. Mohanta, A. De Sarkar, Coupled spin and valley polarization in monolayer HfN2 and valley-contrasting physics at the HfN2-WSe2 interface, **Phys. Rev. B** 102 (2020) 125414. https://doi.org/10.1103/PhysRevB.102.125414
 
-#. M. Kingsland, K. A. Lynch, S. Lisenkov, X. He, I. Ponomareva, Comparative study of Minnesota functionals performance on ferroelectric BaTiO3 and PbTiO3, **Phys. Rev. Materials** 4 (2020) 073802. https://doi.org/10.1103/PhysRevMaterials.4.073802.
+#. M. Kingsland, K. A. Lynch, S. Lisenkov, X. He, I. Ponomareva, Comparative study of Minnesota functionals performance on ferroelectric BaTiO3 and PbTiO3, **Phys. Rev. Materials** 4 (2020) 073802. https://doi.org/10.1103/PhysRevMaterials.4.073802
 
-#. H. Zhong, K. Huang, G. Yu, S. Yuan, Electronic and mechanical properties of few-layer borophene, **Phys. Rev. B** 98 (2018) 054104. https://doi.org/10.1103/PhysRevB.98.054104.
+#. H. Zhong, K. Huang, G. Yu, S. Yuan, Electronic and mechanical properties of few-layer borophene, **Phys. Rev. B** 98 (2018) 054104. https://doi.org/10.1103/PhysRevB.98.054104
 
 **More cited papers can be found in** `Google Scholar <https://scholar.google.com/scholar?start=10&q=vaspkit&hl=en&as_sdt=1,5>`_.
 
