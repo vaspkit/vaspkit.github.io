@@ -28,7 +28,7 @@ Cited publications
 ------------------
 VASPKIT code was cited in the following published papers. Many thanks to the authors!
 
-# Bao, H., Qiu, Y., Peng, X. et al. Isolated copper single sites for high-performance electroreduction of carbon monoxide to multicarbon products. **Nat. Commun**. 12, 238 (2021). https://doi.org/10.1038/s41467-020-20336-4
+#. Bao, H., Qiu, Y., Peng, X. et al. Isolated copper single sites for high-performance electroreduction of carbon monoxide to multicarbon products. **Nat. Commun**. 12, 238 (2021). https://doi.org/10.1038/s41467-020-20336-4
 
 #. F. Yu, W. Liu, S.-W. Ke, M. Kurmoo, J.-L. Zuo, Q. Zhang, Electrochromic two-dimensional covalent organic framework with a reversible dark-to-transparent switch, **Nat. Commun**. 11 (1) (2020) 5534. https://doi.org/10.1038/s41467-020-19315-6
 
