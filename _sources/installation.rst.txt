@@ -2,7 +2,8 @@ Installation
 ======================
 Usage agreement
 ^^^^^^^^^^^^^^^^^^
-This software is distributed free of charge for academic, scientific, educational, and noncommercial users. Permission to use this software is hereby granted under the following conditions.
+.. important::
+   This software is distributed free of charge for academic, scientific, educational, and noncommercial users. Permission to use this software is hereby granted under the following conditions.
 
 1) Data and plots produced by VASPKIT may be used in any publications provided that its use is explicitly acknowledged. A suitable reference for VASPKIT is::
 
