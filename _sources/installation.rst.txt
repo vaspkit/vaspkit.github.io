@@ -10,8 +10,8 @@ This software is distributed free of charge for academic, scientific, educationa
 
 2) You should not redistribute any copy of the distributed files unless you have a written permission from us.
 
-Part of these terms may be changed without any prior announcement.
-This software is provided "as is" without any express or implied warranty.
+.. note::
+   Part of these terms may be changed without any prior announcement. This software is provided "as is" without any express or implied warranty.
 
 Download
 ^^^^^^^^^^^^
