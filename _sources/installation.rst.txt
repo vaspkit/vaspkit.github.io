@@ -7,7 +7,7 @@ Usage agreement
 
    1) **Data and plots produced by VASPKIT may be used in any publications provided that its use is explicitly acknowledged. A suitable reference for VASPKIT is**:
 
-   V. Wang, N. Xu, J.C. Liu, G. Tang, W.T. Geng, VASPKIT: A User-Friendly Interface Facilitating High-Throughput Computing and Analysis Using VASP Code, `arXiv:1908.08269 <https://arxiv.org/abs/1908.08269>`_ (2019)
+   [1] V. Wang, N. Xu, J.C. Liu, G. Tang, W.T. Geng, VASPKIT: A User-Friendly Interface Facilitating High-Throughput Computing and Analysis Using VASP Code, `arXiv:1908.08269 <https://arxiv.org/abs/1908.08269>`_ (2019)
 
    2) **You should not redistribute any copy of the distributed files unless you have a written permission from us**.
 
