@@ -79,5 +79,5 @@ VASPKIT code was cited in the following published papers. Many thanks to the aut
 .. note::
    **More cited papers can be found in** `Google Scholar <https://scholar.google.com/scholar?start=10&q=vaspkit&hl=en&as_sdt=1,5>`_.
 
-(to be updated)
+   (to be updated)
 
