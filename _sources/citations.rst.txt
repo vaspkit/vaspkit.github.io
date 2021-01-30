@@ -9,6 +9,10 @@ How to cite
 
    [1] V. Wang, N. Xu, J.C. Liu, G. Tang, W.T. Geng, VASPKIT: A User-Friendly Interface Facilitating High-Throughput Computing and Analysis Using VASP Code, `arXiv:1908.08269 <https://arxiv.org/abs/1908.08269>`_
 
+   and state in your manuscript/paper that you have used the VASPKIT program. An appropriate way of acknowledging the use of VASPKIT in your publications would be, for instance, adding a sentence like
+
+   "**We used the VASPKIT code for postprocessing of the VASP calculated data.**"
+
 .. code-block:: none
     
     @paper{vaspkit,
@@ -21,12 +25,10 @@ How to cite
           url = "https://arxiv.org/abs/1908.08269",
     }    
 
-and state in your manuscript/paper that you have used the VASPKIT program. An appropriate way of acknowledging the use of VASPKIT in your publications would be, for instance, adding a sentence like
-
-"**We used the VASPKIT code for postprocessing of the VASP calculated data.**"
 
 Cited publications
 ------------------
+
 VASPKIT code was cited in the following published papers. Many thanks to the authors!
 
 #. H. Bao, Y. Qiu, X. Peng, et al., Isolated copper single sites for high-performance electroreduction of carbon monoxide to multicarbon products. **Nat. Commun**. 12, 238 (2021). https://doi.org/10.1038/s41467-020-20336-4
