@@ -188,6 +188,10 @@
 <li class="toctree-l3"><a class="reference internal" href="#user-interface">11.3 USER interface</a></li>
 </ul>
 </li>
+<li class="toctree-l2"><a class="reference internal" href="#usage-notes">12 Usage Notes</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#cautionary-notes-of-vasp-wavefunctions">12.1 Cautionary Notes of VASP Wavefunctions</a></li>
+</ul>
+</li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="gallery.html">Gallery</a></li>
@@ -3143,8 +3147,8 @@ LDIPOL = .TRUE.
 </div>
 <p>EFIELD controls the magnitude of the applied electric force field in
 units of eV/Å.</p>
-<p>(3)：Run VASPKIT <code class="docutils literal notranslate"><span class="pre">314</span></code> do charge density difference.</p>
-<ol class="arabic simple" start="4">
+<ol class="arabic simple" start="3">
+<li><p>Run VASPKIT <code class="docutils literal notranslate"><span class="pre">314</span></code> do charge density difference.</p></li>
 <li><p>Output the CHGDIFF.vasp file and open it by VESTA.</p></li>
 </ol>
 <a class="reference internal image-reference" href="_images/chgdiff3.png"><img alt="_images/chgdiff3.png" class="align-center" src="_images/chgdiff3.png" style="width: 664.0px; height: 375.5px;" /></a>
@@ -3363,6 +3367,16 @@ VASP MD results.</p>
 </div>
 <div class="section" id="user-interface">
 <h3>11.3 USER interface<a class="headerlink" href="#user-interface" title="Permalink to this headline">¶</a></h3>
+</div>
+</div>
+<div class="section" id="usage-notes">
+<h2>12 Usage Notes<a class="headerlink" href="#usage-notes" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="cautionary-notes-of-vasp-wavefunctions">
+<h3>12.1 Cautionary Notes of VASP Wavefunctions<a class="headerlink" href="#cautionary-notes-of-vasp-wavefunctions" title="Permalink to this headline">¶</a></h3>
+<ol class="arabic simple">
+<li><p>The calculated plane-wave coefficients of pseudo periodic part (Bloch function) are read from the given WAVECAR file and the corresponding G-vectors are generated using the algorithm developed in WaveTrans. It should be noted that the pseudopotential augmentation is not included in the WAVECAR file. As a result, some caution should be exercised when deriving value from this information. For example, the partial charge density obtained using vaspkit-515 will differ from the PARCHG from VASP, but the qualitative shape of the charge density should match.</p></li>
+<li><p>The actual number of plane waves (NPWS) of each <em>k</em> value is determined by the maximum plane-wave energy it is used for the VASP run, i.e. all G values for which <span class="math notranslate nohighlight">\(\frac{ ℏ^2|k+G|^2 }{2m}\)</span> is less than the cut-off energy. Unfortunately, the imprecisely-known scaling factor <span class="math notranslate nohighlight">\(\frac{2m}{ℏ^2}\)</span> leads to a discrepancy between the NPWS computed by VASPKIT and that contained in the WAVECAR file occasionally. If so, you will encounter an error message saying that “Error: the calculated NPWS is not equal to the read NPWS “. Then please adjust the final decimal place (or one beyond that) of FACTOR_ENCUT2NPWS (default value: 0.26246583) in the ~/.vaspkit file. If such an adjustment is successfully determined, please contact <a class="reference external" href="mailto:wangvei&#37;&#52;&#48;icloud&#46;com">wangvei<span>&#64;</span>icloud<span>&#46;</span>com</a> with the new value, so that it can be incorporated into a future version of VASPKIT.</p></li>
+</ol>
 </div>
 </div>
 </div>
