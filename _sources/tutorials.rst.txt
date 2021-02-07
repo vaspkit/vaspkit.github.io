@@ -3520,8 +3520,8 @@ LOCPOT/ELFCAR  XcrySDen (.xsf) format               428
 11.3 USER interface
 ~~~~~~~~~~~~~~~~~~~
 
-12 Usage Notes
-------------------
+12 Restrictions and Usage Notes
+--------------------------------
 
 12.1 Cautionary Notes of VASP Wavefunctions
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -3530,3 +3530,9 @@ LOCPOT/ELFCAR  XcrySDen (.xsf) format               428
 
 (2) The actual number of plane waves (NPWS) of each *k* value is determined by the maximum plane-wave energy it is used for the VASP run, i.e. all G values for which :math:`\frac{ ℏ^2|k+G|^2 }{2m}` is less than the cut-off energy. Unfortunately, the imprecisely-known scaling factor :math:`\frac{2m}{ℏ^2}` leads to a discrepancy between the NPWS computed by VASPKIT and that contained in the WAVECAR file occasionally. If so, you will encounter an error message saying that "Error: the calculated NPWS is not equal to the read NPWS". Then please adjust the final decimal place (or one beyond that) of FACTOR_ENCUT2NPWS (default value: 0.26246583) in the ~/.vaspkit file (1.3 and newer version). If such an adjustment is successfully determined, please contact wangvei@icloud.com with the new value, so that it can be incorporated into a future version of VASPKIT. 
 
+12.2 Usage FAQs
+~~~~~~~~~~~~~~~~
+
+1. By default, the fermi energy is set to zero in the DOS.dat and BAND.dat files, unless the paramerter SET_FERMI_ENERGY_ZERO in the ~/.vaspkit file is set to .FALSE.;
+
+2. By default, the fermi energy is read from the DOSCAR file if the FERMI_ENERGY.in file does not exist. You can also set the fermi energy manually in the second line of the FERMI_ENERGY.in file.
