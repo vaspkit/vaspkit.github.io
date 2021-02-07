@@ -2400,6 +2400,21 @@ been implemented into the VASPKIT code.
     :scale: 100  %
     :align: center 
 
+================== =============== ======================================== 
+Crystal system       Space-group      No. of independent elastic constants  
+Triclinic             1-2                               21                  
+Monoclinic            3-15                               13                 
+Orthorhombic          16-74                              9                  
+Tetragonal I          89-142                              6                 
+Tetragonal II         75-88                               7                 
+Trigonal I            149-167                             6                 
+Trigonal II           143-148                             7                 
+Hexagonal             168-194                              5                
+Cubic                 195-230                              3                
+================== =============== ======================================== 
+
+The number of independent elastic constants depends on the symmetry of crystal. The lower the symmetry means the more the independent elastic constants. For example, the cubic crystals have three but the triclinic ones have 21 independent elastic constants.
+
 We take diamond as an example and calculate its elastic contants
 (vaspkit/examples/elastic/diamond_3D). Thera are three independent
 elastic constants for FCC crystal, :math:`\mathrm{C}_{11}`, :math:`\mathrm{C}_{12}` and :math:`\mathrm{C}_{44}`. Thus, the elastic energy is given by

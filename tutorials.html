@@ -2369,6 +2369,56 @@ distortions than the latter. Considering that the energy-strain has less
 stress sensitivity than the stress-strain one, the former method has
 been implemented into the VASPKIT code.</p>
 <a class="reference internal image-reference" href="_images/elastic.png"><img alt="_images/elastic.png" class="align-center" src="_images/elastic.png" style="width: 410.0px; height: 406.0px;" /></a>
+<table class="docutils align-default">
+<colgroup>
+<col style="width: 25%" />
+<col style="width: 21%" />
+<col style="width: 55%" />
+</colgroup>
+<tbody>
+<tr class="row-odd"><td><p>Crystal system</p></td>
+<td><p>Space-group</p></td>
+<td><p>No. of independent elastic constants</p></td>
+</tr>
+<tr class="row-even"><td><p>Triclinic</p></td>
+<td><p>1-2</p></td>
+<td><p>21</p></td>
+</tr>
+<tr class="row-odd"><td><p>Monoclinic</p></td>
+<td><p>3-15</p></td>
+<td><p>13</p></td>
+</tr>
+<tr class="row-even"><td><p>Orthorhombic</p></td>
+<td><p>16-74</p></td>
+<td><p>9</p></td>
+</tr>
+<tr class="row-odd"><td><p>Tetragonal I</p></td>
+<td><p>89-142</p></td>
+<td><p>6</p></td>
+</tr>
+<tr class="row-even"><td><p>Tetragonal II</p></td>
+<td><p>75-88</p></td>
+<td><p>7</p></td>
+</tr>
+<tr class="row-odd"><td><p>Trigonal I</p></td>
+<td><p>149-167</p></td>
+<td><p>6</p></td>
+</tr>
+<tr class="row-even"><td><p>Trigonal II</p></td>
+<td><p>143-148</p></td>
+<td><p>7</p></td>
+</tr>
+<tr class="row-odd"><td><p>Hexagonal</p></td>
+<td><p>168-194</p></td>
+<td><p>5</p></td>
+</tr>
+<tr class="row-even"><td><p>Cubic</p></td>
+<td><p>195-230</p></td>
+<td><p>3</p></td>
+</tr>
+</tbody>
+</table>
+<p>The number of independent elastic constants depends on the symmetry of crystal. The lower the symmetry means the more the independent elastic constants. For example, the cubic crystals have three but the triclinic ones have 21 independent elastic constants.</p>
 <p>We take diamond as an example and calculate its elastic contants
 (vaspkit/examples/elastic/diamond_3D). Thera are three independent
 elastic constants for FCC crystal, <span class="math notranslate nohighlight">\(\mathrm{C}_{11}\)</span>, <span class="math notranslate nohighlight">\(\mathrm{C}_{12}\)</span> and <span class="math notranslate nohighlight">\(\mathrm{C}_{44}\)</span>. Thus, the elastic energy is given by</p>

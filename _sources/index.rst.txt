@@ -9,46 +9,52 @@ VASPKIT aims at providing a powerful and user-friendly interface to perform high
 
 .. code-block:: none
 
-    > vaspkit
-
-               \\\///
-              / _  _ \       Hey, you must know what you are doing.
-            (| (o)(o) |)     Otherwise you might get wrong results!
-    +-----.OOOo--()--oOOO.------------------------------------------+
-    |             VASPKIT Version: 1.2.3 (20 Nov. 2020)             |
-    |         Core Developer: Vei WANG (wangvei@icloud.com)         |
-    |     Main Contributors: Nan XU, Jin-Cheng LIU & Gang TANG      |
-    |  Online Tutorials Available on Website: https://vaspkit.com   |
-    +-----.oooO-----------------------------------------------------+
-           (   )   Oooo.
-            \ (    (   )
-             \_)    ) /
-                   (_/
-    ===================== Structural Options ========================
-    1)  VASP Input Files              2)  Elastic Properties
-    3)  K-Path for Band-Structure     4)  Structure Editor
-    5)  Catalysis-ElectroChem Kit     6)  Symmetry Search
-    8)  Advanced Structure Models
-    ===================== Electronic Options ========================
-    11) Density-of-States             21) DFT Band-Structure
-    23) 3D Band-Structure             25) Hybrid-DFT Band-Structure
-    26) Fermi-Surface                 28) Band-Structure Unfolding
-    31) Charge & Spin Density         42) Potential Analysis
-    51) Wave-Function Analysis        62) Magnetic Properties
-    ====================== Misc Utilities ===========================
-    71) Optical-Properties            72) Molecular-Dynamics Kit
-    73) VASP2other Interface          74) User interface
-    91) Semiconductor Calculator      92) 2D-Materials Kit
-    0)  Quit
-    ------------>>
-   0
-    +---------------------------------------------------------------+
-    |                       * ACKNOWLEDGMENTS *                     |
-    | Other Contributors (in no particular order): Peng-Fei LIU,    |
-    | Xue-Fei LIU, Dao-Xiong WU, Zhao-Fu ZHANG, Tian WANG, Qiang LI,|
-    | Ya-Chao LIU, Jiang-Shan ZHAO, Qi-Jing ZHENG, iGo Li and You!  |
-    | Advisors: Wen-Tong GENG, Yoshiyuki KAWAZOE                    |
-    +---------------------------------------------------------------+
+    > vaspkit                                                          
+                                                                       
+               \\\///                                                  
+              / _  _ \         Hey, you must know what you are doing.  
+            (| (o)(o) |)       Otherwise you might get wrong results.  
+    +-----.OOOo--()--oOOO.------------------------------------------+  
+    |              VASPKIT Version 1.2.5 (08 Feb. 2021)             |  
+    |         Core Developer: Vei WANG (wangvei@icloud.com)         |  
+    |     Main Contributors: Nan XU, Jin-Cheng LIU & Gang TANG      |  
+    |  Online Tutorials Available on Website: https://vaspkit.com   |  
+    +-----.oooO-----------------------------------------------------+  
+           (   )   Oooo.                          VASPKIT Made Simple  
+            \ (    (   )                                               
+             \_)    ) /                                                
+                   (_/                                                 
+    ===================== Structural Options ========================  
+    1)  VASP Input Files              2)  Elastic Properties           
+    3)  K-Path for Band-Structure     4)  Structure Editor             
+    5)  Catalysis-ElectroChem Kit     6)  Symmetry Search              
+    8)  Advanced Structure Models                                      
+    ===================== Electronic Options ========================  
+    11) Density-of-States             21) DFT Band-Structure           
+    23) 3D Band-Structure             25) Hybrid-DFT Band-Structure    
+    26) Fermi-Surface                 28) Band-Structure Unfolding     
+    31) Charge & Spin Density         42) Potential Analysis           
+    51) Wave-Function Analysis        62) Magnetic Properties          
+    ===================== Various Utilities =========================  
+    71) Optical-Properties            72) Molecular-Dynamics Kit       
+    73) VASP2other Interface          74) User Interface               
+    91) Semiconductor Kit             92) 2D-Material Kit              
+    0)  Quit                                                           
+    ------------>>                                                     
+   0                                                                   
+    +---------------------------------------------------------------+  
+    |                       * ACKNOWLEDGMENTS *                     |  
+    | Other Contributors (in no particular order): Peng-Fei LIU,    |  
+    | Xue-Fei LIU, Dao-Xiong WU, Zhao-Fu ZHANG, Tian WANG, Qiang LI,|  
+    | Ya-Chao LIU, Jiang-Shan ZHAO, Qi-Jing ZHENG, iGo Li and You!  |  
+    | Advisors: Wen-Tong GENG, Yoshiyuki KAWAZOE                    |  
+    +---------------------------------------------------------------+  
+    |                          * CITATIONS *                        |  
+    | If You Find VASPKIT Code Useful in Your Work, PLEASE Cite:    |  
+    | [1] V. WANG, N. XU, J.-C. LIU, G. TANG, W.-T. GENG, VASPKIT: A|  
+    | User-Friendly Interface Facilitating High-Throughput Computing|  
+    | and Analysis Using VASP Code, arXiv:1908.08269 (2019)         |  
+    +---------------------------------------------------------------+  
 ..
   News
   ================
