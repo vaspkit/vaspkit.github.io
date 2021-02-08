@@ -1,5 +1,7 @@
 Tutorials
 ======================
+.. important:
+   **Disclaimer**: The following tutorials are meant to provide some guides for the users of VASPKIT to facilitate a complete employment of the available features. The content is NOT guaranteed to be scientiﬁcally accurate and certified/peer-reviewed and the researchers should use the suggestions at their own responsibility. 
 
 1. Quick Start
 ---------------------
@@ -2413,9 +2415,7 @@ Hexagonal             168-194                              5
 Cubic                 195-230                              3                
 ================== =============== ======================================== 
 
-The number of independent elastic constants depends on the symmetry of crystal. The lower the symmetry means the more the independent elastic constants. For example, the cubic crystals have three but the triclinic ones have 21 independent elastic constants.
-
-We take diamond as an example and calculate its elastic contants
+The number of independent elastic constants depends on the symmetry of crystal. The lower the symmetry means the more the independent elastic constants. For example, the cubic crystals have three but the triclinic ones have 21 independent elastic constants. Next we take diamond as an example and calculate its elastic contants
 (vaspkit/examples/elastic/diamond_3D). Thera are three independent
 elastic constants for FCC crystal, :math:`\mathrm{C}_{11}`, :math:`\mathrm{C}_{12}` and :math:`\mathrm{C}_{44}`. Thus, the elastic energy is given by
 
