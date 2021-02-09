@@ -4,7 +4,7 @@ Release Notes
 Version 1.2.5 (08 Feb. 2021)
   * Added a new feature to calculate the angular-dependent mechanical properties, Vickers hardness and eigenvalues of the stiffness matrix (tasks 200-203);
   * Added support to print the POTCAR information of each species when generate POTCAR file (task 103);
-  * Added a new parameter GET_DOS_FROM_HYBRID_BAND in ~/.vaspkit file to control whether to calculate DOS using tetrahedron method in the hybrid bandstructure calculations (tasks 252-257);
+  * Added a new parameter GET_DOS_FROM_HYBRID_BAND in ~/.vaspkit file to control whether to calculate DOS using tetrahedron method for the hybrid band-structure calculations (tasks 252-257);
   * Added a new parameter SCISSOR_CORRECTION in ~/.vaspkit file to control whether to correct the DFT band gap to the exprimental value by applying a rigid shift of the conduction band with respect to the valence band. For more details see vaspkit/how_to_set_environment_variable file;
   * Upgraded the visualization of K-Path in the first Brillouin Zone utility (task 309);
   * Fixed a bug in calculating the elastic stability conditions of monoclinic crystal system (tasks 201 & 202);
