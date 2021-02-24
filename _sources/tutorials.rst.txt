@@ -1,7 +1,7 @@
 Tutorials
 ======================
 
-.. important::
+.. caution::
    **Disclaimer**: The following tutorials are meant to provide some guides for the users of VASPKIT to facilitate a complete employment of the available features. The content is NOT guaranteed to be scientiﬁcally accurate and certified/peer-reviewed and the researchers should use the suggestions at their own responsibility. 
 
 1. Quick Start
