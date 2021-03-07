@@ -54,7 +54,7 @@ VASPKIT code was cited in the following published papers. Many thanks to the aut
 
 #. F. Hou, Q. Yao, C.-S. Zhou, X.-M. Ma, M. Han, Y.-J. Hao, X. Wu, Y. Zhang, H. Sun, C. Liu, Y. Zhao, Q. Liu, J. Lin, Te-Vacancy-Induced Surface Collapse and Reconstruction in Antiferromagnetic Topological Insulator MnBi2Te4, **ACS Nano** 14 (9) (2020) 11262-11272. https://doi.org/10.1021/acsnano.0c03149
 
-#. L. Chen, O. Skibitzki, L. Pedesseau, A. Létoublon, J. Stervinou, R. Bernard, C. Levallois, R. Piron, M. Perrin, M. A. Schubert, et al., Strong ElectronPhonon Interaction in 2D Vertical Homovalent IIIV Singularities, **ACS Nano** 14 (10) (2020) 13127-13136. https://doi.org/10.1021/acsnano.0c04702
+#. L. Chen, O. Skibitzki, L. Pedesseau, A. Létoublon, J. Stervinou, R. Bernard, C. Levallois, R. Piron, M. Perrin, M. A. Schubert, et al., Strong Electron Phonon Interaction in 2D Vertical Homovalent IIIV Singularities, **ACS Nano** 14 (10) (2020) 13127-13136. https://doi.org/10.1021/acsnano.0c04702
 
 #. Y. Jin, M. Cheng, H. Liu, M. Ouzounian, T. S. Hu, B. You, G. Shao, X. Liu, Y. Liu, H. Li, S. Li, J. Guan, S. Liu,Na2SO4-Regulated High-Quality Growth of Transition Metal Dichalcogenides by Controlling Diffusion, **Chem. Mater**. 32 (13) (2020) 5616-5625. https://doi.org/10.1021/acs.chemmater.0c01089
 
@@ -83,6 +83,8 @@ VASPKIT code was cited in the following published papers. Many thanks to the aut
 #. H. Niu, Z.-F. Zhang, X.-T. Wang, X.-H. Wan, C. Shao, Y.-Z. Guo, Theoretical Insights into the Mechanism of Selective Nitrate‐to‐Ammonia Electroreduction on Single‐Atom Catalysts, **Adv. Funct. Mater.** (2020) 2008533, https://doi.org/10.1002/adfm.202008533
 
 #. J. Xu  J.-B. Liu, B.‐X. Liu, B. Huang, Exotic Structural and Optoelectronic Properties of Layered Halide Double Perovskite Polymorphs, **Adv. Funct. Mater.** (2020) 2008620,  https://doi.org/10.1002/adfm.202008620
+
+#. L.-F. Gao, R. Wang, A. V. Kuklin, H. Zhang, H. Ågren, PbSe Nanocrystals Produced by Facile Liquid Phase Exfoliation for Efficient UV–Vis Photodetectors, **Adv. Funct. Mater.** (2021) 2010401, https://doi.org/10.1002/adfm.202010401
 
 .. note::
    **More cited papers can be found in** `Google Scholar <https://scholar.google.com/scholar?start=10&q=vaspkit&hl=en&as_sdt=1,5>`_.
