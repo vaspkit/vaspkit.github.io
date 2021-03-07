@@ -72,15 +72,17 @@ VASPKIT code was cited in the following published papers. Many thanks to the aut
 
 #. M. K. Mohanta, A. De Sarkar, Coupled spin and valley polarization in monolayer HfN2 and valley-contrasting physics at the HfN2-WSe2 interface, **Phys. Rev. B** 102 (2020) 125414. https://doi.org/10.1103/PhysRevB.102.125414
 
+#. P. Jiang, L.-L. Kang, X.-H. Zheng, Z. Zeng, and S. Sanvito, **Phys. Rev. B** 102 (2020) 195408, https://doi.org/10.1103/PhysRevB.102.195408  
+
 #. M. Kingsland, K. A. Lynch, S. Lisenkov, X. He, I. Ponomareva, Comparative study of Minnesota functionals performance on ferroelectric BaTiO3 and PbTiO3, **Phys. Rev. Materials** 4 (2020) 073802. https://doi.org/10.1103/PhysRevMaterials.4.073802
 
 #. H. Zhong, K. Huang, G. Yu, S. Yuan, Electronic and mechanical properties of few-layer borophene, **Phys. Rev. B** 98 (2018) 054104. https://doi.org/10.1103/PhysRevB.98.054104
 
-#. H. Niu, Z.-F. Zhang, X.-T. Wang, X.-H. Wan, C. Shao, Y.-Z. Guo, Theoretical Insights into the Mechanism of Selective Nitrate‐to‐Ammonia Electroreduction on Single‐Atom Catalysts, **Advanced Functional Materials** (2020) 2008533, https://doi.org/10.1002/adfm.202008533
+#. P. Jiang, L.-L. Kang, X.-H. Zheng, Z. Zeng, and S. Sanvito, Computational prediction of a two-dimensional semiconductor SnO2 with negative Poisson's ratio and tunable magnetism by doping, **Phys. Rev. B** 102 (2020) 195408, https://doi.org/10.1103/PhysRevB.102.195408
 
-#. J. Xu  J.-B. Liu, B.‐X. Liu, B. Huang, Exotic Structural and Optoelectronic Properties of Layered Halide Double Perovskite Polymorphs, **Advanced Functional Materials** (2020) 2008620,  https://doi.org/10.1002/adfm.202008620
+#. H. Niu, Z.-F. Zhang, X.-T. Wang, X.-H. Wan, C. Shao, Y.-Z. Guo, Theoretical Insights into the Mechanism of Selective Nitrate‐to‐Ammonia Electroreduction on Single‐Atom Catalysts, **Adv. Funct. Mater.** (2020) 2008533, https://doi.org/10.1002/adfm.202008533
 
-
+#. J. Xu  J.-B. Liu, B.‐X. Liu, B. Huang, Exotic Structural and Optoelectronic Properties of Layered Halide Double Perovskite Polymorphs, **Adv. Funct. Mater.** (2020) 2008620,  https://doi.org/10.1002/adfm.202008620
 
 .. note::
    **More cited papers can be found in** `Google Scholar <https://scholar.google.com/scholar?start=10&q=vaspkit&hl=en&as_sdt=1,5>`_.
