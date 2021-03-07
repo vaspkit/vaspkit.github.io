@@ -76,6 +76,12 @@ VASPKIT code was cited in the following published papers. Many thanks to the aut
 
 #. H. Zhong, K. Huang, G. Yu, S. Yuan, Electronic and mechanical properties of few-layer borophene, **Phys. Rev. B** 98 (2018) 054104. https://doi.org/10.1103/PhysRevB.98.054104
 
+#. H. Niu, Z.-F. Zhang, X.-T. Wang, X.-H. Wan, C. Shao, Y.-Z. Guo, Theoretical Insights into the Mechanism of Selective Nitrate‐to‐Ammonia Electroreduction on Single‐Atom Catalysts, **Advanced Functional Materials** (2020) 2008533, https://doi.org/10.1002/adfm.202008533
+
+#. J. Xu  J.-B. Liu, B.‐X. Liu, B. Huang, Exotic Structural and Optoelectronic Properties of Layered Halide Double Perovskite Polymorphs, **Advanced Functional Materials** (2020) 2008620,  https://doi.org/10.1002/adfm.202008620
+
+
+
 .. note::
    **More cited papers can be found in** `Google Scholar <https://scholar.google.com/scholar?start=10&q=vaspkit&hl=en&as_sdt=1,5>`_.
 
