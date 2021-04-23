@@ -30,7 +30,7 @@ Cited publications
 ------------------
 VASPKIT program has been cited by more than 270 times (google scholar) since 2020. Many thanks to the authors! Some of them are listed below.
 
-#.  M. Peng, R. Xie, Z. Wang, et al. Blackbody-sensitive room-temperature infrared photodetectors based on low-dimensional tellurium grown by chemical vapor deposition. **Science Advances** 7, (2021).  https://doi.org/ 10.1126/sciadv.abf7358 
+#.  M. Peng, R. Xie, Z. Wang, et al. Blackbody-sensitive room-temperature infrared photodetectors based on low-dimensional tellurium grown by chemical vapor deposition. **Science Advances** 7, (2021).  https://doi.org/10.1126/sciadv.abf7358 
 
 #. H. Bao, Y. Qiu, X. Peng, et al., Isolated copper single sites for high-performance electroreduction of carbon monoxide to multicarbon products. **Nat. Commun**. 12, 238 (2021). https://doi.org/10.1038/s41467-020-20336-4
 
@@ -47,11 +47,9 @@ VASPKIT program has been cited by more than 270 times (google scholar) since 202
 
 #. N. Zhang, J. Ma, R. Li, H. Jiao, Hydrocracking of Fused Aromatic Hydrocarbons Catalyzed by Al-Substituted HZSM-5A Case Study of 9,10-Dihydroanthracene, **ACS Catal**. 10 (16) (2020) 9215-9226. https://doi.org/10.1021/acscatal.0c00946
 
-#  J. Gu,  Z. Zhao, J. Huang, et al. MX Anti-MXenes from Non-van der Waals Bulks for Electrochemical Applications: The Merit of Metallicity and Active Basal Plane. **ACS Nano**, 2021.  https://doi.org/10.1021/acsnano.0c08429
-
 #. J. Sheng, Y. He, J. Li, C. Yuan, H. Huang, S. Wang, Y. Sun, Z. Wang, F. Dong, Identification of Halogen-Associated Active Sites on Bismuth-Based Perovskite Quantum Dots for Efficient and Selective CO2-to-CO Photoreduction, **ACS Nano** 14 (10) (2020) 13103-13114. https://doi.org/10.1021/acsnano.0c04659
 
-#. J. Gu,  Z. Zhao, J. Huang, et al. MX Anti-MXenes from Non-van der Waals Bulks for Electrochemical Applications: The Merit of Metallicity and Active Basal Plane. **ACS Nano**, 2021.  https://doi.org/10.1021/acsnano.0c08429
+#. J. Gu, Z. Zhao, J. Huang, et al. MX Anti-MXenes from Non-van der Waals Bulks for Electrochemical Applications: The Merit of Metallicity and Active Basal Plane. **ACS Nano**, 2021.  https://doi.org/10.1021/acsnano.0c08429
 
 #. T. Meng, B. Li, Q. Wang, J. Hao, B. Huang, F. L. Gu, H. Xu, P. Liu, Y. Tong, Large-Scale Electric-Field Confined Silicon with Optimized Charge-Transfer Kinetics and Structural Stability for High-Rate Lithium-Ion Batteries, **ACS Nano** 14 (6) (2020) 7066-7076. https://doi.org/10.1021/acsnano.0c01796
 
