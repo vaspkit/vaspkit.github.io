@@ -9,5 +9,5 @@ Capabilities               VASPKIT            VASPKIT Pro
 Pre-proccessing Utility   :math:`\checkmark` :math:`\checkmark`
 Post-proccessing Utility  :math:`\checkmark` :math:`\checkmark`
 Plot Utility              Low-quality         High-quality     
-Access                    Free                Licenced         
+Access                    Free                Licensed         
 ========================= ================== ==================
