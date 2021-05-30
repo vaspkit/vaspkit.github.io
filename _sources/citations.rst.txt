@@ -28,7 +28,7 @@ How to cite
 
 Cited publications
 ------------------
-VASPKIT program has been cited by more than 270 times (google scholar) since 2020. Many thanks to the authors! Some of them are listed below.
+VASPKIT program has been cited by more than 300 times (google scholar) since 2020. Many thanks to the authors! Some of them are listed below.
 
 #.  M. Peng, R. Xie, Z. Wang, et al. Blackbody-sensitive room-temperature infrared photodetectors based on low-dimensional tellurium grown by chemical vapor deposition. **Science Advances** 7, (2021).  https://doi.org/10.1126/sciadv.abf7358 
 
