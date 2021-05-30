@@ -7,7 +7,7 @@ How to cite
 .. important::
    If you find VASPKIT code useful in your work, you should cite our papers and the appropriate references therein
 
-   [1] V. Wang, N. Xu, J.C. Liu, G. Tang, W.T. Geng, VASPKIT: A User-Friendly Interface Facilitating High-Throughput Computing and Analysis Using VASP Code, `arXiv:1908.08269 <https://arxiv.org/abs/1908.08269>`_
+   [1] V. Wang, N. Xu, J.C. Liu, G. Tang, W.T. Geng, VASPKIT: A User-Friendly Interface Facilitating High-Throughput Computing and Analysis Using VASP Code, `Computer Physics Communications, 108033 <https://doi.org/10.1016/j.cpc.2021.108033>`_
 
    and state in your manuscript/paper that you have used the VASPKIT program. An appropriate way of acknowledging the use of VASPKIT in your publications would be, for instance, adding a sentence like
 
@@ -34,6 +34,7 @@ VASPKIT program has been cited by more than 270 times (google scholar) since 202
 
 #. H. Bao, Y. Qiu, X. Peng, et al., Isolated copper single sites for high-performance electroreduction of carbon monoxide to multicarbon products. **Nat. Commun**. 12, 238 (2021). https://doi.org/10.1038/s41467-020-20336-4
 
+#. R. Li, D. Rao, J. Zhou, et al., Amorphization-induced surface electronic states modulation of cobaltous oxide nanosheets for lithium-sulfur batteries. **Nat. Commun**. 12, 3102 (2021). https://doi.org/10.1038/s41467-021-23349-9
 
 #. F. Yu, W. Liu, S.-W. Ke, M. Kurmoo, J.-L. Zuo, Q. Zhang, Electrochromic two-dimensional covalent organic framework with a reversible dark-to-transparent switch, **Nat. Commun**. 11 (1) (2020) 5534. https://doi.org/10.1038/s41467-020-19315-6
 
