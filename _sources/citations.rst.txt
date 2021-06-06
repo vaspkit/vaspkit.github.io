@@ -7,7 +7,7 @@ How to cite
 .. important::
    If you find VASPKIT code useful in your work, you should cite our papers and the appropriate references therein
 
-   [1] V. Wang, N. Xu, J.C. Liu, G. Tang, W.T. Geng, VASPKIT: A User-Friendly Interface Facilitating High-Throughput Computing and Analysis Using VASP Code, `Computer Physics Communications, 108033 (2021). https://doi.org/10.1016/j.cpc.2021.108033
+   [1] V. Wang, N. Xu, J.C. Liu, G. Tang, W.T. Geng, VASPKIT: A User-Friendly Interface Facilitating High-Throughput Computing and Analysis Using VASP Code, **Computer Physics Communications**, 108033 (2021). https://doi.org/10.1016/j.cpc.2021.108033
 
    and state in your manuscript/paper that you have used the VASPKIT program. An appropriate way of acknowledging the use of VASPKIT in your publications would be, for instance, adding a sentence like
 
