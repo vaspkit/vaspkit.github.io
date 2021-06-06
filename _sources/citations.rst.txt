@@ -7,7 +7,7 @@ How to cite
 .. important::
    If you find VASPKIT code useful in your work, you should cite our papers and the appropriate references therein
 
-   [1] V. Wang, N. Xu, J.C. Liu, G. Tang, W.T. Geng, VASPKIT: A User-Friendly Interface Facilitating High-Throughput Computing and Analysis Using VASP Code, `Computer Physics Communications, 108033 <https://doi.org/10.1016/j.cpc.2021.108033>`_
+   [1] V. Wang, N. Xu, J.C. Liu, G. Tang, W.T. Geng, VASPKIT: A User-Friendly Interface Facilitating High-Throughput Computing and Analysis Using VASP Code, `Computer Physics Communications, 108033 (2021), <https://doi.org/10.1016/j.cpc.2021.108033>`_
 
    and state in your manuscript/paper that you have used the VASPKIT program. An appropriate way of acknowledging the use of VASPKIT in your publications would be, for instance, adding a sentence like
 
@@ -30,7 +30,7 @@ Cited publications
 ------------------
 VASPKIT program has been cited by more than 300 times (google scholar) since 2020. Many thanks to the authors! Some of them are listed below.
 
-#.  M. Peng, R. Xie, Z. Wang, et al. Blackbody-sensitive room-temperature infrared photodetectors based on low-dimensional tellurium grown by chemical vapor deposition. **Science Advances** 7, (2021).  https://doi.org/10.1126/sciadv.abf7358 
+#.  M. Peng, R. Xie, Z. Wang, et al. Blackbody-sensitive room-temperature infrared photodetectors based on low-dimensional tellurium grown by chemical vapor deposition. **Science Advances** 7 (2021).  https://doi.org/10.1126/sciadv.abf7358 
 
 #. H. Bao, Y. Qiu, X. Peng, et al., Isolated copper single sites for high-performance electroreduction of carbon monoxide to multicarbon products. **Nat. Commun**. 12, 238 (2021). https://doi.org/10.1038/s41467-020-20336-4
 
