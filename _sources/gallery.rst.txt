@@ -63,19 +63,19 @@ The following figures were plotted by using `Matplotlib <https://matplotlib.org/
     :width: 600
     :align: center
 
-11. Scanning Tunneling Microscope (STM) Simulations (vaspkit.1.3.0 and later)
+11. Scanning Tunneling Microscope (STM) Simulations (Ver. 1.3.0 and later)
 
 .. image:: ../images/stm.png
     :width: 600
     :align: center
 
-12. 2D Fermi surface (vaspkit.1.3.0 and later)
+12. 2D Fermi surface (Ver. 1.3.0 and later)
 
 .. image:: ../images/2d_fermisurface.png
     :width: 600
     :align: center
     
-13. Interpolated band structure (vaspkit.1.3.0 and later)
+13. Interpolated band structure (Ver. 1.3.0 and later)
 
 .. image:: ../images/interpbandstructure.png
     :width: 600
