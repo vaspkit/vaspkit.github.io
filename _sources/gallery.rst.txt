@@ -74,10 +74,21 @@ The following figures were plotted by using `Matplotlib <https://matplotlib.org/
 .. image:: ../images/2d_fermisurface.png
     :width: 600
     :align: center
+
+13. Orbital-projected 2D Fermi surface/contours of 3D band  (Ver. 1.3.0 and later)
+
+.. image:: ../images/Projected_2d_fermisurface.png
+    :width: 600
+    :align: center
     
-13. Interpolated band structure (Ver. 1.3.0 and later)
+14. Interpolated band structure (Ver. 1.3.0 and later)
 
 .. image:: ../images/interpbandstructure.png
     :width: 600
     :align: center 
 
+15.  Orientation-dependent mechanical properties  (Ver. 1.3.0 and later)
+
+.. image:: ../images/Mechanical_2D.png
+    :width: 600
+    :align: center
