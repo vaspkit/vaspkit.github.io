@@ -90,7 +90,11 @@
 <li class="toctree-l1"><a class="reference internal" href="vaspkitpro.html">VASPKIT Pro</a></li>
 <li class="toctree-l1"><a class="reference internal" href="installation.html">Installation</a></li>
 <li class="toctree-l1 current"><a class="current reference internal" href="#">Tutorials</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="#quick-start">1. Quick Start</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#quick-start">1. Quick Start</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#run-vaspkit-in-batch-mode">1.1 Run vaspkit in Batch Mode</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#auto-plot-data-in-post-processing-ver-1-3-0">1.2 Auto-Plot Data in Post-Processing (&gt; ver. 1.3.0)</a></li>
+</ul>
+</li>
 <li class="toctree-l2"><a class="reference internal" href="#generate-input-files">2. Generate Input Files</a><ul>
 <li class="toctree-l3"><a class="reference internal" href="#generate-incar">2.1 Generate INCAR</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#generate-kpoints">2.2 Generate KPOINTS</a></li>
@@ -283,6 +287,8 @@
 </pre></div>
 </div>
 <p>and then run <code class="docutils literal notranslate"><span class="pre">vaspkit</span> <span class="pre">&lt;cmd.in</span></code>.</p>
+<div class="section" id="run-vaspkit-in-batch-mode">
+<h3>1.1 Run vaspkit in Batch Mode<a class="headerlink" href="#run-vaspkit-in-batch-mode" title="Permalink to this headline">¶</a></h3>
 <p>if one wants to run vaspkit in batch mode, for example, to generate KPOINTS file in several sub-olders:</p>
 <div class="highlight-none notranslate"><div class="highlight"><pre><span></span>for i in `ls`
 do echo ${i}
@@ -297,6 +303,23 @@ done
 </pre></div>
 </div>
 <p>means input <code class="docutils literal notranslate"><span class="pre">102</span></code>, <code class="docutils literal notranslate"><span class="pre">2</span></code>, <code class="docutils literal notranslate"><span class="pre">0.04</span></code> in turn in VASPKIT.</p>
+</div>
+<div class="section" id="auto-plot-data-in-post-processing-ver-1-3-0">
+<h3>1.2 Auto-Plot Data in Post-Processing (&gt; ver. 1.3.0)<a class="headerlink" href="#auto-plot-data-in-post-processing-ver-1-3-0" title="Permalink to this headline">¶</a></h3>
+<ol class="arabic simple">
+<li><p>Make sure you have installed python3, numpy, scipy, matplotlib, etc.</p></li>
+</ol>
+<p>2. Add the following parameters in the ~/.vaspkit file;
+.. code-block:: none</p>
+<blockquote>
+<div><p>PYTHON_BIN        ~/anaconda3/bin/python3
+AUTO_PLOT         .TRUE.</p>
+</div></blockquote>
+<ol class="arabic simple" start="3">
+<li><p>Copy the plot presets from the vaspkit/how_to_set_environment_variable file to the ~/.vaspkit file. Must copy the block from #BEGIN_CUSTOMIZE_PLOT to #END_CUSTOMIZE_PLOT.</p></li>
+<li><p>The figure file will be generated automatically during the post-processing of vaspkit. Furthremore, a file named PLOT.in will also be generated if you firt time run vaspkit in the working folder. You can re-custom the plot presets in the PLOT.in file and re-run vaspkit again. The program will then read the plot presets from the PLOT.in file if it exists.</p></li>
+</ol>
+</div>
 </div>
 <div class="section" id="generate-input-files">
 <h2>2. Generate Input Files<a class="headerlink" href="#generate-input-files" title="Permalink to this headline">¶</a></h2>
