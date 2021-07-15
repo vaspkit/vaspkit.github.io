@@ -44,18 +44,20 @@ Or use ``echo -e`` command to input for VASPKIT:
 
 means input ``102``, ``2``, ``0.04`` in turn in VASPKIT.
 
-1.2 Auto-Plot Data in Post-Processing (> ver. 1.3.0)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1.2 Auto-Plot Data in Post-Processing
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 1. Make sure you have installed python3, numpy, scipy, matplotlib, etc.
 
 2. Add the following parameters in the ~/.vaspkit file;
+
 .. code-block:: none
+
    PYTHON_BIN        ~/anaconda3/bin/python3
    AUTO_PLOT         .TRUE.
 
 3. Copy the plot presets from the vaspkit/how_to_set_environment_variable file to the ~/.vaspkit file. Must copy the block from #BEGIN_CUSTOMIZE_PLOT to #END_CUSTOMIZE_PLOT.
-4. The figure file will be generated automatically during the post-processing of vaspkit. Furthremore, a file named PLOT.in will also be generated if you firt time run vaspkit in the working folder. You can re-custom the plot presets in the PLOT.in file and re-run vaspkit again. The program will then read the plot presets from the PLOT.in file if it exists.
+4. The figure file will be generated automatically during the post-processing of vaspkit (> ver. 1.3.0). Furthremore, a file named PLOT.in will also be generated if you firt time run vaspkit in the working folder. You can re-custom the plot presets in the PLOT.in file and re-run vaspkit again. The program will then read the plot presets from the PLOT.in file if it exists.
 
 2. Generate Input Files
 -----------------------

@@ -92,7 +92,7 @@
 <li class="toctree-l1 current"><a class="current reference internal" href="#">Tutorials</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="#quick-start">1. Quick Start</a><ul>
 <li class="toctree-l3"><a class="reference internal" href="#run-vaspkit-in-batch-mode">1.1 Run vaspkit in Batch Mode</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#auto-plot-data-in-post-processing-ver-1-3-0">1.2 Auto-Plot Data in Post-Processing (&gt; ver. 1.3.0)</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#auto-plot-data-in-post-processing">1.2 Auto-Plot Data in Post-Processing</a></li>
 </ul>
 </li>
 <li class="toctree-l2"><a class="reference internal" href="#generate-input-files">2. Generate Input Files</a><ul>
@@ -304,20 +304,19 @@ done
 </div>
 <p>means input <code class="docutils literal notranslate"><span class="pre">102</span></code>, <code class="docutils literal notranslate"><span class="pre">2</span></code>, <code class="docutils literal notranslate"><span class="pre">0.04</span></code> in turn in VASPKIT.</p>
 </div>
-<div class="section" id="auto-plot-data-in-post-processing-ver-1-3-0">
-<h3>1.2 Auto-Plot Data in Post-Processing (&gt; ver. 1.3.0)<a class="headerlink" href="#auto-plot-data-in-post-processing-ver-1-3-0" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="auto-plot-data-in-post-processing">
+<h3>1.2 Auto-Plot Data in Post-Processing<a class="headerlink" href="#auto-plot-data-in-post-processing" title="Permalink to this headline">¶</a></h3>
 <ol class="arabic simple">
 <li><p>Make sure you have installed python3, numpy, scipy, matplotlib, etc.</p></li>
+<li><p>Add the following parameters in the ~/.vaspkit file;</p></li>
 </ol>
-<p>2. Add the following parameters in the ~/.vaspkit file;
-.. code-block:: none</p>
-<blockquote>
-<div><p>PYTHON_BIN        ~/anaconda3/bin/python3
-AUTO_PLOT         .TRUE.</p>
-</div></blockquote>
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>PYTHON_BIN        ~/anaconda3/bin/python3
+AUTO_PLOT         .TRUE.
+</pre></div>
+</div>
 <ol class="arabic simple" start="3">
 <li><p>Copy the plot presets from the vaspkit/how_to_set_environment_variable file to the ~/.vaspkit file. Must copy the block from #BEGIN_CUSTOMIZE_PLOT to #END_CUSTOMIZE_PLOT.</p></li>
-<li><p>The figure file will be generated automatically during the post-processing of vaspkit. Furthremore, a file named PLOT.in will also be generated if you firt time run vaspkit in the working folder. You can re-custom the plot presets in the PLOT.in file and re-run vaspkit again. The program will then read the plot presets from the PLOT.in file if it exists.</p></li>
+<li><p>The figure file will be generated automatically during the post-processing of vaspkit (&gt; ver. 1.3.0). Furthremore, a file named PLOT.in will also be generated if you firt time run vaspkit in the working folder. You can re-custom the plot presets in the PLOT.in file and re-run vaspkit again. The program will then read the plot presets from the PLOT.in file if it exists.</p></li>
 </ol>
 </div>
 </div>
