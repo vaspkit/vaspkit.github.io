@@ -303,6 +303,15 @@ done
 </pre></div>
 </div>
 <p>means input <code class="docutils literal notranslate"><span class="pre">102</span></code>, <code class="docutils literal notranslate"><span class="pre">2</span></code>, <code class="docutils literal notranslate"><span class="pre">0.04</span></code> in turn in VASPKIT.</p>
+<p>if one wants to extract the specified physical quantity, for example, to read band gap in several sub-olders:</p>
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>for i in `ls`
+do echo ${i}
+    cd ${i}
+    echo -e &quot;911\n&quot; | vaspkit | sed -n &#39;40p&#39; | awk &#39;{print $4}&#39;
+    cd ..
+done
+</pre></div>
+</div>
 </div>
 <div class="section" id="auto-plot-data-in-post-processing">
 <h3>1.2 Auto-Plot Data in Post-Processing<a class="headerlink" href="#auto-plot-data-in-post-processing" title="Permalink to this headline">¶</a></h3>

@@ -44,6 +44,17 @@ Or use ``echo -e`` command to input for VASPKIT:
 
 means input ``102``, ``2``, ``0.04`` in turn in VASPKIT.
 
+if one wants to extract the specified physical quantity, for example, to read band gap in several sub-olders:
+
+.. code-block:: none
+
+   for i in `ls`
+   do echo ${i}
+       cd ${i}
+       echo -e "911\n" | vaspkit | sed -n '40p' | awk '{print $4}'
+       cd ..
+   done
+
 1.2 Auto-Plot Data in Post-Processing
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
