@@ -93,13 +93,19 @@ The following figures were plotted by using `Matplotlib <https://matplotlib.org/
     :width: 600
     :align: center
 
-16.  Angular-dependent mechanical properties (Ver. 1.3.0 and later)
+16. XKCD sketch-style (Ver. 1.3.0 and later)
+
+.. image:: ../images/xkcd.png
+    :width: 600
+    :align: center
+
+17.  Angular-dependent mechanical properties (Ver. 1.3.0 and later)
 
 .. image:: ../images/Mechanical_2D.png
     :width: 600
     :align: center
 
-17.  Nanotube (Ver. 1.3.0 and later)
+18.  Nanotube (Ver. 1.3.0 and later)
 
 .. image:: ../images/nanotube.png
     :width: 600
