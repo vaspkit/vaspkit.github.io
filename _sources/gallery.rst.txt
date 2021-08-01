@@ -105,7 +105,13 @@ The following figures were plotted by using `Matplotlib <https://matplotlib.org/
     :width: 600
     :align: center
 
-18.  Nanotube (Ver. 1.3.0 and later)
+18.  2D Spin-texture (Ver. 1.3.0 and later)
+
+.. image:: ../images/2D_spintexture.png
+    :width: 600
+    :align: center
+
+19.  Nanotube (Ver. 1.3.0 and later)
 
 .. image:: ../images/nanotube.png
     :width: 600
