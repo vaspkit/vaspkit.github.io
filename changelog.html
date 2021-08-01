@@ -159,6 +159,22 @@
   <div class="section" id="release-notes">
 <h1>Release Notes<a class="headerlink" href="#release-notes" title="Permalink to this headline">¶</a></h1>
 <dl class="simple">
+<dt>Version 1.3.0 (01 Aug. 2021)</dt><dd><ul class="simple">
+<li><p>Added plot utility to generate graphs of calculated data in the post-processing. The plot utility is still under development in the preview release.</p></li>
+<li><p>Added a new feature to simulate STM images based on Tersoff-Hamann approximation (task 325);</p></li>
+<li><p>Added a new feature to generate nanotube with specified slab (task 808);</p></li>
+<li><p>Added a new feature to generate spin-texture plot for 2D materials (task 652);</p></li>
+<li><p>Added a new feature to calculate the spatial-dependent mechanical properties for the given elastic contants read from the ELASTIC_TENSOR.in for bulk or ELASTIC_TENSOR_2D.in for 2D materials (task 204);</p></li>
+<li><p>Added a new parameter GET_INTERPOLATED_DATA in ~/.vaspkit file to control whether to interpolate charge/spin density, potential, band structure onto denser meshes. For more details see vaspkit/how_to_set_environment_variable file;</p></li>
+<li><p>Added a new papameter AUTO_PLOT in ~/.vaspkit file to control whether to auto-plot data graphs in the post-processing. For more details see vaspkit/how_to_set_environment_variable file; The old parameter PLOT_MATPLOTLIB will be obsoleted in the version newer than 1.2.5.</p></li>
+<li><p>Added a new papameter AUTO_SUBMIT_JOB in ~/.vaspkit file to control whether to auto-submit vasp job quene after running vaspkit. Alternately, the vasp job quene can be submitted vwith task 109. You need to set the job configure in ~/.vaspkit file before use this utility. For more details see vaspkit/how_to_set_environment_variable file;</p></li>
+<li><p>Added three new papameters MAX_ATOM_NUMBER, MIN_LATTICE_ANGLE and MAX_LATTICE_ANGLE in ~/.vaspkit file to screen heterostructures. For more details see vaspkit/how_to_set_environment_variable file (task 804);</p></li>
+<li><p>Fixed a bug in reading the real and imaginary parts of dielectric function from vasprun.xml file (tasks 710 and 711);</p></li>
+<li><p>Fixed a bug in generating random substitutional alloys (task 802);</p></li>
+<li><p>Updated elastic, d-band center, wavefunction plot and 2D Fermi surface utilities.</p></li>
+<li><p>Minor bug fixes and optimizations.</p></li>
+</ul>
+</dd>
 <dt>Version 1.2.5 (08 Feb. 2021)</dt><dd><ul class="simple">
 <li><p>Added a new feature to calculate the angular-dependent mechanical properties, Vickers hardness and eigenvalues of the stiffness matrix (tasks 200-203);</p></li>
 <li><p>Added support to print the POTCAR information of each species when generate POTCAR file (task 103);</p></li>
