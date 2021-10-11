@@ -116,3 +116,23 @@ The following figures were plotted by using `Matplotlib <https://matplotlib.org/
 .. image:: ../images/nanotube.png
     :width: 600
     :align: center
+
+20.  Heterojunction
+
+.. image:: ../images/MoS2_BP.png
+    :width: 600
+    :align: center   
+
+21.  Nanotube and Nanorribon with specified chiral vector (Pro Ver. 1.3.1 and later)
+
+.. image:: ../images/nanotube.png
+    :width: 600
+    :align: center
+    
+    
+22.  Hexagonal Moire Superlattices (Pro Ver. 1.3.1 and later)
+
+.. image:: ../images/moire.png
+    :width: 600
+    :align: center   
+    
