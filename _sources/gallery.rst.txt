@@ -123,14 +123,14 @@ The following figures were plotted by using `Matplotlib <https://matplotlib.org/
     :width: 600
     :align: center   
 
-21.  Nanotube and Nanorribon with specified chiral vector (Pro Ver. 1.3.1 and later)
+21.  Nanotube and nanorribon with specified chiral vector (Pro Ver. 1.3.1 and later)
 
 .. image:: ../images/nanoribbon.png
     :width: 600
     :align: center
     
     
-22.  Hexagonal Moire Superlattices (Pro Ver. 1.3.1 and later)
+22.  Hexagonal moire superlattices (Pro Ver. 1.3.1 and later)
 
 .. image:: ../images/Moire.png
     :width: 600
