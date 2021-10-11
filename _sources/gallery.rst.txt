@@ -125,7 +125,7 @@ The following figures were plotted by using `Matplotlib <https://matplotlib.org/
 
 21.  Nanotube and Nanorribon with specified chiral vector (Pro Ver. 1.3.1 and later)
 
-.. image:: ../images/nanorribon.png
+.. image:: ../images/nanoribbon.png
     :width: 600
     :align: center
     
