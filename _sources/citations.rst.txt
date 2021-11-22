@@ -26,7 +26,7 @@ How to cite
 
 Ctted publications
 ------------------
-The VASPKIT program has been cited by more than 430 times (google scholar) since 2020. Many thanks to the authors! Some of them are listed below. 
+The VASPKIT program has been cited by more than 510 times (google scholar) since 2020. Many thanks to the authors! Some of them are listed below. 
 
 #. Y. Zhao, C. Deng, D. Tang, et al. α-Fe2O3 as a versatile and efficient oxygen atom transfer catalyst in combination with H2O as the oxygen source. **Nature Catalysis** 4, 684–691 (2021). https://doi.org/10.1038/s41929-021-00659-1
 
@@ -40,9 +40,11 @@ The VASPKIT program has been cited by more than 430 times (google scholar) since
 
 #. R. Li, D. Rao, J. Zhou, et al., Amorphization-induced surface electronic states modulation of cobaltous oxide nanosheets for lithium-sulfur batteries. **Nat. Commun**. 12, 3102 (2021). https://doi.org/10.1038/s41467-021-23349-9
 
-#. F. Yu, W. Liu, S.-W. Ke, M. Kurmoo, J.-L. Zuo, Q. Zhang, Electrochromic two-dimensional covalent organic framework with a reversible dark-to-transparent switch, **Nat. Commun**. 11 (1) (2020) 5534. https://doi.org/10.1038/s41467-020-19315-6
+#. F. Yu, W. Liu, S.-W. Ke, M. Kurmoo, J.-L. Zuo, Q. Zhang, Electrochromic two-dimensional covalent organic framework with a reversible dark-to-transparent switch, **Nat. Commun**. 11, 5534 (2020). https://doi.org/10.1038/s41467-020-19315-6
 
-#. C. Wu, L. Lin, J. Liu, J. Zhang, F. Zhang, T. Zhou, N. Rui, S. Yao, Y. Deng, F. Yang, W. Xu, J. Luo, Y. Zhao, B. Yan, X.-D. Wen, Jose A. Rodriguez, D. Ma, Inverse ZrO2/Cu as a highly efficient methanol synthesis catalyst from CO2 hydrogenation,  **Nat. Commun**. 11 (1) (2020) 5767. https://doi.org/10.1038/s41467-020-19634-8
+#. C. Wu, L. Lin, J. Liu, J. Zhang, F. Zhang, T. Zhou, N. Rui, S. Yao, Y. Deng, F. Yang, W. Xu, J. Luo, Y. Zhao, B. Yan, X.-D. Wen, Jose A. Rodriguez, D. Ma, Inverse ZrO2/Cu as a highly efficient methanol synthesis catalyst from CO2 hydrogenation,  **Nat. Commun**. 11, 5767 (2020). https://doi.org/10.1038/s41467-020-19634-8
+
+#. S. Yoshida, H. Akamatsu, and K. Hayashi, Electronic Origin of Non-Zone-Center Phonon Condensation: Octahedral Rotation as a Case Study, **Phys. Rev. Lett.** 127, 215701 (2021). https://doi.org/10.1103/PhysRevLett.127.215701
 
 #. D. Han, C. Feng, M. H. Du, et al. Design of High-Performance Lead-Free Quaternary Antiperovskites for Photovoltaics via Ion Type Inversion and Anion Ordering. **Journal of the American Chemical Society** 143, 12369–12379 (2021). https://doi.org/10.1021/jacs.1c06403
 
