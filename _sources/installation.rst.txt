@@ -143,6 +143,7 @@ Auto-Plot Data in Post-Processing (Ver. 1.3.0 or newer)
    AUTO_PLOT         .TRUE.
 
 3. Copy the plot presets from the vaspkit/how_to_set_environment_variable file to the ~/.vaspkit file if doesn't exist. Must copy the block from
+
 .. code-block:: none
 
    #BEGIN_CUSTOMIZE_PLOT

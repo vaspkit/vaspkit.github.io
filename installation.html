@@ -297,14 +297,15 @@ version 0.73. Execute</p>
 AUTO_PLOT         .TRUE.
 </pre></div>
 </div>
-<p>3. Copy the plot presets from the vaspkit/how_to_set_environment_variable file to the ~/.vaspkit file if doesn’t exist. Must copy the block from
-.. code-block:: none</p>
-<blockquote>
-<div><p>#BEGIN_CUSTOMIZE_PLOT
-…
-…
-#END_CUSTOMIZE_PLOT</p>
-</div></blockquote>
+<ol class="arabic simple" start="3">
+<li><p>Copy the plot presets from the vaspkit/how_to_set_environment_variable file to the ~/.vaspkit file if doesn’t exist. Must copy the block from</p></li>
+</ol>
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>#BEGIN_CUSTOMIZE_PLOT
+...
+...
+#END_CUSTOMIZE_PLOT
+</pre></div>
+</div>
 <ol class="arabic simple" start="4">
 <li><p>The figure file will be generated automatically in the post-processing of vaspkit (&gt; ver. 1.3.0). Furthremore, a file named PLOT.in will be also generated if you first time run vaspkit in the working folder. You can re-custom the plot presets in the PLOT.in file and re-run vaspkit again. Then the program reads the plot presets from the PLOT.in file if it exists.</p></li>
 </ol>
