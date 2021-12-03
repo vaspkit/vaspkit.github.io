@@ -92,6 +92,7 @@
 <li class="toctree-l1"><a class="reference internal" href="tutorials.html">Tutorials</a></li>
 <li class="toctree-l1"><a class="reference internal" href="gallery.html">Gallery</a></li>
 <li class="toctree-l1"><a class="reference internal" href="citations.html">Citations</a></li>
+<li class="toctree-l1"><a class="reference internal" href="resouces.html">Resources</a></li>
 <li class="toctree-l1"><a class="reference internal" href="acknowledgments.html">Acknowledgments</a></li>
 <li class="toctree-l1"><a class="reference internal" href="database.html">Materials Database</a></li>
 </ul>
@@ -159,6 +160,21 @@
   <div class="section" id="release-notes">
 <h1>Release Notes<a class="headerlink" href="#release-notes" title="Permalink to this headline">¶</a></h1>
 <dl class="simple">
+<dt>Version 1.3.1 (03 Dec. 2021)</dt><dd><ul class="simple">
+<li><p>Added a new feature to calculate transpot properties based on Boltzmann transport theory within constant relaxation time approximation (681); This utility needs to be further improved in the furture version;</p></li>
+<li><p>Added a new feature to build vacuum slab in the specified direction (task 801);</p></li>
+<li><p>Added a new feature to build hexagonal Moire superlattices (task 805). This utility is available only in VASPKIT Pro version;</p></li>
+<li><p>Added a new feature to build nanotubes and nanoribbons with specified chiral vector C=n*a1+m*a2 (tasks 806 and 807). This utility is available only in VASPKIT Pro version;</p></li>
+<li><p>Supported to read multiple parameter-value pairs on a single line in the INCAR file;</p></li>
+<li><p>Updated the plot utility;</p></li>
+<li><p>Fixed bug related to calculating the angular-dependent effective-mass (task 914);</p></li>
+<li><p>Fixed bug related to fixing the selected atoms (task 402);</p></li>
+<li><p>Fixed bug related to reading the k-labels from the KPOINTS file with line-mode;</p></li>
+<li><p>Fixed bug related to generating the KPATH.phonopy file for 2D materials (task 304);</p></li>
+<li><p>Fixed some bugs in the plot utility;</p></li>
+<li><p>Minor bug fixes and optimizations.</p></li>
+</ul>
+</dd>
 <dt>Version 1.3.0 (01 Aug. 2021)</dt><dd><ul class="simple">
 <li><p>Added plot utility to generate graphs of calculated data in the post-processing. The plot utility is still under development in the preview release.</p></li>
 <li><p>Added a new feature to simulate STM images based on Tersoff-Hamann approximation (task 325);</p></li>
@@ -169,8 +185,8 @@
 <li><p>Added a new papameter AUTO_PLOT in ~/.vaspkit file to control whether to auto-plot data graphs in the post-processing. For more details see vaspkit/how_to_set_environment_variable file; The old parameter PLOT_MATPLOTLIB will be obsoleted in the version newer than 1.2.5.</p></li>
 <li><p>Added a new papameter AUTO_SUBMIT_JOB in ~/.vaspkit file to control whether to auto-submit vasp job quene after running vaspkit. Alternately, the vasp job quene can be submitted vwith task 109. You need to set the job configure in ~/.vaspkit file before use this utility. For more details see vaspkit/how_to_set_environment_variable file;</p></li>
 <li><p>Added three new papameters MAX_ATOM_NUMBER, MIN_LATTICE_ANGLE and MAX_LATTICE_ANGLE in ~/.vaspkit file to screen heterostructures. For more details see vaspkit/how_to_set_environment_variable file (task 804);</p></li>
-<li><p>Fixed a bug in reading the real and imaginary parts of dielectric function from vasprun.xml file (tasks 710 and 711);</p></li>
-<li><p>Fixed a bug in generating random substitutional alloys (task 802);</p></li>
+<li><p>Fixed bug related to reading the real and imaginary parts of dielectric function from vasprun.xml file (tasks 710 and 711);</p></li>
+<li><p>Fixed bug related to generating random substitutional alloys (task 802);</p></li>
 <li><p>Updated elastic, d-band center, wavefunction plot and 2D Fermi surface utilities.</p></li>
 <li><p>Minor bug fixes and optimizations.</p></li>
 </ul>
@@ -181,15 +197,15 @@
 <li><p>Added a new parameter GET_DOS_FROM_HYBRID_BAND in ~/.vaspkit file to control whether to calculate DOS using tetrahedron method for the hybrid band-structure calculations (tasks 252-257);</p></li>
 <li><p>Added a new parameter SCISSOR_CORRECTION in ~/.vaspkit file to control whether to correct the DFT band gap to the exprimental value by applying a rigid shift of the conduction band with respect to the valence band. For more details see vaspkit/how_to_set_environment_variable file;</p></li>
 <li><p>Upgraded the visualization of K-Path in the first Brillouin Zone utility (task 309);</p></li>
-<li><p>Fixed a bug in calculating the elastic stability conditions of monoclinic crystal system (tasks 201 &amp; 202);</p></li>
-<li><p>Fixed a bug in writting spin-polarized fermi-surface (tasks 262-265);</p></li>
+<li><p>Fixed bug related to calculating the elastic stability conditions of monoclinic crystal system (tasks 201 &amp; 202);</p></li>
+<li><p>Fixed bug related to writting spin-polarized fermi-surface (tasks 262-265);</p></li>
 <li><p>Minor bug fixes and optimizations.</p></li>
 </ul>
 </dd>
 <dt>Version 1.2.4 (01 Dec. 2020)</dt><dd><ul class="simple">
 <li><p>Added a new feature to calculate the sum of orbital-projected fermi-surface for selected atoms and orbitals (task 265, 257 and 285);</p></li>
 <li><p>Added a new feature to deal with non-collinear WAVECAR in band unfolding, transition dipole moment and wavefunction plot (tasks 282, 713 and 511);</p></li>
-<li><p>Fixed a bug in spin-polarized wavefunction plot (task 511).</p></li>
+<li><p>Fixed bug related to spin-polarized wavefunction plot (task 511).</p></li>
 </ul>
 </dd>
 <dt>Version 1.2.3 (20 Nov. 2020)</dt><dd><ul class="simple">
@@ -205,7 +221,7 @@
 <li><p>Added a new feature to calculate orbital-projected Fermi suraface with FermiSurfer format (<a class="reference external" href="https://fermisurfer.osdn.jp/">https://fermisurfer.osdn.jp/</a>) (task 264);</p></li>
 <li><p>Added a new parameter NORMALIZE_ORBITAL_WEIGHTS in ~/.vaspkit file to control whether to normalize orbital-projected weight in each state;</p></li>
 <li><p>Added a new parameter REORIENTATE_LATTICE_VECTORS in ~/.vaspkit file to control whether to reorientate lattice vectors when build supercell or heterojunction;</p></li>
-<li><p>Fixed a bug in writting hybrid band structure and band structure unfolding;</p></li>
+<li><p>Fixed bug related to writting hybrid band structure and band structure unfolding;</p></li>
 <li><p>Optimized the sub-menu of structure editor (task 4).</p></li>
 </ul>
 </dd>
@@ -219,7 +235,7 @@
 <li><p>Added a new interface to calculate the normalized trace of interatomic force constant tensors, which is contributed by <a class="reference external" href="mailto:P&#46;F&#46;LIU&#37;&#52;&#48;IHEP">P<span>&#46;</span>F<span>&#46;</span>LIU<span>&#64;</span>IHEP</a> (task 738);</p></li>
 <li><p>Added a new feature to write Fermi surface file with Fermisurfer format (<a class="reference external" href="https://fermisurfer.osdn.jp/">https://fermisurfer.osdn.jp/</a>) task (263);</p></li>
 <li><p>Added the parameter GET_IRREDUCIBLE_KPOINTS in ~/.vaspkit file to control whether to generate k-points in the symmetry-irreducible wedge of the Brillouin Zone. If you perform hybrid band calculations including spin-orbit coupling, I strongly suggest to set GET_IRREDUCIBLE_KPOINTS = FASLE. For more details see vaspkit/how_to_set_environment_variable file;</p></li>
-<li><p>Fixed a bug in calculating transition dipole moment of DFT-band structure calculations (task 713);</p></li>
+<li><p>Fixed bug related to calculating transition dipole moment of DFT-band structure calculations (task 713);</p></li>
 <li><p>Online tutorials of vaspkit program are now available on its official website (<a class="reference external" href="https://vaspkit.com">https://vaspkit.com</a>);</p></li>
 <li><p>Minor bug fixes and optimizations.</p></li>
 </ul>
@@ -244,22 +260,22 @@
 <li><p>Updated to spglib 1.16.0;</p></li>
 <li><p>Updated K-Path utility to suppport triclinic system (task 303);</p></li>
 <li><p>Implemented the libTetraBZ library to perform Brillouin-zone integration by using the tetrahedron method. More details are given in Phys. Rev. B 89, 094515 (2014);</p></li>
-<li><p>Fixed a bug in calculating band gap of the spin-polarized systems (task 911);</p></li>
-<li><p>Fixed a bug in calculating the spin-polarized band-structure unfolding (task 282);</p></li>
-<li><p>Fixed a bug in generating KPOINTS file for the effective mass calculations (task 912);</p></li>
-<li><p>Fixed a bug in finding conventional cell (task 603);</p></li>
-<li><p>Fixed a bug in normalizing the wave function for a specified KPOINT (tasks 712);</p></li>
-<li><p>Fixed a bug in reading the PROCAR file for the systems including f valence electrons and SOC effect;</p></li>
+<li><p>Fixed bug related to calculating band gap of the spin-polarized systems (task 911);</p></li>
+<li><p>Fixed bug related to calculating the spin-polarized band-structure unfolding (task 282);</p></li>
+<li><p>Fixed bug related to generating KPOINTS file for the effective mass calculations (task 912);</p></li>
+<li><p>Fixed bug related to finding conventional cell (task 603);</p></li>
+<li><p>Fixed bug related to normalizing the wave function for a specified KPOINT (tasks 712);</p></li>
+<li><p>Fixed bug related to reading the PROCAR file for the systems including f valence electrons and SOC effect;</p></li>
 <li><p>Minor bug fixes and optimizations.</p></li>
 </ul>
 </dd>
 <dt>Version 1.12 (01 Mar. 2020)</dt><dd><ul class="simple">
-<li><p>Fixed a bug in calculating charge density difference (task 341);</p></li>
-<li><p>Fixed a bug in reading EOS.in file (task 205).</p></li>
+<li><p>Fixed bug related to calculating charge density difference (task 341);</p></li>
+<li><p>Fixed bug related to reading EOS.in file (task 205).</p></li>
 </ul>
 </dd>
 <dt>Version 1.11 (25 Feb. 2020)</dt><dd><ul class="simple">
-<li><p>Fixed a bug in generating KPOINTS file for Band-Structure Unfolding (task 281);</p></li>
+<li><p>Fixed bug related to generating KPOINTS file for Band-Structure Unfolding (task 281);</p></li>
 </ul>
 </dd>
 <dt>Version 1.10 (25 Feb. 2020)</dt><dd><ul class="simple">
@@ -275,12 +291,12 @@
 <li><p>Added a new feature to calculate parity of wave functions from the WAVECAR file (task 513); This is an experimental feature;</p></li>
 <li><p>Implemented an interface to calculate the sorted phonon band-structure using Phonopy package, which is contributed by <a class="reference external" href="mailto:P&#46;F&#46;LIU&#37;&#52;&#48;IHEP">P<span>&#46;</span>F<span>&#46;</span>LIU<span>&#64;</span>IHEP</a> (task 739). More details are given in Phys. Rev. B 6, 6046 (2018);</p></li>
 <li><p>Updated EOS utility (task 205); See several examples in vaspkit/examples/eos;</p></li>
-<li><p>Fixed a bug in customizing INCAR file pointed by G.Tang (task 101);</p></li>
-<li><p>Fixed a bug in calculating valence and conduction band edges referenced to vacuum level for 2D materials (task 927)</p></li>
-<li><p>Fixed a bug in reading elastic tensor from OUTCAR file pointed by G.Tang (task 101);</p></li>
-<li><p>Fixed a bug in reading hybrid DFT band structure data (task 252);</p></li>
-<li><p>Fixed a bug in generating LOCPOT.xsf file (task 428);</p></li>
-<li><p>Fixed a bug in generating KPOINTS file for 3D band structure-calculation (task 231);</p></li>
+<li><p>Fixed bug related to customizing INCAR file pointed by G.Tang (task 101);</p></li>
+<li><p>Fixed bug related to calculating valence and conduction band edges referenced to vacuum level for 2D materials (task 927)</p></li>
+<li><p>Fixed bug related to reading elastic tensor from OUTCAR file pointed by G.Tang (task 101);</p></li>
+<li><p>Fixed bug related to reading hybrid DFT band structure data (task 252);</p></li>
+<li><p>Fixed bug related to generating LOCPOT.xsf file (task 428);</p></li>
+<li><p>Fixed bug related to generating KPOINTS file for 3D band structure-calculation (task 231);</p></li>
 <li><p>Minor bug fixes and optimizations.</p></li>
 </ul>
 </dd>
@@ -303,10 +319,10 @@
 <li><p>Updated the algorithm to determine the independent elastic constants and elastic stability conditions for 2D materials (task 201);</p></li>
 <li><p>Updated the English manual;</p></li>
 <li><p>Updated to spglib 1.13.0;</p></li>
-<li><p>Fixed a bug in extracting projected density-of-states in non-collinear calculations pointed by <a class="reference external" href="mailto:Y&#46;Q&#46;ZHOU&#37;&#52;&#48;THU">Y<span>&#46;</span>Q<span>&#46;</span>ZHOU<span>&#64;</span>THU</a>;</p></li>
-<li><p>Fixed a bug in printing d-band center pointed by <a class="reference external" href="mailto:D&#46;X&#46;WU&#37;&#52;&#48;USTC">D<span>&#46;</span>X<span>&#46;</span>WU<span>&#64;</span>USTC</a>;</p></li>
-<li><p>Fixed a bug in printing incorrect band edge positions in BAND_GAP file in hybrid band-structure calculations (task 252);</p></li>
-<li><p>Fixed a bug in VASP2BoltzTraP interface introduced in vaspkit.0.7x (task 73);</p></li>
+<li><p>Fixed bug related to extracting projected density-of-states in non-collinear calculations pointed by <a class="reference external" href="mailto:Y&#46;Q&#46;ZHOU&#37;&#52;&#48;THU">Y<span>&#46;</span>Q<span>&#46;</span>ZHOU<span>&#64;</span>THU</a>;</p></li>
+<li><p>Fixed bug related to printing d-band center pointed by <a class="reference external" href="mailto:D&#46;X&#46;WU&#37;&#52;&#48;USTC">D<span>&#46;</span>X<span>&#46;</span>WU<span>&#64;</span>USTC</a>;</p></li>
+<li><p>Fixed bug related to printing incorrect band edge positions in BAND_GAP file in hybrid band-structure calculations (task 252);</p></li>
+<li><p>Fixed bug related to VASP2BoltzTraP interface introduced in vaspkit.0.7x (task 73);</p></li>
 <li><p>Minor bug fixes and significant optimizations.</p></li>
 </ul>
 </dd>
