@@ -24,7 +24,7 @@ How to cite
     author = {Vei Wang and Nan Xu and Jin-Cheng Liu and Gang Tang and Wen-Tong Geng},
     }
 
-Ctted publications
+Cited publications
 ------------------
 The VASPKIT program has been cited by more than 510 times (google scholar) since 2020. Many thanks to the authors! Some of them are listed below. 
 
