@@ -1,7 +1,7 @@
 VASPKIT Pro
 ===========
 
-In order to provide a more powerful and user-friendly interface facilitating high-throughput computing and analysis using various ab-initio packages (currently mainly deals with the raw data calculated using the VASP code), we need financial support to constantly develop VASPKIT program. The VASPKIT Pro version provides extended capabilities that can generate high-quality images in the post-processing. The `Gallery <https://vaspkit.com/gallery.html>`_ contains several examples you can do with VASPKIT Pro. It will be released very soon at a very affordable price. The different features between VASPKIT and VASPKIT Pro are shown below.
+In order to provide a more powerful and user-friendly interface facilitating high-throughput computing and analysis using various ab-initio packages (currently mainly deals with the raw data calculated using the VASP code), we need financial support to constantly develop VASPKIT program. The VASPKIT Pro version provides extended capabilities that can generate high-quality images in the post-processing. The `Gallery <https://vaspkit.com/gallery.html>`_ contains several examples you can do with VASPKIT Pro. It will be released very soon at an affordable price. The different features between VASPKIT and VASPKIT Pro are shown below.
 
 ========================= ================== ==================
 Capabilities               VASPKIT            VASPKIT Pro      
