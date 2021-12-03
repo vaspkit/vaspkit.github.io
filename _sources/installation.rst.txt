@@ -130,7 +130,7 @@ version 0.73. Execute
 
 ​ ``source setup.sh`` or ``bash setup.sh`` and finally, ``source ~/.bashrc``
 
-Auto-Plot Data in Post-Processing (Ver. 1.3.0 or newer)
+Auto-Plot in Post-Processing (Ver. 1.3.0 or newer)
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 1. Make sure you have installed python3, numpy, scipy, matplotlib, etc.
