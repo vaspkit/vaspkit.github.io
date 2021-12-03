@@ -93,6 +93,7 @@
 <li class="toctree-l2"><a class="reference internal" href="#download">Download</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#dependencies">Dependencies</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#id1">Installation</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#auto-plot-data-in-post-processing">Auto-Plot Data in Post-Processing</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#installation-faqs">Installation FAQs</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#bug-report">Bug Report</a></li>
 </ul>
@@ -286,6 +287,28 @@ by user’s own VASPKIT executable path.</p>
 version 0.73. Execute</p>
 <p>​ <code class="docutils literal notranslate"><span class="pre">source</span> <span class="pre">setup.sh</span></code> or <code class="docutils literal notranslate"><span class="pre">bash</span> <span class="pre">setup.sh</span></code> and finally, <code class="docutils literal notranslate"><span class="pre">source</span> <span class="pre">~/.bashrc</span></code></p>
 </div>
+<div class="section" id="auto-plot-data-in-post-processing">
+<h2>Auto-Plot Data in Post-Processing<a class="headerlink" href="#auto-plot-data-in-post-processing" title="Permalink to this headline">¶</a></h2>
+<ol class="arabic simple">
+<li><p>Make sure you have installed python3, numpy, scipy, matplotlib, etc.</p></li>
+<li><p>Add the following parameters in the ~/.vaspkit file;</p></li>
+</ol>
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>PYTHON_BIN        ~/anaconda3/bin/python3
+AUTO_PLOT         .TRUE.
+</pre></div>
+</div>
+<p>3. Copy the plot presets from the vaspkit/how_to_set_environment_variable file to the ~/.vaspkit file if doesn’t exist. Must copy the block from
+.. code-block:: none</p>
+<blockquote>
+<div><p>#BEGIN_CUSTOMIZE_PLOT
+…
+…
+#END_CUSTOMIZE_PLOT</p>
+</div></blockquote>
+<ol class="arabic simple" start="4">
+<li><p>The figure file will be generated automatically in the post-processing of vaspkit (&gt; ver. 1.3.0). Furthremore, a file named PLOT.in will be also generated if you first time run vaspkit in the working folder. You can re-custom the plot presets in the PLOT.in file and re-run vaspkit again. Then the program reads the plot presets from the PLOT.in file if it exists.</p></li>
+</ol>
+</div>
 <div class="section" id="installation-faqs">
 <h2>Installation FAQs<a class="headerlink" href="#installation-faqs" title="Permalink to this headline">¶</a></h2>
 <p>1. If <code class="docutils literal notranslate"><span class="pre">~/.vaspkit</span></code> already exists, the above operation will not be
@@ -308,22 +331,6 @@ occurs, simply add the VASPKIT execute permission:</p>
 <ol class="arabic simple" start="4">
 <li><p>The Windows version of vaspkit is still maturing. A few utilities fail to run under Windows system, for example, cannot read the configuration .vaspkit file and generate POTCAR file.</p></li>
 </ol>
-<p><strong>5. Auto-Plot Data in Post-Processing</strong></p>
-<p>1). Make sure you have installed python3, numpy, scipy, matplotlib, etc.</p>
-<p>2). Add the following parameters in the ~/.vaspkit file;</p>
-<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>PYTHON_BIN        ~/anaconda3/bin/python3
-AUTO_PLOT         .TRUE.
-</pre></div>
-</div>
-<p>3). Copy the plot presets from the vaspkit/how_to_set_environment_variable file to the ~/.vaspkit file. Must copy the block from
-.. code-block:: none</p>
-<blockquote>
-<div><p>#BEGIN_CUSTOMIZE_PLOT
-…
-…
-#END_CUSTOMIZE_PLOT</p>
-</div></blockquote>
-<p>4). The figure file will be generated automatically in the post-processing of vaspkit (&gt; ver. 1.3.0). Furthremore, a file named PLOT.in will be also generated if you first time run vaspkit in the working folder. You can re-custom the plot presets in the PLOT.in file and re-run vaspkit again. Then the program reads the plot presets from the PLOT.in file if it exists.</p>
 </div>
 <div class="section" id="bug-report">
 <h2>Bug Report<a class="headerlink" href="#bug-report" title="Permalink to this headline">¶</a></h2>
