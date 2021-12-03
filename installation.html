@@ -100,6 +100,7 @@
 <li class="toctree-l1"><a class="reference internal" href="tutorials.html">Tutorials</a></li>
 <li class="toctree-l1"><a class="reference internal" href="gallery.html">Gallery</a></li>
 <li class="toctree-l1"><a class="reference internal" href="citations.html">Citations</a></li>
+<li class="toctree-l1"><a class="reference internal" href="resouces.html">Resources</a></li>
 <li class="toctree-l1"><a class="reference internal" href="acknowledgments.html">Acknowledgments</a></li>
 <li class="toctree-l1"><a class="reference internal" href="database.html">Materials Database</a></li>
 </ul>
@@ -281,7 +282,7 @@ directory.</p></li>
 </div>
 <p>Replace the absolute path of the <code class="docutils literal notranslate"><span class="pre">/home/vaspkit.1.00/bin/</span></code> directory
 by user’s own VASPKIT executable path.</p>
-<p>VASPKIT provides an automatic configuration script <code class="docutils literal notranslate"><span class="pre">setup.sh</span></code> since
+<p>VASPKIT also provides an automatic configuration script <code class="docutils literal notranslate"><span class="pre">setup.sh</span></code> since
 version 0.73. Execute</p>
 <p>​ <code class="docutils literal notranslate"><span class="pre">source</span> <span class="pre">setup.sh</span></code> or <code class="docutils literal notranslate"><span class="pre">bash</span> <span class="pre">setup.sh</span></code> and finally, <code class="docutils literal notranslate"><span class="pre">source</span> <span class="pre">~/.bashrc</span></code></p>
 </div>
@@ -304,16 +305,25 @@ occurs, simply add the VASPKIT execute permission:</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">chmod</span> <span class="n">u</span><span class="o">+</span><span class="n">x</span> <span class="o">/</span><span class="n">home</span><span class="o">/</span><span class="n">vaspkit</span><span class="o">.</span><span class="mf">1.00</span><span class="o">/</span><span class="nb">bin</span><span class="o">/</span><span class="n">vaspkit</span>
 </pre></div>
 </div>
-<p>4. Some show graph functions rely on python environment with matplotlib. To
-invoke those functions, users should set the default python version and
-<code class="docutils literal notranslate"><span class="pre">PLOT_MATPLOTLIB</span></code> in <code class="docutils literal notranslate"><span class="pre">~/.vaspkit</span></code></p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">PYTHON_BIN</span>                <span class="o">~/</span><span class="n">anaconda3</span><span class="o">/</span><span class="nb">bin</span><span class="o">/</span><span class="n">python3</span>
-<span class="n">PLOT_MATPLOTLIB</span>          <span class="o">.</span><span class="n">TURE</span><span class="o">.</span>
-</pre></div>
-</div>
-<ol class="arabic simple" start="5">
+<ol class="arabic simple" start="4">
 <li><p>The Windows version of vaspkit is still maturing. A few utilities fail to run under Windows system, for example, cannot read the configuration .vaspkit file and generate POTCAR file.</p></li>
 </ol>
+<p><strong>5. Auto-Plot Data in Post-Processing</strong></p>
+<p>1). Make sure you have installed python3, numpy, scipy, matplotlib, etc.</p>
+<p>2). Add the following parameters in the ~/.vaspkit file;</p>
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>PYTHON_BIN        ~/anaconda3/bin/python3
+AUTO_PLOT         .TRUE.
+</pre></div>
+</div>
+<p>3). Copy the plot presets from the vaspkit/how_to_set_environment_variable file to the ~/.vaspkit file. Must copy the block from
+.. code-block:: none</p>
+<blockquote>
+<div><p>#BEGIN_CUSTOMIZE_PLOT
+…
+…
+#END_CUSTOMIZE_PLOT</p>
+</div></blockquote>
+<p>4). The figure file will be generated automatically in the post-processing of vaspkit (&gt; ver. 1.3.0). Furthremore, a file named PLOT.in will be also generated if you first time run vaspkit in the working folder. You can re-custom the plot presets in the PLOT.in file and re-run vaspkit again. Then the program reads the plot presets from the PLOT.in file if it exists.</p>
 </div>
 <div class="section" id="bug-report">
 <h2>Bug Report<a class="headerlink" href="#bug-report" title="Permalink to this headline">¶</a></h2>
