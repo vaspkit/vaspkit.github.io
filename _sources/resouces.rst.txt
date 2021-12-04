@@ -1,6 +1,7 @@
 Resources
 ==================
+I. Download VASPKIT: https://sourceforge.net/projects/vaspkit/files/Binaries/
 
-I. Chinese Website of VASPKIT: http://vaspkit.cn/
+II. Chinese Website of VASPKIT: http://vaspkit.cn/
 
-II. Chinese Forum of VASPKIT: http://bbs.vaspkit.cn/
+III. Chinese Forum of VASPKIT: http://bbs.vaspkit.cn/
