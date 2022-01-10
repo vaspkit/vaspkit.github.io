@@ -26,15 +26,19 @@ How to cite
 
 Cited publications
 ------------------
-The VASPKIT program has been cited by more than 510 times (google scholar) since 2020. Many thanks to the authors! Some of them are listed below. 
+The VASPKIT program has been cited by more than 600 times (google scholar) since 2020. Many thanks to the authors! Some of them are listed below. 
 
-#. Y. Zhao, C. Deng, D. Tang, et al. α-Fe2O3 as a versatile and efficient oxygen atom transfer catalyst in combination with H2O as the oxygen source. **Nature Catalysis** 4, 684–691 (2021). https://doi.org/10.1038/s41929-021-00659-1
+#. Y. Zhao, C. Deng, D. Tang, et al., α-Fe2O3 as a versatile and efficient oxygen atom transfer catalyst in combination with H2O as the oxygen source. **Nature Catalysis** 4, 684–691 (2021). https://doi.org/10.1038/s41929-021-00659-1
 
-#.  M. Peng, R. Xie, Z. Wang, et al. Blackbody-sensitive room-temperature infrared photodetectors based on low-dimensional tellurium grown by chemical vapor deposition. **Science Advances** 7, eabf7358 (2021). https://doi.org/10.1126/sciadv.abf7358 
+#.  M. Peng, R. Xie, Z. Wang, et al., Blackbody-sensitive room-temperature infrared photodetectors based on low-dimensional tellurium grown by chemical vapor deposition. **Science Advances** 7, eabf7358 (2021). https://doi.org/10.1126/sciadv.abf7358 
 
-#.  M. Liu, J.-A. Wang, et al. Interfacial electronic structure engineering on molybdenum sulfide for robust dual-pH hydrogen evolution, **Nat. Commun**. 12, 5260 (2021).  https://doi.org/10.1038/s41467-021-25647-8
+#. Y. Ohtsuka, N. Kanazawa, M. Hirayama, et al., Emergence of spin-orbit coupled ferromagnetic surface state derived from Zak phase in a nonmagnetic insulator FeSi, **Science Advances** 7, eabj0498 (2021). https://doi.org/10.1126/sciadv.abj0498
 
-#.  L. Xian, M. Claassen, et al. Realization of nearly dispersionless bands with strong orbital anisotropy from destructive interference in twisted bilayer MoS2, **Nat. Commun**. 12, 5644 (2021). https://doi.org/10.1038/s41467-021-25922-8
+#. H. Bai, J. Wu, X. Su, et al., Electroresistance in multipolar antiferroelectric Cu2Se semiconductor, **Nat. Commun**. 12, 1 (2021). https://doi.org/10.1038/s41467-021-27531-x
+
+#.  M. Liu, J.-A. Wang, et al., Interfacial electronic structure engineering on molybdenum sulfide for robust dual-pH hydrogen evolution, **Nat. Commun**. 12, 5260 (2021).  https://doi.org/10.1038/s41467-021-25647-8
+
+#.  L. Xian, M. Claassen, et al., Realization of nearly dispersionless bands with strong orbital anisotropy from destructive interference in twisted bilayer MoS2, **Nat. Commun**. 12, 5644 (2021). https://doi.org/10.1038/s41467-021-25922-8
 
 #. H. Bao, Y. Qiu, X. Peng, et al., Isolated copper single sites for high-performance electroreduction of carbon monoxide to multicarbon products. **Nat. Commun**. 12, 238 (2021). https://doi.org/10.1038/s41467-020-20336-4
 
