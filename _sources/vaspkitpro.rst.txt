@@ -7,7 +7,7 @@ In order to provide a more powerful and user-friendly interface facilitating hig
 Capabilities               VASPKIT            VASPKIT Pro      
 ------------------------- ------------------ ------------------
 Pre-proccessing Utility   :math:`\checkmark` :math:`\checkmark`
-Post-proccessing Utility   :math:`\checkmark` :math:`\checkmark`
+Post-proccessing Utility  :math:`\checkmark` :math:`\checkmark`
 Plot Utility              Low-quality         High-quality     
 Structure Utility         Partial-support     Full-support
 Access                    Free                Licensed         
