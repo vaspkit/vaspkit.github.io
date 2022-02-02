@@ -26,7 +26,7 @@ How to cite
 
 Cited publications
 ------------------
-**The VASPKIT program has been cited by more than 600 times (google scholar) since 2020. Many thanks to the authors! Some of them are listed below.** 
+*The VASPKIT program has been cited by more than 600 times (google scholar) since 2020. Many thanks to the authors! Some of them are listed below.* 
 
 #. D. Li, F. Xu, X. Tang, S. Dai, T. Pu, X. Liu, et al., Induced activation of the commercial Cu/ZnO/Al2O3 catalyst for the steam reforming of methanol. **Nature Catalysis** 5, 1-10 (2022). https://doi.org/10.1038/s41929-021-00729-4
 
