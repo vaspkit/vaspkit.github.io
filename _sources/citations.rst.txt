@@ -36,6 +36,8 @@ Cited publications
 
 #. Y. Ohtsuka, N. Kanazawa, M. Hirayama, et al., Emergence of spin-orbit coupled ferromagnetic surface state derived from Zak phase in a nonmagnetic insulator FeSi, **Science Advances** 7, eabj0498 (2021). https://doi.org/10.1126/sciadv.abj0498
 
+#. C. Ruan, X. Wang, C. Wang, et al., Selective catalytic oxidation of ammonia to nitric oxide via chemical looping. **Nat. Commun.** 13, 718 (2022). https://doi.org/10.1038/s41467-022-28370-0
+
 #. H. Bai, J. Wu, X. Su, et al., Electroresistance in multipolar antiferroelectric Cu2Se semiconductor, **Nat. Commun**. 12, 1 (2021). https://doi.org/10.1038/s41467-021-27531-x
 
 #.  M. Liu, J.-A. Wang, et al., Interfacial electronic structure engineering on molybdenum sulfide for robust dual-pH hydrogen evolution, **Nat. Commun**. 12, 5260 (2021).  https://doi.org/10.1038/s41467-021-25647-8
