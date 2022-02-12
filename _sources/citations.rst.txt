@@ -26,7 +26,7 @@ How to cite
 
 Cited publications
 ------------------
-*The VASPKIT program has been cited by more than 600 times (google scholar) since 2020. Many thanks to the authors! Some of them are listed below.* 
+*The VASPKIT program has been cited by more than 650 times (google scholar) since 2020. Many thanks to the authors! Some of them are listed below.* 
 
 #. D. Li, F. Xu, X. Tang, S. Dai, T. Pu, X. Liu, et al., Induced activation of the commercial Cu/ZnO/Al2O3 catalyst for the steam reforming of methanol. **Nature Catalysis** 5, 1-10 (2022). https://doi.org/10.1038/s41929-021-00729-4
 
@@ -36,7 +36,7 @@ Cited publications
 
 #. Y. Ohtsuka, N. Kanazawa, M. Hirayama, et al., Emergence of spin-orbit coupled ferromagnetic surface state derived from Zak phase in a nonmagnetic insulator FeSi, **Science Advances** 7, eabj0498 (2021). https://doi.org/10.1126/sciadv.abj0498
 
-#. C. Ruan, X. Wang, C. Wang, et al., Selective catalytic oxidation of ammonia to nitric oxide via chemical looping. **Nature Communications.** 13, 718 (2022). https://doi.org/10.1038/s41467-022-28370-0
+#. C. Ruan, X. Wang, C. Wang, et al., Selective catalytic oxidation of ammonia to nitric oxide via chemical looping. **Nature Communications** 13, 718 (2022). https://doi.org/10.1038/s41467-022-28370-0
 
 #. H. Bai, J. Wu, X. Su, et al., Electroresistance in multipolar antiferroelectric Cu2Se semiconductor, **Nature Communications** 12, 1 (2021). https://doi.org/10.1038/s41467-021-27531-x
 
