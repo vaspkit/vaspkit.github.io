@@ -36,21 +36,21 @@ Cited publications
 
 #. Y. Ohtsuka, N. Kanazawa, M. Hirayama, et al., Emergence of spin-orbit coupled ferromagnetic surface state derived from Zak phase in a nonmagnetic insulator FeSi, **Science Advances** 7, eabj0498 (2021). https://doi.org/10.1126/sciadv.abj0498
 
-#. C. Ruan, X. Wang, C. Wang, et al., Selective catalytic oxidation of ammonia to nitric oxide via chemical looping. **Nat. Commun.** 13, 718 (2022). https://doi.org/10.1038/s41467-022-28370-0
+#. C. Ruan, X. Wang, C. Wang, et al., Selective catalytic oxidation of ammonia to nitric oxide via chemical looping. **Nature Communications.** 13, 718 (2022). https://doi.org/10.1038/s41467-022-28370-0
 
-#. H. Bai, J. Wu, X. Su, et al., Electroresistance in multipolar antiferroelectric Cu2Se semiconductor, **Nat. Commun**. 12, 1 (2021). https://doi.org/10.1038/s41467-021-27531-x
+#. H. Bai, J. Wu, X. Su, et al., Electroresistance in multipolar antiferroelectric Cu2Se semiconductor, **Nature Communications**. 12, 1 (2021). https://doi.org/10.1038/s41467-021-27531-x
 
-#.  M. Liu, J.-A. Wang, et al., Interfacial electronic structure engineering on molybdenum sulfide for robust dual-pH hydrogen evolution, **Nat. Commun**. 12, 5260 (2021).  https://doi.org/10.1038/s41467-021-25647-8
+#.  M. Liu, J.-A. Wang, et al., Interfacial electronic structure engineering on molybdenum sulfide for robust dual-pH hydrogen evolution, **Nature Communications**. 12, 5260 (2021).  https://doi.org/10.1038/s41467-021-25647-8
 
-#.  L. Xian, M. Claassen, et al., Realization of nearly dispersionless bands with strong orbital anisotropy from destructive interference in twisted bilayer MoS2, **Nat. Commun**. 12, 5644 (2021). https://doi.org/10.1038/s41467-021-25922-8
+#.  L. Xian, M. Claassen, et al., Realization of nearly dispersionless bands with strong orbital anisotropy from destructive interference in twisted bilayer MoS2, **Nature Communications**. 12, 5644 (2021). https://doi.org/10.1038/s41467-021-25922-8
 
-#. H. Bao, Y. Qiu, X. Peng, et al., Isolated copper single sites for high-performance electroreduction of carbon monoxide to multicarbon products. **Nat. Commun**. 12, 238 (2021). https://doi.org/10.1038/s41467-020-20336-4
+#. H. Bao, Y. Qiu, X. Peng, et al., Isolated copper single sites for high-performance electroreduction of carbon monoxide to multicarbon products. **Nature Communications**. 12, 238 (2021). https://doi.org/10.1038/s41467-020-20336-4
 
-#. R. Li, D. Rao, J. Zhou, et al., Amorphization-induced surface electronic states modulation of cobaltous oxide nanosheets for lithium-sulfur batteries. **Nat. Commun**. 12, 3102 (2021). https://doi.org/10.1038/s41467-021-23349-9
+#. R. Li, D. Rao, J. Zhou, et al., Amorphization-induced surface electronic states modulation of cobaltous oxide nanosheets for lithium-sulfur batteries. **Nature Communications**. 12, 3102 (2021). https://doi.org/10.1038/s41467-021-23349-9
 
-#. F. Yu, W. Liu, S.-W. Ke, M. Kurmoo, J.-L. Zuo, Q. Zhang, Electrochromic two-dimensional covalent organic framework with a reversible dark-to-transparent switch, **Nat. Commun**. 11, 5534 (2020). https://doi.org/10.1038/s41467-020-19315-6
+#. F. Yu, W. Liu, S.-W. Ke, M. Kurmoo, J.-L. Zuo, Q. Zhang, Electrochromic two-dimensional covalent organic framework with a reversible dark-to-transparent switch, **Nature Communications**. 11, 5534 (2020). https://doi.org/10.1038/s41467-020-19315-6
 
-#. C. Wu, L. Lin, J. Liu, J. Zhang, F. Zhang, T. Zhou, N. Rui, S. Yao, Y. Deng, F. Yang, W. Xu, J. Luo, Y. Zhao, B. Yan, X.-D. Wen, Jose A. Rodriguez, D. Ma, Inverse ZrO2/Cu as a highly efficient methanol synthesis catalyst from CO2 hydrogenation,  **Nat. Commun**. 11, 5767 (2020). https://doi.org/10.1038/s41467-020-19634-8
+#. C. Wu, L. Lin, J. Liu, J. Zhang, F. Zhang, T. Zhou, N. Rui, S. Yao, Y. Deng, F. Yang, W. Xu, J. Luo, Y. Zhao, B. Yan, X.-D. Wen, Jose A. Rodriguez, D. Ma, Inverse ZrO2/Cu as a highly efficient methanol synthesis catalyst from CO2 hydrogenation,  **Nature Communications**. 11, 5767 (2020). https://doi.org/10.1038/s41467-020-19634-8
 
 #. S. Yoshida, H. Akamatsu, and K. Hayashi, Electronic Origin of Non-Zone-Center Phonon Condensation: Octahedral Rotation as a Case Study, **Phys. Rev. Lett.** 127, 215701 (2021). https://doi.org/10.1103/PhysRevLett.127.215701
 
