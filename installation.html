@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>Installation &mdash; vaspkit 1.3 documentation</title>
+  <title>Installation &mdash; VASPKIT 1.3 documentation</title>
   
 
   
@@ -118,7 +118,7 @@
       <nav class="wy-nav-top" aria-label="top navigation">
         
           <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
-          <a href="index.html">vaspkit</a>
+          <a href="index.html">VASPKIT</a>
         
       </nav>
 
@@ -185,7 +185,7 @@
 <h2>Download<a class="headerlink" href="#download" title="Permalink to this headline">¶</a></h2>
 <p>Currently we only provide the executable binary files of VASPKIT which can run on Windows, Mac OS X, and Linux. After downloading the package, please take a few minutes to read the instructions in the manual; everything is detailed there.</p>
 <p>The compiled version of the program can be obtained from the <a class="reference external" href="https://sourceforge.net/projects/vaspkit/files/Binaries/">latest release page</a> on sourceforge. At the release page you find the a compressed tarball (tar zxvf vaspkit.*.tar.gz) usually containing the following content:</p>
-<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>vaspkit.1.2.0
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>vaspkit.1.3.0
 ├── acknowledgement
 ├── bin/
 │   └── vaspkit
@@ -271,9 +271,12 @@ CENTER_SLAB                   .TRUE.                         # Center the slab i
 </pre></div>
 </div>
 <ol class="arabic simple" start="2">
-<li><p>Setting up local repository pseudo potential directory. For example,
-unzip the VASP PAW_PBE pseudo potentials at <code class="docutils literal notranslate"><span class="pre">~/POTCAR/PBE</span></code>
-directory.</p></li>
+<li><dl class="simple">
+<dt>Setting up local repository pseudo potential directory. For example,</dt><dd><p>unzip the VASP PAW_PBE pseudo potentials at <code class="docutils literal notranslate"><span class="pre">~/POTCAR/PBE</span></code>
+directory.</p>
+</dd>
+</dl>
+</li>
 <li><p>Add the absolute path of the vaspkit to the environment variable.</p></li>
 <li><p>The <code class="docutils literal notranslate"><span class="pre">~/.vaspkit</span></code> file might need to be manually updated if some new environment variables are introduced in the newest version of vaspkit.</p></li>
 </ol>

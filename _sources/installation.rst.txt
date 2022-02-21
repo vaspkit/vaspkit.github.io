@@ -20,7 +20,7 @@ The compiled version of the program can be obtained from the `latest release pag
 
 .. code-block:: none
 
-   vaspkit.1.2.0
+   vaspkit.1.3.0
    ├── acknowledgement
    ├── bin/
    │   └── vaspkit
@@ -49,7 +49,7 @@ VASPKIT is supported by Python 3.x. Please install the following dependencies pr
 Installation
 ^^^^^^^^^^^^
 
-(1) First unzip VASPKIT package.
+1. First unzip VASPKIT package.
 
 ::
 
@@ -110,12 +110,12 @@ according to your POTCAR path.
    VACUUM_THICKNESS               15.0                          # The thickness of vacuum to build slab or 2D materials (default value: 10 angstrom)
    CENTER_SLAB                   .TRUE.                         # Center the slab in the z direction; (default value: .TRUE.)
 
-(2) Setting up local repository pseudo potential directory. For example,
+2. Setting up local repository pseudo potential directory. For example,
     unzip the VASP PAW_PBE pseudo potentials at ``~/POTCAR/PBE``
     directory.
 
-(3) Add the absolute path of the vaspkit to the environment variable.
-(4) The ``~/.vaspkit`` file might need to be manually updated if some new environment variables are introduced in the newest version of vaspkit.
+3. Add the absolute path of the vaspkit to the environment variable.
+4. The ``~/.vaspkit`` file might need to be manually updated if some new environment variables are introduced in the newest version of vaspkit.
 
 ::
 

@@ -1,11 +1,16 @@
 Tutorials
-======================
-
+======================                            
+      
+                            
 .. caution::
    **Disclaimer**: The following tutorials are meant to provide some guides for the users of VASPKIT to facilitate a complete employment of the available features. The content is NOT guaranteed to be scientiﬁcally accurate and certified/peer-reviewed and the researchers should use the suggestions at their own responsibility. 
 
-1. Quick Start
----------------------
+Quick Start
+---------------------      
+
+Ways to Run vaspkit          
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 There are at lease five ways to run vaspkit under either the interactive user interface or command line mode. We take the generation of KPOINTS (task 102) as an example to illustrate the useage of vaspkit.
 
 1. Just type ``vaspkit`` in the terminal to launch the interactive user interface mode;
@@ -22,7 +27,7 @@ There are at lease five ways to run vaspkit under either the interactive user in
    
 and then run ``vaspkit <cmd.in``.     
 
-1.1 Run vaspkit in Batch Mode
+Run vaspkit in Batch Mode
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 if one wants to run vaspkit in batch mode, for example, to generate KPOINTS file in several sub-olders:
@@ -55,7 +60,7 @@ if one wants to extract the specified physical quantity, for example, to read ba
        cd ..
    done
 
-2. Generate Input Files
+Generate Input Files
 -----------------------
 
 In order to perform a VASP calculation, usually one needs 4 files, INCAR,
@@ -84,7 +89,7 @@ POSCAR, POTCAR and KPOINTS.
     108) Successive Procedure to Generate VASP Files and Check
     109) Check All VASP Files
 
-2.1 Generate INCAR
+Generate INCAR
 ~~~~~~~~~~~~~~~~~~
 
 Run VASPKIT in the directory containing POSCAR. Enter ``1`` to select
@@ -206,7 +211,7 @@ BACK-UP-OLD back up the new INCAR
 BACK-UP-NEW the new INCAR to INCAR.new
 =========== ===============================================
 
-2.2 Generate KPOINTS
+Generate KPOINTS
 ~~~~~~~~~~~~~~~~~~~~
 
 For self-consistent calculation, users need to prepare a KPOINTS file to
@@ -278,7 +283,7 @@ KPT-Resolved Value.
      14  14  14
    0.0  0.0  0.0
 
-2.3 Generate POTCAR
+Generate POTCAR
 ~~~~~~~~~~~~~~~~~~~
 
 When generating KPOINTS, POTCAR will also be generate automatically. Or
@@ -348,7 +353,7 @@ In this example, enter the customized type of potentials O and Ti.
 user defined potential type in the list of potentials, VASPKIT will ask
 user re-enter.
 
-2.4 Generate POSCAR
+Generate POSCAR
 ~~~~~~~~~~~~~~~~~~~
 
 VASPKIT can transform .cif and .xsd (Materials Studio format) files to
@@ -391,7 +396,7 @@ when transform.
    O Al
      -->> (02) Written POSCAR_REV File!
 
-2.5 Input File Self Check
+Input File Self Check
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
 VASPKIT can do format correction and pseudo potential check by option
@@ -399,13 +404,13 @@ VASPKIT can do format correction and pseudo potential check by option
 and check if the POTCAR and POSCAR are consistent.
 
 
-3 Band Structure
+Band Structure
 ----------------
 
 VASPKIT is very powerful at pre- and post- process VASP band structure
 calculation.
 
-3.1 Pre-process Band Structure (pure functional)
+Pre-process Band Structure (pure functional)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 To do band structure calculation, one need to prepare a primitive cell
@@ -610,7 +615,7 @@ INCAR example
    LREAL = .FALSE.
    PREC = Accurate
 
-3.2 Post-process Band Structure (pure functional)
+Post-process Band Structure (pure functional)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 After calculation, do band structure post-process by VASPKIT option
@@ -874,7 +879,103 @@ The output ``PBAND_SUM.dat`` file includes the sum projection of
 selected atoms or elements. This is useful to investigate the layered
 band and compare surface band and inner band.
 
-3.3 Pre-process Band Structure (hybrid functional)
+
+Post-process Band Structure (single-shot)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+The VASP.6.3.0 or latter version can calculate band structure through a single shot. 
+Note the PROCAR_OPT file does not output unless we compiled VASP after adding ``-DVASP_HDF5`` to the ``CPP_OPTIONS`` in the makefile.include.
+Alternatively, the PROCAR_OPT and EIGENVAL_OPT (new added) can automatically be generated after we modified the vasp.6.3.0/src/linear_response.F and recomplied VASP again. 
+Specifically, first delete the lines from 1804-1827 in vasp.6.3.0/src/linear_response.F file,
+
+.. code-block:: fortran
+
+   #ifdef VASP_HDF5
+      CALL VH5_WRITE_DOS(IH5OUTFILEID, WDES_INTER, KPOINTS_INTER, DOS, DOSI, DOSPAR, EFERMI, &
+                         T_INFO%NIONP, -1,SUBGROUP="electron_dos_kpoints_opt")
+      CALL VH5_WRITE_EIGENVAL(IH5OUTFILEID, WDES_INTER, W_INTER, KPOINTS_INTER, &
+                              SUBGROUP="electron_eigenvalues_kpoints_opt")
+   
+      ! Write projections
+      IF (JOBPAR/=0 .OR. IO%LORBIT>=10) THEN
+        IF (IO%LORBIT==11.OR.IO%LORBIT==12) THEN
+          CALL VH5_WRITE_PROJECTORS(IH5OUTFILEID, T_INFO, WDES_INTER, W_INTER, IO%LORBIT, LPAR, PAR_INTER, LMCHAR, PHAS_INTER, &
+                                    SUBGROUP="projectors_kpoints_opt")
+        ELSE
+          CALL VH5_WRITE_PROJECTORS(IH5OUTFILEID, T_INFO, WDES_INTER, W_INTER, IO%LORBIT, LPAR, PAR_INTER, LCHAR, PHAS_INTER, &
+                                    SUBGROUP="projectors_kpoints_opt")
+        ENDIF
+        IF (IO%IU6>=0) THEN
+          CALL XML_PROCAR(PAR, W_INTER%CELTOT, W_INTER%FERTOT, WDES_INTER%NB_TOT, WDES_INTER%NKPTS, LPAR,&
+                        T_INFO%NIONP, WDES_INTER%NCDIJ, TAG="projected_kpoints_opt")
+          OPEN(UNIT=99,FILE='PROCAR_OPT',STATUS='UNKNOWN')
+          CALL WRITE_PROCAR(99,W_INTER,WDES_INTER,IO%LORBIT,LPAR,LMDIMP,PAR_INTER,PHAS_INTER,T_INFO,KPOINTS%EMIN,KPOINTS%EMAX)
+          CLOSE(99)
+        ENDIF
+      ENDIF
+   #endif
+
+and then add the following code      
+
+.. code-block:: fortran
+
+   !  Added support to VASPKIT   
+      OPEN(UNIT=99,FILE='EIGENVAL_OPT',STATUS='UNKNOWN')
+      WRITE(99,'(4I5)') T_INFO%NIONS,T_INFO%NIONS,0.0,WDES_INTER%ISPIN
+      WRITE(99,'(5E15.7)') 0.d0,0.d0,0.d0,0.d0,0.d0
+      WRITE(99,'(1E15.7)') 0.d0
+      WRITE(99,*) ' CAR '
+      WRITE(99,*) INFO%SZNAM1
+      WRITE(99,'(3I7)') NINT(INFO%NELECT),WDES_INTER%NKPTS,WDES_INTER%NB_TOT
+      DO IK=1,WDES_INTER%NKPTS
+         WRITE(99,*)
+         WRITE(99,'((4E15.7))') WDES_INTER%VKPT(1,IK),WDES_INTER%VKPT(2,IK),WDES_INTER%VKPT(3,IK),WDES_INTER%WTKPT(IK)
+         DO I=1,WDES_INTER%NB_TOT
+            IF (WDES_INTER%ISPIN==1) WRITE(99,852) I,REAL( W_INTER%CELTOT(I,IK,1) ,KIND=q),W%FERTOT(I,IK,1)
+            IF (WDES_INTER%ISPIN==2) WRITE(99,853) I,(REAL( W_INTER%CELTOT(I,IK,ISP) ,KIND=q),ISP=1,WDES_INTER%ISPIN),(W%FERTOT(I,IK,ISP),ISP=1,WDES_INTER%ISPIN)
+         ENDDO
+      ENDDO
+      CLOSE(99)
+      852 FORMAT(1X,I6,4X,F14.6,2X,F9.6)
+      853 FORMAT(1X,I6,4X,F14.6,2X,F14.6,2X,F9.6,2X,F9.6)
+      IF (JOBPAR/=0 .OR. IO%LORBIT>=10) THEN
+        IF (IO%IU6>=0) THEN
+          CALL XML_PROCAR(PAR, W_INTER%CELTOT, W_INTER%FERTOT, WDES_INTER%NB_TOT, WDES_INTER%NKPTS, LPAR,&
+                        T_INFO%NIONP, WDES_INTER%NCDIJ, TAG="projected_kpoints_opt")     
+          OPEN(UNIT=99,FILE='PROCAR_OPT',STATUS='UNKNOWN')
+          CALL WRITE_PROCAR(99,W_INTER,WDES_INTER,IO%LORBIT,LPAR,LMDIMP,PAR_INTER,PHAS_INTER,T_INFO,KPOINTS%EMIN,KPOINTS%EMAX)
+          CLOSE(99)
+        ENDIF
+      ENDIF
+   
+   #ifdef VASP_HDF5
+      CALL VH5_WRITE_DOS(IH5OUTFILEID, WDES_INTER, KPOINTS_INTER, DOS, DOSI, DOSPAR, EFERMI, &
+                         T_INFO%NIONP, -1,SUBGROUP="electron_dos_kpoints_opt")
+      CALL VH5_WRITE_EIGENVAL(IH5OUTFILEID, WDES_INTER, W_INTER, KPOINTS_INTER, &
+                              SUBGROUP="electron_eigenvalues_kpoints_opt")
+   
+      ! Write projections
+      IF (JOBPAR/=0 .OR. IO%LORBIT>=10) THEN
+        IF (IO%LORBIT==11.OR.IO%LORBIT==12) THEN
+          CALL VH5_WRITE_PROJECTORS(IH5OUTFILEID, T_INFO, WDES_INTER, W_INTER, IO%LORBIT, LPAR, PAR_INTER, LMCHAR, PHAS_INTER, &
+                                    SUBGROUP="projectors_kpoints_opt")
+        ELSE
+          CALL VH5_WRITE_PROJECTORS(IH5OUTFILEID, T_INFO, WDES_INTER, W_INTER, IO%LORBIT, LPAR, PAR_INTER, LCHAR, PHAS_INTER, &
+                                    SUBGROUP="projectors_kpoints_opt")
+        ENDIF
+   !     IF (IO%IU6>=0) THEN
+   !       CALL XML_PROCAR(PAR, W_INTER%CELTOT, W_INTER%FERTOT, WDES_INTER%NB_TOT, WDES_INTER%NKPTS, LPAR,&
+   !                     T_INFO%NIONP, WDES_INTER%NCDIJ, TAG="projected_kpoints_opt")
+   !       OPEN(UNIT=99,FILE='PROCAR_OPT',STATUS='UNKNOWN')
+   !       CALL WRITE_PROCAR(99,W_INTER,WDES_INTER,IO%LORBIT,LPAR,LMDIMP,PAR_INTER,PHAS_INTER,T_INFO,KPOINTS%EMIN,KPOINTS%EMAX)
+   !       CLOSE(99)
+   !     ENDIF
+      ENDIF
+   #endif
+                           
+Finally recomplie VASP again. The VASPKIT.1.3.2 or latter version can read the raw data of plain/projected structure from EIGENVAL_OPT/PROCAR_OPT file.                          
+                           
+Pre-process Band Structure (hybrid functional)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Besides the line-mode K-path, VASPKIT can also generate K-path with
@@ -1091,7 +1192,7 @@ the number of k-points along each line of k-path: :math:`\Gamma`-> M :
    ALGO = ALL # or Damped
    TIME   =  0.4
 
-3.4 Post-process Band Structure (hybrid functional)
+Post-process Band Structure (hybrid functional)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 (5) Extract band structure information by **252**. band data is saved in
@@ -1240,7 +1341,7 @@ structure by using **255**:
     :scale: 60  %
     :align: center
 
-3.5 Effective Mass
+Effective Mass
 ~~~~~~~~~~~~~~~~~~
 
 For electrons or holes in a solid, the effective mass (*m*\ \*) is a
@@ -1395,7 +1496,7 @@ carriers for the MoS2 monolayers to be 0.44 and 0.54, respectively [see
 band bottom are degenerate, such as GaAs and GaN, it will be difficult
 to guarantee accuracy at this time.
 
-3.6 Band-unfolding
+Band-unfolding
 ~~~~~~~~~~~~~~~~~~
 
 The electronic structures of real materials are perturbed by various
@@ -1635,7 +1736,7 @@ file;**
 **Last step: You can use vaspkit/examples/band_unfolding/eps_plot.py or
 other scripts to plot.**
 
-3.7 3D Band Structure
+3D Band Structure
 ~~~~~~~~~~~~~~~~~~~~~
 
 In solid-state physics, the most usual electronic *band structure* (or
@@ -1709,201 +1810,8 @@ Example: Graphene 3D Band Structure
 .. image:: ../images/3d_graphene.png
     :scale: 30  %
     :align: center
-    
-    
-3.8 Fermi Surface
-~~~~~~~~~~~~~~~~~
 
-In condensed matter physics, the **Fermi surface** is the **surface** in
-reciprocal space which separates occupied bands from unoccupied bands at
-zero temperature. The shape of the **Fermi surface** is derived from the
-periodicity and symmetry of the crystalline lattice and from the
-occupation of electronic energy bands.
-
-Example: Cu Fermi Surface
-^^^^^^^^^^^^^^^^^^^^^^^^^
-
-(1) prepare the optimized POSCAR of FCC Cu. Note that it must be the
-    primitive cell.
-
-(2) Run VASPKIT and enter the ``261`` command to generate the KPOINTS
-    and POTCAR files for calculating the Fermi surface.
-
-.. code-block:: none
-
-   ------------>>
-   261
-    +-------------------------- Warm Tips --------------------------+
-      \* Accuracy Levels: (1) Medium: 0.02~0.01;
-                         (2) Fine:      < 0.01;
-      \* 0.01 is Generally Precise Enough!
-    +---------------------------------------------------------------+
-    Input KPT-Resolved Value (unit: 2*PI/Angstrom):
-    ------------>>
-   0.008
-    -->> (1) Reading Structural Parameters from POSCAR File...
-    -->> (2) Written KPOINTS File!
-
-(3) Submit VASP job.
-
-(4) After the VASP calculation is completed, run VASPKIT again, input
-    ``262`` command, and generate the FERMISURFACE.bxsf file containing
-    the Fermi surface data.
-
-.. code-block:: none
-
-   ------------>>
-   262
-    -->> (1) Reading Input Parameters From INCAR File...
-    -->> (2) Reading Structural Parameters from POSCAR File...
-    -->> (3) Reading Fermi-Level From DOSCAR File...
-   ooooooooo The Fermi Energy will be set to zero eV oooooooooooooooo
-    -->> (4) Reading Energy-Levels From EIGENVAL File...
-    -->> (5) Written FERMISURFACE.bxsf File!
-
-(5) Run the XcrySDen software and follow the steps below. The fifth band
-    through the Fermi surface, so we choose Band Number 5, then click
-    Selected, and then get the Fermi surface of Cu.
-
-.. image:: ../images/fermisurface1.jpg
-    :scale: 70  %
-    :align: center
-
-.. image:: ../images/fermisurface2.jpg
-    :scale: 70  %
-    :align: center   
-    
-3.9 Transition Dipole Moment
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-The transition dipole moment (TDM) or transition moment, usually denoted
-for a transition between an initial state *a* and a final state *b*, is
-the electric dipole moment associated with the transition between the
-two states. In general the TDM is a complex vector quantity that
-includes the phase factors associated with the two states. Its direction
-gives the polarization of the transition, which determines how the
-system will interact with an electromagnetic wave of a given
-polarization, while the square of the magnitude gives the strength of
-the interaction due to the distribution of charge within the system. The
-SI unit of the transition dipole moment is the Coulomb-meter (Cm); a
-more conveniently sized unit is the Debye (D). The transition
-probabilities between the valence and the conduction band are revealed
-by the calculated sum of the squares of TDM (in unit of Debey\ :math:`^2`).
-
-We task cubic CsPbI\ :math:`_3` perovskite phase as an example and
-present the PBE calculated band structures and corresponding TDM in
-figure below. This system has 44 valence electrons in all. Next we
-calcualte the squares of transition dipole moment from the highest
-valence band (band index 22) to the lowest conduction band (band index
-23). It is found the results are well agreement with the previous
-finding (see Ref. **J. Phys. Chem. Lett**. 2017, 8, 2999−3007).
-
-.. image:: ../images/TDM.png
-    :scale: 30  %
-    :align: center   
-    
-The calculating process is very similar with the band structure
-calcuation except for setting LWAVE= .TRUE. in the INCAR file. More
-details on these calculations are given in vaspkit/examples/tdm.
-
-.. code-block:: none
-
-    ------------>>
-   71
-    ============================ Optical Options ====================
-    711) Linear Optical Spectrums
-    712) Transition Dipole Moment at Single kpoint
-    713) Transition Dipole Moment for DFT Band-Structure
-
-    0)   Quit
-    9)   Back
-    ------------>>
-   713
-    +-------------------------- Warm Tips --------------------------+
-               See an example in vaspkit/examples/tdm.
-    ONLY Support KPOINTS created by VASPKIT for hybrid bandstructure.
-    +---------------------------------------------------------------+
-    ======================= Band-Structure Mode ====================
-    1) DFT Band-Structure Calculation
-    2) Hybrid-DFT Band-Structure Calculation
-
-    ------------->>
-   1
-    Please input TWO bands separated by spaces.
-    (e.g., 4 5 means to get TDM between 4 and 5 bands at all kpts)
-
-    ------------>>
-   22 23
-    +-------------------------- Warm Tips --------------------------+
-      Current Version Only Support the Stardard Version of VASP code.
-    +---------------------------------------------------------------+
-     -->> (01) Reading the header information in WAVECAR file...
-    +--------------------- WAVECAR Header --------------------------+
-    SPIN =    1
-    NKPTS =   80
-    NBANDS =  36
-    ENCUT =   400.00
-    Coefficients Precision: Complex*8
-    Maximum number of G values: GX =   11, GY =   11, GZ =   11
-    Estimated maximum number of plane-waves:    5575
-    +---------------------------------------------------------------+
-     -->> (02) Start to read WAVECAR file, take your time ^.^
-               Percentage complete:  25.0%
-               Percentage complete:  50.0%
-               Percentage complete:  75.0%
-               Percentage complete: 100.0%
-     -->> (03) Reading K-Paths From KPOINTS File...
-     -->> (04) Start to calculate Transition Dipole Moment...
-               Percentage complete:  25.0%
-               Percentage complete:  50.0%
-               Percentage complete:  75.0%
-               Percentage complete: 100.0%
-     -->> (05) Written TDM.dat File!
-
-If one want to calculate the square of TDM between two state at single
-k-point. Just run vaspkit with task 712, for example,
-
-.. code-block:: none
-
-   71
-    ============================ Optical Options ====================
-    711) Linear Optical Spectrums
-    712) Transition Dipole Moment at Single kpoint
-    713) Transition Dipole Moment for DFT Band-Structure
-
-    0)   Quit
-    9)   Back
-    ------------>>
-   712
-    +-------------------------- Warm Tips --------------------------+
-                See an example in vaspkit/examples/tdm.
-              Please Set LWAVE= .TRUE. in the INCAR file.
-    +---------------------------------------------------------------+
-    Input ONE kpoint and TWO bands separated by spaces.
-    (e.g., 1 4 5 means to get TDM between 4 and 5 band at 1st kpt)
-
-    ------------>>
-   1 22 23
-    +-------------------------- Warm Tips --------------------------+
-      Current Version Only Support the Stardard Version of VASP code.
-    +---------------------------------------------------------------+
-     -->> (01) Reading the header information in WAVECAR file...
-    +--------------------- WAVECAR Header --------------------------+
-    SPIN =    1
-    NKPTS =   80
-    NBANDS =  36
-    ENCUT =   400.00
-    Coefficients Precision: Complex*8
-    Maximum number of G values: GX =   11, GY =   11, GZ =   11
-    Estimated maximum number of plane-waves:    5575
-    +---------------------------------------------------------------+
-    Square of TDM (Debye^2):  X           Y           Z        Total
-                            0.000     201.617       0.000     201.617
-
-Cleary, the calculate total-square of TDM at :math:`\text{X}` point for
-cubic CsPbI\ :math:`_3` is 201.62 Debey\ :math:`^2`.
-
-4 Density of States
+Density of States
 -------------------
 
 VASPKIT is very powerful at post-process DOS results. Set ``LORBIT`` =
@@ -1929,7 +1837,7 @@ Merits:
 
 (4) Output file can be read by ORIGIN directly with no modification.
 
-4.1 Extract and output DOS and PDOS
+Extract and output DOS and PDOS
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Option ``11`` is used to DOS post-process.
@@ -2060,7 +1968,7 @@ command only supports standard input. If you use ``LORBIT=10``, only s p
 d f can be selected. If you use ``LORBIT=11``, s py pz px dxy dyz dz2
 dxz dx2 f-3 f-2 f-1 f0 f1 f2 are also supported.
 
-4.2 *d*-band Center
+*d*-band Center
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
 The DOS projected onto the *d*-states that interact with the adsorbate
@@ -2114,7 +2022,7 @@ in ``D_BAND_CENTER`` file as following:
    The calculated d-band-center presented here are referenced to Fermi level, i.e., E_F=0 eV.
 
 
-5 Thermo Energy Correction
+Thermo Energy Correction
 --------------------------
 
 Calculation of the free energy change in catalysis is one of the most
@@ -2124,7 +2032,7 @@ the some publications is inconsistent, inaccurate. (Note: Computational
 chemistry programs such as Gaussian have a complete free energy
 calculation module.)
 
-5.1 Gas Molecule Free Energy Correction
+Gas Molecule Free Energy Correction
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 The equations used for computing thermochemical data for Gas in VASPKIT
@@ -2286,7 +2194,7 @@ To get the free energy of O2, add the *G*\ (T) to electronic energy:
 
 G(O2) = -9.854 + -0.447 = -10.301 eV
 
-5.2 Adsorbed Molecular Free Energy Correction
+Adsorbed Molecular Free Energy Correction
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Unlike gas molecules, adsorbed molecules form chemical bonds with
@@ -2367,10 +2275,10 @@ So, ZPE is 0.067171 eV. Thermal correction to *U*\ (T), *H*\ (T), and
 *G*\ (T) are 0.095670, 0.187167, and -0.446723 eV, respectively.
 
 
-6 Elastic Properties
+Elastic Properties
 --------------------
 
-6.1 Determine elastic constants based on energy-strain method
+Determine elastic constants based on energy-strain method
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Within the linear elastic region, the stress :math:`\boldsymbol{\sigma}`
@@ -2636,8 +2544,11 @@ properites and elastic stability criterion. For more details, see
 vaspkit/examples/elastic.
 
 
-7 Optic Properties
+Optic Properties
 ------------------
+
+Linear Optical Properties
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 The linear optical properties can be obtained from the
 frequency-dependent complex dielectric function
@@ -2734,13 +2645,143 @@ properties at GW0+BSE leve, as shown in figure below.
     | sing Program for the VASP Code. http://vaspkit.sourceforge.net|
     +---------------------------------------------------------------+
 
-8 Structure and Symmetry Tools
+Transition Dipole Moment
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+The transition dipole moment (TDM) or transition moment, usually denoted
+for a transition between an initial state *a* and a final state *b*, is
+the electric dipole moment associated with the transition between the
+two states. In general the TDM is a complex vector quantity that
+includes the phase factors associated with the two states. Its direction
+gives the polarization of the transition, which determines how the
+system will interact with an electromagnetic wave of a given
+polarization, while the square of the magnitude gives the strength of
+the interaction due to the distribution of charge within the system. The
+SI unit of the transition dipole moment is the Coulomb-meter (Cm); a
+more conveniently sized unit is the Debye (D). The transition
+probabilities between the valence and the conduction band are revealed
+by the calculated sum of the squares of TDM (in unit of Debey\ :math:`^2`).
+
+We task cubic CsPbI\ :math:`_3` perovskite phase as an example and
+present the PBE calculated band structures and corresponding TDM in
+figure below. This system has 44 valence electrons in all. Next we
+calcualte the squares of transition dipole moment from the highest
+valence band (band index 22) to the lowest conduction band (band index
+23). It is found the results are well agreement with the previous
+finding (see Ref. **J. Phys. Chem. Lett**. 2017, 8, 2999−3007).
+
+.. image:: ../images/TDM.png
+    :scale: 30  %
+    :align: center   
+    
+The calculating process is very similar with the band structure
+calcuation except for setting LWAVE= .TRUE. in the INCAR file. More
+details on these calculations are given in vaspkit/examples/tdm.
+
+.. code-block:: none
+
+    ------------>>
+   71
+    ============================ Optical Options ====================
+    711) Linear Optical Spectrums
+    712) Transition Dipole Moment at Single kpoint
+    713) Transition Dipole Moment for DFT Band-Structure
+
+    0)   Quit
+    9)   Back
+    ------------>>
+   713
+    +-------------------------- Warm Tips --------------------------+
+               See an example in vaspkit/examples/tdm.
+    ONLY Support KPOINTS created by VASPKIT for hybrid bandstructure.
+    +---------------------------------------------------------------+
+    ======================= Band-Structure Mode ====================
+    1) DFT Band-Structure Calculation
+    2) Hybrid-DFT Band-Structure Calculation
+
+    ------------->>
+   1
+    Please input TWO bands separated by spaces.
+    (e.g., 4 5 means to get TDM between 4 and 5 bands at all kpts)
+
+    ------------>>
+   22 23
+    +-------------------------- Warm Tips --------------------------+
+      Current Version Only Support the Stardard Version of VASP code.
+    +---------------------------------------------------------------+
+     -->> (01) Reading the header information in WAVECAR file...
+    +--------------------- WAVECAR Header --------------------------+
+    SPIN =    1
+    NKPTS =   80
+    NBANDS =  36
+    ENCUT =   400.00
+    Coefficients Precision: Complex*8
+    Maximum number of G values: GX =   11, GY =   11, GZ =   11
+    Estimated maximum number of plane-waves:    5575
+    +---------------------------------------------------------------+
+     -->> (02) Start to read WAVECAR file, take your time ^.^
+               Percentage complete:  25.0%
+               Percentage complete:  50.0%
+               Percentage complete:  75.0%
+               Percentage complete: 100.0%
+     -->> (03) Reading K-Paths From KPOINTS File...
+     -->> (04) Start to calculate Transition Dipole Moment...
+               Percentage complete:  25.0%
+               Percentage complete:  50.0%
+               Percentage complete:  75.0%
+               Percentage complete: 100.0%
+     -->> (05) Written TDM.dat File!
+
+If one want to calculate the square of TDM between two state at single
+k-point. Just run vaspkit with task 712, for example,
+
+.. code-block:: none
+
+   71
+    ============================ Optical Options ====================
+    711) Linear Optical Spectrums
+    712) Transition Dipole Moment at Single kpoint
+    713) Transition Dipole Moment for DFT Band-Structure
+
+    0)   Quit
+    9)   Back
+    ------------>>
+   712
+    +-------------------------- Warm Tips --------------------------+
+                See an example in vaspkit/examples/tdm.
+              Please Set LWAVE= .TRUE. in the INCAR file.
+    +---------------------------------------------------------------+
+    Input ONE kpoint and TWO bands separated by spaces.
+    (e.g., 1 4 5 means to get TDM between 4 and 5 band at 1st kpt)
+
+    ------------>>
+   1 22 23
+    +-------------------------- Warm Tips --------------------------+
+      Current Version Only Support the Stardard Version of VASP code.
+    +---------------------------------------------------------------+
+     -->> (01) Reading the header information in WAVECAR file...
+    +--------------------- WAVECAR Header --------------------------+
+    SPIN =    1
+    NKPTS =   80
+    NBANDS =  36
+    ENCUT =   400.00
+    Coefficients Precision: Complex*8
+    Maximum number of G values: GX =   11, GY =   11, GZ =   11
+    Estimated maximum number of plane-waves:    5575
+    +---------------------------------------------------------------+
+    Square of TDM (Debye^2):  X           Y           Z        Total
+                            0.000     201.617       0.000     201.617
+
+Cleary, the calculate total-square of TDM at :math:`\text{X}` point for
+cubic CsPbI\ :math:`_3` is 201.62 Debey\ :math:`^2`.
+
+Structure and Symmetry Tools
 --------------------------------------
 
 VASPKIT is powerful at structure edition. Read and modify the structural
 files.
 
-8.1 Redefine Lattice
+Redefine Lattice
 ~~~~~~~~~~~~~~~~~~~~
 
 VASPKIT option ``400`` can build supercell and rotate the lattice
@@ -2786,7 +2827,7 @@ Build a supercell with its length of new lattice vector equal to
     Total Atoms in New Cell:  
     Volume of New Cell is 3 times of the Old Cell
 
-8.2 Build Supercell
+Build Supercell
 ~~~~~~~~~~~~~~~~~~~
 
 VASPKIT ``401`` can build supercell by three number C1, C2, C3.
@@ -2820,7 +2861,7 @@ For example, build supercell with length is 2 times in the **a** and
    2 2 1
      -->> (02) Written SC221.vasp File
 
-8.3 Fix Atoms by Layers
+Fix Atoms by Layers
 ~~~~~~~~~~~~~~~~~~~~~~~
 
 VASP default structural optimization allows all atoms to move freely in
@@ -2877,7 +2918,7 @@ Then VASPKIT will print the recognized layers number.
    Fixed atoms are:    1   4
      -->> (02) Written POSCAR_FIX File!
 
-8.4 Fix Atoms by Height
+Fix Atoms by Height
 ~~~~~~~~~~~~~~~~~~~~~~~
 
 VASPKIT ``403`` can also fix atoms, but by a range of z coordinates.
@@ -2920,12 +2961,12 @@ output file ``POSCAR_FIX`` also is written as Cartesian style.
    Fixed atoms are:    1   4
      -->> (02) Written POSCAR_FIX File!
 
-8.5 Swap Axis of Lattice Vector
+Swap Axis of Lattice Vector
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 VASPKIT ``407`` can do swap two axis of lattice vector.
 
-8.6 Symmetry Tools
+Symmetry Tools
 ~~~~~~~~~~~~~~~~~~
 
 VASPKIT can identify symmetry of crystal from POSCAR or CONTCAR by
@@ -2984,10 +3025,10 @@ For example: point group of O2 molecule is :math:`D_{\infty h}`:
      -->> (02) Analyzing Molecular Symmetry Information...
     Molecular Symmetry is: D(inf)h
 
-9 Potential related
+Potential related
 -------------------
 
-9.1 Planar Average Potential
+Planar Average Potential
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Planar average for grid files is one of the basic function of VASPKIT.
@@ -3137,7 +3178,7 @@ So, work function can be calculated as:
 
 :math:`\Phi` = 6.695 - 1.5199 = 5.1751 eV
 
-9.2 Macroscopic Averaged Potential
+Macroscopic Averaged Potential
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Besides planar averaged potential , VASPKIT can also calculate
@@ -3210,10 +3251,10 @@ For example: MoS2/WS2 heterogeneous junction.
     :scale: 10  %
     :align: center    
 
-10 Density related
+Density related
 ------------------
 
-10.1 Charge Density and Spin Density
+Charge Density and Spin Density
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 When use spin-polarized parameter (SPIN = 2), the output CHGCAR will
@@ -3225,7 +3266,7 @@ VASPKIT can also calculate the Spin-Up & Spin-Down density by option
 ``313``. The outputs are saved in ``SPIN_UP.vasp`` & ``SPIN_DW.vasp``
 files
 
-10.2 Charge Density Difference
+Charge Density Difference
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 VASPKIT is powerful for post-processing grid file from VASP, such as
@@ -3377,7 +3418,7 @@ units of eV/Å.
     :scale: 50  %
     :align: center
 
-10.3 WaveFunction Visualization in Real-Space
+WaveFunction Visualization in Real-Space
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 VASPKIT can extract the planewave coefficients of Kohn-Sham (KS) orbital
@@ -3491,10 +3532,73 @@ Extract the ``288`` and ``289`` bands at Gamma point. Run VASPKIT, input
     :scale: 50  %
     :align: center
 
-11 Other Functions
+Fermi Surface
 ------------------
 
-11.1 Molecular Dynamics process
+In condensed matter physics, the **Fermi surface** is the **surface** in
+reciprocal space which separates occupied bands from unoccupied bands at
+zero temperature. The shape of the **Fermi surface** is derived from the
+periodicity and symmetry of the crystalline lattice and from the
+occupation of electronic energy bands.
+
+Example: Cu Fermi Surface
+^^^^^^^^^^^^^^^^^^^^^^^^^
+
+(1) prepare the optimized POSCAR of FCC Cu. Note that it must be the
+    primitive cell.
+
+(2) Run VASPKIT and enter the ``261`` command to generate the KPOINTS
+    and POTCAR files for calculating the Fermi surface.
+
+.. code-block:: none
+
+   ------------>>
+   261
+    +-------------------------- Warm Tips --------------------------+
+      \* Accuracy Levels: (1) Medium: 0.02~0.01;
+                         (2) Fine:      < 0.01;
+      \* 0.01 is Generally Precise Enough!
+    +---------------------------------------------------------------+
+    Input KPT-Resolved Value (unit: 2*PI/Angstrom):
+    ------------>>
+   0.008
+    -->> (1) Reading Structural Parameters from POSCAR File...
+    -->> (2) Written KPOINTS File!
+
+(3) Submit VASP job.
+
+(4) After the VASP calculation is completed, run VASPKIT again, input
+    ``262`` command, and generate the FERMISURFACE.bxsf file containing
+    the Fermi surface data.
+
+.. code-block:: none
+
+   ------------>>
+   262
+    -->> (1) Reading Input Parameters From INCAR File...
+    -->> (2) Reading Structural Parameters from POSCAR File...
+    -->> (3) Reading Fermi-Level From DOSCAR File...
+   ooooooooo The Fermi Energy will be set to zero eV oooooooooooooooo
+    -->> (4) Reading Energy-Levels From EIGENVAL File...
+    -->> (5) Written FERMISURFACE.bxsf File!
+
+(5) Run the XcrySDen software and follow the steps below. The fifth band
+    through the Fermi surface, so we choose Band Number 5, then click
+    Selected, and then get the Fermi surface of Cu.
+
+.. image:: ../images/fermisurface1.jpg
+    :scale: 70  %
+    :align: center
+
+.. image:: ../images/fermisurface2.jpg
+    :scale: 70  %
+    :align: center   
+    
+    
+Other Functions
+------------------
+
+Molecular Dynamics process
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 ``721`` calculate the Mean Squared Displacement (MSD) based on VASP MD
@@ -3521,7 +3625,7 @@ each atoms.
 ``722`` calculate the Radial Distribution Function (RDF) also based on
 VASP MD results.
 
-11.2 File Format Transfer
+File Format Transfer
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
 ============== ==================================== ==============
@@ -3546,20 +3650,20 @@ LOCPOT/ELFCAR  XcrySDen (.xsf) format               428
 \              XcrySDen (.xsf) format               429
 ============== ==================================== ==============
 
-11.3 USER interface
+USER interface
 ~~~~~~~~~~~~~~~~~~~
 
-12 Restrictions and Usage Notes
+Restrictions and Usage Notes
 --------------------------------
 
-12.1 Cautionary Notes of VASP Wavefunctions
+Cautionary Notes of VASP Wavefunctions
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 (1) The calculated plane-wave coefficients of pseudo periodic part (Bloch function) are read from the given WAVECAR file and the corresponding G-vectors are generated using the algorithm developed in `WaveTrans <http://www.andrew.cmu.edu/user/feenstra/wavetrans/>`_ code. It should be noted that the pseudopotential augmentation is not included in the WAVECAR file. As a result, some caution should be exercised when deriving value from this information. For example, the partial charge density obtained using vaspkit-515 will differ from the PARCHG from VASP, but the qualitative shape of the charge density should match.
 
 (2) The actual number of plane waves (NPWS) of each *k* value is determined by the maximum plane-wave energy it is used for the VASP run, i.e. all G values for which :math:`\frac{ ℏ^2|k+G|^2 }{2m}` is less than the cut-off energy. Unfortunately, the imprecisely-known scaling factor :math:`\frac{2m}{ℏ^2}` leads to a discrepancy between the NPWS computed by VASPKIT and that contained in the WAVECAR file occasionally. If so, you will encounter an error message saying that "Error: the calculated NPWS is not equal to the read NPWS". Then please adjust the final decimal place (or one beyond that) of FACTOR_ENCUT2NPWS (default value: 0.26246583) in the ~/.vaspkit file (1.3 and newer version). If such an adjustment is successfully determined, please contact wangvei@icloud.com with the new value, so that it can be incorporated into a future version of VASPKIT. 
 
-12.2 Usage FAQs
+Usage FAQs
 ~~~~~~~~~~~~~~~~
 
 1. The fermi energy is set to zero in the DOS.dat and BAND.dat files by default, unless the paramerter SET_FERMI_ENERGY_ZERO in the ~/.vaspkit file is set to .FALSE.;
