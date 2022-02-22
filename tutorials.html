@@ -109,7 +109,7 @@
 </ul>
 </li>
 <li class="toctree-l3"><a class="reference internal" href="#post-process-band-structure-pure-functional">Post-process Band Structure (pure functional)</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#post-process-band-structure-single-shot">Post-process Band Structure (single-shot)</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#single-shot-band-structue">Single-shot Band Structue</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#pre-process-band-structure-hybrid-functional">Pre-process Band Structure (hybrid functional)</a><ul>
 <li class="toctree-l4"><a class="reference internal" href="#example-single-layer-mos2-1">Example: single layer MoS2</a></li>
 </ul>
@@ -1004,9 +1004,9 @@ projections on band.</p>
 selected atoms or elements. This is useful to investigate the layered
 band and compare surface band and inner band.</p>
 </div>
-<div class="section" id="post-process-band-structure-single-shot">
-<h3>Post-process Band Structure (single-shot)<a class="headerlink" href="#post-process-band-structure-single-shot" title="Permalink to this headline">¶</a></h3>
-<p>The VASP.6.3.0 or latter version can calculate band structure through a single shot.
+<div class="section" id="single-shot-band-structue">
+<h3>Single-shot Band Structue<a class="headerlink" href="#single-shot-band-structue" title="Permalink to this headline">¶</a></h3>
+<p>The VASP.6.3.0 or latter version can calculate band structure through a single-shot.
 Note the PROCAR_OPT file does not output unless we compiled VASP after adding <code class="docutils literal notranslate"><span class="pre">-DVASP_HDF5</span></code> to the <code class="docutils literal notranslate"><span class="pre">CPP_OPTIONS</span></code> in the makefile.include.
 Alternatively, the PROCAR_OPT and EIGENVAL_OPT (new added) can automatically be generated after we modified the vasp.6.3.0/src/linear_response.F and recomplied VASP again.
 Specifically, first delete the lines from 1804-1827 in vasp.6.3.0/src/linear_response.F file,</p>

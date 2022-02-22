@@ -880,10 +880,10 @@ selected atoms or elements. This is useful to investigate the layered
 band and compare surface band and inner band.
 
 
-Post-process Band Structure (single-shot)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Single-shot Band Structue
+~~~~~~~~~~~~~~~~~~~~~~~~~
 
-The VASP.6.3.0 or latter version can calculate band structure through a single shot. 
+The VASP.6.3.0 or latter version can calculate band structure through a single-shot. 
 Note the PROCAR_OPT file does not output unless we compiled VASP after adding ``-DVASP_HDF5`` to the ``CPP_OPTIONS`` in the makefile.include.
 Alternatively, the PROCAR_OPT and EIGENVAL_OPT (new added) can automatically be generated after we modified the vasp.6.3.0/src/linear_response.F and recomplied VASP again. 
 Specifically, first delete the lines from 1804-1827 in vasp.6.3.0/src/linear_response.F file,
