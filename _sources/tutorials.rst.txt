@@ -973,7 +973,7 @@ and then add the following code
       ENDIF
    #endif
                            
-Finally recomplie VASP again. The VASPKIT.1.3.2 or latter version can read the raw data of plain and projected structure from the EIGENVAL_OPT and PROCAR_OPT files, respectively.                          
+Finally recomplie VASP again. The VASPKIT.1.3.2 or latter version can read the raw data of plain and projected band structures from the EIGENVAL_OPT and PROCAR_OPT files, respectively.                          
                            
 Pre-process Band Structure (hybrid functional)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
