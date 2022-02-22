@@ -583,7 +583,7 @@ website（https://www.materialscloud.org/work/tools/seekpath）
 
 
    If you use this module, please cite the following work:
-   [1] V. Wang, N. Xu, VASPKIT: A Pre- and Post-Processing Program for the VASP Code. http://vaspkit.sourceforge.net.
+   [1] V. Wang, N. Xu, J.-C. Liu, G. Tang, W.-T. Geng, VASPKIT: A User-friendly Interface Facilitating High-throughput Computing and Analysis Using VASP Code, Computer Physics Communications 267, 108033 (2021).
    [2] V. Wang, Y.-Y. Liang, Y. Kawazeo, W.-T. Geng, High-Throughput Computational Screening of Two-Dimensional Semiconductors, arXiv:1806.04285.
 
 Read the CHGCAR from single-point calculation and submit VASP band
@@ -2634,16 +2634,6 @@ properties at GW0+BSE leve, as shown in figure below.
      -->> (01) Reading Dielectric Function From vasprun.xml File...
      -->> (02) Reading IMAG.in and REAL.in Files...
      -->> (03) Written Optical Files Succesfully!
-    +---------------------------------------------------------------+
-    |                         * DISCLAIMER *                        |
-    |      Check the Consistency of Your Results if Necessary       |
-    |         Any Suggestions for Improvements are Welcome          |
-    |                     (^.^) GOOD LUCK (^.^)                     |
-    |---------------------------------------------------------------|
-    | We Would Appreciate if You Cite in Your Research with VASPKIT.|
-    | Ref. V. Wang, N. Xu, J.C. LIU, VASPKIT: A Pre- and Post-Proces|
-    | sing Program for the VASP Code. http://vaspkit.sourceforge.net|
-    +---------------------------------------------------------------+
 
 Transition Dipole Moment
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -3206,39 +3196,39 @@ For example: MoS2/WS2 heterogeneous junction.
 
 .. code-block:: none
 
-      427
-       +-------------------------- Warm Tips --------------------------+
-                        You MUST Know What You are Doing  
-         Check Convergence of Planar Average Value on Vacuum-Thickness!
-       +---------------------------------------------------------------+
-       ===================== Specified Direction =======================
-       Which Direction is for the Planar Average?           
-       1) x Direction                                       
-       2) y Direction                                       
-       3) z Direction                                       
-                                                            
-       0) Quit                                              
-       9) Back                                              
-       ------------>>
-      1
-        -->> (01) Reading Structural Parameters from LOCPOT File...
-        -->> (02) Reading Local Potential From LOCPOT File...
-       Please input the period length to calculate macroscopic average:
-       (Typical value: the minimum length of repeated unit.)
-      
-       ------------>>
-      1.5
-       Please input iteration number to get smoother macroscopic curve:
-       (Must be integer. You can gradually increase from 1 to 3.)
-      
-       ------------>>
-      3
-        -->> (03) Written PLANAR_AVERAGE.dat File!
-       +-------------------------- Summary ----------------------------+
-       Maximum of macroscopic average:   0.099
-       Minimum of macroscopic average:  -0.101
-       +---------------------------------------------------------------+
-        -->> (04) Written MACROSCOPIC_AVERAGE.dat File!
+   427
+    +-------------------------- Warm Tips --------------------------+
+                     You MUST Know What You are Doing  
+      Check Convergence of Planar Average Value on Vacuum-Thickness!
+    +---------------------------------------------------------------+
+    ===================== Specified Direction =======================
+    Which Direction is for the Planar Average?           
+    1) x Direction                                       
+    2) y Direction                                       
+    3) z Direction                                       
+                                                         
+    0) Quit                                              
+    9) Back                                              
+    ------------>>
+   1
+     -->> (01) Reading Structural Parameters from LOCPOT File...
+     -->> (02) Reading Local Potential From LOCPOT File...
+    Please input the period length to calculate macroscopic average:
+    (Typical value: the minimum length of repeated unit.)
+   
+    ------------>>
+   1.5
+    Please input iteration number to get smoother macroscopic curve:
+    (Must be integer. You can gradually increase from 1 to 3.)
+   
+    ------------>>
+   3
+     -->> (03) Written PLANAR_AVERAGE.dat File!
+    +-------------------------- Summary ----------------------------+
+    Maximum of macroscopic average:   0.099
+    Minimum of macroscopic average:  -0.101
+    +---------------------------------------------------------------+
+     -->> (04) Written MACROSCOPIC_AVERAGE.dat File!
 
 **Step 3**. Draw graphs from the output ``MACROSCOPIC_AVERAGE.dat``, and
 ``PLANAR_AVERAGE.dat``
