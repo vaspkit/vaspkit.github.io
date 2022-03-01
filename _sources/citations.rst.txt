@@ -10,7 +10,7 @@ How to cite
 
    and state in your manuscript/paper that you have used the VASPKIT program. An appropriate way of acknowledging the use of VASPKIT in your publications would be, for instance, adding a sentence like
 
-   "**We used the VASPKIT code for postprocessing of the VASP calculated data.**"
+   "**We used the VASPKIT code for post-processing of the VASP calculated data.**" or "**The electronic band calculations were performed with density functional theory (DFT) by combining the Vienna ab initio Simulation package (VASP) with post-processing VASPKIT package.**"
 
 .. code-block:: none
 
