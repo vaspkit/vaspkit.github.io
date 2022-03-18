@@ -2462,84 +2462,120 @@ pre-processing)；</p>
 the following information,</p>
 <div class="highlight-none notranslate"><div class="highlight"><pre><span></span> ------------&gt;&gt;
 201
-  --&gt;&gt; (01) Reading VPKIT.in File...
- +-------------------------- Warm Tips --------------------------+
-      See an example in vaspkit/examples/elastic/diamond_3D,
-   Require the fully-relaxed and standardized Convertional cell.
- +---------------------------------------------------------------+
-  --&gt;&gt; (02) Reading Structural Parameters from POSCAR File...
-  --&gt;&gt; (03) Calculating the fitting coefficients of energy vs strain.
- --&gt;&gt; Current directory: Fitting Precision
-                    C44:  0.817E-09
-              C11_C12_I:  0.814E-08
-             C11_C12_II:  0.135E-07
- +-------------------------- Summary ----------------------------+
- Based on the Strain versus Energy method.
- Crystal Class: m-3m
- Space Group: Fd-3m
- Crystal System: Cubic system
- Including Point group classes: 23, 2/m-3, 432, -43m, 4/m-32/m
- There are 3 independent elastic constants
-    C11  C12  C12    0    0    0
-    C12  C11  C12    0    0    0
-    C12  C12  C11    0    0    0
-      0    0    0  C44    0    0
-      0    0    0    0  C44    0
-      0    0    0    0    0  C44
+  --&gt;&gt; (01) Reading VPKIT.in File..
 
- Stiffness Tensor C_ij (in GPa):
-   1050.640    126.640    126.640      0.000      0.000      0.000
-    126.640   1050.640    126.640      0.000      0.000      0.000
-    126.640    126.640   1050.640      0.000      0.000      0.000
-      0.000      0.000      0.000    559.861      0.000      0.000
-      0.000      0.000      0.000      0.000    559.861      0.000
-      0.000      0.000      0.000      0.000      0.000    559.861
+ \\                                                           =o)
+ (o&gt; +------------------------------------------------------+/\\
+_(()_|VPKIT.in will be renamed to INPUT.in in future version| \_V
+ //  +------------------------------------------------------+  \\
+ --&gt;&gt; (01) Reading VPKIT.in File...
++-------------------------- Warm Tips --------------------------+
+        See some examples in vaspkit/examples/elastic,
+  Require the fully-relaxed and standardized Conventional cell.
++---------------------------------------------------------------+
+ --&gt;&gt; (02) Reading Structural Parameters from POSCAR File...
+ --&gt;&gt; (03) Calculating Fitting Coefficients of Energy vs. Strain.
+ --&gt;&gt; Current directory:  Fitting Precision
+             C44 Folder:  0.817E-09
+       C11_C12_I Folder:  0.814E-08
+      C11_C12_II Folder:  0.135E-07
++-------------------------- Summary ----------------------------+
+Crystal Class: m-3m
+Space Group: Fd-3m
+Crystal System: Cubic system
+Including Point group classes: 23, 2/m-3, 432, -43m, 4/m-32/m
+There are 3 independent elastic constants
+   C11  C12  C12    0    0    0
+   C12  C11  C12    0    0    0
+   C12  C12  C11    0    0    0
+     0    0    0  C44    0    0
+     0    0    0    0  C44    0
+     0    0    0    0    0  C44
 
- Compliance Tensor S_ij (in GPa^{-1}):
-   0.000977  -0.000105  -0.000105   0.000000   0.000000   0.000000
-  -0.000105   0.000977  -0.000105   0.000000   0.000000   0.000000
-  -0.000105  -0.000105   0.000977   0.000000   0.000000   0.000000
-   0.000000   0.000000   0.000000   0.001786   0.000000   0.000000
-   0.000000   0.000000   0.000000   0.000000   0.001786   0.000000
-   0.000000   0.000000   0.000000   0.000000   0.000000   0.001786
+Stiffness Tensor C_ij (in GPa):
+  1050.640    126.640    126.640      0.000      0.000      0.000
+   126.640   1050.640    126.640      0.000      0.000      0.000
+   126.640    126.640   1050.640      0.000      0.000      0.000
+     0.000      0.000      0.000    559.861      0.000      0.000
+     0.000      0.000      0.000      0.000    559.861      0.000
+     0.000      0.000      0.000      0.000      0.000    559.861
 
- Elastic stability criteria as discussed in PRB 90, 224104 (2014):
- Criteria (i) C11 - C12 &gt; 0 meeted.
- Criteria (ii) C11 + 2C12 &gt; 0 meeted.
- Criteria (iii) C44 &gt; 0 meeted.
+Compliance Tensor S_ij (in GPa^{-1}):
+  0.000977  -0.000105  -0.000105   0.000000   0.000000   0.000000
+ -0.000105   0.000977  -0.000105   0.000000   0.000000   0.000000
+ -0.000105  -0.000105   0.000977   0.000000   0.000000   0.000000
+  0.000000   0.000000   0.000000   0.001786   0.000000   0.000000
+  0.000000   0.000000   0.000000   0.000000   0.001786   0.000000
+  0.000000   0.000000   0.000000   0.000000   0.000000   0.001786
 
- Average mechanical properties for polycrystalline:
- +---------------------------------------------------------------+
- |        Scheme             |   Voigt   |   Reuss   |    Hill   |
- +---------------------------------------------------------------+
- |  Bulk modulus K (GPa)     |  434.640  |  434.640  |  434.640  |
- |  Shear modulus G (GPa)    |  520.716  |  516.130  |  518.423  |
- |  Young&#39;s modulus E (GPa)  | 1116.342  | 1109.298  | 1112.824  |
- |  P-wave modulus (GPa)     | 1128.929  | 1122.814  | 1125.871  |
- |  Poisson&#39;s ratio v        |    0.072  |    0.075  |    0.073  |
- |  Bulk/Shear ratio         |    0.835  |    0.842  |    0.838  |
- +---------------------------------------------------------------+
- Pugh Ratio: 1.193
- Cauchy Pressure (GPa): -433.220
- Universal Elastic Anisotropy: 0.044
- Chung–Buessem Anisotropy:    0.004
- Isotropic Poisson’s Ratio: 0.073
- Longitudinal wave velocity (in m/s):  17945.173
- Transverse wave velocity (in m/s):  12177.146
- Average wave velocity (in m/s):  13280.911
- Debye temperature (in K): 2212.889
- References:
- [1] Voigt W, Lehrbuch der Kristallphysik (1928)
- [2] Reuss A, Z. Angew. Math. Mech. 9 49–58 (1929)
- [3] Hill R, Proc. Phys. Soc. A 65 349–54 (1952)
- [4] Debye temperature J. Phys. Chem. Solids 24, 909-917 (1963)
- [5] Elastic wave velocities calculated using Navier&#39;s equation
+Anisotropic mechanical properties of bulk singlecrystal:
++---------------------------------------------------------------+
+|   Mechanical Properties   |    Min    |    Max    | Anisotropy|
++---------------------------------------------------------------+
+|  Bulk Modulus B (GPa)     |  434.640  |  434.640  |    1.000  |
+|  Young&#39;s Modulus E (GPa)  | 1023.395  | 1175.046  |    1.148  |
+|  Shear Modulus G (GPa)    |  462.000  |  559.861  |    1.212  |
+|  Poisson&#39;s Ratio v        |    0.012  |    0.119  |    9.987  |
+|  Linear compressibility   |    0.767  |    0.767  |    1.000  |
++---------------------------------------------------------------+
+Linear compressibility beta is in unit of TPa^-1
+References:
+[1] Marmier A, Comput. Phys. Commun. 181, 2102–2115 (2010)
+[2] Gaillac R, J. Phys. Condens. Matter 28, 275201 (2016)
+
+Average mechanical properties of bulk polycrystal:
++---------------------------------------------------------------+
+|   Mechanical Properties   |   Voigt   |   Reuss   |    Hill   |
++---------------------------------------------------------------+
+|  Bulk Modulus B (GPa)     |   434.64  |  434.640  |  434.640  |
+|  Young&#39;s Modulus E (GPa)  |  1116.34  | 1109.298  | 1112.824  |
+|  Shear Modulus G (GPa)    |   520.72  |  516.130  |  518.423  |
+|  Poisson&#39;s Ratio v        |     0.07  |    0.075  |    0.073  |
+|  P-wave Modulus (GPa)     |  1128.93  | 1122.814  | 1125.871  |
+|  Pugh&#39;s Ratio (B/G)       |     0.83  |    0.842  |    0.838  |
+| Vickers Hardness (GPa)[6] |    91.69  |   90.237  |   90.962  |
+| Vickers Hardness (GPa)[7] |    94.70  |   93.170  |   93.935  |
++---------------------------------------------------------------+
+Pugh&#39;s Ratio (B/G):   0.84        --&gt; Brittle region (&lt; 1.75)
+Cauchy Pressure Pc (GPa):  -433.2 --&gt; Metallic-like bonding (&lt; 0)
+Kleinman’s parameter:   0.29      --&gt; Bonding Bending dominated (&lt; 0.5)
+Universal Elastic Anisotropy:   0.04
+Chung-Buessem Anisotropy:     0.0
+Isotropic Poisson&#39;s Ratio:   0.07
+Longitudinal wave velocity (m/s):  17945.173
+Transverse wave velocity (m/s):  12177.146
+Average wave velocity (m/s):  13280.911
+Debye temperature (K):  2212.9
+References:
+[1] Voigt W, Lehrbuch der Kristallphysik (1928)
+[2] Reuss A, Z. Angew. Math. Mech. 9 49-58 (1929)
+[3] Hill R, Proc. Phys. Soc. A 65 349-54 (1952)
+[4] Debye temperature J. Phys. Chem. Solids 24, 909-917 (1963)
+[5] Elastic wave velocities calculated using Navier&#39;s equation
+[6] Chen X-Q, Intermetallics 19, 1275 (2011)
+[7] Tian Y-J, Int. J. Refract. Hard Met. 33, 93–106 (2012)
+
+Eigenvalues of the stiffness matrix (in GPa):
+Eigenvalue lamda_1 =   559.861 &gt; 0 meeted.
+Eigenvalue lamda_2 =   559.861 &gt; 0 meeted.
+Eigenvalue lamda_3 =   559.861 &gt; 0 meeted.
+Eigenvalue lamda_4 =   924.000 &gt; 0 meeted.
+Eigenvalue lamda_5 =   924.000 &gt; 0 meeted.
+Eigenvalue lamda_6 =  1303.921 &gt; 0 meeted.
+
+Elastic stability criteria as seen in PRB 90, 224104 (2014).
+Criteria (i) C11 - C12 &gt; 0 meeted.
+Criteria (ii) C11 + 2C12 &gt; 0 meeted.
+Criteria (iii) C44 &gt; 0 meeted.
+This Structure is Mechanically Stable.
++---------------------------------------------------------------+
+ --&gt;&gt; (04) Written ELASTIC_TENSOR File!
 </pre></div>
 </div>
 <p>The calcualted elastic contants are well agreement with the available
 experimental values, <span class="math notranslate nohighlight">\(C_{11}=1079\)</span> GPa, <span class="math notranslate nohighlight">\(C_{12}=124\)</span> GPa and
 <span class="math notranslate nohighlight">\(C_{44}=578\)</span> GPa. VASPKIT can also read elastic constants from
-OUTCAR/ELASTIC_TENSOR.in file and determine various mechanical
+the OUTCAR (task 203) or ELASTIC_TENSOR.in (task 202) file and determine various mechanical
 properites and elastic stability criterion. For more details, see
 vaspkit/examples/elastic.</p>
 </div>
