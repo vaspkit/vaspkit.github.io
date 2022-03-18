@@ -2275,8 +2275,8 @@ So, ZPE is 0.067171 eV. Thermal correction to *U*\ (T), *H*\ (T), and
 *G*\ (T) are 0.095670, 0.187167, and -0.446723 eV, respectively.
 
 
-Elastic Properties
---------------------
+Mechanical Properties
+------------------------
 
 Determine elastic constants based on energy-strain method
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -2544,7 +2544,7 @@ properites and elastic stability criterion. For more details, see
 vaspkit/examples/elastic.
 
 
-Optic Properties
+Optical Properties
 ------------------
 
 Linear Optical Properties
