@@ -2406,8 +2406,7 @@ where math::` \boldsymbol{I}` is the identity matrix, The strain tensor
      ISIF   =  2    （Must be 2）
      EDIFFG = -1E-02  
 
-4，Prepare VPKIT.in file and set the value of firt line to 1 (1 means
-pre-processing)；
+4，Prepare VPKIT.in file and set the value of first line to 1 (1 means pre-processing)；
 
 .. code-block:: none
 

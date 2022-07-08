@@ -58,6 +58,8 @@ Cited publications
 
 #. S. Yoshida, H. Akamatsu, and K. Hayashi, Electronic Origin of Non-Zone-Center Phonon Condensation: Octahedral Rotation as a Case Study, **Phys. Rev. Lett.** 127, 215701 (2021). https://doi.org/10.1103/PhysRevLett.127.215701
 
+#. D. Luo, K. Yin, R. Dronskowski, Existence of BeCN2 and Its First-Principles Phase Diagram: Be and C Introducing Structural Diversity. **Journal of the American Chemical Society** 144, 5155–5162 (2022). https://doi.org/10.1021/jacs.2c00592
+
 #. D. Han, C. Feng, M. H. Du, et al. Design of High-Performance Lead-Free Quaternary Antiperovskites for Photovoltaics via Ion Type Inversion and Anion Ordering. **Journal of the American Chemical Society** 143, 12369–12379 (2021). https://doi.org/10.1021/jacs.1c06403
 
 #. D. Luo, X. Qiao, R. Dronskowski, Predicting Nitrogen-based Families of Compounds: Transition-metal Guanidinates TCN3 (T= V, Nb, Ta) and Ortho-nitrido Carbonates T2CN4 (T= Ti, Zr, Hf), **Angew. Chem. Int. Ed**. (2020) 202011196. https://doi.org/10.1002/anie.202011196
