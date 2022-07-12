@@ -38,6 +38,8 @@ Cited publications
 
 #. Y. Ohtsuka, N. Kanazawa, M. Hirayama, et al., Emergence of spin-orbit coupled ferromagnetic surface state derived from Zak phase in a nonmagnetic insulator FeSi, **Science Advances** 7, eabj0498 (2021). https://doi.org/10.1126/sciadv.abj0498
 
+#. C.C. Meng, B.F. Ding, S.Z. Zhang, Z.H. Zhang, et al. Angstrom-confined catalytic water purification within Co-TiOx laminar membrane nanochannels. **Nature communications** 13, 4010 (2022). https://doi.org/10.1038/s41467-022-31807-1
+
 #. J. Chen, Q. Ma, X. Zheng, Y. Fang, et al. Kinetically restrained oxygen reduction to hydrogen peroxide with nearly 100% selectivity. **Nature communications** 13, 1-9 (2022). https://doi.org/10.1038/s41467-022-30411-7
 
 #. C. Ruan, X. Wang, C. Wang, et al., Selective catalytic oxidation of ammonia to nitric oxide via chemical looping. **Nature Communications** 13, 718 (2022). https://doi.org/10.1038/s41467-022-28370-0
