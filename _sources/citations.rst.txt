@@ -26,7 +26,7 @@ How to cite
 
 Cited publications
 ------------------
-*The VASPKIT program has been cited by more than 900 times (google scholar) since 2020. Many thanks to the authors! Some of them are listed below.* 
+*The VASPKIT program has been cited by more than 1000 times (google scholar) since 2020. Many thanks to the authors! Some of them are listed below.* 
 
 #. J. Liu, M. De Bastiani, E. Aydin, G. T. Harrison, et al., Efficient and stable perovskite-silicon tandem solar cells through contact displacement by MgFx. **Science**, eabn8910 (2022). https://doi.org/10.1126/science.abn8910
 
