@@ -38,6 +38,8 @@ Cited publications
 
 #. Y. Ohtsuka, N. Kanazawa, M. Hirayama, et al., Emergence of spin-orbit coupled ferromagnetic surface state derived from Zak phase in a nonmagnetic insulator FeSi, **Science Advances** 7, eabj0498 (2021). https://doi.org/10.1126/sciadv.abj0498
 
+#. S. Bae, K. Matsumoto, H. Raebiger, et al., K-Point Longitudinal Acoustic Phonons Are Responsible for Ultrafast Intervalley Scattering in monolayer MoSe2. **Nature Communications** 13, 4279 (2022). https://doi.org/10.1038/s41467-022-32008-6 
+
 #. C. Meng, B.F. Ding, S.Z. Zhang, Z.H. Zhang, et al. Angstrom-confined catalytic water purification within Co-TiOx laminar membrane nanochannels. **Nature communications** 13, 4010 (2022). https://doi.org/10.1038/s41467-022-31807-1
 
 #. J. Chen, Q. Ma, X. Zheng, Y. Fang, et al. Kinetically restrained oxygen reduction to hydrogen peroxide with nearly 100% selectivity. **Nature communications** 13, 1-9 (2022). https://doi.org/10.1038/s41467-022-30411-7
@@ -59,6 +61,8 @@ Cited publications
 #. C. Wu, L. Lin, J. Liu, J. Zhang, F. Zhang, T. Zhou, N. Rui, S. Yao, Y. Deng, F. Yang, W. Xu, J. Luo, Y. Zhao, B. Yan, X.-D. Wen, Jose A. Rodriguez, D. Ma, Inverse ZrO2/Cu as a highly efficient methanol synthesis catalyst from CO2 hydrogenation,  **Nature Communications** 11, 5767 (2020). https://doi.org/10.1038/s41467-020-19634-8
 
 #. S. Yoshida, H. Akamatsu, and K. Hayashi, Electronic Origin of Non-Zone-Center Phonon Condensation: Octahedral Rotation as a Case Study, **Phys. Rev. Lett.** 127, 215701 (2021). https://doi.org/10.1103/PhysRevLett.127.215701
+
+#. X. Huang, X. Li, Y. Tao, et al., Understanding Electron–Phonon Interactions in 3D Lead Halide Perovskites from the Stereochemical Expression of 6s2 Lone Pairs. **Journal of the American Chemical Society** 144, 12247–12260 (2022). https://doi.org/10.1021/jacs.2c00592
 
 #. D. Luo, K. Yin, R. Dronskowski, Existence of BeCN2 and Its First-Principles Phase Diagram: Be and C Introducing Structural Diversity. **Journal of the American Chemical Society** 144, 5155–5162 (2022). https://doi.org/10.1021/jacs.2c00592
 
@@ -85,8 +89,6 @@ Cited publications
 #. L. Chen, O. Skibitzki, L. Pedesseau, A. Létoublon, J. Stervinou, R. Bernard, C. Levallois, R. Piron, M. Perrin, M. A. Schubert, et al., Strong Electron Phonon Interaction in 2D Vertical Homovalent IIIV Singularities, **ACS Nano** 14 (10) (2020) 13127-13136. https://doi.org/10.1021/acsnano.0c04702
 
 #. Y. Jin, M. Cheng, H. Liu, M. Ouzounian, T. S. Hu, B. You, G. Shao, X. Liu, Y. Liu, H. Li, S. Li, J. Guan, S. Liu,Na2SO4-Regulated High-Quality Growth of Transition Metal Dichalcogenides by Controlling Diffusion, **Chem. Mater**. 32 (13) (2020) 5616-5625. https://doi.org/10.1021/acs.chemmater.0c01089
-
-#. N. Xu, L. Li, Y. He, Y. Tong, Y. Lu, Understanding the molecular mechanism of lithium deposition for practical high-energy lithium-metal batteries, **J. Mater. Chem. A** 8 (2020) 6229-6237. https://doi.org/10.1039/D0TA01044H
 
 #. V. Wang, Y. C. Liu, Y. Kawazoe, W. T. Geng, Role of Interlayer Coupling on the Evolution of Band Edges in Few-Layer Phosphorene, **J. Phys. Chem. Lett**. 6 (24) (2015) 4876-4883. https://doi.org/10.1021/acs.jpclett.5b02047
 
