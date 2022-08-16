@@ -150,6 +150,6 @@ The following figures were plotted by using `Matplotlib <https://matplotlib.org/
     
 25.  stacking-dependent potential energy surface of few-layered nanosheets (Ver. 1.4.0 and later)
 
-.. image:: ../images/Stacking
+.. image:: ../images/Stacking.png
     :width: 600
     :align: center  
