@@ -135,4 +135,21 @@ The following figures were plotted by using `Matplotlib <https://matplotlib.org/
 .. image:: ../images/Moire.png
     :width: 600
     :align: center   
+   
+23.  2D slice of charge density or potential (Ver. 1.4.0 and later)
+
+.. image:: ../images/SLICE_110.png
+    :width: 600
+    :align: center
     
+24.  spatially-resolved density of states (Ver. 1.4.0 and later)
+
+.. image:: ../images/LDOS.png
+    :width: 600
+    :align: center    
+    
+25.  stacking-dependent potential energy surface of few-layered nanosheets (Ver. 1.4.0 and later)
+
+.. image:: ../images/Stacking
+    :width: 600
+    :align: center  

@@ -38,6 +38,8 @@ Cited publications
 
 #. Y. Ohtsuka, N. Kanazawa, M. Hirayama, et al., Emergence of spin-orbit coupled ferromagnetic surface state derived from Zak phase in a nonmagnetic insulator FeSi, **Science Advances** 7, eabj0498 (2021). https://doi.org/10.1126/sciadv.abj0498
 
+#. W. Deng, Z. Zheng, J. Li, R. Zhou, X. Chen, D. Zhang, et al., Electrically tunable two-dimensional heterojunctions for miniaturized near-infrared spectrometers. **Nature Communications** 131, 4627 (2022). https://doi.org/10.1038/s41467-022-32306-z     
+
 #. S. Bae, K. Matsumoto, H. Raebiger, et al., K-Point Longitudinal Acoustic Phonons Are Responsible for Ultrafast Intervalley Scattering in monolayer MoSe2. **Nature Communications** 13, 4279 (2022). https://doi.org/10.1038/s41467-022-32008-6 
 
 #. C. Meng, B.F. Ding, S.Z. Zhang, Z.H. Zhang, et al. Angstrom-confined catalytic water purification within Co-TiOx laminar membrane nanochannels. **Nature communications** 13, 4010 (2022). https://doi.org/10.1038/s41467-022-31807-1
