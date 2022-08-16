@@ -142,13 +142,13 @@ The following figures were plotted by using `Matplotlib <https://matplotlib.org/
     :width: 600
     :align: center
     
-24.  spatially-resolved density of states (Ver. 1.4.0 and later)
+24.  Spatially-resolved density of states (Ver. 1.4.0 and later)
 
 .. image:: ../images/LDOS.png
     :width: 600
     :align: center    
     
-25.  stacking-dependent potential energy surface of few-layered nanosheets (Ver. 1.4.0 and later)
+25.  Stacking-dependent potential energy surface of few-layered nanosheets (Ver. 1.4.0 and later)
 
 .. image:: ../images/Stacking.png
     :width: 600
