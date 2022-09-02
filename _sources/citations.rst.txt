@@ -28,43 +28,47 @@ Cited publications
 ------------------
 *The VASPKIT program has been cited by more than 1000 times (google scholar) since 2020. Many thanks to the authors! Some of them are listed below.* 
 
-#. J. Liu, M. De Bastiani, E. Aydin, G. T. Harrison, et al., Efficient and stable perovskite-silicon tandem solar cells through contact displacement by MgFx. **Science**, eabn8910 (2022). https://doi.org/10.1126/science.abn8910
+#. J. Liu, M. De Bastiani, E. Aydin, G. T. Harrison, et al. Efficient and stable perovskite-silicon tandem solar cells through contact displacement by MgFx. **Science**, eabn8910 (2022). https://doi.org/10.1126/science.abn8910
 
-#. D. Li, F. Xu, X. Tang, S. Dai, T. Pu, X. Liu, et al., Induced activation of the commercial Cu/ZnO/Al2O3 catalyst for the steam reforming of methanol. **Nature Catalysis** 5, 1-10 (2022). https://doi.org/10.1038/s41929-021-00729-4
+#. Z. Wang, Y. Wang, J. Wang, et al. Rational design of perovskite ferrites as high-performance proton-conducting fuel cell cathodes. **Nature Catalysis** (2022). https://doi.org/10.1038/s41929-022-00829-9
 
-#. Y. Zhao, C. Deng, D. Tang, et al., α-Fe2O3 as a versatile and efficient oxygen atom transfer catalyst in combination with H2O as the oxygen source. **Nature Catalysis** 4, 684–691 (2021). https://doi.org/10.1038/s41929-021-00659-1
+#. D. Li, F. Xu, X. Tang, S. Dai, T. Pu, X. Liu, et al. Induced activation of the commercial Cu/ZnO/Al2O3 catalyst for the steam reforming of methanol. **Nature Catalysis** 5, 1-10 (2022). https://doi.org/10.1038/s41929-021-00729-4
 
-#.  M. Peng, R. Xie, Z. Wang, et al., Blackbody-sensitive room-temperature infrared photodetectors based on low-dimensional tellurium grown by chemical vapor deposition. **Science Advances** 7, eabf7358 (2021). https://doi.org/10.1126/sciadv.abf7358 
+#. Y. Zhao, C. Deng, D. Tang, et al. α-Fe2O3 as a versatile and efficient oxygen atom transfer catalyst in combination with H2O as the oxygen source. **Nature Catalysis** 4, 684–691 (2021). https://doi.org/10.1038/s41929-021-00659-1
 
-#. Y. Ohtsuka, N. Kanazawa, M. Hirayama, et al., Emergence of spin-orbit coupled ferromagnetic surface state derived from Zak phase in a nonmagnetic insulator FeSi, **Science Advances** 7, eabj0498 (2021). https://doi.org/10.1126/sciadv.abj0498
+#.  M. Peng, R. Xie, Z. Wang, et al. Blackbody-sensitive room-temperature infrared photodetectors based on low-dimensional tellurium grown by chemical vapor deposition. **Science Advances** 7, eabf7358 (2021). https://doi.org/10.1126/sciadv.abf7358 
 
-#. W. Deng, Z. Zheng, J. Li, R. Zhou, X. Chen, D. Zhang, et al., Electrically tunable two-dimensional heterojunctions for miniaturized near-infrared spectrometers. **Nature Communications** 131, 4627 (2022). https://doi.org/10.1038/s41467-022-32306-z     
+#. Y. Ohtsuka, N. Kanazawa, M. Hirayama, et al. Emergence of spin-orbit coupled ferromagnetic surface state derived from Zak phase in a nonmagnetic insulator FeSi, **Science Advances** 7, eabj0498 (2021). https://doi.org/10.1126/sciadv.abj0498
 
-#. S. Bae, K. Matsumoto, H. Raebiger, et al., K-Point Longitudinal Acoustic Phonons Are Responsible for Ultrafast Intervalley Scattering in monolayer MoSe2. **Nature Communications** 13, 4279 (2022). https://doi.org/10.1038/s41467-022-32008-6 
+#. W. Deng, Z. Zheng, J. Li, R. Zhou, X. Chen, D. Zhang, et al. Electrically tunable two-dimensional heterojunctions for miniaturized near-infrared spectrometers. **Nature Communications** 131, 4627 (2022). https://doi.org/10.1038/s41467-022-32306-z     
+
+#. S. Bae, K. Matsumoto, H. Raebiger, et al. K-Point Longitudinal Acoustic Phonons Are Responsible for Ultrafast Intervalley Scattering in monolayer MoSe2. **Nature Communications** 13, 4279 (2022). https://doi.org/10.1038/s41467-022-32008-6 
 
 #. C. Meng, B.F. Ding, S.Z. Zhang, Z.H. Zhang, et al. Angstrom-confined catalytic water purification within Co-TiOx laminar membrane nanochannels. **Nature communications** 13, 4010 (2022). https://doi.org/10.1038/s41467-022-31807-1
 
 #. J. Chen, Q. Ma, X. Zheng, Y. Fang, et al. Kinetically restrained oxygen reduction to hydrogen peroxide with nearly 100% selectivity. **Nature communications** 13, 1-9 (2022). https://doi.org/10.1038/s41467-022-30411-7
 
-#. C. Ruan, X. Wang, C. Wang, et al., Selective catalytic oxidation of ammonia to nitric oxide via chemical looping. **Nature Communications** 13, 718 (2022). https://doi.org/10.1038/s41467-022-28370-0
+#. C. Ruan, X. Wang, C. Wang, et al. Selective catalytic oxidation of ammonia to nitric oxide via chemical looping. **Nature Communications** 13, 718 (2022). https://doi.org/10.1038/s41467-022-28370-0
 
-#. H. Bai, J. Wu, X. Su, et al., Electroresistance in multipolar antiferroelectric Cu2Se semiconductor, **Nature Communications** 12, 1 (2021). https://doi.org/10.1038/s41467-021-27531-x
+#. H. Bai, J. Wu, X. Su, et al. Electroresistance in multipolar antiferroelectric Cu2Se semiconductor, **Nature Communications** 12, 1 (2021). https://doi.org/10.1038/s41467-021-27531-x
 
-#.  M. Liu, J.-A. Wang, et al., Interfacial electronic structure engineering on molybdenum sulfide for robust dual-pH hydrogen evolution, **Nature Communications** 12, 5260 (2021).  https://doi.org/10.1038/s41467-021-25647-8
+#.  M. Liu, J.-A. Wang, et al. Interfacial electronic structure engineering on molybdenum sulfide for robust dual-pH hydrogen evolution, **Nature Communications** 12, 5260 (2021).  https://doi.org/10.1038/s41467-021-25647-8
 
-#.  L. Xian, M. Claassen, et al., Realization of nearly dispersionless bands with strong orbital anisotropy from destructive interference in twisted bilayer MoS2, **Nature Communications** 12, 5644 (2021). https://doi.org/10.1038/s41467-021-25922-8
+#.  L. Xian, M. Claassen, et al. Realization of nearly dispersionless bands with strong orbital anisotropy from destructive interference in twisted bilayer MoS2, **Nature Communications** 12, 5644 (2021). https://doi.org/10.1038/s41467-021-25922-8
 
-#. H. Bao, Y. Qiu, X. Peng, et al., Isolated copper single sites for high-performance electroreduction of carbon monoxide to multicarbon products. **Nature Communications** 12, 238 (2021). https://doi.org/10.1038/s41467-020-20336-4
+#. H. Bao, Y. Qiu, X. Peng, et al. Isolated copper single sites for high-performance electroreduction of carbon monoxide to multicarbon products. **Nature Communications** 12, 238 (2021). https://doi.org/10.1038/s41467-020-20336-4
 
-#. R. Li, D. Rao, J. Zhou, et al., Amorphization-induced surface electronic states modulation of cobaltous oxide nanosheets for lithium-sulfur batteries. **Nature Communications** 12, 3102 (2021). https://doi.org/10.1038/s41467-021-23349-9
+#. R. Li, D. Rao, J. Zhou, et al. Amorphization-induced surface electronic states modulation of cobaltous oxide nanosheets for lithium-sulfur batteries. **Nature Communications** 12, 3102 (2021). https://doi.org/10.1038/s41467-021-23349-9
 
-#. F. Yu, W. Liu, S.-W. Ke, M. Kurmoo, J.-L. Zuo, Q. Zhang, Electrochromic two-dimensional covalent organic framework with a reversible dark-to-transparent switch, **Nature Communications** 11, 5534 (2020). https://doi.org/10.1038/s41467-020-19315-6
+#. F. Yu, W. Liu, S.-W. Ke, M. Kurmoo, J.-L. Zuo, Q. Zhang, Electrochromic two-dimensional covalent organic framework with a reversible dark-to-transparent switch. **Nature Communications** 11, 5534 (2020). https://doi.org/10.1038/s41467-020-19315-6
 
-#. C. Wu, L. Lin, J. Liu, J. Zhang, F. Zhang, T. Zhou, N. Rui, S. Yao, Y. Deng, F. Yang, W. Xu, J. Luo, Y. Zhao, B. Yan, X.-D. Wen, Jose A. Rodriguez, D. Ma, Inverse ZrO2/Cu as a highly efficient methanol synthesis catalyst from CO2 hydrogenation,  **Nature Communications** 11, 5767 (2020). https://doi.org/10.1038/s41467-020-19634-8
+#. C. Wu, L. Lin, J. Liu, J. Zhang, F. Zhang, et al. Inverse ZrO2/Cu as a highly efficient methanol synthesis catalyst from CO2 hydrogenation,  **Nature Communications** 11, 5767 (2020). https://doi.org/10.1038/s41467-020-19634-8
 
-#. S. Yoshida, H. Akamatsu, and K. Hayashi, Electronic Origin of Non-Zone-Center Phonon Condensation: Octahedral Rotation as a Case Study, **Phys. Rev. Lett.** 127, 215701 (2021). https://doi.org/10.1103/PhysRevLett.127.215701
+#. S. Yoshida, H. Akamatsu, and K. Hayashi, Electronic Origin of Non-Zone-Center Phonon Condensation: Octahedral Rotation as a Case Study. **Physical Review Letters** 127, 215701 (2021). https://doi.org/10.1103/PhysRevLett.127.215701
 
-#. X. Huang, X. Li, Y. Tao, et al., Understanding Electron–Phonon Interactions in 3D Lead Halide Perovskites from the Stereochemical Expression of 6s2 Lone Pairs. **Journal of the American Chemical Society** 144, 12247–12260 (2022). https://doi.org/10.1021/jacs.2c00592
+#. J. Cheng, B.F. Miao, Z. Liu, M. Yang, K. He, Y.L. Zeng, et al. Coherent Picture on the Pure Spin Transport between Ag/Bi and Ferromagnets. **Physical Review Letters** 129, 097203 (2022). https://doi.org/10.1103/PhysRevLett.129.097203
+
+#. X. Huang, X. Li, Y. Tao, et al. Understanding Electron–Phonon Interactions in 3D Lead Halide Perovskites from the Stereochemical Expression of 6s2 Lone Pairs. **Journal of the American Chemical Society** 144, 12247–12260 (2022). https://doi.org/10.1021/jacs.2c00592
 
 #. D. Luo, K. Yin, R. Dronskowski, Existence of BeCN2 and Its First-Principles Phase Diagram: Be and C Introducing Structural Diversity. **Journal of the American Chemical Society** 144, 5155–5162 (2022). https://doi.org/10.1021/jacs.2c00592
 
@@ -88,7 +92,7 @@ Cited publications
 
 #. F. Hou, Q. Yao, C.-S. Zhou, X.-M. Ma, M. Han, Y.-J. Hao, X. Wu, Y. Zhang, H. Sun, C. Liu, Y. Zhao, Q. Liu, J. Lin, Te-Vacancy-Induced Surface Collapse and Reconstruction in Antiferromagnetic Topological Insulator MnBi2Te4, **ACS Nano** 14 (9) (2020) 11262-11272. https://doi.org/10.1021/acsnano.0c03149
 
-#. L. Chen, O. Skibitzki, L. Pedesseau, A. Létoublon, J. Stervinou, R. Bernard, C. Levallois, R. Piron, M. Perrin, M. A. Schubert, et al., Strong Electron Phonon Interaction in 2D Vertical Homovalent IIIV Singularities, **ACS Nano** 14 (10) (2020) 13127-13136. https://doi.org/10.1021/acsnano.0c04702
+#. L. Chen, O. Skibitzki, L. Pedesseau, A. Létoublon, J. Stervinou, R. Bernard, C. Levallois, R. Piron, M. Perrin, M. A. Schubert, et al. Strong Electron Phonon Interaction in 2D Vertical Homovalent IIIV Singularities, **ACS Nano** 14 (10) (2020) 13127-13136. https://doi.org/10.1021/acsnano.0c04702
 
 #. Y. Jin, M. Cheng, H. Liu, M. Ouzounian, T. S. Hu, B. You, G. Shao, X. Liu, Y. Liu, H. Li, S. Li, J. Guan, S. Liu,Na2SO4-Regulated High-Quality Growth of Transition Metal Dichalcogenides by Controlling Diffusion, **Chem. Mater**. 32 (13) (2020) 5616-5625. https://doi.org/10.1021/acs.chemmater.0c01089
 
