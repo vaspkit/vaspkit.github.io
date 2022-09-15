@@ -152,4 +152,11 @@ The following figures were plotted by using `Matplotlib <https://matplotlib.org/
 
 .. image:: ../images/Stacking.png
     :width: 600
-    :align: center  
+    :align: center 
+
+26. Angular-dependent elastic properties (Ver. 1.4.0 and later)
+
+.. image:: ../images/elastic_3D.png
+    :width: 600
+    :align: center
+ 
