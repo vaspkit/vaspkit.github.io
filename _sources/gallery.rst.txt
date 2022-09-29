@@ -159,4 +159,9 @@ The following figures were plotted by using `Matplotlib <https://matplotlib.org/
 .. image:: ../images/elastic_3D.png
     :width: 600
     :align: center
- 
+
+27. Spin-projected band structure (Ver. 1.4.0 and later) 
+.. image:: ../images/PBAND_Sz.png
+    :width: 600
+    :align: center
+
