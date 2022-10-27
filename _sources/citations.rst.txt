@@ -40,6 +40,8 @@ Cited publications
 
 #. Y. Ohtsuka, N. Kanazawa, M. Hirayama, et al. Emergence of spin-orbit coupled ferromagnetic surface state derived from Zak phase in a nonmagnetic insulator FeSi, **Science Advances** 7, eabj0498 (2021). https://doi.org/10.1126/sciadv.abj0498
 
+#. H. Li, Q. Wan, C. Du, J. Zhao, et al. Layered Pd oxide on PdSn nanowires for boosting direct H2O2 synthesis, **Nature Communications** 13, 6072 (2022). https://doi.org/10.1038/s41467-022-33757-0 
+
 #. J. Zhang, L. Zhang, J. Liu, C. Zhong, Y. Tu, Li, et al. (2022). OH spectator at IrMo intermetallic narrowing activity gap between alkaline and acidic hydrogen evolution reaction. **Nature communications** 13, 5497 (2022). https://www.nature.com/articles/s41467-022-33216-w 
 
 #. W. Deng, Z. Zheng, J. Li, R. Zhou, X. Chen, D. Zhang, et al. Electrically tunable two-dimensional heterojunctions for miniaturized near-infrared spectrometers. **Nature Communications** 131, 4627 (2022). https://doi.org/10.1038/s41467-022-32306-z     
@@ -65,6 +67,8 @@ Cited publications
 #. F. Yu, W. Liu, S.-W. Ke, M. Kurmoo, J.-L. Zuo, Q. Zhang, Electrochromic two-dimensional covalent organic framework with a reversible dark-to-transparent switch. **Nature Communications** 11, 5534 (2020). https://doi.org/10.1038/s41467-020-19315-6
 
 #. C. Wu, L. Lin, J. Liu, J. Zhang, F. Zhang, et al. Inverse ZrO2/Cu as a highly efficient methanol synthesis catalyst from CO2 hydrogenation,  **Nature Communications** 11, 5767 (2020). https://doi.org/10.1038/s41467-020-19634-8
+
+#. H. Zhao, X. Liu, Y. Wang, Y. Yang, et al. Zeeman Effect in Centrosymmetric Antiferromagnetic Semiconductors Controlled by an Electric Field. **Physical Review Letters** 129, 187602 (2022). https://doi.org/10.1103/PhysRevLett.129.187602
 
 #. S. Yoshida, H. Akamatsu, and K. Hayashi, Electronic Origin of Non-Zone-Center Phonon Condensation: Octahedral Rotation as a Case Study. **Physical Review Letters** 127, 215701 (2021). https://doi.org/10.1103/PhysRevLett.127.215701
 
