@@ -40,6 +40,8 @@ Cited publications
 
 #. Y. Ohtsuka, N. Kanazawa, M. Hirayama, et al. Emergence of spin-orbit coupled ferromagnetic surface state derived from Zak phase in a nonmagnetic insulator FeSi, **Science Advances** 7, eabj0498 (2021). https://doi.org/10.1126/sciadv.abj0498
 
+#. B. Liang, C. Fan, C. Liu, C. Chai, et al. Near-room-temperature martensitic actuation profited from one-dimensional hybrid perovskite structure. **Nature Communications** 13, 6599 (2022). https://doi.org/10.1038/s41467-022-34356-9 
+
 #. H. Li, Q. Wan, C. Du, J. Zhao, et al. Layered Pd oxide on PdSn nanowires for boosting direct H2O2 synthesis, **Nature Communications** 13, 6072 (2022). https://doi.org/10.1038/s41467-022-33757-0 
 
 #. H. Xia, E. Minamitani, R. Zitko, Z. Liu, et al. Spin-orbital Yu-Shiba-Rusinov states in single Kondo molecular magnet. **Nature Communications** 13, 6388 (2022). https://doi.org/10.1038/s41467-022-34187-8
