@@ -36,6 +36,8 @@ Cited publications
 
 #. Y. Zhao, C. Deng, D. Tang, et al. α-Fe2O3 as a versatile and efficient oxygen atom transfer catalyst in combination with H2O as the oxygen source. **Nature Catalysis** 4, 684–691 (2021). https://doi.org/10.1038/s41929-021-00659-1
 
+#. S. Liu, H. Li, J. Zhong, K. Xu, et al. A crystal glass–nanostructured Al-based electrocatalyst for hydrogen evolution reaction. **Science Advances** 8, eadd6421 (2022). https://doi.org/10.1126/sciadv.add6421 
+
 #.  M. Peng, R. Xie, Z. Wang, et al. Blackbody-sensitive room-temperature infrared photodetectors based on low-dimensional tellurium grown by chemical vapor deposition. **Science Advances** 7, eabf7358 (2021). https://doi.org/10.1126/sciadv.abf7358 
 
 #. Y. Ohtsuka, N. Kanazawa, M. Hirayama, et al. Emergence of spin-orbit coupled ferromagnetic surface state derived from Zak phase in a nonmagnetic insulator FeSi, **Science Advances** 7, eabj0498 (2021). https://doi.org/10.1126/sciadv.abj0498
@@ -76,6 +78,8 @@ Cited publications
 #. S. Yoshida, H. Akamatsu, and K. Hayashi, Electronic Origin of Non-Zone-Center Phonon Condensation: Octahedral Rotation as a Case Study. **Physical Review Letters** 127, 215701 (2021). https://doi.org/10.1103/PhysRevLett.127.215701
 
 #. J. Cheng, B.F. Miao, Z. Liu, M. Yang, K. He, Y.L. Zeng, et al. Coherent Picture on the Pure Spin Transport between Ag/Bi and Ferromagnets. **Physical Review Letters** 129, 097203 (2022). https://doi.org/10.1103/PhysRevLett.129.097203
+
+#. B. Peng. Monolayer Fullerene Networks as Photocatalysts for Overall Water Splitting. **Journal of the American Chemical Society** 144, 19921−19931 (2022). https://doi.org/10.1021/jacs.2c08054 
 
 #. X. Huang, X. Li, Y. Tao, et al. Understanding Electron–Phonon Interactions in 3D Lead Halide Perovskites from the Stereochemical Expression of 6s2 Lone Pairs. **Journal of the American Chemical Society** 144, 12247–12260 (2022). https://doi.org/10.1021/jacs.2c00592
 
