@@ -44,7 +44,7 @@ Cited publications
 
 #. Y. Ohtsuka, N. Kanazawa, M. Hirayama, et al. Emergence of spin-orbit coupled ferromagnetic surface state derived from Zak phase in a nonmagnetic insulator FeSi, **Science Advances** 7, eabj0498 (2021). https://doi.org/10.1126/sciadv.abj0498
 
-#. T.Y. Zhang, J. Jin, J.M. Chen, Y.Y. Fang, et al. Pinpointing the axial ligand effect on platinum single-atom-catalyst towards efficient alkaline hydrogen evolution reaction. **Nature Communications** 13, 6875 (2022). https://doi.org/10.1038/s41467-022-34619-5
+#. T. Y. Zhang, J. Jin, J. M. Chen, Y. Y. Fang, et al. Pinpointing the axial ligand effect on platinum single-atom-catalyst towards efficient alkaline hydrogen evolution reaction. **Nature Communications** 13, 6875 (2022). https://doi.org/10.1038/s41467-022-34619-5
 
 #. B. Liang, C. Fan, C. Liu, C. Chai, et al. Near-room-temperature martensitic actuation profited from one-dimensional hybrid perovskite structure. **Nature Communications** 13, 6599 (2022). https://doi.org/10.1038/s41467-022-34356-9 
 
