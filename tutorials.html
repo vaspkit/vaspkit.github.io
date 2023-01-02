@@ -858,10 +858,14 @@ K                  1.798
 GAMMA              3.114
 
 
-* Give the label for each high symmetry point in KPOINTS (KPATH.in) file. Otherwise, they will be identified as &#39;Undefined&#39; in KLABELS file
+* Give the label for each high symmetry point in KPOINTS (KPATH.in) file. Otherwise, they will be identified as &#39;Undefined or XX&#39; in KLABELS file
 </pre></div>
 </div>
-<p><code class="docutils literal notranslate"><span class="pre">BAND_GAP</span></code> file save the information of band gap, VBM, CBM, and its
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Make sure you have given the label for each high symmetry points in KPOINTS file of VASP. Otherwise vaspkit will identify them as ‘Undefined or XX’ in KLABELS. (You can manually edit the KLABELS file also to include labels.)</p>
+</div>
+<p>The <code class="docutils literal notranslate"><span class="pre">BAND_GAP</span></code> file save the information of band gap, VBM, CBM, and its
 locations at reciprocal lattice,</p>
 <div class="highlight-none notranslate"><div class="highlight"><pre><span></span>+-------------------------- Summary ----------------------------+
          Band Character:    Direct
