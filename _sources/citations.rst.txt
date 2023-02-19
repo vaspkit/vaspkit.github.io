@@ -44,6 +44,8 @@ Cited publications
 
 #. Y. Ohtsuka, N. Kanazawa, M. Hirayama, et al. Emergence of spin-orbit coupled ferromagnetic surface state derived from Zak phase in a nonmagnetic insulator FeSi, **Science Advances** 7, eabj0498 (2021). https://doi.org/10.1126/sciadv.abj0498
 
+#. G. Liu, P. Liu, D. Meng, T. Zhao, et al. COx hydrogenation to methanol and other hydrocarbons under mild conditions with Mo3S4@ZSM-5. **Nature Communications** 14, 513 (2023). https://doi.org/10.1038/s41467-023-36259-9 
+
 #. P. K. Cao, X. Quan, X.W. Nie, et al. Metal single-site catalyst design for electrocatalytic production of hydrogen peroxide at industrial-relevant currents. **Nature Communications** 14, 172 (2023). https://doi.org/10.1038/s41467-023-35839-z
 
 #. T. Y. Zhang, J. Jin, J. M. Chen, Y. Y. Fang, et al. Pinpointing the axial ligand effect on platinum single-atom-catalyst towards efficient alkaline hydrogen evolution reaction. **Nature Communications** 13, 6875 (2022). https://doi.org/10.1038/s41467-022-34619-5
@@ -95,7 +97,7 @@ Cited publications
 
 #. D. Han, C. Feng, M. H. Du, et al. Design of High-Performance Lead-Free Quaternary Antiperovskites for Photovoltaics via Ion Type Inversion and Anion Ordering. **Journal of the American Chemical Society** 143, 12369–12379 (2021). https://doi.org/10.1021/jacs.1c06403
 
-#. P. Chen, Y. Liu, Y.-R. Xu, C.-X. Guo, and P. Hu. Quantitative Evidence to Challenge the Traditional Model in Heterogeneous Catalysis: Kinetic Modeling for Ethane Dehydrogenation over Fe/SAPO-34. **ACS Au** (2023). https://doi.org/10.1021/jacsau.2c00576
+#. P. Chen, Y. Liu, Y.-R. Xu, C.-X. Guo, and P. Hu. Quantitative Evidence to Challenge the Traditional Model in Heterogeneous Catalysis: Kinetic Modeling for Ethane Dehydrogenation over Fe/SAPO-34. **ACS Au** 1, 165 (2023). https://doi.org/10.1021/jacsau.2c00576
 
 #. D. Luo, X. Qiao, R. Dronskowski, Predicting Nitrogen-based Families of Compounds: Transition-metal Guanidinates TCN3 (T= V, Nb, Ta) and Ortho-nitrido Carbonates T2CN4 (T= Ti, Zr, Hf), **Angewandte Chemie** 60, 486 (2020). https://doi.org/10.1002/anie.202011196
 
