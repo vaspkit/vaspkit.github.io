@@ -101,7 +101,7 @@ Cited publications
 
 #. D. Han, C. Feng, M. H. Du, et al. Design of High-Performance Lead-Free Quaternary Antiperovskites for Photovoltaics via Ion Type Inversion and Anion Ordering. **Journal of the American Chemical Society** 143, 12369–12379 (2021). https://doi.org/10.1021/jacs.1c06403
 
-#. P. Chen, Y. Liu, Y.-R. Xu, C.-X. Guo, and P. Hu. Quantitative Evidence to Challenge the Traditional Model in Heterogeneous Catalysis: Kinetic Modeling for Ethane Dehydrogenation over Fe/SAPO-34. **ACS Au** 1, 165 (2023). https://doi.org/10.1021/jacsau.2c00576
+#. P. Chen, Y. Liu, Y.-R. Xu, C.-X. Guo, and P. Hu. Quantitative Evidence to Challenge the Traditional Model in Heterogeneous Catalysis: Kinetic Modeling for Ethane Dehydrogenation over Fe/SAPO-34. **JACS Au** 1, 165 (2023). https://doi.org/10.1021/jacsau.2c00576
 
 #. D. Luo, X. Qiao, R. Dronskowski, Predicting Nitrogen-based Families of Compounds: Transition-metal Guanidinates TCN3 (T= V, Nb, Ta) and Ortho-nitrido Carbonates T2CN4 (T= Ti, Zr, Hf), **Angewandte Chemie** 60, 486 (2020). https://doi.org/10.1002/anie.202011196
 
