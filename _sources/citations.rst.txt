@@ -44,6 +44,8 @@ Cited publications
 
 #. Y. Ohtsuka, N. Kanazawa, M. Hirayama, et al. Emergence of spin-orbit coupled ferromagnetic surface state derived from Zak phase in a nonmagnetic insulator FeSi, **Science Advances** 7, eabj0498 (2021). https://doi.org/10.1126/sciadv.abj0498
 
+#. Y. Chen, C.J. Ren, L.R. Zhen, X.Y. Xu, et al. Room-temperature photosynthesis of propane from CO2 with Cu single atoms on vacancy-rich TiO2. **Nature Communications** 14, 1117 (2023). https://doi.org/10.1038/s41467-023-36778-5 
+
 #. G. Liu, P. Liu, D. Meng, T. Zhao, et al. COx hydrogenation to methanol and other hydrocarbons under mild conditions with Mo3S4@ZSM-5. **Nature Communications** 14, 513 (2023). https://doi.org/10.1038/s41467-023-36259-9 
 
 #. P. K. Cao, X. Quan, X.W. Nie, et al. Metal single-site catalyst design for electrocatalytic production of hydrogen peroxide at industrial-relevant currents. **Nature Communications** 14, 172 (2023). https://doi.org/10.1038/s41467-023-35839-z
@@ -88,6 +90,8 @@ Cited publications
 #. J. Cheng, B.F. Miao, Z. Liu, M. Yang, K. He, Y.L. Zeng, et al. Coherent Picture on the Pure Spin Transport between Ag/Bi and Ferromagnets. **Physical Review Letters** 129, 097203 (2022). https://doi.org/10.1103/PhysRevLett.129.097203
 
 #. S. Zhang, Y. Wang, Q. Zeng, J. Sheng, et al. Scaling of Berry-curvature monopole dominated large linear positive magnetoresistance. **PNAS** 119, e2208505119 (2022). https://doi.org/10.1073/pnas.2208505119
+
+#. W. Li, C. Liu, C. Gu, J.H. Choi, et al. Interlayer Charge Transfer Regulates Single-Atom Catalytic Activity on Electride/Graphene 2D Heterojunctions. **Journal of the American Chemical Society** (2023). https://doi.org/10.1021/jacs.2c13596 
 
 #. B. Peng. Monolayer Fullerene Networks as Photocatalysts for Overall Water Splitting. **Journal of the American Chemical Society** 144, 19921−19931 (2022). https://doi.org/10.1021/jacs.2c08054 
 
