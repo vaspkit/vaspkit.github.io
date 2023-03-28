@@ -26,7 +26,7 @@ How to cite
 
 Cited publications
 ------------------
-*The VASPKIT program has been cited by more than 1100 times (google scholar) since 2021. Many thanks to the authors! Some of them are listed below.* 
+*The VASPKIT program has been cited by more than 1200 times (google scholar) since 2021. Many thanks to the authors! Some of them are listed below.* 
 
 #. J. Liu, M. De Bastiani, E. Aydin, G. T. Harrison, et al. Efficient and stable perovskite-silicon tandem solar cells through contact displacement by MgFx. **Science**, eabn8910 (2022). https://doi.org/10.1126/science.abn8910
 
@@ -34,9 +34,9 @@ Cited publications
 
 #. Z. Wang, Y. Wang, J. Wang, et al. Rational design of perovskite ferrites as high-performance proton-conducting fuel cell cathodes. **Nature Catalysis** 5, 777 (2022). https://doi.org/10.1038/s41929-022-00829-9
 
-#. D. Li, F. Xu, X. Tang, S. Dai, T. Pu, X. Liu, et al. Induced activation of the commercial Cu/ZnO/Al2O3 catalyst for the steam reforming of methanol. **Nature Catalysis** 5, 1-10 (2022). https://doi.org/10.1038/s41929-021-00729-4
+#. D. Li, F. Xu, X. Tang, S. Dai, T. Pu, X. Liu, et al. Induced activation of the commercial Cu/ZnO/Al2O3 catalyst for the steam reforming of methanol. **Nature Catalysis** 5, 99 (2022). https://doi.org/10.1038/s41929-021-00729-4
 
-#. Y. Zhao, C. Deng, D. Tang, et al. α-Fe2O3 as a versatile and efficient oxygen atom transfer catalyst in combination with H2O as the oxygen source. **Nature Catalysis** 4, 684–691 (2021). https://doi.org/10.1038/s41929-021-00659-1
+#. Y. Zhao, C. Deng, D. Tang, et al. α-Fe2O3 as a versatile and efficient oxygen atom transfer catalyst in combination with H2O as the oxygen source. **Nature Catalysis** 4, 684 (2021). https://doi.org/10.1038/s41929-021-00659-1
 
 #. S. Liu, H. Li, J. Zhong, K. Xu, et al. A crystal glass–nanostructured Al-based electrocatalyst for hydrogen evolution reaction. **Science Advances** 8, eadd6421 (2022). https://doi.org/10.1126/sciadv.add6421 
 
@@ -60,7 +60,7 @@ Cited publications
 
 #. H. Xia, E. Minamitani, R. Zitko, Z. Liu, et al. Spin-orbital Yu-Shiba-Rusinov states in single Kondo molecular magnet. **Nature Communications** 13, 6388 (2022). https://doi.org/10.1038/s41467-022-34187-8
 
-#. J. Zhang, L. Zhang, J. Liu, C. Zhong, Y. Tu, Li, et al. (2022). OH spectator at IrMo intermetallic narrowing activity gap between alkaline and acidic hydrogen evolution reaction. **Nature communications** 13, 5497 (2022). https://www.nature.com/articles/s41467-022-33216-w 
+#. J. Zhang, L. Zhang, J. Liu, C. Zhong, Y. Tu, Li, et al. OH spectator at IrMo intermetallic narrowing activity gap between alkaline and acidic hydrogen evolution reaction. **Nature communications** 13, 5497 (2022). https://www.nature.com/articles/s41467-022-33216-w 
 
 #. W. Deng, Z. Zheng, J. Li, R. Zhou, X. Chen, D. Zhang, et al. Electrically tunable two-dimensional heterojunctions for miniaturized near-infrared spectrometers. **Nature Communications** 131, 4627 (2022). https://doi.org/10.1038/s41467-022-32306-z     
 #. S. Bae, K. Matsumoto, H. Raebiger, et al. K-Point Longitudinal Acoustic Phonons Are Responsible for Ultrafast Intervalley Scattering in monolayer MoSe2. **Nature Communications** 13, 4279 (2022). https://doi.org/10.1038/s41467-022-32008-6 
