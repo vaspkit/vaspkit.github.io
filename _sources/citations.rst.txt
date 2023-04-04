@@ -44,6 +44,8 @@ Cited publications
 
 #. Y. Ohtsuka, N. Kanazawa, M. Hirayama, et al. Emergence of spin-orbit coupled ferromagnetic surface state derived from Zak phase in a nonmagnetic insulator FeSi, **Science Advances** 7, eabj0498 (2021). https://doi.org/10.1126/sciadv.abj0498
 
+#. Y. Li, H. Wang, Y. Li, H. Ye, et al. Electron transfer rules of minerals under pressure informed by machine learning. **Nature Communications** 14, 1815 (2023). https://doi.org/10.1038/s41467-023-37384-1
+
 #. Q. Zhou, J. Gu, J. Wang, A. De Girolamo, S. Yang, et al. High production of furfural by flash pyrolysis of C6 sugars and lignocellulose by Pd-PdO/ZnSO4 catalyst. **Nature Communications** 14, 1563 (2023). https://doi.org/10.1038/s41467-023-37250-0
 
 #. Y. Chen, C.J. Ren, L.R. Zhen, X.Y. Xu, et al. Room-temperature photosynthesis of propane from CO2 with Cu single atoms on vacancy-rich TiO2. **Nature Communications** 14, 1117 (2023). https://doi.org/10.1038/s41467-023-36778-5 
