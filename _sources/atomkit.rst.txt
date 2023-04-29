@@ -1,3 +1,11 @@
-ATOMKIT
-===========
+ATOMKIT Code
+============
 The VASPKIT team is actively developing an innovative and practical software tool called ATOMKIT. Our long-term goal is to transform ATOMKIT into a powerful and versatile crystal structure modeling software toolkit that can run across different platforms to meet various research needs. The workflow diagram and logo of ATOMKIT are shown below, intuitively presenting the features and advantages of this software.
+
+.. image:: ../images/atomkit_logo.png
+    :width: 400
+    :align: center
+
+.. image:: ../images/atomkit_features.png
+    :width: 500
+    :align: center
