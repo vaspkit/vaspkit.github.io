@@ -17,6 +17,8 @@ Current functions
 * Wave-function analysis;
 * Molecular-dynamics analysis;
 * Effective mass of carrier;
+* Spin texture;
+* Density of states in real space;
 * Symmetry finding and operations;
 * 3D band structures;
 * Magnetocrystalline anisotropy energy;
@@ -26,5 +28,3 @@ Future functions
 ^^^^^^^^^^^^^^^^^
 * Fermi surface unfolding;
 * Wannier90 interface;
-* Spin texture;
-* Density of states in real space;
