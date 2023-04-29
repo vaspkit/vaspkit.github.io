@@ -1,5 +1,19 @@
 Release Notes
 =============
+Version 1.4.1 (26 Apr. 2023)
+ * Added a new feature to calculate the line profile of charge density or potential files (tasks 318 and 425);
+ * Added new parameters REDUCE_FERMISURFACE_FILE and WEIGHT_THRESHOLD in the ~/.vaspkit file. More details can be found in the how_to_set_environment_variables file;
+ * Upgraded the surface builer utility (task 803);
+ * Upgraded the plot utility;
+ * Upgraded the VASPKIT logo;
+ * Corrected the criteria for Cauchy Pressure and Kleinman’s parameter;
+ * Fixed a bug related to reading XDATCAR file;
+ * Fixed a bug related to writing wavefunction in real-space (tasks 511-516);
+ * Fixed a bug related to writing KLABLES file in band-unfold calculations (tasks 281-285);
+ * Fixed a bug related to writing SLME.dat file (task 719);
+ * Fixed a bug related to extracting projected density-of-states in non-collinear calculations;
+ * Minor bug fixes and optimizations.
+
 Version 1.4.0 (02 Nov. 2022)
  * Added computational 2D semiconductor (arXiv:1806.04285) and heterostructure (arXiv:2210.04423) databases (tasks 702 and 703);
  * Added a new feature to find orthogonal supercell (task 800);
