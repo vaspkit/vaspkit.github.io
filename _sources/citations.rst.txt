@@ -30,6 +30,8 @@ Cited publications
 
 #. J. Liu, M. De Bastiani, E. Aydin, G. T. Harrison, et al. Efficient and stable perovskite-silicon tandem solar cells through contact displacement by MgFx. **Science**, eabn8910 (2022). https://doi.org/10.1126/science.abn8910
 
+#. P. Wu, Y.B. Tu, Z.Y. Wang, S.K. Yu, et al. Unidirectional electron–phonon coupling in the nematic state of a kagome superconductor. **Nature Physics** (2023). https://doi.org/10.1038/s41567-023-02031-5 
+
 #. K. Sun, O. J. Silveira, Y. Ma, Y. Hasegawa, et al. On-surface synthesis of disilabenzene-bridged covalent organic frameworks. **Nature Chemistry** 15, 36 (2023). https://doi.org/10.1038/s41557-022-01071-3 
 
 #. F. Li, X. Deng, Z. Shi, S. Wu, et al. Hydrogen-bond-bridged intermediate for perovskite solar cells with enhanced efficiency and stability. **Nature Photonics**, (2023). https://doi.org/10.1038/s41566-023-01180-6 
@@ -45,6 +47,8 @@ Cited publications
 #.  M. Peng, R. Xie, Z. Wang, et al. Blackbody-sensitive room-temperature infrared photodetectors based on low-dimensional tellurium grown by chemical vapor deposition. **Science Advances** 7, eabf7358 (2021). https://doi.org/10.1126/sciadv.abf7358 
 
 #. Y. Ohtsuka, N. Kanazawa, M. Hirayama, et al. Emergence of spin-orbit coupled ferromagnetic surface state derived from Zak phase in a nonmagnetic insulator FeSi, **Science Advances** 7, eabj0498 (2021). https://doi.org/10.1126/sciadv.abj0498
+
+#. X. Chen,X. Qin, Y. Jiao, P. Peng, et al. Structure-dependence and metal-dependence on atomically dispersed Ir catalysts for efficient n-butane dehydrogenation. **Nature Communications** 14, 2588 (2023). https://doi.org/10.1038/s41467-023-38361-4 
 
 #. M. Iqbal Bakti Utama, H.F. Zeng, T. Sadhukhan, A. Dasgupta, S. Carin Gavin, et al. Chemomechanical modification of quantum emission in monolayer WSe2. **Nature Communications** 14, 2193 (2023). https://www.nature.com/articles/s41467-023-37892-0
 
@@ -100,6 +104,8 @@ Cited publications
 #. J. Cheng, B.F. Miao, Z. Liu, M. Yang, K. He, Y.L. Zeng, et al. Coherent Picture on the Pure Spin Transport between Ag/Bi and Ferromagnets. **Physical Review Letters** 129, 097203 (2022). https://doi.org/10.1103/PhysRevLett.129.097203
 
 #. S. Zhang, Y. Wang, Q. Zeng, J. Sheng, et al. Scaling of Berry-curvature monopole dominated large linear positive magnetoresistance. **PNAS** 119, e2208505119 (2022). https://doi.org/10.1073/pnas.2208505119
+
+#. H. Liu, W. Liu, G. Xue, T. Tan, et al. Modulating Charges of Dual Sites in Multivariate Metal–Organic Frameworks for Boosting Selective Aerobic Epoxidation of Alkenes. **Journal of the American Chemical Society** (2023). https://doi.org/10.1021/jacs.3c00460
 
 #. D. Chen, Y. Wang, and R. Dronskowski. Computational Design and Theoretical Properties of WC3N6, an H-Free Melaminate and Potential Multifunctional Material. **Journal of the American Chemical Society** (2023). https://doi.org/10.1021/jacs.3c00631
 
