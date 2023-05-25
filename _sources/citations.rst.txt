@@ -26,7 +26,7 @@ How to cite
 
 Cited publications
 ------------------
-*The VASPKIT program has been cited by more than 1200 times (google scholar) since 2021. Many thanks to the authors! Some of them are listed below.* 
+*The VASPKIT program has been cited by more than 1400 times (google scholar) since 2021. Many thanks to the authors! Some of them are listed below.* 
 
 #. J. Liu, M. De Bastiani, E. Aydin, G. T. Harrison, et al. Efficient and stable perovskite-silicon tandem solar cells through contact displacement by MgFx. **Science**, eabn8910 (2022). https://doi.org/10.1126/science.abn8910
 
@@ -47,6 +47,8 @@ Cited publications
 #.  M. Peng, R. Xie, Z. Wang, et al. Blackbody-sensitive room-temperature infrared photodetectors based on low-dimensional tellurium grown by chemical vapor deposition. **Science Advances** 7, eabf7358 (2021). https://doi.org/10.1126/sciadv.abf7358 
 
 #. Y. Ohtsuka, N. Kanazawa, M. Hirayama, et al. Emergence of spin-orbit coupled ferromagnetic surface state derived from Zak phase in a nonmagnetic insulator FeSi, **Science Advances** 7, eabj0498 (2021). https://doi.org/10.1126/sciadv.abj0498
+
+#. Y. Xie, Y.X. Huang, Y.G. Zhang, T.R. Wu, et al. Surface modification using heptafluorobutyric acid to produce highly stable Li metal anodes. **Nature Communications** 14, 2883 (2023). https://doi.org/10.1038/s41467-023-38724-x
 
 #. X. Chen,X. Qin, Y. Jiao, P. Peng, et al. Structure-dependence and metal-dependence on atomically dispersed Ir catalysts for efficient n-butane dehydrogenation. **Nature Communications** 14, 2588 (2023). https://doi.org/10.1038/s41467-023-38361-4 
 
@@ -105,11 +107,11 @@ Cited publications
 
 #. S. Zhang, Y. Wang, Q. Zeng, J. Sheng, et al. Scaling of Berry-curvature monopole dominated large linear positive magnetoresistance. **PNAS** 119, e2208505119 (2022). https://doi.org/10.1073/pnas.2208505119
 
-#. H. Liu, W. Liu, G. Xue, T. Tan, et al. Modulating Charges of Dual Sites in Multivariate Metal–Organic Frameworks for Boosting Selective Aerobic Epoxidation of Alkenes. **Journal of the American Chemical Society** (2023). https://doi.org/10.1021/jacs.3c00460
+#. H. Liu, W. Liu, G. Xue, T. Tan, et al. Modulating Charges of Dual Sites in Multivariate Metal–Organic Frameworks for Boosting Selective Aerobic Epoxidation of Alkenes. **Journal of the American Chemical Society** 145, 11085–11096 (2023). https://doi.org/10.1021/jacs.3c00460
 
-#. D. Chen, Y. Wang, and R. Dronskowski. Computational Design and Theoretical Properties of WC3N6, an H-Free Melaminate and Potential Multifunctional Material. **Journal of the American Chemical Society** (2023). https://doi.org/10.1021/jacs.3c00631
+#. D. Chen, Y. Wang, and R. Dronskowski. Computational Design and Theoretical Properties of WC3N6, an H-Free Melaminate and Potential Multifunctional Material. **Journal of the American Chemical Society** 145, 6986–6993 (2023). https://doi.org/10.1021/jacs.3c00631
 
-#. W. Li, C. Liu, C. Gu, J.H. Choi, et al. Interlayer Charge Transfer Regulates Single-Atom Catalytic Activity on Electride/Graphene 2D Heterojunctions. **Journal of the American Chemical Society** (2023). https://doi.org/10.1021/jacs.2c13596 
+#. W. Li, C. Liu, C. Gu, J.H. Choi, et al. Interlayer Charge Transfer Regulates Single-Atom Catalytic Activity on Electride/Graphene 2D Heterojunctions. **Journal of the American Chemical Society** 145, 4774–4783 (2023). https://doi.org/10.1021/jacs.2c13596 
 
 #. B. Peng. Monolayer Fullerene Networks as Photocatalysts for Overall Water Splitting. **Journal of the American Chemical Society** 144, 19921−19931 (2022). https://doi.org/10.1021/jacs.2c08054 
 
