@@ -7,5 +7,5 @@ The VASPKIT team is actively developing an innovative and practical software too
     :align: center
 
 .. image:: ../images/atomkit_features.png
-    :width: 500
+    :width: 800
     :align: center
