@@ -26,7 +26,7 @@ How to cite
 
 Cited publications
 ------------------
-*The VASPKIT program has been cited by more than 1400 times (google scholar) since 2021. Many thanks to the authors! Some of them are listed below.* 
+*The VASPKIT program has been cited by more than 1500 times (google scholar) since 2021. Many thanks to the authors! Some of them are listed below.* 
 
 #. J. Liu, M. De Bastiani, E. Aydin, G. T. Harrison, et al. Efficient and stable perovskite-silicon tandem solar cells through contact displacement by MgFx. **Science**, eabn8910 (2022). https://doi.org/10.1126/science.abn8910
 
@@ -47,6 +47,10 @@ Cited publications
 #.  M. Peng, R. Xie, Z. Wang, et al. Blackbody-sensitive room-temperature infrared photodetectors based on low-dimensional tellurium grown by chemical vapor deposition. **Science Advances** 7, eabf7358 (2021). https://doi.org/10.1126/sciadv.abf7358 
 
 #. Y. Ohtsuka, N. Kanazawa, M. Hirayama, et al. Emergence of spin-orbit coupled ferromagnetic surface state derived from Zak phase in a nonmagnetic insulator FeSi, **Science Advances** 7, eabj0498 (2021). https://doi.org/10.1126/sciadv.abj0498
+
+#. C. Wei, Y. Fang, B. Liu, C. Tang, B. Dong, et al. Lattice oxygen-mediated electron tuning promotes electrochemical hydrogenation of acetonitrile on copper catalysts. **Nature Communications** 14, 3847 (2023). https://doi.org/10.1038/s41467-023-39558-3
+
+#. Y. Luo, Y. Han, J. Liu, H. Chen, Z. Huang, et al. A unique van Hove singularity in kagome superconductor CsV3-x Ta x Sb5 with enhanced superconductivity. **Nature Communications** 14, 3819 (2023). https://doi.org/10.1038/s41467-023-39500-7
 
 #. Y. Xie, Y.X. Huang, Y.G. Zhang, T.R. Wu, et al. Surface modification using heptafluorobutyric acid to produce highly stable Li metal anodes. **Nature Communications** 14, 2883 (2023). https://doi.org/10.1038/s41467-023-38724-x
 
@@ -120,10 +124,6 @@ Cited publications
 #. D. Luo, K. Yin, R. Dronskowski, Existence of BeCN2 and Its First-Principles Phase Diagram: Be and C Introducing Structural Diversity. **Journal of the American Chemical Society** 144, 5155–5162 (2022). https://doi.org/10.1021/jacs.2c00592
 
 #. D. Han, C. Feng, M. H. Du, et al. Design of High-Performance Lead-Free Quaternary Antiperovskites for Photovoltaics via Ion Type Inversion and Anion Ordering. **Journal of the American Chemical Society** 143, 12369–12379 (2021). https://doi.org/10.1021/jacs.1c06403
-
-#. D. J. Su, S.-Q. Xiang, S.-T. Gao, et al. Kinetic Understanding of Catalytic Selectivity and Product Distribution of Electrochemical Carbon Dioxide Reduction Reaction. **JACS Au** 3, 905 (2023). https://doi.org/10.1021/jacsau.3c00002 
-
-#. P. Chen, Y. Liu, Y.-R. Xu, C.-X. Guo, and P. Hu. Quantitative Evidence to Challenge the Traditional Model in Heterogeneous Catalysis: Kinetic Modeling for Ethane Dehydrogenation over Fe/SAPO-34. **JACS Au** 1, 165 (2023). https://doi.org/10.1021/jacsau.2c00576
 
 #. D. Luo, X. Qiao, R. Dronskowski, Predicting Nitrogen-based Families of Compounds: Transition-metal Guanidinates TCN3 (T= V, Nb, Ta) and Ortho-nitrido Carbonates T2CN4 (T= Ti, Zr, Hf), **Angewandte Chemie** 60, 486 (2020). https://doi.org/10.1002/anie.202011196
 
