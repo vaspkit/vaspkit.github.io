@@ -30,11 +30,13 @@ Cited publications
 
 #. J. Liu, M. De Bastiani, E. Aydin, G. T. Harrison, et al. Efficient and stable perovskite-silicon tandem solar cells through contact displacement by MgFx. **Science**, eabn8910 (2022). https://doi.org/10.1126/science.abn8910
 
-#. P. Wu, Y.B. Tu, Z.Y. Wang, S.K. Yu, et al. Unidirectional electron–phonon coupling in the nematic state of a kagome superconductor. **Nature Physics** (2023). https://doi.org/10.1038/s41567-023-02031-5 
+#. P. Wu, Y.B. Tu, Z.Y. Wang, S.K. Yu, et al. Unidirectional electron–phonon coupling in the nematic state of a kagome superconductor. **Nature Physics** 19, 1143 (2023). https://doi.org/10.1038/s41567-023-02031-5 
+
+#. Y. Xu, T. Liu, K. Liu, et al. Scalable integration of hybrid high-κ dielectric materials on two-dimensional semiconductors. **Nature Materials**, (2023). https://doi.org/10.1038/s41563-023-01626-w https://doi.org/10.1038/s41563-023-01626-w
 
 #. K. Sun, O. J. Silveira, Y. Ma, Y. Hasegawa, et al. On-surface synthesis of disilabenzene-bridged covalent organic frameworks. **Nature Chemistry** 15, 36 (2023). https://doi.org/10.1038/s41557-022-01071-3 
 
-#. F. Li, X. Deng, Z. Shi, S. Wu, et al. Hydrogen-bond-bridged intermediate for perovskite solar cells with enhanced efficiency and stability. **Nature Photonics**, (2023). https://doi.org/10.1038/s41566-023-01180-6 
+#. F. Li, X. Deng, Z. Shi, S. Wu, et al. Hydrogen-bond-bridged intermediate for perovskite solar cells with enhanced efficiency and stability. **Nature Photonics** 17, 478 (2023). https://doi.org/10.1038/s41566-023-01180-6 
 
 #. Z. Wang, Y. Wang, J. Wang, et al. Rational design of perovskite ferrites as high-performance proton-conducting fuel cell cathodes. **Nature Catalysis** 5, 777 (2022). https://doi.org/10.1038/s41929-022-00829-9
 
@@ -49,6 +51,12 @@ Cited publications
 #. Y. Ohtsuka, N. Kanazawa, M. Hirayama, et al. Emergence of spin-orbit coupled ferromagnetic surface state derived from Zak phase in a nonmagnetic insulator FeSi, **Science Advances** 7, eabj0498 (2021). https://doi.org/10.1126/sciadv.abj0498
 
 #. C. Wei, Y. Fang, B. Liu, C. Tang, B. Dong, et al. Lattice oxygen-mediated electron tuning promotes electrochemical hydrogenation of acetonitrile on copper catalysts. **Nature Communications** 14, 3847 (2023). https://doi.org/10.1038/s41467-023-39558-3
+
+#. Y. Xu, T. Liu, K. Liu, et al. Scalable integration of hybrid high-κ dielectric materials on two-dimensional semiconductors. **Nature Materials**, (2023). https://doi.org/10.1038/s41563-023-01626-w https://doi.org/10.1038/s41563-023-01626-w
+
+#. Z. Chen, J. Dong, J. Wu, Q. Shao, N. Luo, et al. Acidic enol electrooxidation-coupled hydrogen production with ampere-level current density. **Nature Communications** 14, 4210 (2023). https://doi.org/10.1038/s41467-023-39848-w
+
+#. Y. Li, Z. Qi, Y. Lan, K. Cao, Y. Wen, J. Zhang, et al. Self-aligned patterning of tantalum oxide on Cu/SiO2 through redox-coupled inherently selective atomic layer deposition. **Nature Communications** 14, 4493 (2023). https://doi.org/10.1038/s41467-023-40249-2  
 
 #. Y. Luo, Y. Han, J. Liu, H. Chen, Z. Huang, et al. A unique van Hove singularity in kagome superconductor CsV3-x Ta x Sb5 with enhanced superconductivity. **Nature Communications** 14, 3819 (2023). https://doi.org/10.1038/s41467-023-39500-7
 
