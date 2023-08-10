@@ -26,13 +26,13 @@ How to cite
 
 Cited publications
 ------------------
-*The VASPKIT program has been cited by more than 1500 times (google scholar) since 2021. Many thanks to the authors! Some of them are listed below.* 
+*The VASPKIT program has been cited by more than 2000 times (google scholar) since 2021. Many thanks to the authors! Some of them are listed below.* 
 
 #. J. Liu, M. De Bastiani, E. Aydin, G. T. Harrison, et al. Efficient and stable perovskite-silicon tandem solar cells through contact displacement by MgFx. **Science**, eabn8910 (2022). https://doi.org/10.1126/science.abn8910
 
 #. P. Wu, Y.B. Tu, Z.Y. Wang, S.K. Yu, et al. Unidirectional electron–phonon coupling in the nematic state of a kagome superconductor. **Nature Physics** 19, 1143 (2023). https://doi.org/10.1038/s41567-023-02031-5 
 
-#. Y. Xu, T. Liu, K. Liu, et al. Scalable integration of hybrid high-κ dielectric materials on two-dimensional semiconductors. **Nature Materials**, (2023). https://doi.org/10.1038/s41563-023-01626-w https://doi.org/10.1038/s41563-023-01626-w
+#. Y. Xu, T. Liu, K. Liu, et al. Scalable integration of hybrid high-κ dielectric materials on two-dimensional semiconductors. **Nature Materials**, (2023). https://doi.org/10.1038/s41563-023-01626-w
 
 #. K. Sun, O. J. Silveira, Y. Ma, Y. Hasegawa, et al. On-surface synthesis of disilabenzene-bridged covalent organic frameworks. **Nature Chemistry** 15, 36 (2023). https://doi.org/10.1038/s41557-022-01071-3 
 
