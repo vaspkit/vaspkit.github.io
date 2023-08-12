@@ -7,7 +7,7 @@ Comprehensive List of Supported Features
 ======= ============================================================
 Task-ID Function
 ======= ============================================================
-01      VASP Input-Files Generator
+**01**      **VASP Input-Files Generator**
 101     Customize INCAR File
 102     Generate KPOINTS File for SCF Calculation
 103     Generate POTCAR File with Default Setting
