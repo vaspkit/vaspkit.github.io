@@ -1,30 +1,214 @@
 Features
 ========
 
-Current functions
-^^^^^^^^^^^^^^^^^
+Comprehensive List of Supported Features
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-* Generate KPOINTS, POTCAR and INCAR for a given POSCAR file;
-* Elastic-constants of 2D and bulk materials using stress-strain or energy-strain methods;
-* Equation-of-state fitting; 
-* Suggested k-paths for a given crystal structure;
-* Optical adsorption coefficient of 2D and bulk materials;
-* Band structure unfolding;
-* Fermi surface;
-* Density-of-states and band-structure;
-* Charge/spin density, Charge density difference;
-* Vacuum level and work function;
-* Wave-function analysis;
-* Molecular-dynamics analysis;
-* Effective mass of carrier;
-* Spin texture;
-* Density of states in real space;
-* Symmetry finding and operations;
-* 3D band structures;
-* Magnetocrystalline anisotropy energy;
-* Currently, only VASP raw data are fully supported.
+======= ============================================================
+Task-ID Function
+======= ============================================================
+01      VASP Input-Files Generator
+101     Customize INCAR File
+102     Generate KPOINTS File for SCF Calculation
+103     Generate POTCAR File with Default Setting
+104     Generate POTCAR File with User Specified Potential
+105     Generate POSCAR File from cif (no fractional occupations)
+106     Generate POSCAR File from Material Studio xsd (retain fixes)
+107     Reformat POSCAR File in Specified Order of Elements
+108     Successive Procedure to Generate VASP Files and Check
+109     Submit Job Queue
+02      Mechanical Properties
+200     Elastic-Constants Using Stress-Strain Method
+201     Elastic-Constants Using Energy-Strain Method
+202     Mechanical Properties from ELASTIC_TENSOR(_2D).in file
+203     Elastic-Constants and Mechanical Properties from OUTCAR file
+204     Spatial-Dependent Mechanics from ELASTIC_TENSOR(_2D).in file
+205     Equation-of-State Fitting
+03      K-Path for Band-Structure
+301     1D Structure
+302     2D Structure
+303     Bulk Structure
+304     K-Path for Wannier90 Code
+305     K-Path for Phonopy Code
+306     K-Path for CP2K Code
+309     Visualize K-Path in First Brillouin Zone
+04      Structure Editor
+400     Redefine Lattice
+401     Build Supercell
+402     Fix Selected Atoms
+403     Move Selected Atoms
+404     Delete Selected Atoms
+405     Swap Axis of Lattice Vectors
+406     Sort Atom Coordinates in Specified Direction
+407     Apply Random-Displacement on Selected Atoms
+408     Rotate Selected Atoms about Specified Rotation Axis
+409     Add Atom in Specified Position
+410     Substitute Selected Atoms
+411     Copy Selected Atoms from Another Structure File
+412     Convert Between Fractional and Cartesian Coordinates
+416     Export CIF Format (*.cif)
+417     Export PDB Format (*.pdb)
+418     Export XCrySDen Format (*.xsf)
+419     Export XYZ Format (*.xyz)
+05      Catalysis-ElectroChem Kit
+501     Thermal Corrections for Adsorbate
+502     Thermal Corrections for Gas
+503     Band Center (experimental)
+504     Convert NEB-Path to PDB Format for Animation
+505     Interpolate NEB Images Linearly
+507     Imaginary Frequencies Correction
+508     Bader2PQR (Shown in VMD by atomic charge)
+509     Evaluate half life period for a first order reaction
+06      Symmetry Analysis
+601     Find Symmetry of Crystal
+602     Find Primitive Cell
+603     Find Standard Conventional Cell
+604     Find Symmetrically Equivalent Atoms
+608     Find Symmetry of Relaxed-Structure
+609     Find Symmetry of Molecule or Cluster
+07      Materials Databases
+702     Computational 2D Monolayer Semiconductors
+705     Computational 2D Semiconductor Heterostructures
+08      Advanced Structure Models
+800     Build Orthogonal Supercell
+801     Build Vacuum Slab in Specified Direction
+802     Build Random Substitutional Alloy
+803     Build Surface by Specified Miller Indices
+804     Build Heterostructure by Two Specified Slabs
+808     Build Nanotube by Specified Orthogonal Slab
+821     Build Nonequivalent Vacancy Defects in Supercell Model
+822     Build Nonequivalent Substitution Defects in Supercell Model
+825     Build Hexagonal Moire Superlattices
+826     Build Nanorribon by Specified Chiral Vector
+827     Build Nanotube by Specified Chiral Vector
+11      Density-of-States
+111     Total Density-of-States
+112     Projected Density-of-States of Selected One Atom
+113     Projected Density-of-States of Each Element
+114     Projected Density-of-States of Selected Atoms
+115     Projected Density-of-States of Selected Atoms and Orbitals
+116     Local Density-of-States of Each Element
+117     Total Density-of-States from EIGENVAL File
+118     Projected Density-of-States from EIGENVAL and PROCAR Files
+119     Projected Density-of-States of Specified K-Indexes
+120     Projected Density-of-States of Specified Band-Indexes
+123     3D Spatially-Resolved DOS in Specified Energy Range
+124     3D Spatially-Resolved Magnetic DOS in Specified Energy Range
+125     2D Plane-Averaged Spatially-Resolved DOS
+126     2D Plane-Averaged Spatially-Resolved Magnetic DOS
+21      Band-Structure
+211     Band-Structure
+212     Projected Band-Structure of Only-One-Selected Atom
+213     Projected Band-Structure of Each Element
+214     Projected Band-Structure of Selected Atoms
+215     Projected Band-Structure by Element-Weights
+216     The Sum of Projected Band for Selected Atoms and Orbitals
+23      3D Band-Structure
+231     Generate KPOINTS File for 3D Band-Structure
+232     3D Band-Structure for 2D Material
+233     3D Band-Structure of HOMO & LUMO Bands [ISPIN=1 ONLY]
+25      Hybrid-DFT Band-Structure
+250     Generate KPOINTS Including Irreducible Kmesh and Band Edges
+251     Generate KPOINTS for Hybrid Band-Structure Calculation
+252     Band-Structure for Hybrid-DFT Calculation
+253     Projected Band-Structure for Selected One Atom
+254     Projected Band-Structure for Each Element
+255     Sum of Projected Band-Structure for Selected Atoms
+256     Projected Band-Structure by Element-Weights
+257     Sum of Projected Band for Selected Atoms and Orbitals
+26      Fermi-Surface
+261     Generate KPOINTS File for Fermi-Surface Calculation
+262     Fermi-Surface with XcrySDen format
+263     Fermi-Surface with FermiSurfer format
+264     Projected Fermi-Surface with FermiSurfer format
+265     Sum of Projected Fermi-Surface for Selected Atoms & Orbitals
+266     Fermi-Surface for 2D Materials
+267     Projected Fermi-Surface for 2D Materials
+28      Band-Structure Unfolding
+281     Generate KPOINTS File for Band-Unfolding Calculation
+282     Effective Band Structure (EBS)
+283     Orbital-Projected EBS for Selected Atoms
+284     Orbital-Projected EBS for Each Element
+285     Sum of Orbital-Projected EBS for Selected Atoms & Orbitals
+31      Charge-Density Analysis
+310     2D Slice of Charge Density
+311     Charge Density
+312     Spin Density
+313     Spin-Up & Spin-down Density
+314     Charge-Density Difference
+315     2D Linear-Average Charge Density
+316     1D Planar-Average Charge Density
+317     1D Macroscopic-Average Charge Density
+318     1D Charge Density Along Specified Path
+320     Build Supercell of Charge Density by Transformation Matrix
+325     Scanning Tunneling Microscope (STM) Simulation
+328     Export CHGCAR/PARCHG to XcrySDen .xsf format
+329     Export CHGCAR/PARCHG to Gaussian .cube format
+42      Potential Analysis
+420     2D Slice of Potential
+422     2D Linear-Average Potential
+425     1D Potential Along Specified Path
+426     1D Planar-Average Potential
+427     1D Macroscopic-Average Potential
+428     Export LOCPOT/ELFCAR to XcrySDen .xsf format
+429     Export LOCPOT/ELFCAR to Gaussian .cube format
+430     Build Supercell of Potential by Transformation Matrix
+51      Wave-Function Analysis
+511     Wave-Function in Real-Space with CHGCAR format
+512     Wave-Function in Real-Space with Cube format
+513     Wave-Function Parity (experimental)
+515     Wave-Function Squared in Real-Space with CHGCAR format
+516     Wave-Function Squared in Real-Space with Cube format
+62      Magnetic Properties
+621     Magnetic Anisotropy Energy
+65      Spin-Texture
+651     Generate KPOINTS File for Spin-Texture
+652     Spin-Texture of Specified Band for 2D Material (SOC ONLY)
+653     Spin-Texture of Specified Band for bulk Material (SOC ONLY)
+68      Transport Properties
+681     Generate KPOINTS File for Transport Calculation
+682     Transport Properties Based on Boltzmann Theory
+71      Optical Properties
+710     Linear Optical Spectrums for Two-Dimensional Semiconductors
+711     Linear Optical Spectrums for Bulk Semiconductors
+713     Transition Dipole Moment from WAVECAR file
+714     Dipole Moment Elements from WAVEDER file
+716     Total Joint Density of States
+717     Partial Joint Density of States
+719     Spectroscopic Limited Maximum Efficiency
+72      Molecular-Dynamics Kit
+721     Mean Squared Displacement
+722     Mean Squared Displacement Using FFT (Recommend)
+723     Diffusion Coefficient & Ion Mobility from MSD.dat File
+725     Pair Correlation Function from PCDAT File
+726     Radial Distribution Function of Selected Elements
+727     Velocity Autocorrelation Function
+728     Vibrational DOS from Velocity Autocorrelation Function
+730     Bond Length Distribution of Selected Elements
+731     Bond Angle Distribution of Selected Elements
+736     MD Trajectories of Selected Atoms with POSCAR Format
+737     MD Trajectories of Selected Atoms with PDB Format
+78      VASP2other Interface
+781     VASP2BoltzTraP Interface
+788     Normalized Trace of Interatomic Force Constant Tensors
+789     Sort Phonon Band Structure for Phononpy
+91      Semiconductor Kit
+911     Band-Gap
+912     Eeffective-Mass of Carrier (experimental)
+913     Eeffective-Mass of HOMO & LUMO Bands [ISPIN=1 ONLY]
+914     Angular-Dependent Effective-Mass and Fermi-Velocity
+917     Fermi Velocity
+92      2D-Material Kit
+920     Move Atomic-Layer to the bottom in z direction
+921     Center Atomic-Layer in z direction
+922     Resize Vacuum Thickness
+923     Standardize 2D Crystal Cell
+926     Stacking-dependent Potential Energy Surface
+927     Band Edges Referenced to Vacuum Level for 2D Structure
+929     Summary for Relaxed 2D Structure
+======= ============================================================
 
-Future functions
-^^^^^^^^^^^^^^^^^
-* Fermi surface unfolding;
-* Wannier90 interface;
+**If you use the VASPKIT code, please remember to cite it.**
+
+V. Wang, N. Xu, J.-C. Liu, G. Tang, W.-T. Geng, *VASPKIT: A User-Friendly Interface Facilitating High-Throughput Computing and Analysis Using VASP Code*, **Computer Physics Communications** 267, 108033, (2021), https://doi.org/10.1016/j.cpc.2021.108033
+
