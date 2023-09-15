@@ -27,6 +27,7 @@ How to cite
 Cited publications
 ------------------
 *The VASPKIT program has been cited by more than 2000 times (google scholar) since 2021. Many thanks to the authors! Some of them are listed below.* 
+#. B. Yang, Z.-M. Zhang, P.-T. Liu, X.-K. Fu, L. Zuo, et al. Flatband λ-Ti3O5 towards extraordinary solar steam generation. **Nature**, (2023). https://doi.org/10.1038/s41586-023-06509-3
 
 #. J. Liu, M. De Bastiani, E. Aydin, G. T. Harrison, et al. Efficient and stable perovskite-silicon tandem solar cells through contact displacement by MgFx. **Science**, eabn8910 (2022). https://doi.org/10.1126/science.abn8910
 
@@ -44,11 +45,7 @@ Cited publications
 
 #. Y. Zhao, C. Deng, D. Tang, et al. α-Fe2O3 as a versatile and efficient oxygen atom transfer catalyst in combination with H2O as the oxygen source. **Nature Catalysis** 4, 684 (2021). https://doi.org/10.1038/s41929-021-00659-1
 
-#. S. Liu, H. Li, J. Zhong, K. Xu, et al. A crystal glass–nanostructured Al-based electrocatalyst for hydrogen evolution reaction. **Science Advances** 8, eadd6421 (2022). https://doi.org/10.1126/sciadv.add6421 
-
-#.  M. Peng, R. Xie, Z. Wang, et al. Blackbody-sensitive room-temperature infrared photodetectors based on low-dimensional tellurium grown by chemical vapor deposition. **Science Advances** 7, eabf7358 (2021). https://doi.org/10.1126/sciadv.abf7358 
-
-#. Y. Ohtsuka, N. Kanazawa, M. Hirayama, et al. Emergence of spin-orbit coupled ferromagnetic surface state derived from Zak phase in a nonmagnetic insulator FeSi, **Science Advances** 7, eabj0498 (2021). https://doi.org/10.1126/sciadv.abj0498
+#. W. Zhu, X. Song, F. Liao, H. Huang, Q. Shao, K. Feng, et al. Stable and oxidative charged Ru enhance the acidic oxygen evolution reaction activity in two-dimensional ruthenium-iridium oxide. **Nature Communications** 14, 5365 (2003). https://doi.org/10.1038/s41467-023-41036-9 
 
 #. C. Wei, Y. Fang, B. Liu, C. Tang, B. Dong, et al. Lattice oxygen-mediated electron tuning promotes electrochemical hydrogenation of acetonitrile on copper catalysts. **Nature Communications** 14, 3847 (2023). https://doi.org/10.1038/s41467-023-39558-3
 
@@ -87,6 +84,7 @@ Cited publications
 #. J. Zhang, L. Zhang, J. Liu, C. Zhong, Y. Tu, Li, et al. OH spectator at IrMo intermetallic narrowing activity gap between alkaline and acidic hydrogen evolution reaction. **Nature communications** 13, 5497 (2022). https://www.nature.com/articles/s41467-022-33216-w 
 
 #. W. Deng, Z. Zheng, J. Li, R. Zhou, X. Chen, D. Zhang, et al. Electrically tunable two-dimensional heterojunctions for miniaturized near-infrared spectrometers. **Nature Communications** 131, 4627 (2022). https://doi.org/10.1038/s41467-022-32306-z     
+
 #. S. Bae, K. Matsumoto, H. Raebiger, et al. K-Point Longitudinal Acoustic Phonons Are Responsible for Ultrafast Intervalley Scattering in monolayer MoSe2. **Nature Communications** 13, 4279 (2022). https://doi.org/10.1038/s41467-022-32008-6 
 
 #. C. Meng, B.F. Ding, S.Z. Zhang, Z.H. Zhang, et al. Angstrom-confined catalytic water purification within Co-TiOx laminar membrane nanochannels. **Nature communications** 13, 4010 (2022). https://doi.org/10.1038/s41467-022-31807-1
@@ -108,6 +106,12 @@ Cited publications
 #. F. Yu, W. Liu, S.-W. Ke, M. Kurmoo, J.-L. Zuo, Q. Zhang, Electrochromic two-dimensional covalent organic framework with a reversible dark-to-transparent switch. **Nature Communications** 11, 5534 (2020). https://doi.org/10.1038/s41467-020-19315-6
 
 #. C. Wu, L. Lin, J. Liu, J. Zhang, F. Zhang, et al. Inverse ZrO2/Cu as a highly efficient methanol synthesis catalyst from CO2 hydrogenation,  **Nature Communications** 11, 5767 (2020). https://doi.org/10.1038/s41467-020-19634-8
+
+#. S. Liu, H. Li, J. Zhong, K. Xu, et al. A crystal glass–nanostructured Al-based electrocatalyst for hydrogen evolution reaction. **Science Advances** 8, eadd6421 (2022). https://doi.org/10.1126/sciadv.add6421 
+
+#. M. Peng, R. Xie, Z. Wang, et al. Blackbody-sensitive room-temperature infrared photodetectors based on low-dimensional tellurium grown by chemical vapor deposition. **Science Advances** 7, eabf7358 (2021). https://doi.org/10.1126/sciadv.abf7358 
+
+#. Y. Ohtsuka, N. Kanazawa, M. Hirayama, et al. Emergence of spin-orbit coupled ferromagnetic surface state derived from Zak phase in a nonmagnetic insulator FeSi, **Science Advances** 7, eabj0498 (2021). https://doi.org/10.1126/sciadv.abj0498
 
 #. H. F. Yang, K. Y. He, J. Koo, S. W. Shen, et al. Visualization of Chiral Electronic Structure and Anomalous Optical Response in a Material with Chiral Charge Density Waves. **Physical Review Letters** 129, 156401 (2022). https://doi.org/10.1103/PhysRevLett.129.156401 
 
