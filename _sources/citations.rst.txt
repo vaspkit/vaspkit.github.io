@@ -46,6 +46,10 @@ Cited publications
 
 #. Y. Zhao, C. Deng, D. Tang, et al. α-Fe2O3 as a versatile and efficient oxygen atom transfer catalyst in combination with H2O as the oxygen source. **Nature Catalysis** 4, 684 (2021). https://doi.org/10.1038/s41929-021-00659-1
 
+#. R. Wu, G.C. Gu, T. Gotoh,, Z.H. Zhao, et al. The Role of Arsenic in the Operation of Electrical Threshold Switches. **Nature Communications** 14, 6095 (2003). https://doi.org/10.1038/s41467-023-41643-6
+
+#. G. Li, S. Jiang, A. Liu, L. Ye, J. Ke, C. Liu, et al. Proof of crystal-field-perturbation-enhanced luminescence of lanthanide-doped nanocrystals through interstitial H+ doping. **Nature Communications** 14, 5870 (2003). https://doi.org/10.1038/s41467-023-41411-6
+
 #. W. Zhu, X. Song, F. Liao, H. Huang, Q. Shao, K. Feng, et al. Stable and oxidative charged Ru enhance the acidic oxygen evolution reaction activity in two-dimensional ruthenium-iridium oxide. **Nature Communications** 14, 5365 (2003). https://doi.org/10.1038/s41467-023-41036-9 
 
 #. C. Wei, Y. Fang, B. Liu, C. Tang, B. Dong, et al. Lattice oxygen-mediated electron tuning promotes electrochemical hydrogenation of acetonitrile on copper catalysts. **Nature Communications** 14, 3847 (2023). https://doi.org/10.1038/s41467-023-39558-3
