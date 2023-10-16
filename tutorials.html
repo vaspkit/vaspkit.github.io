@@ -21,10 +21,13 @@
   
     
       <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+        <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
         <script src="_static/jquery.js"></script>
         <script src="_static/underscore.js"></script>
+        <script src="_static/_sphinx_javascript_frameworks_compat.js"></script>
         <script src="_static/doctools.js"></script>
-        <script async="async" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
+        <script src="_static/sphinx_highlight.js"></script>
+        <script async="async" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
     
     <script type="text/javascript" src="_static/js/theme.js"></script>
 
@@ -33,6 +36,8 @@
   
   <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
   <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
   <link rel="stylesheet" href="_static/style.css" type="text/css" />
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
@@ -86,7 +91,6 @@
             
               <ul class="current">
 <li class="toctree-l1"><a class="reference internal" href="features.html">Features</a></li>
-<li class="toctree-l1"><a class="reference internal" href="changelog.html">Release Notes</a></li>
 <li class="toctree-l1"><a class="reference internal" href="installation.html">Installation</a></li>
 <li class="toctree-l1 current"><a class="current reference internal" href="#">Tutorials</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="#quick-start">Quick Start</a><ul>
@@ -202,6 +206,7 @@
 <li class="toctree-l1"><a class="reference internal" href="gallery.html">Gallery</a></li>
 <li class="toctree-l1"><a class="reference internal" href="citations.html">Citations</a></li>
 <li class="toctree-l1"><a class="reference internal" href="resouces.html">Resources</a></li>
+<li class="toctree-l1"><a class="reference internal" href="changelog.html">Release Notes</a></li>
 <li class="toctree-l1"><a class="reference internal" href="vaspkitpro.html">VASPKIT Pro</a></li>
 <li class="toctree-l1"><a class="reference internal" href="atomkit.html">ATOMKIT Code</a></li>
 <li class="toctree-l1"><a class="reference internal" href="acknowledgments.html">Acknowledgments</a></li>
@@ -269,15 +274,15 @@
            <div itemprop="articleBody">
             
   <div class="section" id="tutorials">
-<h1>Tutorials<a class="headerlink" href="#tutorials" title="Permalink to this headline">¶</a></h1>
+<h1>Tutorials<a class="headerlink" href="#tutorials" title="Permalink to this heading">¶</a></h1>
 <div class="admonition caution">
 <p class="admonition-title">Caution</p>
 <p><strong>Disclaimer</strong>: The following tutorials are meant to provide some guides for the users of VASPKIT to facilitate a complete employment of the available features. The content is NOT guaranteed to be scientiﬁcally accurate and certified/peer-reviewed and the researchers should use the suggestions at their own responsibility.</p>
 </div>
 <div class="section" id="quick-start">
-<h2>Quick Start<a class="headerlink" href="#quick-start" title="Permalink to this headline">¶</a></h2>
+<h2>Quick Start<a class="headerlink" href="#quick-start" title="Permalink to this heading">¶</a></h2>
 <div class="section" id="ways-to-run-vaspkit">
-<h3>Ways to Run vaspkit<a class="headerlink" href="#ways-to-run-vaspkit" title="Permalink to this headline">¶</a></h3>
+<h3>Ways to Run vaspkit<a class="headerlink" href="#ways-to-run-vaspkit" title="Permalink to this heading">¶</a></h3>
 <p>There are at lease five ways to run vaspkit under either the interactive user interface or command line mode. We take the generation of KPOINTS (task 102) as an example to illustrate the useage of vaspkit.</p>
 <ol class="arabic simple">
 <li><p>Just type <code class="docutils literal notranslate"><span class="pre">vaspkit</span></code> in the terminal to launch the interactive user interface mode;</p></li>
@@ -294,7 +299,7 @@
 <p>and then run <code class="docutils literal notranslate"><span class="pre">vaspkit</span> <span class="pre">&lt;cmd.in</span></code>.</p>
 </div>
 <div class="section" id="run-vaspkit-in-batch-mode">
-<h3>Run vaspkit in Batch Mode<a class="headerlink" href="#run-vaspkit-in-batch-mode" title="Permalink to this headline">¶</a></h3>
+<h3>Run vaspkit in Batch Mode<a class="headerlink" href="#run-vaspkit-in-batch-mode" title="Permalink to this heading">¶</a></h3>
 <p>if one wants to run vaspkit in batch mode, for example, to generate KPOINTS file in several sub-olders:</p>
 <div class="highlight-none notranslate"><div class="highlight"><pre><span></span>for i in `ls`
 do echo ${i}
@@ -321,7 +326,7 @@ done
 </div>
 </div>
 <div class="section" id="generate-input-files">
-<h2>Generate Input Files<a class="headerlink" href="#generate-input-files" title="Permalink to this headline">¶</a></h2>
+<h2>Generate Input Files<a class="headerlink" href="#generate-input-files" title="Permalink to this heading">¶</a></h2>
 <p>In order to perform a VASP calculation, usually one needs 4 files, INCAR,
 POSCAR, POTCAR and KPOINTS.</p>
 <ol class="arabic simple">
@@ -345,7 +350,7 @@ which the wave function integrates to obtain the charge density.</p></li>
 </pre></div>
 </div>
 <div class="section" id="generate-incar">
-<h3>Generate INCAR<a class="headerlink" href="#generate-incar" title="Permalink to this headline">¶</a></h3>
+<h3>Generate INCAR<a class="headerlink" href="#generate-incar" title="Permalink to this heading">¶</a></h3>
 <p>Run VASPKIT in the directory containing POSCAR. Enter <code class="docutils literal notranslate"><span class="pre">1</span></code> to select
 the function VASP Input Files Generator, and then enter <code class="docutils literal notranslate"><span class="pre">101</span></code>to
 select customize INCAR File, you will get the following display
@@ -468,7 +473,7 @@ output settings. Simply change the <code class="docutils literal notranslate"><s
 </table>
 </div>
 <div class="section" id="generate-kpoints">
-<h3>Generate KPOINTS<a class="headerlink" href="#generate-kpoints" title="Permalink to this headline">¶</a></h3>
+<h3>Generate KPOINTS<a class="headerlink" href="#generate-kpoints" title="Permalink to this heading">¶</a></h3>
 <p>For self-consistent calculation, users need to prepare a KPOINTS file to
 specify density of K-points and the method for automatic k-mesh
 generation.</p>
@@ -526,7 +531,7 @@ Gamma
 </div>
 </div>
 <div class="section" id="generate-potcar">
-<h3>Generate POTCAR<a class="headerlink" href="#generate-potcar" title="Permalink to this headline">¶</a></h3>
+<h3>Generate POTCAR<a class="headerlink" href="#generate-potcar" title="Permalink to this heading">¶</a></h3>
 <p>When generating KPOINTS, POTCAR will also be generate automatically. Or
 run VASPKIT <code class="docutils literal notranslate"><span class="pre">103</span></code> to generate POTCAR.</p>
 <div class="highlight-none notranslate"><div class="highlight"><pre><span></span>103
@@ -586,7 +591,7 @@ user defined potential type in the list of potentials, VASPKIT will ask
 user re-enter.</p>
 </div>
 <div class="section" id="generate-poscar">
-<h3>Generate POSCAR<a class="headerlink" href="#generate-poscar" title="Permalink to this headline">¶</a></h3>
+<h3>Generate POSCAR<a class="headerlink" href="#generate-poscar" title="Permalink to this heading">¶</a></h3>
 <p>VASPKIT can transform .cif and .xsd (Materials Studio format) files to
 POSCAR format by option <code class="docutils literal notranslate"><span class="pre">105</span></code> and <code class="docutils literal notranslate"><span class="pre">106</span></code>.</p>
 <p><code class="docutils literal notranslate"><span class="pre">105</span></code> will call <code class="docutils literal notranslate"><span class="pre">/vaspkit.1.00/utilities/cif2pos.py</span></code> script.</p>
@@ -622,18 +627,18 @@ O Al
 </div>
 </div>
 <div class="section" id="input-file-self-check">
-<h3>Input File Self Check<a class="headerlink" href="#input-file-self-check" title="Permalink to this headline">¶</a></h3>
+<h3>Input File Self Check<a class="headerlink" href="#input-file-self-check" title="Permalink to this heading">¶</a></h3>
 <p>VASPKIT can do format correction and pseudo potential check by option
 <code class="docutils literal notranslate"><span class="pre">109</span></code>. VASPKIT will automatically correct the INCAR and POSCAR formats
 and check if the POTCAR and POSCAR are consistent.</p>
 </div>
 </div>
 <div class="section" id="band-structure">
-<h2>Band Structure<a class="headerlink" href="#band-structure" title="Permalink to this headline">¶</a></h2>
+<h2>Band Structure<a class="headerlink" href="#band-structure" title="Permalink to this heading">¶</a></h2>
 <p>VASPKIT is very powerful at pre- and post- process VASP band structure
 calculation.</p>
 <div class="section" id="pre-process-band-structure-pure-functional">
-<h3>Pre-process Band Structure (pure functional)<a class="headerlink" href="#pre-process-band-structure-pure-functional" title="Permalink to this headline">¶</a></h3>
+<h3>Pre-process Band Structure (pure functional)<a class="headerlink" href="#pre-process-band-structure-pure-functional" title="Permalink to this heading">¶</a></h3>
 <p>To do band structure calculation, one need to prepare a primitive cell
 and corresponding K points path (K-path) alone Irreducible Brillouin
 Zone. Irreducible Brillouin Zone is the first Brillouin zone reduced by
@@ -663,7 +668,7 @@ Materials Science 128 (2017) 140–184.</p>
 diagram paths based on crystallography, Comp. Mat. Sci. 128, 140 (2017).</a>
 ).</p>
 <div class="section" id="example-single-layer-mos2">
-<h4>Example: Single-layer MoS2<a class="headerlink" href="#example-single-layer-mos2" title="Permalink to this headline">¶</a></h4>
+<h4>Example: Single-layer MoS2<a class="headerlink" href="#example-single-layer-mos2" title="Permalink to this heading">¶</a></h4>
 <p>Band structure of single-layer MoS2 without spin polarization without
 spin-orbital coupling.</p>
 <ol class="arabic simple">
@@ -804,7 +809,7 @@ PREC = Accurate
 </div>
 </div>
 <div class="section" id="post-process-band-structure-pure-functional">
-<h3>Post-process Band Structure (pure functional)<a class="headerlink" href="#post-process-band-structure-pure-functional" title="Permalink to this headline">¶</a></h3>
+<h3>Post-process Band Structure (pure functional)<a class="headerlink" href="#post-process-band-structure-pure-functional" title="Permalink to this heading">¶</a></h3>
 <p>After calculation, do band structure post-process by VASPKIT option
 <code class="docutils literal notranslate"><span class="pre">21</span></code></p>
 <p>Use <code class="docutils literal notranslate"><span class="pre">211</span></code> get the basic band structure. If there are python
@@ -1010,82 +1015,82 @@ selected atoms or elements. This is useful to investigate the layered
 band and compare surface band and inner band.</p>
 </div>
 <div class="section" id="single-shot-band-structue">
-<h3>Single-shot Band Structue<a class="headerlink" href="#single-shot-band-structue" title="Permalink to this headline">¶</a></h3>
+<h3>Single-shot Band Structue<a class="headerlink" href="#single-shot-band-structue" title="Permalink to this heading">¶</a></h3>
 <p>The VASP.6.3.0 or latter version can calculate band structure through a single-shot.
 Note the PROCAR_OPT file does not output unless we compiled VASP after adding <code class="docutils literal notranslate"><span class="pre">-DVASP_HDF5</span></code> to the <code class="docutils literal notranslate"><span class="pre">CPP_OPTIONS</span></code> in the makefile.include.
 Alternatively, the PROCAR_OPT and EIGENVAL_OPT (new added) can automatically be generated after we modified the vasp.6.3.0/src/linear_response.F and recomplied VASP again.
 Specifically, first delete the lines from 1804-1827 in vasp.6.3.0/src/linear_response.F file,</p>
 <div class="highlight-fortran notranslate"><div class="highlight"><pre><span></span><span class="cp">#ifdef VASP_HDF5</span>
-   <span class="k">CALL </span><span class="n">VH5_WRITE_DOS</span><span class="p">(</span><span class="n">IH5OUTFILEID</span><span class="p">,</span> <span class="n">WDES_INTER</span><span class="p">,</span> <span class="n">KPOINTS_INTER</span><span class="p">,</span> <span class="n">DOS</span><span class="p">,</span> <span class="n">DOSI</span><span class="p">,</span> <span class="n">DOSPAR</span><span class="p">,</span> <span class="n">EFERMI</span><span class="p">,</span> <span class="p">&amp;</span>
-                      <span class="n">T_INFO</span><span class="p">%</span><span class="n">NIONP</span><span class="p">,</span> <span class="o">-</span><span class="mi">1</span><span class="p">,</span><span class="n">SUBGROUP</span><span class="o">=</span><span class="s2">&quot;electron_dos_kpoints_opt&quot;</span><span class="p">)</span>
-   <span class="k">CALL </span><span class="n">VH5_WRITE_EIGENVAL</span><span class="p">(</span><span class="n">IH5OUTFILEID</span><span class="p">,</span> <span class="n">WDES_INTER</span><span class="p">,</span> <span class="n">W_INTER</span><span class="p">,</span> <span class="n">KPOINTS_INTER</span><span class="p">,</span> <span class="p">&amp;</span>
-                           <span class="n">SUBGROUP</span><span class="o">=</span><span class="s2">&quot;electron_eigenvalues_kpoints_opt&quot;</span><span class="p">)</span>
+<span class="w">   </span><span class="k">CALL </span><span class="n">VH5_WRITE_DOS</span><span class="p">(</span><span class="n">IH5OUTFILEID</span><span class="p">,</span><span class="w"> </span><span class="n">WDES_INTER</span><span class="p">,</span><span class="w"> </span><span class="n">KPOINTS_INTER</span><span class="p">,</span><span class="w"> </span><span class="n">DOS</span><span class="p">,</span><span class="w"> </span><span class="n">DOSI</span><span class="p">,</span><span class="w"> </span><span class="n">DOSPAR</span><span class="p">,</span><span class="w"> </span><span class="n">EFERMI</span><span class="p">,</span><span class="w"> </span><span class="p">&amp;</span>
+<span class="w">                      </span><span class="n">T_INFO</span><span class="p">%</span><span class="n">NIONP</span><span class="p">,</span><span class="w"> </span><span class="o">-</span><span class="mi">1</span><span class="p">,</span><span class="n">SUBGROUP</span><span class="o">=</span><span class="s2">&quot;electron_dos_kpoints_opt&quot;</span><span class="p">)</span>
+<span class="w">   </span><span class="k">CALL </span><span class="n">VH5_WRITE_EIGENVAL</span><span class="p">(</span><span class="n">IH5OUTFILEID</span><span class="p">,</span><span class="w"> </span><span class="n">WDES_INTER</span><span class="p">,</span><span class="w"> </span><span class="n">W_INTER</span><span class="p">,</span><span class="w"> </span><span class="n">KPOINTS_INTER</span><span class="p">,</span><span class="w"> </span><span class="p">&amp;</span>
+<span class="w">                           </span><span class="n">SUBGROUP</span><span class="o">=</span><span class="s2">&quot;electron_eigenvalues_kpoints_opt&quot;</span><span class="p">)</span>
 
-   <span class="c">! Write projections</span>
-   <span class="k">IF</span> <span class="p">(</span><span class="n">JOBPAR</span><span class="o">/=</span><span class="mi">0</span> <span class="p">.</span><span class="nb">OR</span><span class="p">.</span> <span class="n">IO</span><span class="p">%</span><span class="n">LORBIT</span><span class="o">&gt;=</span><span class="mi">10</span><span class="p">)</span> <span class="k">THEN</span>
-<span class="k">     IF</span> <span class="p">(</span><span class="n">IO</span><span class="p">%</span><span class="n">LORBIT</span><span class="o">==</span><span class="mi">1</span><span class="mf">1.</span><span class="nb">OR</span><span class="p">.</span><span class="n">IO</span><span class="p">%</span><span class="n">LORBIT</span><span class="o">==</span><span class="mi">12</span><span class="p">)</span> <span class="k">THEN</span>
-<span class="k">       CALL </span><span class="n">VH5_WRITE_PROJECTORS</span><span class="p">(</span><span class="n">IH5OUTFILEID</span><span class="p">,</span> <span class="n">T_INFO</span><span class="p">,</span> <span class="n">WDES_INTER</span><span class="p">,</span> <span class="n">W_INTER</span><span class="p">,</span> <span class="n">IO</span><span class="p">%</span><span class="n">LORBIT</span><span class="p">,</span> <span class="n">LPAR</span><span class="p">,</span> <span class="n">PAR_INTER</span><span class="p">,</span> <span class="n">LMCHAR</span><span class="p">,</span> <span class="n">PHAS_INTER</span><span class="p">,</span> <span class="p">&amp;</span>
-                                 <span class="n">SUBGROUP</span><span class="o">=</span><span class="s2">&quot;projectors_kpoints_opt&quot;</span><span class="p">)</span>
-     <span class="k">ELSE</span>
-<span class="k">       CALL </span><span class="n">VH5_WRITE_PROJECTORS</span><span class="p">(</span><span class="n">IH5OUTFILEID</span><span class="p">,</span> <span class="n">T_INFO</span><span class="p">,</span> <span class="n">WDES_INTER</span><span class="p">,</span> <span class="n">W_INTER</span><span class="p">,</span> <span class="n">IO</span><span class="p">%</span><span class="n">LORBIT</span><span class="p">,</span> <span class="n">LPAR</span><span class="p">,</span> <span class="n">PAR_INTER</span><span class="p">,</span> <span class="n">LCHAR</span><span class="p">,</span> <span class="n">PHAS_INTER</span><span class="p">,</span> <span class="p">&amp;</span>
-                                 <span class="n">SUBGROUP</span><span class="o">=</span><span class="s2">&quot;projectors_kpoints_opt&quot;</span><span class="p">)</span>
-     <span class="n">ENDIF</span>
-     <span class="k">IF</span> <span class="p">(</span><span class="n">IO</span><span class="p">%</span><span class="n">IU6</span><span class="o">&gt;=</span><span class="mi">0</span><span class="p">)</span> <span class="k">THEN</span>
-<span class="k">       CALL </span><span class="n">XML_PROCAR</span><span class="p">(</span><span class="n">PAR</span><span class="p">,</span> <span class="n">W_INTER</span><span class="p">%</span><span class="n">CELTOT</span><span class="p">,</span> <span class="n">W_INTER</span><span class="p">%</span><span class="n">FERTOT</span><span class="p">,</span> <span class="n">WDES_INTER</span><span class="p">%</span><span class="n">NB_TOT</span><span class="p">,</span> <span class="n">WDES_INTER</span><span class="p">%</span><span class="n">NKPTS</span><span class="p">,</span> <span class="n">LPAR</span><span class="p">,&amp;</span>
-                     <span class="n">T_INFO</span><span class="p">%</span><span class="n">NIONP</span><span class="p">,</span> <span class="n">WDES_INTER</span><span class="p">%</span><span class="n">NCDIJ</span><span class="p">,</span> <span class="n">TAG</span><span class="o">=</span><span class="s2">&quot;projected_kpoints_opt&quot;</span><span class="p">)</span>
-       <span class="k">OPEN</span><span class="p">(</span><span class="n">UNIT</span><span class="o">=</span><span class="mi">99</span><span class="p">,</span><span class="k">FILE</span><span class="o">=</span><span class="s1">&#39;PROCAR_OPT&#39;</span><span class="p">,</span><span class="n">STATUS</span><span class="o">=</span><span class="s1">&#39;UNKNOWN&#39;</span><span class="p">)</span>
-       <span class="k">CALL </span><span class="n">WRITE_PROCAR</span><span class="p">(</span><span class="mi">99</span><span class="p">,</span><span class="n">W_INTER</span><span class="p">,</span><span class="n">WDES_INTER</span><span class="p">,</span><span class="n">IO</span><span class="p">%</span><span class="n">LORBIT</span><span class="p">,</span><span class="n">LPAR</span><span class="p">,</span><span class="n">LMDIMP</span><span class="p">,</span><span class="n">PAR_INTER</span><span class="p">,</span><span class="n">PHAS_INTER</span><span class="p">,</span><span class="n">T_INFO</span><span class="p">,</span><span class="n">KPOINTS</span><span class="p">%</span><span class="n">EMIN</span><span class="p">,</span><span class="n">KPOINTS</span><span class="p">%</span><span class="n">EMAX</span><span class="p">)</span>
-       <span class="k">CLOSE</span><span class="p">(</span><span class="mi">99</span><span class="p">)</span>
-     <span class="n">ENDIF</span>
-   <span class="n">ENDIF</span>
+<span class="w">   </span><span class="c">! Write projections</span>
+<span class="w">   </span><span class="k">IF</span><span class="w"> </span><span class="p">(</span><span class="n">JOBPAR</span><span class="o">/=</span><span class="mi">0</span><span class="w"> </span><span class="p">.</span><span class="nb">OR</span><span class="p">.</span><span class="w"> </span><span class="n">IO</span><span class="p">%</span><span class="n">LORBIT</span><span class="o">&gt;=</span><span class="mi">10</span><span class="p">)</span><span class="w"> </span><span class="k">THEN</span>
+<span class="k">     IF</span><span class="w"> </span><span class="p">(</span><span class="n">IO</span><span class="p">%</span><span class="n">LORBIT</span><span class="o">==</span><span class="mi">1</span><span class="mf">1.</span><span class="nb">OR</span><span class="p">.</span><span class="n">IO</span><span class="p">%</span><span class="n">LORBIT</span><span class="o">==</span><span class="mi">12</span><span class="p">)</span><span class="w"> </span><span class="k">THEN</span>
+<span class="k">       CALL </span><span class="n">VH5_WRITE_PROJECTORS</span><span class="p">(</span><span class="n">IH5OUTFILEID</span><span class="p">,</span><span class="w"> </span><span class="n">T_INFO</span><span class="p">,</span><span class="w"> </span><span class="n">WDES_INTER</span><span class="p">,</span><span class="w"> </span><span class="n">W_INTER</span><span class="p">,</span><span class="w"> </span><span class="n">IO</span><span class="p">%</span><span class="n">LORBIT</span><span class="p">,</span><span class="w"> </span><span class="n">LPAR</span><span class="p">,</span><span class="w"> </span><span class="n">PAR_INTER</span><span class="p">,</span><span class="w"> </span><span class="n">LMCHAR</span><span class="p">,</span><span class="w"> </span><span class="n">PHAS_INTER</span><span class="p">,</span><span class="w"> </span><span class="p">&amp;</span>
+<span class="w">                                 </span><span class="n">SUBGROUP</span><span class="o">=</span><span class="s2">&quot;projectors_kpoints_opt&quot;</span><span class="p">)</span>
+<span class="w">     </span><span class="k">ELSE</span>
+<span class="k">       CALL </span><span class="n">VH5_WRITE_PROJECTORS</span><span class="p">(</span><span class="n">IH5OUTFILEID</span><span class="p">,</span><span class="w"> </span><span class="n">T_INFO</span><span class="p">,</span><span class="w"> </span><span class="n">WDES_INTER</span><span class="p">,</span><span class="w"> </span><span class="n">W_INTER</span><span class="p">,</span><span class="w"> </span><span class="n">IO</span><span class="p">%</span><span class="n">LORBIT</span><span class="p">,</span><span class="w"> </span><span class="n">LPAR</span><span class="p">,</span><span class="w"> </span><span class="n">PAR_INTER</span><span class="p">,</span><span class="w"> </span><span class="n">LCHAR</span><span class="p">,</span><span class="w"> </span><span class="n">PHAS_INTER</span><span class="p">,</span><span class="w"> </span><span class="p">&amp;</span>
+<span class="w">                                 </span><span class="n">SUBGROUP</span><span class="o">=</span><span class="s2">&quot;projectors_kpoints_opt&quot;</span><span class="p">)</span>
+<span class="w">     </span><span class="k">ENDIF</span>
+<span class="k">     IF</span><span class="w"> </span><span class="p">(</span><span class="n">IO</span><span class="p">%</span><span class="n">IU6</span><span class="o">&gt;=</span><span class="mi">0</span><span class="p">)</span><span class="w"> </span><span class="k">THEN</span>
+<span class="k">       CALL </span><span class="n">XML_PROCAR</span><span class="p">(</span><span class="n">PAR</span><span class="p">,</span><span class="w"> </span><span class="n">W_INTER</span><span class="p">%</span><span class="n">CELTOT</span><span class="p">,</span><span class="w"> </span><span class="n">W_INTER</span><span class="p">%</span><span class="n">FERTOT</span><span class="p">,</span><span class="w"> </span><span class="n">WDES_INTER</span><span class="p">%</span><span class="n">NB_TOT</span><span class="p">,</span><span class="w"> </span><span class="n">WDES_INTER</span><span class="p">%</span><span class="n">NKPTS</span><span class="p">,</span><span class="w"> </span><span class="n">LPAR</span><span class="p">,&amp;</span>
+<span class="w">                     </span><span class="n">T_INFO</span><span class="p">%</span><span class="n">NIONP</span><span class="p">,</span><span class="w"> </span><span class="n">WDES_INTER</span><span class="p">%</span><span class="n">NCDIJ</span><span class="p">,</span><span class="w"> </span><span class="n">TAG</span><span class="o">=</span><span class="s2">&quot;projected_kpoints_opt&quot;</span><span class="p">)</span>
+<span class="w">       </span><span class="k">OPEN</span><span class="p">(</span><span class="n">UNIT</span><span class="o">=</span><span class="mi">99</span><span class="p">,</span><span class="k">FILE</span><span class="o">=</span><span class="s1">&#39;PROCAR_OPT&#39;</span><span class="p">,</span><span class="n">STATUS</span><span class="o">=</span><span class="s1">&#39;UNKNOWN&#39;</span><span class="p">)</span>
+<span class="w">       </span><span class="k">CALL </span><span class="n">WRITE_PROCAR</span><span class="p">(</span><span class="mi">99</span><span class="p">,</span><span class="n">W_INTER</span><span class="p">,</span><span class="n">WDES_INTER</span><span class="p">,</span><span class="n">IO</span><span class="p">%</span><span class="n">LORBIT</span><span class="p">,</span><span class="n">LPAR</span><span class="p">,</span><span class="n">LMDIMP</span><span class="p">,</span><span class="n">PAR_INTER</span><span class="p">,</span><span class="n">PHAS_INTER</span><span class="p">,</span><span class="n">T_INFO</span><span class="p">,</span><span class="n">KPOINTS</span><span class="p">%</span><span class="n">EMIN</span><span class="p">,</span><span class="n">KPOINTS</span><span class="p">%</span><span class="n">EMAX</span><span class="p">)</span>
+<span class="w">       </span><span class="k">CLOSE</span><span class="p">(</span><span class="mi">99</span><span class="p">)</span>
+<span class="w">     </span><span class="k">ENDIF</span>
+<span class="k">   ENDIF</span>
 <span class="cp">#endif</span>
 </pre></div>
 </div>
 <p>and then add the following code</p>
 <div class="highlight-fortran notranslate"><div class="highlight"><pre><span></span><span class="c">!  Added support to VASPKIT</span>
-   <span class="k">OPEN</span><span class="p">(</span><span class="n">UNIT</span><span class="o">=</span><span class="mi">99</span><span class="p">,</span><span class="k">FILE</span><span class="o">=</span><span class="s1">&#39;EIGENVAL_OPT&#39;</span><span class="p">,</span><span class="n">STATUS</span><span class="o">=</span><span class="s1">&#39;UNKNOWN&#39;</span><span class="p">)</span>
-   <span class="k">WRITE</span><span class="p">(</span><span class="mi">99</span><span class="p">,</span><span class="s1">&#39;(4I5)&#39;</span><span class="p">)</span> <span class="n">T_INFO</span><span class="p">%</span><span class="n">NIONS</span><span class="p">,</span><span class="n">T_INFO</span><span class="p">%</span><span class="n">NIONS</span><span class="p">,</span><span class="mf">0.0</span><span class="p">,</span><span class="n">WDES_INTER</span><span class="p">%</span><span class="n">ISPIN</span>
-   <span class="k">WRITE</span><span class="p">(</span><span class="mi">99</span><span class="p">,</span><span class="s1">&#39;(5E15.7)&#39;</span><span class="p">)</span> <span class="mf">0.d0</span><span class="p">,</span><span class="mf">0.d0</span><span class="p">,</span><span class="mf">0.d0</span><span class="p">,</span><span class="mf">0.d0</span><span class="p">,</span><span class="mf">0.d0</span>
-   <span class="k">WRITE</span><span class="p">(</span><span class="mi">99</span><span class="p">,</span><span class="s1">&#39;(1E15.7)&#39;</span><span class="p">)</span> <span class="mf">0.d0</span>
-   <span class="k">WRITE</span><span class="p">(</span><span class="mi">99</span><span class="p">,</span><span class="o">*</span><span class="p">)</span> <span class="s1">&#39; CAR &#39;</span>
-   <span class="k">WRITE</span><span class="p">(</span><span class="mi">99</span><span class="p">,</span><span class="o">*</span><span class="p">)</span> <span class="n">INFO</span><span class="p">%</span><span class="n">SZNAM1</span>
-   <span class="k">WRITE</span><span class="p">(</span><span class="mi">99</span><span class="p">,</span><span class="s1">&#39;(3I7)&#39;</span><span class="p">)</span> <span class="nb">NINT</span><span class="p">(</span><span class="n">INFO</span><span class="p">%</span><span class="n">NELECT</span><span class="p">),</span><span class="n">WDES_INTER</span><span class="p">%</span><span class="n">NKPTS</span><span class="p">,</span><span class="n">WDES_INTER</span><span class="p">%</span><span class="n">NB_TOT</span>
-   <span class="k">DO </span><span class="n">IK</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span><span class="n">WDES_INTER</span><span class="p">%</span><span class="n">NKPTS</span>
-      <span class="k">WRITE</span><span class="p">(</span><span class="mi">99</span><span class="p">,</span><span class="o">*</span><span class="p">)</span>
-      <span class="k">WRITE</span><span class="p">(</span><span class="mi">99</span><span class="p">,</span><span class="s1">&#39;((4E15.7))&#39;</span><span class="p">)</span> <span class="n">WDES_INTER</span><span class="p">%</span><span class="n">VKPT</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="n">IK</span><span class="p">),</span><span class="n">WDES_INTER</span><span class="p">%</span><span class="n">VKPT</span><span class="p">(</span><span class="mi">2</span><span class="p">,</span><span class="n">IK</span><span class="p">),</span><span class="n">WDES_INTER</span><span class="p">%</span><span class="n">VKPT</span><span class="p">(</span><span class="mi">3</span><span class="p">,</span><span class="n">IK</span><span class="p">),</span><span class="n">WDES_INTER</span><span class="p">%</span><span class="n">WTKPT</span><span class="p">(</span><span class="n">IK</span><span class="p">)</span>
-      <span class="k">DO </span><span class="n">I</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span><span class="n">WDES_INTER</span><span class="p">%</span><span class="n">NB_TOT</span>
-         <span class="k">IF</span> <span class="p">(</span><span class="n">WDES_INTER</span><span class="p">%</span><span class="n">ISPIN</span><span class="o">==</span><span class="mi">1</span><span class="p">)</span> <span class="k">WRITE</span><span class="p">(</span><span class="mi">99</span><span class="p">,</span><span class="mi">852</span><span class="p">)</span> <span class="n">I</span><span class="p">,</span><span class="kt">REAL</span><span class="p">(</span> <span class="n">W_INTER</span><span class="p">%</span><span class="n">CELTOT</span><span class="p">(</span><span class="n">I</span><span class="p">,</span><span class="n">IK</span><span class="p">,</span><span class="mi">1</span><span class="p">)</span> <span class="p">,</span><span class="nb">KIND</span><span class="o">=</span><span class="n">q</span><span class="p">),</span><span class="n">W</span><span class="p">%</span><span class="n">FERTOT</span><span class="p">(</span><span class="n">I</span><span class="p">,</span><span class="n">IK</span><span class="p">,</span><span class="mi">1</span><span class="p">)</span>
-         <span class="k">IF</span> <span class="p">(</span><span class="n">WDES_INTER</span><span class="p">%</span><span class="n">ISPIN</span><span class="o">==</span><span class="mi">2</span><span class="p">)</span> <span class="k">WRITE</span><span class="p">(</span><span class="mi">99</span><span class="p">,</span><span class="mi">853</span><span class="p">)</span> <span class="n">I</span><span class="p">,(</span><span class="kt">REAL</span><span class="p">(</span> <span class="n">W_INTER</span><span class="p">%</span><span class="n">CELTOT</span><span class="p">(</span><span class="n">I</span><span class="p">,</span><span class="n">IK</span><span class="p">,</span><span class="n">ISP</span><span class="p">)</span> <span class="p">,</span><span class="nb">KIND</span><span class="o">=</span><span class="n">q</span><span class="p">),</span><span class="n">ISP</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span><span class="n">WDES_INTER</span><span class="p">%</span><span class="n">ISPIN</span><span class="p">),(</span><span class="n">W</span><span class="p">%</span><span class="n">FERTOT</span><span class="p">(</span><span class="n">I</span><span class="p">,</span><span class="n">IK</span><span class="p">,</span><span class="n">ISP</span><span class="p">),</span><span class="n">ISP</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span><span class="n">WDES_INTER</span><span class="p">%</span><span class="n">ISPIN</span><span class="p">)</span>
-      <span class="n">ENDDO</span>
-   <span class="n">ENDDO</span>
-   <span class="k">CLOSE</span><span class="p">(</span><span class="mi">99</span><span class="p">)</span>
-   <span class="mi">852</span> <span class="k">FORMAT</span><span class="p">(</span><span class="mi">1</span><span class="n">X</span><span class="p">,</span><span class="n">I6</span><span class="p">,</span><span class="mi">4</span><span class="n">X</span><span class="p">,</span><span class="n">F14</span><span class="p">.</span><span class="mi">6</span><span class="p">,</span><span class="mi">2</span><span class="n">X</span><span class="p">,</span><span class="n">F9</span><span class="p">.</span><span class="mi">6</span><span class="p">)</span>
-   <span class="mi">853</span> <span class="k">FORMAT</span><span class="p">(</span><span class="mi">1</span><span class="n">X</span><span class="p">,</span><span class="n">I6</span><span class="p">,</span><span class="mi">4</span><span class="n">X</span><span class="p">,</span><span class="n">F14</span><span class="p">.</span><span class="mi">6</span><span class="p">,</span><span class="mi">2</span><span class="n">X</span><span class="p">,</span><span class="n">F14</span><span class="p">.</span><span class="mi">6</span><span class="p">,</span><span class="mi">2</span><span class="n">X</span><span class="p">,</span><span class="n">F9</span><span class="p">.</span><span class="mi">6</span><span class="p">,</span><span class="mi">2</span><span class="n">X</span><span class="p">,</span><span class="n">F9</span><span class="p">.</span><span class="mi">6</span><span class="p">)</span>
-   <span class="k">IF</span> <span class="p">(</span><span class="n">JOBPAR</span><span class="o">/=</span><span class="mi">0</span> <span class="p">.</span><span class="nb">OR</span><span class="p">.</span> <span class="n">IO</span><span class="p">%</span><span class="n">LORBIT</span><span class="o">&gt;=</span><span class="mi">10</span><span class="p">)</span> <span class="k">THEN</span>
-<span class="k">     IF</span> <span class="p">(</span><span class="n">IO</span><span class="p">%</span><span class="n">IU6</span><span class="o">&gt;=</span><span class="mi">0</span><span class="p">)</span> <span class="k">THEN</span>
-<span class="k">       CALL </span><span class="n">XML_PROCAR</span><span class="p">(</span><span class="n">PAR</span><span class="p">,</span> <span class="n">W_INTER</span><span class="p">%</span><span class="n">CELTOT</span><span class="p">,</span> <span class="n">W_INTER</span><span class="p">%</span><span class="n">FERTOT</span><span class="p">,</span> <span class="n">WDES_INTER</span><span class="p">%</span><span class="n">NB_TOT</span><span class="p">,</span> <span class="n">WDES_INTER</span><span class="p">%</span><span class="n">NKPTS</span><span class="p">,</span> <span class="n">LPAR</span><span class="p">,&amp;</span>
-                     <span class="n">T_INFO</span><span class="p">%</span><span class="n">NIONP</span><span class="p">,</span> <span class="n">WDES_INTER</span><span class="p">%</span><span class="n">NCDIJ</span><span class="p">,</span> <span class="n">TAG</span><span class="o">=</span><span class="s2">&quot;projected_kpoints_opt&quot;</span><span class="p">)</span>
-       <span class="k">OPEN</span><span class="p">(</span><span class="n">UNIT</span><span class="o">=</span><span class="mi">99</span><span class="p">,</span><span class="k">FILE</span><span class="o">=</span><span class="s1">&#39;PROCAR_OPT&#39;</span><span class="p">,</span><span class="n">STATUS</span><span class="o">=</span><span class="s1">&#39;UNKNOWN&#39;</span><span class="p">)</span>
-       <span class="k">CALL </span><span class="n">WRITE_PROCAR</span><span class="p">(</span><span class="mi">99</span><span class="p">,</span><span class="n">W_INTER</span><span class="p">,</span><span class="n">WDES_INTER</span><span class="p">,</span><span class="n">IO</span><span class="p">%</span><span class="n">LORBIT</span><span class="p">,</span><span class="n">LPAR</span><span class="p">,</span><span class="n">LMDIMP</span><span class="p">,</span><span class="n">PAR_INTER</span><span class="p">,</span><span class="n">PHAS_INTER</span><span class="p">,</span><span class="n">T_INFO</span><span class="p">,</span><span class="n">KPOINTS</span><span class="p">%</span><span class="n">EMIN</span><span class="p">,</span><span class="n">KPOINTS</span><span class="p">%</span><span class="n">EMAX</span><span class="p">)</span>
-       <span class="k">CLOSE</span><span class="p">(</span><span class="mi">99</span><span class="p">)</span>
-     <span class="n">ENDIF</span>
-   <span class="n">ENDIF</span>
+<span class="w">   </span><span class="k">OPEN</span><span class="p">(</span><span class="n">UNIT</span><span class="o">=</span><span class="mi">99</span><span class="p">,</span><span class="k">FILE</span><span class="o">=</span><span class="s1">&#39;EIGENVAL_OPT&#39;</span><span class="p">,</span><span class="n">STATUS</span><span class="o">=</span><span class="s1">&#39;UNKNOWN&#39;</span><span class="p">)</span>
+<span class="w">   </span><span class="k">WRITE</span><span class="p">(</span><span class="mi">99</span><span class="p">,</span><span class="s1">&#39;(4I5)&#39;</span><span class="p">)</span><span class="w"> </span><span class="n">T_INFO</span><span class="p">%</span><span class="n">NIONS</span><span class="p">,</span><span class="n">T_INFO</span><span class="p">%</span><span class="n">NIONS</span><span class="p">,</span><span class="mf">0.0</span><span class="p">,</span><span class="n">WDES_INTER</span><span class="p">%</span><span class="n">ISPIN</span>
+<span class="w">   </span><span class="k">WRITE</span><span class="p">(</span><span class="mi">99</span><span class="p">,</span><span class="s1">&#39;(5E15.7)&#39;</span><span class="p">)</span><span class="w"> </span><span class="mf">0.d0</span><span class="p">,</span><span class="mf">0.d0</span><span class="p">,</span><span class="mf">0.d0</span><span class="p">,</span><span class="mf">0.d0</span><span class="p">,</span><span class="mf">0.d0</span>
+<span class="w">   </span><span class="k">WRITE</span><span class="p">(</span><span class="mi">99</span><span class="p">,</span><span class="s1">&#39;(1E15.7)&#39;</span><span class="p">)</span><span class="w"> </span><span class="mf">0.d0</span>
+<span class="w">   </span><span class="k">WRITE</span><span class="p">(</span><span class="mi">99</span><span class="p">,</span><span class="o">*</span><span class="p">)</span><span class="w"> </span><span class="s1">&#39; CAR &#39;</span>
+<span class="w">   </span><span class="k">WRITE</span><span class="p">(</span><span class="mi">99</span><span class="p">,</span><span class="o">*</span><span class="p">)</span><span class="w"> </span><span class="n">INFO</span><span class="p">%</span><span class="n">SZNAM1</span>
+<span class="w">   </span><span class="k">WRITE</span><span class="p">(</span><span class="mi">99</span><span class="p">,</span><span class="s1">&#39;(3I7)&#39;</span><span class="p">)</span><span class="w"> </span><span class="nb">NINT</span><span class="p">(</span><span class="n">INFO</span><span class="p">%</span><span class="n">NELECT</span><span class="p">),</span><span class="n">WDES_INTER</span><span class="p">%</span><span class="n">NKPTS</span><span class="p">,</span><span class="n">WDES_INTER</span><span class="p">%</span><span class="n">NB_TOT</span>
+<span class="w">   </span><span class="k">DO </span><span class="n">IK</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span><span class="n">WDES_INTER</span><span class="p">%</span><span class="n">NKPTS</span>
+<span class="w">      </span><span class="k">WRITE</span><span class="p">(</span><span class="mi">99</span><span class="p">,</span><span class="o">*</span><span class="p">)</span>
+<span class="w">      </span><span class="k">WRITE</span><span class="p">(</span><span class="mi">99</span><span class="p">,</span><span class="s1">&#39;((4E15.7))&#39;</span><span class="p">)</span><span class="w"> </span><span class="n">WDES_INTER</span><span class="p">%</span><span class="n">VKPT</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="n">IK</span><span class="p">),</span><span class="n">WDES_INTER</span><span class="p">%</span><span class="n">VKPT</span><span class="p">(</span><span class="mi">2</span><span class="p">,</span><span class="n">IK</span><span class="p">),</span><span class="n">WDES_INTER</span><span class="p">%</span><span class="n">VKPT</span><span class="p">(</span><span class="mi">3</span><span class="p">,</span><span class="n">IK</span><span class="p">),</span><span class="n">WDES_INTER</span><span class="p">%</span><span class="n">WTKPT</span><span class="p">(</span><span class="n">IK</span><span class="p">)</span>
+<span class="w">      </span><span class="k">DO </span><span class="n">I</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span><span class="n">WDES_INTER</span><span class="p">%</span><span class="n">NB_TOT</span>
+<span class="w">         </span><span class="k">IF</span><span class="w"> </span><span class="p">(</span><span class="n">WDES_INTER</span><span class="p">%</span><span class="n">ISPIN</span><span class="o">==</span><span class="mi">1</span><span class="p">)</span><span class="w"> </span><span class="k">WRITE</span><span class="p">(</span><span class="mi">99</span><span class="p">,</span><span class="mi">852</span><span class="p">)</span><span class="w"> </span><span class="n">I</span><span class="p">,</span><span class="kt">REAL</span><span class="p">(</span><span class="w"> </span><span class="n">W_INTER</span><span class="p">%</span><span class="n">CELTOT</span><span class="p">(</span><span class="n">I</span><span class="p">,</span><span class="n">IK</span><span class="p">,</span><span class="mi">1</span><span class="p">)</span><span class="w"> </span><span class="p">,</span><span class="nb">KIND</span><span class="o">=</span><span class="n">q</span><span class="p">),</span><span class="n">W</span><span class="p">%</span><span class="n">FERTOT</span><span class="p">(</span><span class="n">I</span><span class="p">,</span><span class="n">IK</span><span class="p">,</span><span class="mi">1</span><span class="p">)</span>
+<span class="w">         </span><span class="k">IF</span><span class="w"> </span><span class="p">(</span><span class="n">WDES_INTER</span><span class="p">%</span><span class="n">ISPIN</span><span class="o">==</span><span class="mi">2</span><span class="p">)</span><span class="w"> </span><span class="k">WRITE</span><span class="p">(</span><span class="mi">99</span><span class="p">,</span><span class="mi">853</span><span class="p">)</span><span class="w"> </span><span class="n">I</span><span class="p">,(</span><span class="kt">REAL</span><span class="p">(</span><span class="w"> </span><span class="n">W_INTER</span><span class="p">%</span><span class="n">CELTOT</span><span class="p">(</span><span class="n">I</span><span class="p">,</span><span class="n">IK</span><span class="p">,</span><span class="n">ISP</span><span class="p">)</span><span class="w"> </span><span class="p">,</span><span class="nb">KIND</span><span class="o">=</span><span class="n">q</span><span class="p">),</span><span class="n">ISP</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span><span class="n">WDES_INTER</span><span class="p">%</span><span class="n">ISPIN</span><span class="p">),(</span><span class="n">W</span><span class="p">%</span><span class="n">FERTOT</span><span class="p">(</span><span class="n">I</span><span class="p">,</span><span class="n">IK</span><span class="p">,</span><span class="n">ISP</span><span class="p">),</span><span class="n">ISP</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span><span class="n">WDES_INTER</span><span class="p">%</span><span class="n">ISPIN</span><span class="p">)</span>
+<span class="w">      </span><span class="k">ENDDO</span>
+<span class="k">   ENDDO</span>
+<span class="k">   CLOSE</span><span class="p">(</span><span class="mi">99</span><span class="p">)</span>
+<span class="w">   </span><span class="mi">852</span><span class="w"> </span><span class="k">FORMAT</span><span class="p">(</span><span class="mi">1</span><span class="n">X</span><span class="p">,</span><span class="n">I6</span><span class="p">,</span><span class="mi">4</span><span class="n">X</span><span class="p">,</span><span class="n">F14</span><span class="p">.</span><span class="mi">6</span><span class="p">,</span><span class="mi">2</span><span class="n">X</span><span class="p">,</span><span class="n">F9</span><span class="p">.</span><span class="mi">6</span><span class="p">)</span>
+<span class="w">   </span><span class="mi">853</span><span class="w"> </span><span class="k">FORMAT</span><span class="p">(</span><span class="mi">1</span><span class="n">X</span><span class="p">,</span><span class="n">I6</span><span class="p">,</span><span class="mi">4</span><span class="n">X</span><span class="p">,</span><span class="n">F14</span><span class="p">.</span><span class="mi">6</span><span class="p">,</span><span class="mi">2</span><span class="n">X</span><span class="p">,</span><span class="n">F14</span><span class="p">.</span><span class="mi">6</span><span class="p">,</span><span class="mi">2</span><span class="n">X</span><span class="p">,</span><span class="n">F9</span><span class="p">.</span><span class="mi">6</span><span class="p">,</span><span class="mi">2</span><span class="n">X</span><span class="p">,</span><span class="n">F9</span><span class="p">.</span><span class="mi">6</span><span class="p">)</span>
+<span class="w">   </span><span class="k">IF</span><span class="w"> </span><span class="p">(</span><span class="n">JOBPAR</span><span class="o">/=</span><span class="mi">0</span><span class="w"> </span><span class="p">.</span><span class="nb">OR</span><span class="p">.</span><span class="w"> </span><span class="n">IO</span><span class="p">%</span><span class="n">LORBIT</span><span class="o">&gt;=</span><span class="mi">10</span><span class="p">)</span><span class="w"> </span><span class="k">THEN</span>
+<span class="k">     IF</span><span class="w"> </span><span class="p">(</span><span class="n">IO</span><span class="p">%</span><span class="n">IU6</span><span class="o">&gt;=</span><span class="mi">0</span><span class="p">)</span><span class="w"> </span><span class="k">THEN</span>
+<span class="k">       CALL </span><span class="n">XML_PROCAR</span><span class="p">(</span><span class="n">PAR</span><span class="p">,</span><span class="w"> </span><span class="n">W_INTER</span><span class="p">%</span><span class="n">CELTOT</span><span class="p">,</span><span class="w"> </span><span class="n">W_INTER</span><span class="p">%</span><span class="n">FERTOT</span><span class="p">,</span><span class="w"> </span><span class="n">WDES_INTER</span><span class="p">%</span><span class="n">NB_TOT</span><span class="p">,</span><span class="w"> </span><span class="n">WDES_INTER</span><span class="p">%</span><span class="n">NKPTS</span><span class="p">,</span><span class="w"> </span><span class="n">LPAR</span><span class="p">,&amp;</span>
+<span class="w">                     </span><span class="n">T_INFO</span><span class="p">%</span><span class="n">NIONP</span><span class="p">,</span><span class="w"> </span><span class="n">WDES_INTER</span><span class="p">%</span><span class="n">NCDIJ</span><span class="p">,</span><span class="w"> </span><span class="n">TAG</span><span class="o">=</span><span class="s2">&quot;projected_kpoints_opt&quot;</span><span class="p">)</span>
+<span class="w">       </span><span class="k">OPEN</span><span class="p">(</span><span class="n">UNIT</span><span class="o">=</span><span class="mi">99</span><span class="p">,</span><span class="k">FILE</span><span class="o">=</span><span class="s1">&#39;PROCAR_OPT&#39;</span><span class="p">,</span><span class="n">STATUS</span><span class="o">=</span><span class="s1">&#39;UNKNOWN&#39;</span><span class="p">)</span>
+<span class="w">       </span><span class="k">CALL </span><span class="n">WRITE_PROCAR</span><span class="p">(</span><span class="mi">99</span><span class="p">,</span><span class="n">W_INTER</span><span class="p">,</span><span class="n">WDES_INTER</span><span class="p">,</span><span class="n">IO</span><span class="p">%</span><span class="n">LORBIT</span><span class="p">,</span><span class="n">LPAR</span><span class="p">,</span><span class="n">LMDIMP</span><span class="p">,</span><span class="n">PAR_INTER</span><span class="p">,</span><span class="n">PHAS_INTER</span><span class="p">,</span><span class="n">T_INFO</span><span class="p">,</span><span class="n">KPOINTS</span><span class="p">%</span><span class="n">EMIN</span><span class="p">,</span><span class="n">KPOINTS</span><span class="p">%</span><span class="n">EMAX</span><span class="p">)</span>
+<span class="w">       </span><span class="k">CLOSE</span><span class="p">(</span><span class="mi">99</span><span class="p">)</span>
+<span class="w">     </span><span class="k">ENDIF</span>
+<span class="k">   ENDIF</span>
 
 <span class="cp">#ifdef VASP_HDF5</span>
-   <span class="k">CALL </span><span class="n">VH5_WRITE_DOS</span><span class="p">(</span><span class="n">IH5OUTFILEID</span><span class="p">,</span> <span class="n">WDES_INTER</span><span class="p">,</span> <span class="n">KPOINTS_INTER</span><span class="p">,</span> <span class="n">DOS</span><span class="p">,</span> <span class="n">DOSI</span><span class="p">,</span> <span class="n">DOSPAR</span><span class="p">,</span> <span class="n">EFERMI</span><span class="p">,</span> <span class="p">&amp;</span>
-                      <span class="n">T_INFO</span><span class="p">%</span><span class="n">NIONP</span><span class="p">,</span> <span class="o">-</span><span class="mi">1</span><span class="p">,</span><span class="n">SUBGROUP</span><span class="o">=</span><span class="s2">&quot;electron_dos_kpoints_opt&quot;</span><span class="p">)</span>
-   <span class="k">CALL </span><span class="n">VH5_WRITE_EIGENVAL</span><span class="p">(</span><span class="n">IH5OUTFILEID</span><span class="p">,</span> <span class="n">WDES_INTER</span><span class="p">,</span> <span class="n">W_INTER</span><span class="p">,</span> <span class="n">KPOINTS_INTER</span><span class="p">,</span> <span class="p">&amp;</span>
-                           <span class="n">SUBGROUP</span><span class="o">=</span><span class="s2">&quot;electron_eigenvalues_kpoints_opt&quot;</span><span class="p">)</span>
+<span class="w">   </span><span class="k">CALL </span><span class="n">VH5_WRITE_DOS</span><span class="p">(</span><span class="n">IH5OUTFILEID</span><span class="p">,</span><span class="w"> </span><span class="n">WDES_INTER</span><span class="p">,</span><span class="w"> </span><span class="n">KPOINTS_INTER</span><span class="p">,</span><span class="w"> </span><span class="n">DOS</span><span class="p">,</span><span class="w"> </span><span class="n">DOSI</span><span class="p">,</span><span class="w"> </span><span class="n">DOSPAR</span><span class="p">,</span><span class="w"> </span><span class="n">EFERMI</span><span class="p">,</span><span class="w"> </span><span class="p">&amp;</span>
+<span class="w">                      </span><span class="n">T_INFO</span><span class="p">%</span><span class="n">NIONP</span><span class="p">,</span><span class="w"> </span><span class="o">-</span><span class="mi">1</span><span class="p">,</span><span class="n">SUBGROUP</span><span class="o">=</span><span class="s2">&quot;electron_dos_kpoints_opt&quot;</span><span class="p">)</span>
+<span class="w">   </span><span class="k">CALL </span><span class="n">VH5_WRITE_EIGENVAL</span><span class="p">(</span><span class="n">IH5OUTFILEID</span><span class="p">,</span><span class="w"> </span><span class="n">WDES_INTER</span><span class="p">,</span><span class="w"> </span><span class="n">W_INTER</span><span class="p">,</span><span class="w"> </span><span class="n">KPOINTS_INTER</span><span class="p">,</span><span class="w"> </span><span class="p">&amp;</span>
+<span class="w">                           </span><span class="n">SUBGROUP</span><span class="o">=</span><span class="s2">&quot;electron_eigenvalues_kpoints_opt&quot;</span><span class="p">)</span>
 
-   <span class="c">! Write projections</span>
-   <span class="k">IF</span> <span class="p">(</span><span class="n">JOBPAR</span><span class="o">/=</span><span class="mi">0</span> <span class="p">.</span><span class="nb">OR</span><span class="p">.</span> <span class="n">IO</span><span class="p">%</span><span class="n">LORBIT</span><span class="o">&gt;=</span><span class="mi">10</span><span class="p">)</span> <span class="k">THEN</span>
-<span class="k">     IF</span> <span class="p">(</span><span class="n">IO</span><span class="p">%</span><span class="n">LORBIT</span><span class="o">==</span><span class="mi">1</span><span class="mf">1.</span><span class="nb">OR</span><span class="p">.</span><span class="n">IO</span><span class="p">%</span><span class="n">LORBIT</span><span class="o">==</span><span class="mi">12</span><span class="p">)</span> <span class="k">THEN</span>
-<span class="k">       CALL </span><span class="n">VH5_WRITE_PROJECTORS</span><span class="p">(</span><span class="n">IH5OUTFILEID</span><span class="p">,</span> <span class="n">T_INFO</span><span class="p">,</span> <span class="n">WDES_INTER</span><span class="p">,</span> <span class="n">W_INTER</span><span class="p">,</span> <span class="n">IO</span><span class="p">%</span><span class="n">LORBIT</span><span class="p">,</span> <span class="n">LPAR</span><span class="p">,</span> <span class="n">PAR_INTER</span><span class="p">,</span> <span class="n">LMCHAR</span><span class="p">,</span> <span class="n">PHAS_INTER</span><span class="p">,</span> <span class="p">&amp;</span>
-                                 <span class="n">SUBGROUP</span><span class="o">=</span><span class="s2">&quot;projectors_kpoints_opt&quot;</span><span class="p">)</span>
-     <span class="k">ELSE</span>
-<span class="k">       CALL </span><span class="n">VH5_WRITE_PROJECTORS</span><span class="p">(</span><span class="n">IH5OUTFILEID</span><span class="p">,</span> <span class="n">T_INFO</span><span class="p">,</span> <span class="n">WDES_INTER</span><span class="p">,</span> <span class="n">W_INTER</span><span class="p">,</span> <span class="n">IO</span><span class="p">%</span><span class="n">LORBIT</span><span class="p">,</span> <span class="n">LPAR</span><span class="p">,</span> <span class="n">PAR_INTER</span><span class="p">,</span> <span class="n">LCHAR</span><span class="p">,</span> <span class="n">PHAS_INTER</span><span class="p">,</span> <span class="p">&amp;</span>
-                                 <span class="n">SUBGROUP</span><span class="o">=</span><span class="s2">&quot;projectors_kpoints_opt&quot;</span><span class="p">)</span>
-     <span class="n">ENDIF</span>
+<span class="w">   </span><span class="c">! Write projections</span>
+<span class="w">   </span><span class="k">IF</span><span class="w"> </span><span class="p">(</span><span class="n">JOBPAR</span><span class="o">/=</span><span class="mi">0</span><span class="w"> </span><span class="p">.</span><span class="nb">OR</span><span class="p">.</span><span class="w"> </span><span class="n">IO</span><span class="p">%</span><span class="n">LORBIT</span><span class="o">&gt;=</span><span class="mi">10</span><span class="p">)</span><span class="w"> </span><span class="k">THEN</span>
+<span class="k">     IF</span><span class="w"> </span><span class="p">(</span><span class="n">IO</span><span class="p">%</span><span class="n">LORBIT</span><span class="o">==</span><span class="mi">1</span><span class="mf">1.</span><span class="nb">OR</span><span class="p">.</span><span class="n">IO</span><span class="p">%</span><span class="n">LORBIT</span><span class="o">==</span><span class="mi">12</span><span class="p">)</span><span class="w"> </span><span class="k">THEN</span>
+<span class="k">       CALL </span><span class="n">VH5_WRITE_PROJECTORS</span><span class="p">(</span><span class="n">IH5OUTFILEID</span><span class="p">,</span><span class="w"> </span><span class="n">T_INFO</span><span class="p">,</span><span class="w"> </span><span class="n">WDES_INTER</span><span class="p">,</span><span class="w"> </span><span class="n">W_INTER</span><span class="p">,</span><span class="w"> </span><span class="n">IO</span><span class="p">%</span><span class="n">LORBIT</span><span class="p">,</span><span class="w"> </span><span class="n">LPAR</span><span class="p">,</span><span class="w"> </span><span class="n">PAR_INTER</span><span class="p">,</span><span class="w"> </span><span class="n">LMCHAR</span><span class="p">,</span><span class="w"> </span><span class="n">PHAS_INTER</span><span class="p">,</span><span class="w"> </span><span class="p">&amp;</span>
+<span class="w">                                 </span><span class="n">SUBGROUP</span><span class="o">=</span><span class="s2">&quot;projectors_kpoints_opt&quot;</span><span class="p">)</span>
+<span class="w">     </span><span class="k">ELSE</span>
+<span class="k">       CALL </span><span class="n">VH5_WRITE_PROJECTORS</span><span class="p">(</span><span class="n">IH5OUTFILEID</span><span class="p">,</span><span class="w"> </span><span class="n">T_INFO</span><span class="p">,</span><span class="w"> </span><span class="n">WDES_INTER</span><span class="p">,</span><span class="w"> </span><span class="n">W_INTER</span><span class="p">,</span><span class="w"> </span><span class="n">IO</span><span class="p">%</span><span class="n">LORBIT</span><span class="p">,</span><span class="w"> </span><span class="n">LPAR</span><span class="p">,</span><span class="w"> </span><span class="n">PAR_INTER</span><span class="p">,</span><span class="w"> </span><span class="n">LCHAR</span><span class="p">,</span><span class="w"> </span><span class="n">PHAS_INTER</span><span class="p">,</span><span class="w"> </span><span class="p">&amp;</span>
+<span class="w">                                 </span><span class="n">SUBGROUP</span><span class="o">=</span><span class="s2">&quot;projectors_kpoints_opt&quot;</span><span class="p">)</span>
+<span class="w">     </span><span class="k">ENDIF</span>
 <span class="c">!     IF (IO%IU6&gt;=0) THEN</span>
 <span class="c">!       CALL XML_PROCAR(PAR, W_INTER%CELTOT, W_INTER%FERTOT, WDES_INTER%NB_TOT, WDES_INTER%NKPTS, LPAR,&amp;</span>
 <span class="c">!                     T_INFO%NIONP, WDES_INTER%NCDIJ, TAG=&quot;projected_kpoints_opt&quot;)</span>
@@ -1093,14 +1098,14 @@ Specifically, first delete the lines from 1804-1827 in vasp.6.3.0/src/linear_res
 <span class="c">!       CALL WRITE_PROCAR(99,W_INTER,WDES_INTER,IO%LORBIT,LPAR,LMDIMP,PAR_INTER,PHAS_INTER,T_INFO,KPOINTS%EMIN,KPOINTS%EMAX)</span>
 <span class="c">!       CLOSE(99)</span>
 <span class="c">!     ENDIF</span>
-   <span class="n">ENDIF</span>
+<span class="w">   </span><span class="k">ENDIF</span>
 <span class="cp">#endif</span>
 </pre></div>
 </div>
 <p>Finally recomplie VASP again. The VASPKIT.1.3.2 or latter version can read the raw data of plain and projected band structures from the EIGENVAL_OPT and PROCAR_OPT files, respectively.</p>
 </div>
 <div class="section" id="pre-process-band-structure-hybrid-functional">
-<h3>Pre-process Band Structure (hybrid functional)<a class="headerlink" href="#pre-process-band-structure-hybrid-functional" title="Permalink to this headline">¶</a></h3>
+<h3>Pre-process Band Structure (hybrid functional)<a class="headerlink" href="#pre-process-band-structure-hybrid-functional" title="Permalink to this heading">¶</a></h3>
 <p>Besides the line-mode K-path, VASPKIT can also generate K-path with
 uniformed spacing between K points in units of 2<span class="math notranslate nohighlight">\(\pi\)</span>*Å-1,
 which can be used for hybrid functional band structure calculations.
@@ -1134,7 +1139,7 @@ SCF time of the next step hybrid functional calculation.</p></li>
 <li><p>Do hybrid functional band structure calculation.</p></li>
 </ol>
 <div class="section" id="example-single-layer-mos2-1">
-<span id="id1"></span><h4>Example: single layer MoS2<a class="headerlink" href="#example-single-layer-mos2-1" title="Permalink to this headline">¶</a></h4>
+<span id="id1"></span><h4>Example: single layer MoS2<a class="headerlink" href="#example-single-layer-mos2-1" title="Permalink to this heading">¶</a></h4>
 <ol class="arabic simple">
 <li><p>After optimization. Run <strong>302</strong></p></li>
 </ol>
@@ -1307,7 +1312,7 @@ TIME   =  0.4
 </div>
 </div>
 <div class="section" id="post-process-band-structure-hybrid-functional">
-<h3>Post-process Band Structure (hybrid functional)<a class="headerlink" href="#post-process-band-structure-hybrid-functional" title="Permalink to this headline">¶</a></h3>
+<h3>Post-process Band Structure (hybrid functional)<a class="headerlink" href="#post-process-band-structure-hybrid-functional" title="Permalink to this heading">¶</a></h3>
 <ol class="arabic simple" start="5">
 <li><p>Extract band structure information by <strong>252</strong>. band data is saved in
 <code class="docutils literal notranslate"><span class="pre">BAND.dat</span></code> and <code class="docutils literal notranslate"><span class="pre">BAND-REFORMATTED.dat</span></code> files. High-symmetry
@@ -1430,7 +1435,7 @@ structure by using <strong>255</strong>:</p>
 <a class="reference internal image-reference" href="_images/hse-band3.png"><img alt="_images/hse-band3.png" class="align-center" src="_images/hse-band3.png" style="width: 660.0px; height: 510.0px;" /></a>
 </div>
 <div class="section" id="effective-mass">
-<h3>Effective Mass<a class="headerlink" href="#effective-mass" title="Permalink to this headline">¶</a></h3>
+<h3>Effective Mass<a class="headerlink" href="#effective-mass" title="Permalink to this heading">¶</a></h3>
 <p>For electrons or holes in a solid, the effective mass (<em>m</em>*) is a
 quantity that is used to simplify band structures by modeling the
 behavior of a free particle with that mass. At the highest energies of
@@ -1454,7 +1459,7 @@ Now, VASPKIT only support effective mass calculation for Non-Charged &amp;
 Non-Magnetic Semiconductor!)</p>
 <a class="reference internal image-reference" href="_images/emc.png"><img alt="_images/emc.png" class="align-center" src="_images/emc.png" style="width: 476.6px; height: 431.6px;" /></a>
 <div class="section" id="example-single-layer-mos2-effective-mass">
-<h4>Example: Single Layer MoS2 effective mass<a class="headerlink" href="#example-single-layer-mos2-effective-mass" title="Permalink to this headline">¶</a></h4>
+<h4>Example: Single Layer MoS2 effective mass<a class="headerlink" href="#example-single-layer-mos2-effective-mass" title="Permalink to this heading">¶</a></h4>
 <ol class="arabic simple">
 <li><p>Find out the band edges by band structure calculation. The VBM is at
 K, and the CBM is also at K.</p></li>
@@ -1567,7 +1572,7 @@ to guarantee accuracy at this time.</p>
 </div>
 </div>
 <div class="section" id="band-unfolding">
-<h3>Band-unfolding<a class="headerlink" href="#band-unfolding" title="Permalink to this headline">¶</a></h3>
+<h3>Band-unfolding<a class="headerlink" href="#band-unfolding" title="Permalink to this heading">¶</a></h3>
 <p>The electronic structures of real materials are perturbed by various
 structural defects, impurities, fl?uctuations of the chemical composition
 in compound alloys and so on. In DFT calcualtions, these defects and
@@ -1787,7 +1792,7 @@ file;</strong></p>
 other scripts to plot.</strong></p>
 </div>
 <div class="section" id="d-band-structure">
-<h3>3D Band Structure<a class="headerlink" href="#d-band-structure" title="Permalink to this headline">¶</a></h3>
+<h3>3D Band Structure<a class="headerlink" href="#d-band-structure" title="Permalink to this heading">¶</a></h3>
 <p>In solid-state physics, the most usual electronic <em>band structure</em> (or
 simply <em>band structure</em>) is 2D band structure, which shows the energy
 change along the K-path line.</p>
@@ -1796,7 +1801,7 @@ of Irreducilbe Brillouin zone. And calculate the K-dependent band
 energies on those K-points. This method is often used to 2D materials,
 such as graphene.</p>
 <div class="section" id="example-graphene-3d-band-structure">
-<h4>Example: Graphene 3D Band Structure<a class="headerlink" href="#example-graphene-3d-band-structure" title="Permalink to this headline">¶</a></h4>
+<h4>Example: Graphene 3D Band Structure<a class="headerlink" href="#example-graphene-3d-band-structure" title="Permalink to this heading">¶</a></h4>
 <ol class="arabic simple">
 <li><p>Prepare graphene POSCAR and INCAR files for SCF calculation as
 descript in <a class="reference external" href="###%203.1%20Pre-process%20Band%20Structure%20(pure%20functional)">Section
@@ -1857,7 +1862,7 @@ the 3D band structure.</p></li>
 </div>
 </div>
 <div class="section" id="density-of-states">
-<h2>Density of States<a class="headerlink" href="#density-of-states" title="Permalink to this headline">¶</a></h2>
+<h2>Density of States<a class="headerlink" href="#density-of-states" title="Permalink to this heading">¶</a></h2>
 <p>VASPKIT is very powerful at post-process DOS results. Set <code class="docutils literal notranslate"><span class="pre">LORBIT</span></code> =
 10 or 11, VASP will output DOS and <em>l</em>-decomposed or <em>lm</em>-decomposed
 projected DOS for every atoms to DOSCAR and vasprun.xml. VASPKIT can
@@ -1879,7 +1884,7 @@ do shift, just close it in <code class="docutils literal notranslate"><span clas
 <li><p>Output file can be read by ORIGIN directly with no modification.</p></li>
 </ol>
 <div class="section" id="extract-and-output-dos-and-pdos">
-<h3>Extract and output DOS and PDOS<a class="headerlink" href="#extract-and-output-dos-and-pdos" title="Permalink to this headline">¶</a></h3>
+<h3>Extract and output DOS and PDOS<a class="headerlink" href="#extract-and-output-dos-and-pdos" title="Permalink to this heading">¶</a></h3>
 <p>Option <code class="docutils literal notranslate"><span class="pre">11</span></code> is used to DOS post-process.</p>
 <table class="docutils align-default">
 <colgroup>
@@ -1982,7 +1987,7 @@ one files.</p></td>
 </tbody>
 </table>
 <div class="section" id="example-pdos-of-co-adsorption-on-ni-100-surface">
-<h4>Example: PDOS of CO adsorption on Ni(100) surface.<a class="headerlink" href="#example-pdos-of-co-adsorption-on-ni-100-surface" title="Permalink to this headline">¶</a></h4>
+<h4>Example: PDOS of CO adsorption on Ni(100) surface.<a class="headerlink" href="#example-pdos-of-co-adsorption-on-ni-100-surface" title="Permalink to this heading">¶</a></h4>
 <p>Enter
 <code class="docutils literal notranslate"><span class="pre">/vaspkit.0.73/examples/LDOS_PDOS/Partial_DOS_of_CO_on_Ni_111_surface</span></code>,</p>
 <p>Run VASPKIT <code class="docutils literal notranslate"><span class="pre">(113)</span> <span class="pre">Projected</span> <span class="pre">Density-of-States</span> <span class="pre">for</span> <span class="pre">Each</span> <span class="pre">Element</span></code>,</p>
@@ -2029,7 +2034,7 @@ dxz dx2 f-3 f-2 f-1 f0 f1 f2 are also supported.</p>
 </div>
 </div>
 <div class="section" id="d-band-center">
-<h3><em>d</em>-band Center<a class="headerlink" href="#d-band-center" title="Permalink to this headline">¶</a></h3>
+<h3><em>d</em>-band Center<a class="headerlink" href="#d-band-center" title="Permalink to this heading">¶</a></h3>
 <p>The DOS projected onto the <em>d</em>-states that interact with the adsorbate
 state can be characterized by the center of d-projected DOS.</p>
 <div class="math notranslate nohighlight">
@@ -2074,7 +2079,7 @@ The calculated d-band-center presented here are referenced to Fermi level, i.e.,
 </div>
 </div>
 <div class="section" id="thermo-energy-correction">
-<h2>Thermo Energy Correction<a class="headerlink" href="#thermo-energy-correction" title="Permalink to this headline">¶</a></h2>
+<h2>Thermo Energy Correction<a class="headerlink" href="#thermo-energy-correction" title="Permalink to this heading">¶</a></h2>
 <p>Calculation of the free energy change in catalysis is one of the most
 important thing. But VASP do not have module that can directly
 calculates molecular free energy. Thus, the free energy correction in
@@ -2082,7 +2087,7 @@ the some publications is inconsistent, inaccurate. (Note: Computational
 chemistry programs such as Gaussian have a complete free energy
 calculation module.)</p>
 <div class="section" id="gas-molecule-free-energy-correction">
-<h3>Gas Molecule Free Energy Correction<a class="headerlink" href="#gas-molecule-free-energy-correction" title="Permalink to this headline">¶</a></h3>
+<h3>Gas Molecule Free Energy Correction<a class="headerlink" href="#gas-molecule-free-energy-correction" title="Permalink to this heading">¶</a></h3>
 <p>The equations used for computing thermochemical data for Gas in VASPKIT
 is equivalent to those in <a class="reference external" href="https://gaussian.com/thermo/">Gaussian</a>.
 (<a class="reference external" href="https://gaussian.com/thermo/">https://gaussian.com/thermo/</a>) The partition function from any component
@@ -2143,7 +2148,7 @@ entropy <em>S</em>,</p>
 <span class="math notranslate nohighlight">\(\Delta G_{0 \rightarrow T}\)</span> are interal energy, enthalpy, and
 Gibbs free energy difference between 0 K and <em>T</em> K.</p>
 <div class="section" id="example-thermo-energy-correction-for-o2-molecule">
-<h4>Example: Thermo energy correction for O2 molecule:<a class="headerlink" href="#example-thermo-energy-correction-for-o2-molecule" title="Permalink to this headline">¶</a></h4>
+<h4>Example: Thermo energy correction for O2 molecule:<a class="headerlink" href="#example-thermo-energy-correction-for-o2-molecule" title="Permalink to this heading">¶</a></h4>
 <ol class="arabic simple">
 <li><p>Do a frequency calculation. After calculation, check the
 frequencies:</p></li>
@@ -2204,7 +2209,7 @@ entropy correction is</p>
 </div>
 </div>
 <div class="section" id="adsorbed-molecular-free-energy-correction">
-<h3>Adsorbed Molecular Free Energy Correction<a class="headerlink" href="#adsorbed-molecular-free-energy-correction" title="Permalink to this headline">¶</a></h3>
+<h3>Adsorbed Molecular Free Energy Correction<a class="headerlink" href="#adsorbed-molecular-free-energy-correction" title="Permalink to this heading">¶</a></h3>
 <p>Unlike gas molecules, adsorbed molecules form chemical bonds with
 substrate, which limits the translational and rotational freedom of the
 adsorbed molecules. So the contribution of translation and rotation to
@@ -2234,7 +2239,7 @@ small contribution.</p>
 <span class="math notranslate nohighlight">\(\Delta G_{0 \rightarrow T}\)</span></p></li>
 </ol>
 <div class="section" id="example-thermo-energy-correction-for-adsorbed-o-on-au-111">
-<h4>Example: Thermo energy correction for adsorbed O on Au(111)<a class="headerlink" href="#example-thermo-energy-correction-for-adsorbed-o-on-au-111" title="Permalink to this headline">¶</a></h4>
+<h4>Example: Thermo energy correction for adsorbed O on Au(111)<a class="headerlink" href="#example-thermo-energy-correction-for-adsorbed-o-on-au-111" title="Permalink to this heading">¶</a></h4>
 <ol class="arabic simple">
 <li><p>Fix all slab metal atoms, do frequency calculation for the adsorbed
 molecule. Check the frequencies:</p></li>
@@ -2281,9 +2286,9 @@ molecule. Check the frequencies:</p></li>
 </div>
 </div>
 <div class="section" id="mechanical-properties">
-<h2>Mechanical Properties<a class="headerlink" href="#mechanical-properties" title="Permalink to this headline">¶</a></h2>
+<h2>Mechanical Properties<a class="headerlink" href="#mechanical-properties" title="Permalink to this heading">¶</a></h2>
 <div class="section" id="determine-elastic-constants-based-on-energy-strain-method">
-<h3>Determine elastic constants based on energy-strain method<a class="headerlink" href="#determine-elastic-constants-based-on-energy-strain-method" title="Permalink to this headline">¶</a></h3>
+<h3>Determine elastic constants based on energy-strain method<a class="headerlink" href="#determine-elastic-constants-based-on-energy-strain-method" title="Permalink to this heading">¶</a></h3>
 <p>Within the linear elastic region, the stress <span class="math notranslate nohighlight">\(\boldsymbol{\sigma}\)</span>
 response of solids to external loading strain
 <span class="math notranslate nohighlight">\(\boldsymbol{\varepsilon}\)</span> satisfies the generalized Hooke’s law
@@ -2585,9 +2590,9 @@ vaspkit/examples/elastic.</p>
 </div>
 </div>
 <div class="section" id="optical-properties">
-<h2>Optical Properties<a class="headerlink" href="#optical-properties" title="Permalink to this headline">¶</a></h2>
+<h2>Optical Properties<a class="headerlink" href="#optical-properties" title="Permalink to this heading">¶</a></h2>
 <div class="section" id="linear-optical-properties">
-<h3>Linear Optical Properties<a class="headerlink" href="#linear-optical-properties" title="Permalink to this headline">¶</a></h3>
+<h3>Linear Optical Properties<a class="headerlink" href="#linear-optical-properties" title="Permalink to this heading">¶</a></h3>
 <p>The linear optical properties can be obtained from the
 frequency-dependent complex dielectric function
 <span class="math notranslate nohighlight">\(\varepsilon(\omega)\)</span></p>
@@ -2648,7 +2653,7 @@ properties at GW0+BSE leve, as shown in figure below.</p>
 </div>
 </div>
 <div class="section" id="transition-dipole-moment">
-<h3>Transition Dipole Moment<a class="headerlink" href="#transition-dipole-moment" title="Permalink to this headline">¶</a></h3>
+<h3>Transition Dipole Moment<a class="headerlink" href="#transition-dipole-moment" title="Permalink to this heading">¶</a></h3>
 <p>The transition dipole moment (TDM) or transition moment, usually denoted
 for a transition between an initial state <em>a</em> and a final state <em>b</em>, is
 the electric dipole moment associated with the transition between the
@@ -2769,11 +2774,11 @@ cubic CsPbI<span class="math notranslate nohighlight">\(_3\)</span> is 201.62 De
 </div>
 </div>
 <div class="section" id="structure-and-symmetry-tools">
-<h2>Structure and Symmetry Tools<a class="headerlink" href="#structure-and-symmetry-tools" title="Permalink to this headline">¶</a></h2>
+<h2>Structure and Symmetry Tools<a class="headerlink" href="#structure-and-symmetry-tools" title="Permalink to this heading">¶</a></h2>
 <p>VASPKIT is powerful at structure edition. Read and modify the structural
 files.</p>
 <div class="section" id="redefine-lattice">
-<h3>Redefine Lattice<a class="headerlink" href="#redefine-lattice" title="Permalink to this headline">¶</a></h3>
+<h3>Redefine Lattice<a class="headerlink" href="#redefine-lattice" title="Permalink to this heading">¶</a></h3>
 <p>VASPKIT option <code class="docutils literal notranslate"><span class="pre">400</span></code> can build supercell and rotate the lattice
 vector. It requires three coefficients for each new vector by following
 equation:</p>
@@ -2808,7 +2813,7 @@ are old lattice vectors.</p>
 </div>
 </div>
 <div class="section" id="build-supercell">
-<h3>Build Supercell<a class="headerlink" href="#build-supercell" title="Permalink to this headline">¶</a></h3>
+<h3>Build Supercell<a class="headerlink" href="#build-supercell" title="Permalink to this heading">¶</a></h3>
 <p>VASPKIT <code class="docutils literal notranslate"><span class="pre">401</span></code> can build supercell by three number C1, C2, C3.</p>
 <div class="math notranslate nohighlight">
 \[\begin{split}\left(\begin{array}{l}{A} \\ {B} \\ {C}\end{array}\right)=\left(\begin{array}{lll}{c_{1}} &amp; {c_{2}} &amp; {c_{3}}\end{array}\right)\left(\begin{array}{l}{a} \\ {b} \\ {c}\end{array}\right)\end{split}\]</div>
@@ -2836,7 +2841,7 @@ are old lattice vectors.</p>
 </div>
 </div>
 <div class="section" id="fix-atoms-by-layers">
-<h3>Fix Atoms by Layers<a class="headerlink" href="#fix-atoms-by-layers" title="Permalink to this headline">¶</a></h3>
+<h3>Fix Atoms by Layers<a class="headerlink" href="#fix-atoms-by-layers" title="Permalink to this heading">¶</a></h3>
 <p>VASP default structural optimization allows all atoms to move freely in
 all directions (x, y, z). In some cases, structural optimization
 calculations require to fix some atoms. For example, surface
@@ -2889,7 +2894,7 @@ Fixed atoms are:    1   4
 </div>
 </div>
 <div class="section" id="fix-atoms-by-height">
-<h3>Fix Atoms by Height<a class="headerlink" href="#fix-atoms-by-height" title="Permalink to this headline">¶</a></h3>
+<h3>Fix Atoms by Height<a class="headerlink" href="#fix-atoms-by-height" title="Permalink to this heading">¶</a></h3>
 <p>VASPKIT <code class="docutils literal notranslate"><span class="pre">403</span></code> can also fix atoms, but by a range of z coordinates.
 Similar as the option <code class="docutils literal notranslate"><span class="pre">402</span></code>, first select a structural file, and then
 input two numbers to set the z coordinate range. Then, select the output
@@ -2928,11 +2933,11 @@ Fixed atoms are:    1   4
 </div>
 </div>
 <div class="section" id="swap-axis-of-lattice-vector">
-<h3>Swap Axis of Lattice Vector<a class="headerlink" href="#swap-axis-of-lattice-vector" title="Permalink to this headline">¶</a></h3>
+<h3>Swap Axis of Lattice Vector<a class="headerlink" href="#swap-axis-of-lattice-vector" title="Permalink to this heading">¶</a></h3>
 <p>VASPKIT <code class="docutils literal notranslate"><span class="pre">407</span></code> can do swap two axis of lattice vector.</p>
 </div>
 <div class="section" id="symmetry-tools">
-<h3>Symmetry Tools<a class="headerlink" href="#symmetry-tools" title="Permalink to this headline">¶</a></h3>
+<h3>Symmetry Tools<a class="headerlink" href="#symmetry-tools" title="Permalink to this heading">¶</a></h3>
 <p>VASPKIT can identify symmetry of crystal from POSCAR or CONTCAR by
 <code class="docutils literal notranslate"><span class="pre">601</span></code> or<code class="docutils literal notranslate"><span class="pre">608</span></code>, respectively.</p>
 <p>For example <span class="math notranslate nohighlight">\(\theta\)</span>-Al2O3:</p>
@@ -2984,14 +2989,14 @@ conventional Cell.</p>
 </div>
 </div>
 <div class="section" id="potential-related">
-<h2>Potential related<a class="headerlink" href="#potential-related" title="Permalink to this headline">¶</a></h2>
+<h2>Potential related<a class="headerlink" href="#potential-related" title="Permalink to this heading">¶</a></h2>
 <div class="section" id="planar-average-potential">
-<h3>Planar Average Potential<a class="headerlink" href="#planar-average-potential" title="Permalink to this headline">¶</a></h3>
+<h3>Planar Average Potential<a class="headerlink" href="#planar-average-potential" title="Permalink to this heading">¶</a></h3>
 <p>Planar average for grid files is one of the basic function of VASPKIT.
 It supports all grid files of VASP output, such as CHGCAR, PARCHG,
 LOCPOT, ELFCAR. All such grid files are written by following commands in
 Fortran:</p>
-<div class="highlight-fortran notranslate"><div class="highlight"><pre><span></span><span class="k">WRITE</span><span class="p">(</span><span class="n">IU</span><span class="p">,</span><span class="n">FORM</span><span class="p">)</span> <span class="p">(((</span><span class="n">C</span><span class="p">(</span><span class="n">NX</span><span class="p">,</span><span class="n">NY</span><span class="p">,</span><span class="n">NZ</span><span class="p">),</span><span class="n">NX</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span><span class="n">NGXC</span><span class="p">),</span><span class="n">NY</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span><span class="n">NGYZ</span><span class="p">),</span><span class="n">NZ</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span><span class="n">NGZC</span><span class="p">)</span>
+<div class="highlight-fortran notranslate"><div class="highlight"><pre><span></span><span class="k">WRITE</span><span class="p">(</span><span class="n">IU</span><span class="p">,</span><span class="n">FORM</span><span class="p">)</span><span class="w"> </span><span class="p">(((</span><span class="n">C</span><span class="p">(</span><span class="n">NX</span><span class="p">,</span><span class="n">NY</span><span class="p">,</span><span class="n">NZ</span><span class="p">),</span><span class="n">NX</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span><span class="n">NGXC</span><span class="p">),</span><span class="n">NY</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span><span class="n">NGYZ</span><span class="p">),</span><span class="n">NZ</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span><span class="n">NGZC</span><span class="p">)</span>
 </pre></div>
 </div>
 <a class="reference internal image-reference" href="_images/avgpot1.png"><img alt="_images/avgpot1.png" class="align-center" src="_images/avgpot1.png" style="width: 636.8000000000001px; height: 230.0px;" /></a>
@@ -3016,7 +3021,7 @@ must be averaged in the slab planes.</p>
 <p>Electrostatic potential is the summation of second (ionic) and third
 (hartree) parts of Hamiltonian .</p>
 <div class="section" id="example-work-function-of-au-111-slab-with-five-atomic-layers">
-<h4>Example, Work-function of Au(111) slab with five atomic layers.<a class="headerlink" href="#example-work-function-of-au-111-slab-with-five-atomic-layers" title="Permalink to this headline">¶</a></h4>
+<h4>Example, Work-function of Au(111) slab with five atomic layers.<a class="headerlink" href="#example-work-function-of-au-111-slab-with-five-atomic-layers" title="Permalink to this heading">¶</a></h4>
 <ol class="arabic simple">
 <li><p>Do an optimization and a single-point calculation to get the LOCPOT
 file, single-point INCAR as following:</p></li>
@@ -3106,7 +3111,7 @@ E-fermi :   1.5199     XC(G=0):  -6.7056     alpha+bet : -6.4642
 </div>
 </div>
 <div class="section" id="macroscopic-averaged-potential">
-<h3>Macroscopic Averaged Potential<a class="headerlink" href="#macroscopic-averaged-potential" title="Permalink to this headline">¶</a></h3>
+<h3>Macroscopic Averaged Potential<a class="headerlink" href="#macroscopic-averaged-potential" title="Permalink to this heading">¶</a></h3>
 <p>Besides planar averaged potential , VASPKIT can also calculate
 macroscopic-averaged potential, which is obtained by converging the
 planar averaged potential with a moving average. e.g. If one want to do
@@ -3169,9 +3174,9 @@ than the layer distance)</p></li>
 </div>
 </div>
 <div class="section" id="density-related">
-<h2>Density related<a class="headerlink" href="#density-related" title="Permalink to this headline">¶</a></h2>
+<h2>Density related<a class="headerlink" href="#density-related" title="Permalink to this heading">¶</a></h2>
 <div class="section" id="charge-density-and-spin-density">
-<h3>Charge Density and Spin Density<a class="headerlink" href="#charge-density-and-spin-density" title="Permalink to this headline">¶</a></h3>
+<h3>Charge Density and Spin Density<a class="headerlink" href="#charge-density-and-spin-density" title="Permalink to this heading">¶</a></h3>
 <p>When use spin-polarized parameter (SPIN = 2), the output CHGCAR will
 contain charge density and spin density. VASPKIT can extract the charge
 density and spin density by options <code class="docutils literal notranslate"><span class="pre">311</span></code> and <code class="docutils literal notranslate"><span class="pre">312</span></code> respectively.
@@ -3181,7 +3186,7 @@ Outputs are saved in <code class="docutils literal notranslate"><span class="pre
 files</p>
 </div>
 <div class="section" id="charge-density-difference">
-<h3>Charge Density Difference<a class="headerlink" href="#charge-density-difference" title="Permalink to this headline">¶</a></h3>
+<h3>Charge Density Difference<a class="headerlink" href="#charge-density-difference" title="Permalink to this heading">¶</a></h3>
 <p>VASPKIT is powerful for post-processing grid file from VASP, such as
 CHGCAR, ELFCAR, LOCPOT, PARCHG.</p>
 <p>CHGCAR contains the lattice vectors, atomic coordinates, the total
@@ -3214,7 +3219,7 @@ state.</p>
 which calculation, must ensure that the <strong>cell parameters and
 coordinates of atoms must be consistent</strong>.</p>
 <div class="section" id="example-charge-density-difference-of-two-fragments">
-<h4>Example: Charge density difference of two fragments<a class="headerlink" href="#example-charge-density-difference-of-two-fragments" title="Permalink to this headline">¶</a></h4>
+<h4>Example: Charge density difference of two fragments<a class="headerlink" href="#example-charge-density-difference-of-two-fragments" title="Permalink to this heading">¶</a></h4>
 <p>Take CO adsorption on Ni(100) surface as an example：</p>
 <ol class="arabic simple">
 <li><p>Optimize the structure of <strong>CO/Ni(100)</strong>，</p></li>
@@ -3246,7 +3251,7 @@ optimized the CO and Ni(100) fragments！</p></li>
 <a class="reference internal image-reference" href="_images/chgdiff1.png"><img alt="_images/chgdiff1.png" class="align-center" src="_images/chgdiff1.png" style="width: 540.0px; height: 445.6px;" /></a>
 </div>
 <div class="section" id="example-deformation-charge-density-of-co">
-<h4>Example: Deformation charge density of CO<a class="headerlink" href="#example-deformation-charge-density-of-co" title="Permalink to this headline">¶</a></h4>
+<h4>Example: Deformation charge density of CO<a class="headerlink" href="#example-deformation-charge-density-of-co" title="Permalink to this heading">¶</a></h4>
 <ol class="arabic simple">
 <li><p>Do self-consistent calculation for CO molecule.</p></li>
 <li><p>Make a new folder, do non-selfconsistent calculations to output a
@@ -3278,7 +3283,7 @@ superposition of atomic charge densities.</p></li>
 <a class="reference internal image-reference" href="_images/chgdiff2.png"><img alt="_images/chgdiff2.png" class="align-center" src="_images/chgdiff2.png" style="width: 604.8px; height: 414.0px;" /></a>
 </div>
 <div class="section" id="example-charge-density-difference-of-inse-with-electric-field">
-<h4>Example: Charge density difference of InSe with electric field<a class="headerlink" href="#example-charge-density-difference-of-inse-with-electric-field" title="Permalink to this headline">¶</a></h4>
+<h4>Example: Charge density difference of InSe with electric field<a class="headerlink" href="#example-charge-density-difference-of-inse-with-electric-field" title="Permalink to this heading">¶</a></h4>
 <ol class="arabic simple">
 <li><p>Optimized the InSe structure with no external electric field.</p></li>
 <li><p>Do self-consistent single-point calculation based the optimized
@@ -3299,7 +3304,7 @@ units of eV/Å.</p>
 </div>
 </div>
 <div class="section" id="wavefunction-visualization-in-real-space">
-<h3>WaveFunction Visualization in Real-Space<a class="headerlink" href="#wavefunction-visualization-in-real-space" title="Permalink to this headline">¶</a></h3>
+<h3>WaveFunction Visualization in Real-Space<a class="headerlink" href="#wavefunction-visualization-in-real-space" title="Permalink to this heading">¶</a></h3>
 <p>VASPKIT can extract the planewave coefficients of Kohn-Sham (KS) orbital
 from the WAVECAR file and output the real-space wavefunction. Users need
 to input which K point to plot, and which band to plot.</p>
@@ -3308,7 +3313,7 @@ K-point and one band at one time. To sum several K points or seting the
 energy range, the partial charge density calculation in the VASP can do
 it.</p>
 <div class="section" id="example-wavefunction-of-co-molecule">
-<h4>Example: WaveFunction of CO molecule<a class="headerlink" href="#example-wavefunction-of-co-molecule" title="Permalink to this headline">¶</a></h4>
+<h4>Example: WaveFunction of CO molecule<a class="headerlink" href="#example-wavefunction-of-co-molecule" title="Permalink to this heading">¶</a></h4>
 <ol class="arabic simple">
 <li><p>Check the band structure or <code class="docutils literal notranslate"><span class="pre">IBZKPT</span></code> file to check which K point
 do you want to plot? For CO molecule calculation, there is only one
@@ -3381,7 +3386,7 @@ Spin up and spin down are output seperately.</p>
 <code class="docutils literal notranslate"><span class="pre">RWAV_B0007_K0001_UP.vasp</span></code>… files by VESTA.</p>
 </div>
 <div class="section" id="example-wavefunction-of-mos2-ws2-heterojuctions">
-<h4>Example: WaveFunction of MoS2/WS2 Heterojuctions<a class="headerlink" href="#example-wavefunction-of-mos2-ws2-heterojuctions" title="Permalink to this headline">¶</a></h4>
+<h4>Example: WaveFunction of MoS2/WS2 Heterojuctions<a class="headerlink" href="#example-wavefunction-of-mos2-ws2-heterojuctions" title="Permalink to this heading">¶</a></h4>
 <p>Check the <code class="docutils literal notranslate"><span class="pre">IBZKPT</span></code> file and <code class="docutils literal notranslate"><span class="pre">EIGENVAL</span></code> file. The <code class="docutils literal notranslate"><span class="pre">EIGENVAL</span></code> shows
 the VBM and CBM at Gamma is:</p>
 <div class="highlight-none notranslate"><div class="highlight"><pre><span></span>...
@@ -3399,7 +3404,7 @@ the VBM and CBM at Gamma is:</p>
 </div>
 </div>
 <div class="section" id="fermi-surface">
-<h2>Fermi Surface<a class="headerlink" href="#fermi-surface" title="Permalink to this headline">¶</a></h2>
+<h2>Fermi Surface<a class="headerlink" href="#fermi-surface" title="Permalink to this heading">¶</a></h2>
 <p>In condensed matter physics, the <strong>Fermi surface</strong> is the <strong>surface</strong> in
 reciprocal space which separates occupied bands from unoccupied bands at
 zero temperature. The shape of the <strong>Fermi surface</strong> is derived from the
@@ -3450,9 +3455,9 @@ Selected, and then get the Fermi surface of Cu.</p></li>
 <a class="reference internal image-reference" href="_images/fermisurface2.jpg"><img alt="_images/fermisurface2.jpg" class="align-center" src="_images/fermisurface2.jpg" style="width: 550.1999999999999px; height: 443.09999999999997px;" /></a>
 </div>
 <div class="section" id="other-functions">
-<h2>Other Functions<a class="headerlink" href="#other-functions" title="Permalink to this headline">¶</a></h2>
+<h2>Other Functions<a class="headerlink" href="#other-functions" title="Permalink to this heading">¶</a></h2>
 <div class="section" id="molecular-dynamics-process">
-<h3>Molecular Dynamics process<a class="headerlink" href="#molecular-dynamics-process" title="Permalink to this headline">¶</a></h3>
+<h3>Molecular Dynamics process<a class="headerlink" href="#molecular-dynamics-process" title="Permalink to this heading">¶</a></h3>
 <p><code class="docutils literal notranslate"><span class="pre">721</span></code> calculate the Mean Squared Displacement (MSD) based on VASP MD
 results. First prepare a reference structure file <code class="docutils literal notranslate"><span class="pre">POSCAR.ref</span></code>. Then
 run VASPKIT <code class="docutils literal notranslate"><span class="pre">721</span></code> to calculate MSD. The output <code class="docutils literal notranslate"><span class="pre">MSD.dat</span></code> contains
@@ -3475,7 +3480,7 @@ each atoms.</p>
 VASP MD results.</p>
 </div>
 <div class="section" id="file-format-transfer">
-<h3>File Format Transfer<a class="headerlink" href="#file-format-transfer" title="Permalink to this headline">¶</a></h3>
+<h3>File Format Transfer<a class="headerlink" href="#file-format-transfer" title="Permalink to this heading">¶</a></h3>
 <table class="docutils align-default">
 <colgroup>
 <col style="width: 22%" />
@@ -3561,20 +3566,20 @@ VASP MD results.</p>
 </table>
 </div>
 <div class="section" id="user-interface">
-<h3>USER interface<a class="headerlink" href="#user-interface" title="Permalink to this headline">¶</a></h3>
+<h3>USER interface<a class="headerlink" href="#user-interface" title="Permalink to this heading">¶</a></h3>
 </div>
 </div>
 <div class="section" id="restrictions-and-usage-notes">
-<h2>Restrictions and Usage Notes<a class="headerlink" href="#restrictions-and-usage-notes" title="Permalink to this headline">¶</a></h2>
+<h2>Restrictions and Usage Notes<a class="headerlink" href="#restrictions-and-usage-notes" title="Permalink to this heading">¶</a></h2>
 <div class="section" id="cautionary-notes-of-vasp-wavefunctions">
-<h3>Cautionary Notes of VASP Wavefunctions<a class="headerlink" href="#cautionary-notes-of-vasp-wavefunctions" title="Permalink to this headline">¶</a></h3>
+<h3>Cautionary Notes of VASP Wavefunctions<a class="headerlink" href="#cautionary-notes-of-vasp-wavefunctions" title="Permalink to this heading">¶</a></h3>
 <ol class="arabic simple">
 <li><p>The calculated plane-wave coefficients of pseudo periodic part (Bloch function) are read from the given WAVECAR file and the corresponding G-vectors are generated using the algorithm developed in <a class="reference external" href="http://www.andrew.cmu.edu/user/feenstra/wavetrans/">WaveTrans</a> code. It should be noted that the pseudopotential augmentation is not included in the WAVECAR file. As a result, some caution should be exercised when deriving value from this information. For example, the partial charge density obtained using vaspkit-515 will differ from the PARCHG from VASP, but the qualitative shape of the charge density should match.</p></li>
 <li><p>The actual number of plane waves (NPWS) of each <em>k</em> value is determined by the maximum plane-wave energy it is used for the VASP run, i.e. all G values for which <span class="math notranslate nohighlight">\(\frac{ ℏ^2|k+G|^2 }{2m}\)</span> is less than the cut-off energy. Unfortunately, the imprecisely-known scaling factor <span class="math notranslate nohighlight">\(\frac{2m}{ℏ^2}\)</span> leads to a discrepancy between the NPWS computed by VASPKIT and that contained in the WAVECAR file occasionally. If so, you will encounter an error message saying that “Error: the calculated NPWS is not equal to the read NPWS”. Then please adjust the final decimal place (or one beyond that) of FACTOR_ENCUT2NPWS (default value: 0.26246583) in the ~/.vaspkit file (1.3 and newer version). If such an adjustment is successfully determined, please contact <a class="reference external" href="mailto:wangvei&#37;&#52;&#48;icloud&#46;com">wangvei<span>&#64;</span>icloud<span>&#46;</span>com</a> with the new value, so that it can be incorporated into a future version of VASPKIT.</p></li>
 </ol>
 </div>
 <div class="section" id="usage-faqs">
-<h3>Usage FAQs<a class="headerlink" href="#usage-faqs" title="Permalink to this headline">¶</a></h3>
+<h3>Usage FAQs<a class="headerlink" href="#usage-faqs" title="Permalink to this heading">¶</a></h3>
 <ol class="arabic simple">
 <li><p>The fermi energy is set to zero in the DOS.dat and BAND.dat files by default, unless the paramerter SET_FERMI_ENERGY_ZERO in the ~/.vaspkit file is set to .FALSE.;</p></li>
 <li><p>The fermi energy is read from the DOSCAR file by default, unless the FERMI_ENERGY.in file exists. You can also set the fermi energy manually in the second line of the FERMI_ENERGY.in file.</p></li>

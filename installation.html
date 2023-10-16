@@ -21,10 +21,12 @@
   
     
       <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+        <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
         <script src="_static/jquery.js"></script>
         <script src="_static/underscore.js"></script>
+        <script src="_static/_sphinx_javascript_frameworks_compat.js"></script>
         <script src="_static/doctools.js"></script>
-        <script async="async" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
+        <script src="_static/sphinx_highlight.js"></script>
     
     <script type="text/javascript" src="_static/js/theme.js"></script>
 
@@ -33,11 +35,13 @@
   
   <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
   <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
   <link rel="stylesheet" href="_static/style.css" type="text/css" />
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
     <link rel="next" title="Tutorials" href="tutorials.html" />
-    <link rel="prev" title="Release Notes" href="changelog.html" /> 
+    <link rel="prev" title="Features" href="features.html" /> 
 </head>
 
 <body class="wy-body-for-nav">
@@ -86,7 +90,6 @@
             
               <ul class="current">
 <li class="toctree-l1"><a class="reference internal" href="features.html">Features</a></li>
-<li class="toctree-l1"><a class="reference internal" href="changelog.html">Release Notes</a></li>
 <li class="toctree-l1 current"><a class="current reference internal" href="#">Installation</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="#usage-agreement">Usage agreement</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#download">Download</a></li>
@@ -101,6 +104,7 @@
 <li class="toctree-l1"><a class="reference internal" href="gallery.html">Gallery</a></li>
 <li class="toctree-l1"><a class="reference internal" href="citations.html">Citations</a></li>
 <li class="toctree-l1"><a class="reference internal" href="resouces.html">Resources</a></li>
+<li class="toctree-l1"><a class="reference internal" href="changelog.html">Release Notes</a></li>
 <li class="toctree-l1"><a class="reference internal" href="vaspkitpro.html">VASPKIT Pro</a></li>
 <li class="toctree-l1"><a class="reference internal" href="atomkit.html">ATOMKIT Code</a></li>
 <li class="toctree-l1"><a class="reference internal" href="acknowledgments.html">Acknowledgments</a></li>
@@ -168,9 +172,9 @@
            <div itemprop="articleBody">
             
   <div class="section" id="installation">
-<h1>Installation<a class="headerlink" href="#installation" title="Permalink to this headline">¶</a></h1>
+<h1>Installation<a class="headerlink" href="#installation" title="Permalink to this heading">¶</a></h1>
 <div class="section" id="usage-agreement">
-<h2>Usage agreement<a class="headerlink" href="#usage-agreement" title="Permalink to this headline">¶</a></h2>
+<h2>Usage agreement<a class="headerlink" href="#usage-agreement" title="Permalink to this heading">¶</a></h2>
 <div class="admonition important">
 <p class="admonition-title">Important</p>
 <p>This software is distributed in the hope that it will be useful, but we do not guarantee it for accuracy, completeness or fitness for a particular purpose. It is distributed free of charge for academic, scientific, educational, and noncommercial users. Users belonging to commercial enterprises may also use this software at no cost until a license for business users is established. Permission to use this software is hereby granted under the following conditions.</p>
@@ -183,7 +187,7 @@
 </div>
 </div>
 <div class="section" id="download">
-<h2>Download<a class="headerlink" href="#download" title="Permalink to this headline">¶</a></h2>
+<h2>Download<a class="headerlink" href="#download" title="Permalink to this heading">¶</a></h2>
 <p>Currently we only provide the executable binary files of VASPKIT which can run on Windows, Mac OS X, and Linux. After downloading the package, please take a few minutes to read the instructions in the manual; everything is detailed there.</p>
 <p>The compiled version of the program can be obtained from the <a class="reference external" href="https://sourceforge.net/projects/vaspkit/files/Binaries/">latest release page</a> on sourceforge. At the release page you find the a compressed tarball (tar zxvf vaspkit.*.tar.gz) usually containing the following content:</p>
 <div class="highlight-none notranslate"><div class="highlight"><pre><span></span>vaspkit.1.3.0
@@ -206,7 +210,7 @@
 </div>
 </div>
 <div class="section" id="dependencies">
-<h2>Dependencies<a class="headerlink" href="#dependencies" title="Permalink to this headline">¶</a></h2>
+<h2>Dependencies<a class="headerlink" href="#dependencies" title="Permalink to this heading">¶</a></h2>
 <p>VASPKIT is supported by Python 3.x. Please install the following dependencies prior to installing VASPKIT. I strongly suggest to use <a class="reference external" href="https://www.anaconda.com/download">anaconda</a> package to manage various python packages.</p>
 <ul class="simple">
 <li><p><a class="reference external" href="https://www.python.org/">Python</a> 3.5 or higher</p></li>
@@ -216,11 +220,11 @@
 </ul>
 </div>
 <div class="section" id="id1">
-<h2>Installation<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h2>
+<h2>Installation<a class="headerlink" href="#id1" title="Permalink to this heading">¶</a></h2>
 <ol class="arabic simple">
 <li><p>First unzip VASPKIT package.</p></li>
 </ol>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">tar</span> <span class="o">-</span><span class="n">zxvf</span> <span class="n">vaspkit</span><span class="o">.</span><span class="mf">1.00</span><span class="o">.</span><span class="n">tar</span><span class="o">.</span><span class="n">gz</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">tar</span> <span class="o">-</span><span class="n">zxvf</span> <span class="n">vaspkit</span><span class="mf">.1.00</span><span class="o">.</span><span class="n">tar</span><span class="o">.</span><span class="n">gz</span>
 </pre></div>
 </div>
 <p>In order to ensure the full functionality of VASPKIT, please configure
@@ -228,7 +232,7 @@ the environment of the vaspkit from <code class="docutils literal notranslate"><
 folder, and copy the environment variable file
 <code class="docutils literal notranslate"><span class="pre">how_to_set_environment_variable</span></code> to users’ home directory by running
 the following command under the bash terminal.</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">cd</span> <span class="n">vaspkit</span><span class="o">.</span><span class="mf">1.00</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">cd</span> <span class="n">vaspkit</span><span class="mf">.1.00</span>
 <span class="n">cp</span> <span class="o">-</span><span class="n">f</span> <span class="n">how_to_set_environment_variable</span> <span class="o">~/.</span><span class="n">vaspkit</span>
 </pre></div>
 </div>
@@ -292,7 +296,7 @@ version 0.73. Execute</p>
 <p>​ <code class="docutils literal notranslate"><span class="pre">source</span> <span class="pre">setup.sh</span></code> or <code class="docutils literal notranslate"><span class="pre">bash</span> <span class="pre">setup.sh</span></code> and finally, <code class="docutils literal notranslate"><span class="pre">source</span> <span class="pre">~/.bashrc</span></code></p>
 </div>
 <div class="section" id="auto-plot-data">
-<h2>Auto-Plot Data<a class="headerlink" href="#auto-plot-data" title="Permalink to this headline">¶</a></h2>
+<h2>Auto-Plot Data<a class="headerlink" href="#auto-plot-data" title="Permalink to this heading">¶</a></h2>
 <ol class="arabic simple">
 <li><p>Make sure you have installed vaspkit (Ver. 1.3.0 or newer), python3, numpy, scipy, matplotlib, etc.</p></li>
 <li><p>Add the following parameters in the ~/.vaspkit file;</p></li>
@@ -315,7 +319,7 @@ AUTO_PLOT         .TRUE.
 </ol>
 </div>
 <div class="section" id="installation-faqs">
-<h2>Installation FAQs<a class="headerlink" href="#installation-faqs" title="Permalink to this headline">¶</a></h2>
+<h2>Installation FAQs<a class="headerlink" href="#installation-faqs" title="Permalink to this heading">¶</a></h2>
 <p>1. If <code class="docutils literal notranslate"><span class="pre">~/.vaspkit</span></code> already exists, the above operation will not be
 overwritten. The old version of the environment variable file will be
 kept.</p>
@@ -330,7 +334,7 @@ environment.</p>
 </div>
 <p>3. If the<code class="docutils literal notranslate"><span class="pre">-bash:</span> <span class="pre">line</span> <span class="pre">7:</span> <span class="pre">./vaspkit:</span> <span class="pre">Permission</span> <span class="pre">denied</span> <span class="pre">permission</span></code> issue
 occurs, simply add the VASPKIT execute permission:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">chmod</span> <span class="n">u</span><span class="o">+</span><span class="n">x</span> <span class="o">/</span><span class="n">home</span><span class="o">/</span><span class="n">vaspkit</span><span class="o">.</span><span class="mf">1.00</span><span class="o">/</span><span class="nb">bin</span><span class="o">/</span><span class="n">vaspkit</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">chmod</span> <span class="n">u</span><span class="o">+</span><span class="n">x</span> <span class="o">/</span><span class="n">home</span><span class="o">/</span><span class="n">vaspkit</span><span class="mf">.1.00</span><span class="o">/</span><span class="nb">bin</span><span class="o">/</span><span class="n">vaspkit</span>
 </pre></div>
 </div>
 <ol class="arabic simple" start="4">
@@ -338,7 +342,7 @@ occurs, simply add the VASPKIT execute permission:</p>
 </ol>
 </div>
 <div class="section" id="bug-report">
-<h2>Bug Report<a class="headerlink" href="#bug-report" title="Permalink to this headline">¶</a></h2>
+<h2>Bug Report<a class="headerlink" href="#bug-report" title="Permalink to this heading">¶</a></h2>
 <p>Please send bug reports and suggestions for improvements to <a class="reference external" href="mailto:wangvei&#37;&#52;&#48;icloud&#46;com">wangvei<span>&#64;</span>icloud<span>&#46;</span>com</a></p>
 </div>
 </div>
@@ -354,7 +358,7 @@ occurs, simply add the VASPKIT execute permission:</p>
         <a href="tutorials.html" class="btn btn-neutral float-right" title="Tutorials" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
-        <a href="changelog.html" class="btn btn-neutral float-left" title="Release Notes" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+        <a href="features.html" class="btn btn-neutral float-left" title="Features" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
       
     </div>
   
