@@ -46,6 +46,10 @@ Cited publications
 
 #. Y. Zhao, C. Deng, D. Tang, et al. α-Fe2O3 as a versatile and efficient oxygen atom transfer catalyst in combination with H2O as the oxygen source. **Nature Catalysis** 4, 684 (2021). https://doi.org/10.1038/s41929-021-00659-1
 
+#. Z. Li, Y. Lu, J. Li, M. Xu, et al. Multiple reaction pathway on alkaline earth imide supported catalysts for efficient ammonia synthesis. **Nature Communications** 14, 6373 (2023). https://doi.org/10.1038/s41467-023-42050-7
+
+#.  K. Ueda, T.H.Yu, M. Hirayama, R. Kurokawa, T. Nakajima, et al. Colossal negative magnetoresistance in field-induced Weyl semimetal of magnetic half-Heusler compound. **Nature Communications** 14, 6339 (2023). https://doi.org/10.1038/s41467-023-41982-4
+
 #. R. Wu, G.C. Gu, T. Gotoh,, Z.H. Zhao, et al. The Role of Arsenic in the Operation of Electrical Threshold Switches. **Nature Communications** 14, 6095 (2003). https://doi.org/10.1038/s41467-023-41643-6
 
 #. G. Li, S. Jiang, A. Liu, L. Ye, J. Ke, C. Liu, et al. Proof of crystal-field-perturbation-enhanced luminescence of lanthanide-doped nanocrystals through interstitial H+ doping. **Nature Communications** 14, 5870 (2003). https://doi.org/10.1038/s41467-023-41411-6
