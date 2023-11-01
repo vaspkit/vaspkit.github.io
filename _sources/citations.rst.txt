@@ -28,7 +28,7 @@ Cited publications
 ------------------
 *The VASPKIT program has been cited by more than 2000 times (google scholar) since 2021. Many thanks to the authors! Some of them are listed below.* 
 
-#. B. Yang, Z.-M. Zhang, P.-T. Liu, X.-K. Fu, L. Zuo, et al. Flatband λ-Ti3O5 towards extraordinary solar steam generation. **Nature**, (2023). https://doi.org/10.1038/s41586-023-06509-3
+#. B. Yang, Z.-M. Zhang, P.-T. Liu, X.-K. Fu, L. Zuo, et al. Flatband λ-Ti3O5 towards extraordinary solar steam generation. **Nature** 622, 499 (2023). https://doi.org/10.1038/s41586-023-06509-3
 
 #. J. Liu, M. De Bastiani, E. Aydin, G. T. Harrison, et al. Efficient and stable perovskite-silicon tandem solar cells through contact displacement by MgFx. **Science**, eabn8910 (2022). https://doi.org/10.1126/science.abn8910
 
@@ -45,6 +45,10 @@ Cited publications
 #. D. Li, F. Xu, X. Tang, S. Dai, T. Pu, X. Liu, et al. Induced activation of the commercial Cu/ZnO/Al2O3 catalyst for the steam reforming of methanol. **Nature Catalysis** 5, 99 (2022). https://doi.org/10.1038/s41929-021-00729-4
 
 #. Y. Zhao, C. Deng, D. Tang, et al. α-Fe2O3 as a versatile and efficient oxygen atom transfer catalyst in combination with H2O as the oxygen source. **Nature Catalysis** 4, 684 (2021). https://doi.org/10.1038/s41929-021-00659-1
+
+#. Z. Li, Z. Chen, Z. Shi, G. Zou, et al. Charge injection engineering at organic/inorganic heterointerfaces for high-efficiency and fast-response perovskite light-emitting diodes. **Nature Communications** 14, 6441 (2023). https://doi.org/10.1038/s41467-023-41929-9
+
+#. Y. Niu, L. Li, Z.Y. Qi, H. H. Aung, X.Y. Han, et al.0D van der Waals interfacial ferroelectricity. **Nature Communications** 14, 5578 (2023). https://doi.org/10.1038/s41467-023-41045-8
 
 #. Z. Li, Y. Lu, J. Li, M. Xu, et al. Multiple reaction pathway on alkaline earth imide supported catalysts for efficient ammonia synthesis. **Nature Communications** 14, 6373 (2023). https://doi.org/10.1038/s41467-023-42050-7
 
