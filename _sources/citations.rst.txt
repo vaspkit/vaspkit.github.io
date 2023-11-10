@@ -39,12 +39,15 @@ Cited publications
 #. K. Sun, O. J. Silveira, Y. Ma, Y. Hasegawa, et al. On-surface synthesis of disilabenzene-bridged covalent organic frameworks. **Nature Chemistry** 15, 36 (2023). https://doi.org/10.1038/s41557-022-01071-3 
 
 #. F. Li, X. Deng, Z. Shi, S. Wu, et al. Hydrogen-bond-bridged intermediate for perovskite solar cells with enhanced efficiency and stability. **Nature Photonics** 17, 478 (2023). https://doi.org/10.1038/s41566-023-01180-6 
-
 #. Z. Wang, Y. Wang, J. Wang, et al. Rational design of perovskite ferrites as high-performance proton-conducting fuel cell cathodes. **Nature Catalysis** 5, 777 (2022). https://doi.org/10.1038/s41929-022-00829-9
 
 #. D. Li, F. Xu, X. Tang, S. Dai, T. Pu, X. Liu, et al. Induced activation of the commercial Cu/ZnO/Al2O3 catalyst for the steam reforming of methanol. **Nature Catalysis** 5, 99 (2022). https://doi.org/10.1038/s41929-021-00729-4
 
 #. Y. Zhao, C. Deng, D. Tang, et al. α-Fe2O3 as a versatile and efficient oxygen atom transfer catalyst in combination with H2O as the oxygen source. **Nature Catalysis** 4, 684 (2021). https://doi.org/10.1038/s41929-021-00659-1
+
+#. C. Li, J.F. Zhang, Y. Wang, H.X. Liu, et al. Emergence of Weyl fermions by ferrimagnetism in a noncentrosymmetric magnetic Weyl semimetal. **Nature Communications** 14, 7185 (2023). https://doi.org/10.1038/s41467-023-42996-8
+
+#. M. Ma, X. Zhang, X. Chen, H. Xiong, et al. In situ imaging of the atomic phase transition dynamics in metal halide perovskites. **Nature Communications** 14, 7142 (2023). https://doi.org/10.1038/s41467-023-42999-5
 
 #. Z. Li, Z. Chen, Z. Shi, G. Zou, et al. Charge injection engineering at organic/inorganic heterointerfaces for high-efficiency and fast-response perovskite light-emitting diodes. **Nature Communications** 14, 6441 (2023). https://doi.org/10.1038/s41467-023-41929-9
 
@@ -61,8 +64,6 @@ Cited publications
 #. W. Zhu, X. Song, F. Liao, H. Huang, Q. Shao, K. Feng, et al. Stable and oxidative charged Ru enhance the acidic oxygen evolution reaction activity in two-dimensional ruthenium-iridium oxide. **Nature Communications** 14, 5365 (2003). https://doi.org/10.1038/s41467-023-41036-9 
 
 #. C. Wei, Y. Fang, B. Liu, C. Tang, B. Dong, et al. Lattice oxygen-mediated electron tuning promotes electrochemical hydrogenation of acetonitrile on copper catalysts. **Nature Communications** 14, 3847 (2023). https://doi.org/10.1038/s41467-023-39558-3
-
-#. Y. Xu, T. Liu, K. Liu, et al. Scalable integration of hybrid high-κ dielectric materials on two-dimensional semiconductors. **Nature Materials**, (2023). https://doi.org/10.1038/s41563-023-01626-w https://doi.org/10.1038/s41563-023-01626-w
 
 #. Z. Chen, J. Dong, J. Wu, Q. Shao, N. Luo, et al. Acidic enol electrooxidation-coupled hydrogen production with ampere-level current density. **Nature Communications** 14, 4210 (2023). https://doi.org/10.1038/s41467-023-39848-w
 
