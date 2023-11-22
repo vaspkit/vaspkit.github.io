@@ -39,11 +39,16 @@ Cited publications
 #. K. Sun, O. J. Silveira, Y. Ma, Y. Hasegawa, et al. On-surface synthesis of disilabenzene-bridged covalent organic frameworks. **Nature Chemistry** 15, 36 (2023). https://doi.org/10.1038/s41557-022-01071-3 
 
 #. F. Li, X. Deng, Z. Shi, S. Wu, et al. Hydrogen-bond-bridged intermediate for perovskite solar cells with enhanced efficiency and stability. **Nature Photonics** 17, 478 (2023). https://doi.org/10.1038/s41566-023-01180-6 
+
+#. K. Sun, J.C. Dong, H. Sun, X.D. Wang, et al. Co(CN)3 catalysts with well-defined coordination structure for the oxygen reduction reaction. **Nature Catalysis**, (2023). https://doi.org/10.1038/s41929-023-01047-7
+
 #. Z. Wang, Y. Wang, J. Wang, et al. Rational design of perovskite ferrites as high-performance proton-conducting fuel cell cathodes. **Nature Catalysis** 5, 777 (2022). https://doi.org/10.1038/s41929-022-00829-9
 
 #. D. Li, F. Xu, X. Tang, S. Dai, T. Pu, X. Liu, et al. Induced activation of the commercial Cu/ZnO/Al2O3 catalyst for the steam reforming of methanol. **Nature Catalysis** 5, 99 (2022). https://doi.org/10.1038/s41929-021-00729-4
 
 #. Y. Zhao, C. Deng, D. Tang, et al. α-Fe2O3 as a versatile and efficient oxygen atom transfer catalyst in combination with H2O as the oxygen source. **Nature Catalysis** 4, 684 (2021). https://doi.org/10.1038/s41929-021-00659-1
+
+#. H. Zhong, Q. Zhang, J.C. Yu, X. Zhang, et al. Key role of eg* band broadening in nickel-based oxyhydroxides on coupled oxygen evolution mechanism. **Nature Communications** 14, 7488 (2023). https://doi.org/10.1038/s41467-023-43302-2
 
 #. C. Li, J.F. Zhang, Y. Wang, H.X. Liu, et al. Emergence of Weyl fermions by ferrimagnetism in a noncentrosymmetric magnetic Weyl semimetal. **Nature Communications** 14, 7185 (2023). https://doi.org/10.1038/s41467-023-42996-8
 
