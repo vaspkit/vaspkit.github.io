@@ -34,13 +34,13 @@ Cited publications
 
 #. P. Wu, Y.B. Tu, Z.Y. Wang, S.K. Yu, et al. Unidirectional electron–phonon coupling in the nematic state of a kagome superconductor. **Nature Physics** 19, 1143 (2023). https://doi.org/10.1038/s41567-023-02031-5 
 
-#. Y. Xu, T. Liu, K. Liu, et al. Scalable integration of hybrid high-κ dielectric materials on two-dimensional semiconductors. **Nature Materials**, (2023). https://doi.org/10.1038/s41563-023-01626-w
+#. Y. Xu, T. Liu, K. Liu, et al. Scalable integration of hybrid high-κ dielectric materials on two-dimensional semiconductors. **Nature Materials** 22, 1078 (2023). https://doi.org/10.1038/s41563-023-01626-w
 
 #. K. Sun, O. J. Silveira, Y. Ma, Y. Hasegawa, et al. On-surface synthesis of disilabenzene-bridged covalent organic frameworks. **Nature Chemistry** 15, 36 (2023). https://doi.org/10.1038/s41557-022-01071-3 
 
 #. F. Li, X. Deng, Z. Shi, S. Wu, et al. Hydrogen-bond-bridged intermediate for perovskite solar cells with enhanced efficiency and stability. **Nature Photonics** 17, 478 (2023). https://doi.org/10.1038/s41566-023-01180-6 
 
-#. K. Sun, J.C. Dong, H. Sun, X.D. Wang, et al. Co(CN)3 catalysts with well-defined coordination structure for the oxygen reduction reaction. **Nature Catalysis**, (2023). https://doi.org/10.1038/s41929-023-01047-7
+#. K. Sun, J.C. Dong, H. Sun, X.D. Wang, et al. Co(CN)3 catalysts with well-defined coordination structure for the oxygen reduction reaction. **Nature Catalysis** 6, 1164 (2023). https://doi.org/10.1038/s41929-023-01047-7
 
 #. Z. Wang, Y. Wang, J. Wang, et al. Rational design of perovskite ferrites as high-performance proton-conducting fuel cell cathodes. **Nature Catalysis** 5, 777 (2022). https://doi.org/10.1038/s41929-022-00829-9
 
