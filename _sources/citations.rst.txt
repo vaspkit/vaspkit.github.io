@@ -26,7 +26,7 @@ How to cite
 
 Cited publications
 ------------------
-*The VASPKIT program has been cited by more than 2000 times (google scholar) since 2021. Many thanks to the authors! Some of them are listed below.* 
+*The VASPKIT program has been cited by more than 2100 times (google scholar) since 2021. Many thanks to the authors! Some of them are listed below.* 
 
 #. B. Yang, Z.-M. Zhang, P.-T. Liu, X.-K. Fu, L. Zuo, et al. Flatband λ-Ti3O5 towards extraordinary solar steam generation. **Nature** 622, 499 (2023). https://doi.org/10.1038/s41586-023-06509-3
 
@@ -47,6 +47,10 @@ Cited publications
 #. D. Li, F. Xu, X. Tang, S. Dai, T. Pu, X. Liu, et al. Induced activation of the commercial Cu/ZnO/Al2O3 catalyst for the steam reforming of methanol. **Nature Catalysis** 5, 99 (2022). https://doi.org/10.1038/s41929-021-00729-4
 
 #. Y. Zhao, C. Deng, D. Tang, et al. α-Fe2O3 as a versatile and efficient oxygen atom transfer catalyst in combination with H2O as the oxygen source. **Nature Catalysis** 4, 684 (2021). https://doi.org/10.1038/s41929-021-00659-1
+
+#. Y. Xue, J. Zhao, L. Huang, Y.R. Lu, A. Malek, G. Gao, et al. Stabilizing ruthenium dioxide with cation-anchored sulfate for durable oxygen evolution in proton-exchange membrane water electrolyzers. **Nature Communications** 14, 8093 (2023). https://doi.org/10.1038/s41467-023-43977-7
+
+#. A. Füngerlings, M. Wohlgemuth, D. Antipin, E. van der Minne, E.M. Kiens, et al. Crystal-facet-dependent surface transformation dictates the oxygen evolution reaction activity in lanthanum nickelate. Nature Communications 14, 8284 (2023). https://doi.org/10.1038/s41467-023-43901-z
 
 #. H. Zhong, Q. Zhang, J.C. Yu, X. Zhang, et al. Key role of eg* band broadening in nickel-based oxyhydroxides on coupled oxygen evolution mechanism. **Nature Communications** 14, 7488 (2023). https://doi.org/10.1038/s41467-023-43302-2
 
@@ -142,6 +146,10 @@ Cited publications
 
 #. S. Zhang, Y. Wang, Q. Zeng, J. Sheng, et al. Scaling of Berry-curvature monopole dominated large linear positive magnetoresistance. **PNAS** 119, e2208505119 (2022). https://doi.org/10.1073/pnas.2208505119
 
+#. C. Ren, Q. Li, C. Ling, J. Wang. Mechanism-Guided Design of Photocatalysts for CO2 Reduction toward Multicarbon Products. **Journal of the American Chemical Society** (2023). https://doi.org/10.1021/jacs.3c11972
+
+#. J. Liu, F. Luo, J. Li. Electrochemical Potential-Driven Shift of Frontier Orbitals in M–N–C Single-Atom Catalysts Leading to Inverted Adsorption Energies. **Journal of the American Chemical Society** 145, 25264 (2023). https://doi.org/10.1021/jacs.3c08697
+
 #. H. Liu, W. Liu, G. Xue, T. Tan, et al. Modulating Charges of Dual Sites in Multivariate Metal–Organic Frameworks for Boosting Selective Aerobic Epoxidation of Alkenes. **Journal of the American Chemical Society** 145, 11085–11096 (2023). https://doi.org/10.1021/jacs.3c00460
 
 #. D. Chen, Y. Wang, and R. Dronskowski. Computational Design and Theoretical Properties of WC3N6, an H-Free Melaminate and Potential Multifunctional Material. **Journal of the American Chemical Society** 145, 6986–6993 (2023). https://doi.org/10.1021/jacs.3c00631
@@ -157,6 +165,8 @@ Cited publications
 #. D. Han, C. Feng, M. H. Du, et al. Design of High-Performance Lead-Free Quaternary Antiperovskites for Photovoltaics via Ion Type Inversion and Anion Ordering. **Journal of the American Chemical Society** 143, 12369–12379 (2021). https://doi.org/10.1021/jacs.1c06403
 
 #. D. Luo, X. Qiao, R. Dronskowski, Predicting Nitrogen-based Families of Compounds: Transition-metal Guanidinates TCN3 (T= V, Nb, Ta) and Ortho-nitrido Carbonates T2CN4 (T= Ti, Zr, Hf), **Angewandte Chemie** 60, 486 (2020). https://doi.org/10.1002/anie.202011196
+
+#. X. Li, Y. Tao, X. Jiang, G. Cai, J. Gu, N. Zheng, Y. Guan. Optical bandgap anomaly with tuning dimensionality in germanium perovskites: Interplay between quantum confinement and lone pair expression. **Chem** (2023). https://doi.org/10.1016/j.chempr.2023.11.011
 
 .. note::
    **More cited papers can be found in** `Google Scholar <https://scholar.google.com/scholar?start=10&q=vaspkit&hl=en&as_sdt=1,5>`_.
