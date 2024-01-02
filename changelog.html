@@ -165,6 +165,25 @@
   <div class="section" id="release-notes">
 <h1>Release Notes<a class="headerlink" href="#release-notes" title="Permalink to this heading">¶</a></h1>
 <dl class="simple">
+<dt>Version 1.5.0 (01 Jan. 2024)</dt><dd><ul class="simple">
+<li><p>Added a new feature to export the MAGNETIC_MOMENTS.cif file, which includes detailed information about magnetic moment vectors (task 629).</p></li>
+<li><p>Introduced the ability to read and calculate piezoelectric properties (tasks 442-443).</p></li>
+<li><p>Implemented the feature to read phonon dispersion from OUTCAR file (task 952-964).</p></li>
+<li><p>Enabled rotation of selected atoms around a specified rotation axis (task 408).</p></li>
+<li><p>Implemented the ability to add atoms at specified positions (task 409).</p></li>
+<li><p>Added support for calculating elastic constants and mechanical properties, integrated with the ABACUS code (task 84).</p></li>
+<li><p>Users can now reverse the order of selected atoms.</p></li>
+<li><p>Improved file handling by reading environment variables from the /etc/vaspkit file if the ~/.vaspkit file is not found.</p></li>
+<li><p>Introduced support for constructing nanowire and quantum-dot models.</p></li>
+<li><p>Implemented the feature to substitute selected atoms (task 410).</p></li>
+<li><p>Added the capability to calculate bond length distributions (task 730) and angle distributions (task 731).</p></li>
+<li><p>Upgraded the plot utility for improved visualization.</p></li>
+<li><p>Fixed a bug related to generating suggested k-paths for systems with dozens of atoms (task 303).</p></li>
+<li><p>Resolved an issue causing incorrect total atom numbers in the ORTHOGONALCELL_LIST file during the construction of an orthogonal supercell (task 800).</p></li>
+<li><p>The POSCAR2other converter will no longer be upgradeable in future version of VASPKIT. Instead, an improved structure converter will be implemented in ATOMKIT code. For more information, please visit <a class="reference external" href="https://vaspkit.com/atomkit.html">https://vaspkit.com/atomkit.html</a>.</p></li>
+<li><p>Implemented various minor bug fixes and optimizations to enhance overall performance and stability.</p></li>
+</ul>
+</dd>
 <dt>Version 1.4.1 (26 Apr. 2023)</dt><dd><ul class="simple">
 <li><p>Added a new feature to calculate the line profile of charge density or potential files (tasks 318 and 425);</p></li>
 <li><p>Added new parameters REDUCE_FERMISURFACE_FILE and WEIGHT_THRESHOLD in the ~/.vaspkit file. More details can be found in the how_to_set_environment_variables file;</p></li>

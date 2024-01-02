@@ -11,38 +11,40 @@ VASPKIT aims at providing a powerful and user-friendly interface to perform high
 
     > vaspkit                                                          
 
-               \\\///                                                 
-              / _  _ \         Hey, you must know what you are doing. 
-            (| (o)(o) |)       Otherwise you might get wrong results. 
-    o-----.OOOo--()--oOOO.------------------------------------------o 
-    |         VASPKIT Standard Edition 1.4.0 (02 Nov. 2022)         | 
-    |         Core Developer: Vei WANG (wangvei@icloud.com)         | 
-    |      Main Contributors: Gang TANG, Nan XU & Jin-Cheng LIU     | 
-    |  Online Tutorials Available on Website: https://vaspkit.com   | 
-    o-----.oooO-----------------------------------------------------o 
-           (   )   Oooo.                          VASPKIT Made Simple 
-            \ (    (   )                                              
-             \_)    ) /                                               
-                   (_/                                                
-    ===================== Structural Utilities ====================== 
-    1)  VASP Input-Files Generator    2)  Mechanical Properties       
-    3)  K-Path for Band-Structure     4)  Structure Editor            
-    5)  Catalysis-ElectroChem Kit     6)  Symmetry Analysis           
-    7)  Materials Databases           8)  Advanced Structure Models   
-    ===================== Electronic Utilities ====================== 
-    11) Density-of-States             21) Band-Structure              
-    23) 3D Band-Structure             25) Hybrid-DFT Band-Structure   
-    26) Fermi-Surface                 28) Band-Structure Unfolding    
-    31) Charge-Density Analysis       42) Potential Analysis          
-    51) Wave-Function Analysis        62) Magnetic Properties         
-    65) Spin-Texture                  68) Transport Properties        
-    ======================== Misc Utilities ========================= 
-    71) Optical Properties            72) Molecular-Dynamics Kit      
-    74) User Interface                78) VASP2other Interface        
-    91) Semiconductor Kit             92) 2D-Material Kit             
-    0)  Quit                                                          
-    ------------>>                                                    
-   0                                                                  
+               \\\///
+              / _  _ \         Hey, you must know what you are doing.
+            (| (o)(o) |)       Otherwise you might get wrong results.
+    o-----.OOOo--()--oOOO.------------------------------------------o
+    |         VASPKIT Standard Edition 1.5.0 (01 Jan. 2024)         |
+    |         Lead Developer: Vei WANG (wangvei@icloud.com)         |
+    |      Main Contributors: Gang TANG, Nan XU & Jin-Cheng LIU     |
+    |  Online Tutorials Available on Website: https://vaspkit.com   |
+    o-----.oooO-----------------------------------------------------o
+           (   )   Oooo.                          VASPKIT Made Simple
+            \ (    (   )
+             \_)    ) /
+                   (_/
+    ===================== Structural Utilities ======================
+    01) VASP Input-Files Generator    02) Mechanical Properties
+    03) K-Path for Band-Structure     04) Structure Editor
+    05) Catalysis-ElectroChem Kit     06) Symmetry Analysis
+    07) Materials Databases           08) Advanced Structure Models
+    ===================== Electronic Utilities ======================
+    11) Density-of-States             21) Band-Structure
+    23) 3D Band-Structure             25) Hybrid-DFT Band-Structure
+    26) Fermi-Surface                 28) Band-Structure Unfolding
+    31) Charge-Density Analysis       42) Potential Analysis
+    44) Piezoelectric Properties      51) Wave-Function Analysis
+    62) Magnetic Analysis             65) Spin-Texture
+    68) Transport Properties
+    ======================== Misc Utilities =========================
+    71) Optical Properties            72) Molecular-Dynamics Kit
+    74) User Interface                78) VASP2other Interface
+    84) ABACUS Interface              91) Semiconductor Kit
+    92) 2D-Material Kit               95) Phonon Analysis
+    0)  Quit
+    ------------>>
+    0                                                                  
     o---------------------------------------------------------------o 
     |                       * ACKNOWLEDGMENTS *                     | 
     | Other Contributors (in no particular order): Peng-Fei LIU,    | 
