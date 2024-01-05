@@ -48,6 +48,10 @@ Cited publications
 
 #. Y. Zhao, C. Deng, D. Tang, et al. α-Fe2O3 as a versatile and efficient oxygen atom transfer catalyst in combination with H2O as the oxygen source. **Nature Catalysis** 4, 684 (2021). https://doi.org/10.1038/s41929-021-00659-1
 
+#. S. Sun, C. Dai, P. Zhao, et al. Spin-related Cu-Co pair to increase electrochemical ammonia generation on high-entropy oxides. **Nature Communications** 15, 260 (2024). https://doi.org/10.1038/s41467-023-44587-z 
+
+#. X. Tian, R. Ren, F. Wei, et al. Metal-support interaction boosts the stability of Ni-based electrocatalysts for alkaline hydrogen oxidation. **Nature Communications** 15, 76 (2024). https://doi.org/10.1038/s41467-023-44320-w 
+
 #. Y. Xue, J. Zhao, L. Huang, Y.R. Lu, A. Malek, G. Gao, et al. Stabilizing ruthenium dioxide with cation-anchored sulfate for durable oxygen evolution in proton-exchange membrane water electrolyzers. **Nature Communications** 14, 8093 (2023). https://doi.org/10.1038/s41467-023-43977-7
 
 #. A. Füngerlings, M. Wohlgemuth, D. Antipin, E. van der Minne, E.M. Kiens, et al. Crystal-facet-dependent surface transformation dictates the oxygen evolution reaction activity in lanthanum nickelate. Nature Communications 14, 8284 (2023). https://doi.org/10.1038/s41467-023-43901-z
