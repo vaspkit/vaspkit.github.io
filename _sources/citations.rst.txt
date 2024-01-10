@@ -48,6 +48,8 @@ Cited publications
 
 #. Y. Zhao, C. Deng, D. Tang, et al. α-Fe2O3 as a versatile and efficient oxygen atom transfer catalyst in combination with H2O as the oxygen source. **Nature Catalysis** 4, 684 (2021). https://doi.org/10.1038/s41929-021-00659-1
 
+#. G. Shao, C. Jing, Z. Ma, Y. Li, et al. Dynamic coordination engineering of 2D PhenPtCl2 nanosheets for superior hydrogen evolution. **Nature Communications** 15, 385 (2024). https://doi.org/10.1038/s41467-024-44717-1
+
 #. S. Sun, C. Dai, P. Zhao, et al. Spin-related Cu-Co pair to increase electrochemical ammonia generation on high-entropy oxides. **Nature Communications** 15, 260 (2024). https://doi.org/10.1038/s41467-023-44587-z 
 
 #. X. Tian, R. Ren, F. Wei, et al. Metal-support interaction boosts the stability of Ni-based electrocatalysts for alkaline hydrogen oxidation. **Nature Communications** 15, 76 (2024). https://doi.org/10.1038/s41467-023-44320-w 
@@ -70,11 +72,11 @@ Cited publications
 
 #.  K. Ueda, T.H.Yu, M. Hirayama, R. Kurokawa, T. Nakajima, et al. Colossal negative magnetoresistance in field-induced Weyl semimetal of magnetic half-Heusler compound. **Nature Communications** 14, 6339 (2023). https://doi.org/10.1038/s41467-023-41982-4
 
-#. R. Wu, G.C. Gu, T. Gotoh,, Z.H. Zhao, et al. The Role of Arsenic in the Operation of Electrical Threshold Switches. **Nature Communications** 14, 6095 (2003). https://doi.org/10.1038/s41467-023-41643-6
+#. R. Wu, G.C. Gu, T. Gotoh,, Z.H. Zhao, et al. The Role of Arsenic in the Operation of Electrical Threshold Switches. **Nature Communications** 14, 6095 (2023). https://doi.org/10.1038/s41467-023-41643-6
 
-#. G. Li, S. Jiang, A. Liu, L. Ye, J. Ke, C. Liu, et al. Proof of crystal-field-perturbation-enhanced luminescence of lanthanide-doped nanocrystals through interstitial H+ doping. **Nature Communications** 14, 5870 (2003). https://doi.org/10.1038/s41467-023-41411-6
+#. G. Li, S. Jiang, A. Liu, L. Ye, J. Ke, C. Liu, et al. Proof of crystal-field-perturbation-enhanced luminescence of lanthanide-doped nanocrystals through interstitial H+ doping. **Nature Communications** 14, 5870 (2023). https://doi.org/10.1038/s41467-023-41411-6
 
-#. W. Zhu, X. Song, F. Liao, H. Huang, Q. Shao, K. Feng, et al. Stable and oxidative charged Ru enhance the acidic oxygen evolution reaction activity in two-dimensional ruthenium-iridium oxide. **Nature Communications** 14, 5365 (2003). https://doi.org/10.1038/s41467-023-41036-9 
+#. W. Zhu, X. Song, F. Liao, H. Huang, Q. Shao, K. Feng, et al. Stable and oxidative charged Ru enhance the acidic oxygen evolution reaction activity in two-dimensional ruthenium-iridium oxide. **Nature Communications** 14, 5365 (2023). https://doi.org/10.1038/s41467-023-41036-9 
 
 #. C. Wei, Y. Fang, B. Liu, C. Tang, B. Dong, et al. Lattice oxygen-mediated electron tuning promotes electrochemical hydrogenation of acetonitrile on copper catalysts. **Nature Communications** 14, 3847 (2023). https://doi.org/10.1038/s41467-023-39558-3
 
@@ -150,23 +152,23 @@ Cited publications
 
 #. S. Zhang, Y. Wang, Q. Zeng, J. Sheng, et al. Scaling of Berry-curvature monopole dominated large linear positive magnetoresistance. **PNAS** 119, e2208505119 (2022). https://doi.org/10.1073/pnas.2208505119
 
-#. C. Ren, Q. Li, C. Ling, J. Wang. Mechanism-Guided Design of Photocatalysts for CO2 Reduction toward Multicarbon Products. **Journal of the American Chemical Society** (2023). https://doi.org/10.1021/jacs.3c11972
+#. C. Ren, Q. Li, C. Ling, J. Wang. Mechanism-Guided Design of Photocatalysts for CO2 Reduction toward Multicarbon Products. **Journal of the American Chemical Society** 145, 28276 (2023). https://doi.org/10.1021/jacs.3c11972
 
 #. J. Liu, F. Luo, J. Li. Electrochemical Potential-Driven Shift of Frontier Orbitals in M–N–C Single-Atom Catalysts Leading to Inverted Adsorption Energies. **Journal of the American Chemical Society** 145, 25264 (2023). https://doi.org/10.1021/jacs.3c08697
 
-#. H. Liu, W. Liu, G. Xue, T. Tan, et al. Modulating Charges of Dual Sites in Multivariate Metal–Organic Frameworks for Boosting Selective Aerobic Epoxidation of Alkenes. **Journal of the American Chemical Society** 145, 11085–11096 (2023). https://doi.org/10.1021/jacs.3c00460
+#. H. Liu, W. Liu, G. Xue, T. Tan, et al. Modulating Charges of Dual Sites in Multivariate Metal–Organic Frameworks for Boosting Selective Aerobic Epoxidation of Alkenes. **Journal of the American Chemical Society** 145, 11085 (2023). https://doi.org/10.1021/jacs.3c00460
 
-#. D. Chen, Y. Wang, and R. Dronskowski. Computational Design and Theoretical Properties of WC3N6, an H-Free Melaminate and Potential Multifunctional Material. **Journal of the American Chemical Society** 145, 6986–6993 (2023). https://doi.org/10.1021/jacs.3c00631
+#. D. Chen, Y. Wang, and R. Dronskowski. Computational Design and Theoretical Properties of WC3N6, an H-Free Melaminate and Potential Multifunctional Material. **Journal of the American Chemical Society** 145, 6986 (2023). https://doi.org/10.1021/jacs.3c00631
 
-#. W. Li, C. Liu, C. Gu, J.H. Choi, et al. Interlayer Charge Transfer Regulates Single-Atom Catalytic Activity on Electride/Graphene 2D Heterojunctions. **Journal of the American Chemical Society** 145, 4774–4783 (2023). https://doi.org/10.1021/jacs.2c13596 
+#. W. Li, C. Liu, C. Gu, J.H. Choi, et al. Interlayer Charge Transfer Regulates Single-Atom Catalytic Activity on Electride/Graphene 2D Heterojunctions. **Journal of the American Chemical Society** 145, 4774 (2023). https://doi.org/10.1021/jacs.2c13596 
 
-#. B. Peng. Monolayer Fullerene Networks as Photocatalysts for Overall Water Splitting. **Journal of the American Chemical Society** 144, 19921−19931 (2022). https://doi.org/10.1021/jacs.2c08054 
+#. B. Peng. Monolayer Fullerene Networks as Photocatalysts for Overall Water Splitting. **Journal of the American Chemical Society** 144, 19921 (2022). https://doi.org/10.1021/jacs.2c08054 
 
-#. X. Huang, X. Li, Y. Tao, et al. Understanding Electron–Phonon Interactions in 3D Lead Halide Perovskites from the Stereochemical Expression of 6s2 Lone Pairs. **Journal of the American Chemical Society** 144, 12247–12260 (2022). https://doi.org/10.1021/jacs.2c00592
+#. X. Huang, X. Li, Y. Tao, et al. Understanding Electron–Phonon Interactions in 3D Lead Halide Perovskites from the Stereochemical Expression of 6s2 Lone Pairs. **Journal of the American Chemical Society** 144, 12247 (2022). https://doi.org/10.1021/jacs.2c00592
 
-#. D. Luo, K. Yin, R. Dronskowski, Existence of BeCN2 and Its First-Principles Phase Diagram: Be and C Introducing Structural Diversity. **Journal of the American Chemical Society** 144, 5155–5162 (2022). https://doi.org/10.1021/jacs.2c00592
+#. D. Luo, K. Yin, R. Dronskowski, Existence of BeCN2 and Its First-Principles Phase Diagram: Be and C Introducing Structural Diversity. **Journal of the American Chemical Society** 144, 5155 (2022). https://doi.org/10.1021/jacs.2c00592
 
-#. D. Han, C. Feng, M. H. Du, et al. Design of High-Performance Lead-Free Quaternary Antiperovskites for Photovoltaics via Ion Type Inversion and Anion Ordering. **Journal of the American Chemical Society** 143, 12369–12379 (2021). https://doi.org/10.1021/jacs.1c06403
+#. D. Han, C. Feng, M. H. Du, et al. Design of High-Performance Lead-Free Quaternary Antiperovskites for Photovoltaics via Ion Type Inversion and Anion Ordering. **Journal of the American Chemical Society** 143, 12369 (2021). https://doi.org/10.1021/jacs.1c06403
 
 #. D. Luo, X. Qiao, R. Dronskowski, Predicting Nitrogen-based Families of Compounds: Transition-metal Guanidinates TCN3 (T= V, Nb, Ta) and Ortho-nitrido Carbonates T2CN4 (T= Ti, Zr, Hf), **Angewandte Chemie** 60, 486 (2020). https://doi.org/10.1002/anie.202011196
 
