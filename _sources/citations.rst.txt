@@ -48,6 +48,12 @@ Cited publications
 
 #. Y. Zhao, C. Deng, D. Tang, et al. α-Fe2O3 as a versatile and efficient oxygen atom transfer catalyst in combination with H2O as the oxygen source. **Nature Catalysis** 4, 684 (2021). https://doi.org/10.1038/s41929-021-00659-1
 
+#. Q. Wu, C. Dai, F. Meng, Y. Jiao, et al. Potential and electric double-layer effect in electrocatalytic urea synthesis. **Nature Communications** 15, 1095 (2024). https://doi.org/10.1038/s41467-024-45522-6
+
+#. X. Zhang, H. Zhong, Q. Zhang, et al. High-spin Co3+ in cobalt oxyhydroxide for efficient water oxidation. **Nature Communications** 15, 1383 (2024). https://doi.org/10.1038/s41467-024-45702-4
+
+#. F. Fan, C. Liu, B. Liang, W. Wang, et al. Tuning ferroelectric phase transition temperature by enantiomer fraction. **Nature Communications** 15, 1464 (2024). https://doi.org/10.1038/s41467-024-45986-6
+
 #. G. Shao, C. Jing, Z. Ma, Y. Li, et al. Dynamic coordination engineering of 2D PhenPtCl2 nanosheets for superior hydrogen evolution. **Nature Communications** 15, 385 (2024). https://doi.org/10.1038/s41467-024-44717-1
 
 #. S. Sun, C. Dai, P. Zhao, et al. Spin-related Cu-Co pair to increase electrochemical ammonia generation on high-entropy oxides. **Nature Communications** 15, 260 (2024). https://doi.org/10.1038/s41467-023-44587-z 
@@ -56,7 +62,7 @@ Cited publications
 
 #. Y. Xue, J. Zhao, L. Huang, Y.R. Lu, A. Malek, G. Gao, et al. Stabilizing ruthenium dioxide with cation-anchored sulfate for durable oxygen evolution in proton-exchange membrane water electrolyzers. **Nature Communications** 14, 8093 (2023). https://doi.org/10.1038/s41467-023-43977-7
 
-#. A. Füngerlings, M. Wohlgemuth, D. Antipin, E. van der Minne, E.M. Kiens, et al. Crystal-facet-dependent surface transformation dictates the oxygen evolution reaction activity in lanthanum nickelate. Nature Communications 14, 8284 (2023). https://doi.org/10.1038/s41467-023-43901-z
+#. A. Füngerlings, M. Wohlgemuth, D. Antipin, E. van der Minne, E.M. Kiens, et al. Crystal-facet-dependent surface transformation dictates the oxygen evolution reaction activity in lanthanum nickelate. **Nature Communications** 14, 8284 (2023). https://doi.org/10.1038/s41467-023-43901-z
 
 #. H. Zhong, Q. Zhang, J.C. Yu, X. Zhang, et al. Key role of eg* band broadening in nickel-based oxyhydroxides on coupled oxygen evolution mechanism. **Nature Communications** 14, 7488 (2023). https://doi.org/10.1038/s41467-023-43302-2
 
@@ -151,6 +157,8 @@ Cited publications
 #. J. Cheng, B.F. Miao, Z. Liu, M. Yang, K. He, Y.L. Zeng, et al. Coherent Picture on the Pure Spin Transport between Ag/Bi and Ferromagnets. **Physical Review Letters** 129, 097203 (2022). https://doi.org/10.1103/PhysRevLett.129.097203
 
 #. S. Zhang, Y. Wang, Q. Zeng, J. Sheng, et al. Scaling of Berry-curvature monopole dominated large linear positive magnetoresistance. **PNAS** 119, e2208505119 (2022). https://doi.org/10.1073/pnas.2208505119
+
+#. C. Long, K. Wang, Y. Chen, L. Li, et al. Steering the Reconstruction of Oxide-Derived Cu by Secondary Metal for Electrosynthesis of n-Propanol from CO. **Journal of the American Chemical Society** (2024). https://doi.org/10.1021/jacs.3c11359
 
 #. C. Ren, Q. Li, C. Ling, J. Wang. Mechanism-Guided Design of Photocatalysts for CO2 Reduction toward Multicarbon Products. **Journal of the American Chemical Society** 145, 28276 (2023). https://doi.org/10.1021/jacs.3c11972
 

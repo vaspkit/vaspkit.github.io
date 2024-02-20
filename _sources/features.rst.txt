@@ -32,7 +32,7 @@ Task-ID Function
 305     K-Path for Phonopy Code
 306     K-Path for CP2K Code
 309     Visualize K-Path in First Brillouin Zone
-**04      **Structure Editor
+**04**      **Structure Editor**
 400     Redefine Lattice
 401     Build Supercell
 402     Fix Selected Atoms
@@ -59,7 +59,7 @@ Task-ID Function
 507     Imaginary Frequencies Correction
 508     Bader2PQR (Shown in VMD by atomic charge)
 509     Evaluate half life period for a first order reaction
-**06**      Symmetry Analysis
+**06**      **Symmetry Analysis**
 601     Find Symmetry of Crystal
 602     Find Primitive Cell
 603     Find Standard Conventional Cell
