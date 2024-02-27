@@ -48,6 +48,10 @@ Cited publications
 
 #. Y. Zhao, C. Deng, D. Tang, et al. α-Fe2O3 as a versatile and efficient oxygen atom transfer catalyst in combination with H2O as the oxygen source. **Nature Catalysis** 4, 684 (2021). https://doi.org/10.1038/s41929-021-00659-1
 
+#. C.Fan, C.D. Liu, B.D. Liang, et al. Tuning ferroelectric phase transition temperature by enantiomer fraction.  **Nature Communications** 15, 1464 (2024). https://doi.org/10.1038/s41467-024-45986-6
+
+#. S. Xu, S. Feng, Y. Yu, et al. Dual-site segmentally synergistic catalysis mechanism: boosting CoFeSx nanocluster for sustainable water oxidation. **Nature Communications** 15, 1720 (2024). https://doi.org/10.1038/s41467-024-45700-6
+
 #. Q. Wu, C. Dai, F. Meng, Y. Jiao, et al. Potential and electric double-layer effect in electrocatalytic urea synthesis. **Nature Communications** 15, 1095 (2024). https://doi.org/10.1038/s41467-024-45522-6
 
 #. X. Zhang, H. Zhong, Q. Zhang, et al. High-spin Co3+ in cobalt oxyhydroxide for efficient water oxidation. **Nature Communications** 15, 1383 (2024). https://doi.org/10.1038/s41467-024-45702-4
