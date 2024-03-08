@@ -50,10 +50,7 @@ Cited publications
 
 #. C. Fan, C.D. Liu, B.D. Liang, et al. Tuning ferroelectric phase transition temperature by enantiomer fraction. **Nature Communications** 15, 1464 (2024). https://doi.org/10.1038/s41467-024-45986-6
 
-#. C. Fan, CD. Liu, BD. Liang, et al. Tuning ferroelectric phase transition temperature by enantiomer fraction. **Nature Communications** 15, 1464 (2024). https://doi.org/10.1038/s41467-024-45986-6
-
-#. W. Wang, S. Wang, Y. Gu, et al. Contact-separation-induced self-recoverable mechanoluminescence of CaF2:Tb3+/PDMS elastomer. **Nature Communications** 15, 2014 (2024). https://doi.org/10.1038/s41467-024-
-46432-3
+#. W. Wang, S. Wang, Y. Gu, et al. Contact-separation-induced self-recoverable mechanoluminescence of CaF2:Tb3+/PDMS elastomer. **Nature Communications** 15, 2014 (2024). https://doi.org/10.1038/s41467-024-46432-3
 
 #. S. Xu, S. Feng, Y. Yu, et al. Dual-site segmentally synergistic catalysis mechanism: boosting CoFeSx nanocluster for sustainable water oxidation. **Nature Communications** 15, 1720 (2024). https://doi.org/10.1038/s41467-024-45700-6
 
@@ -173,7 +170,7 @@ Cited publications
 
 #. S. Zhang, Y. Wang, Q. Zeng, J. Sheng, et al. Scaling of Berry-curvature monopole dominated large linear positive magnetoresistance. **PNAS** 119, e2208505119 (2022). https://doi.org/10.1073/pnas.2208505119
 
-#. C. Long, K. Wang, Y. Chen, L. Li, et al. Steering the Reconstruction of Oxide-Derived Cu by Secondary Metal for Electrosynthesis of n-Propanol from CO. **Journal of the American Chemical Society** (2024). https://doi.org/10.1021/jacs.3c11359
+#. C. Long, K. Wang, Y. Chen, L. Li, et al. Steering the Reconstruction of Oxide-Derived Cu by Secondary Metal for Electrosynthesis of n-Propanol from CO. **Journal of the American Chemical Society** 146, 4632 (2024). https://doi.org/10.1021/jacs.3c11359
 
 #. C. Ren, Q. Li, C. Ling, J. Wang. Mechanism-Guided Design of Photocatalysts for CO2 Reduction toward Multicarbon Products. **Journal of the American Chemical Society** 145, 28276 (2023). https://doi.org/10.1021/jacs.3c11972
 
