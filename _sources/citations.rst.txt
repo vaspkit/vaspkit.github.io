@@ -26,7 +26,7 @@ How to cite
 
 Cited publications
 ------------------
-*The VASPKIT program has been cited by more than 2100 times (google scholar) since 2021. Many thanks to the authors! Some of them are listed below.* 
+*The VASPKIT program has been cited by more than 2500 times (google scholar) since 2021. Many thanks to the authors! Some of them are listed below.* 
 
 #. B. Yang, Z.-M. Zhang, P.-T. Liu, X.-K. Fu, L. Zuo, et al. Flatband λ-Ti3O5 towards extraordinary solar steam generation. **Nature** 622, 499 (2023). https://doi.org/10.1038/s41586-023-06509-3
 
@@ -49,6 +49,11 @@ Cited publications
 #. Y. Zhao, C. Deng, D. Tang, et al. α-Fe2O3 as a versatile and efficient oxygen atom transfer catalyst in combination with H2O as the oxygen source. **Nature Catalysis** 4, 684 (2021). https://doi.org/10.1038/s41929-021-00659-1
 
 #. C. Fan, C.D. Liu, B.D. Liang, et al. Tuning ferroelectric phase transition temperature by enantiomer fraction. **Nature Communications** 15, 1464 (2024). https://doi.org/10.1038/s41467-024-45986-6
+
+#. C. Fan, CD. Liu, BD. Liang, et al. Tuning ferroelectric phase transition temperature by enantiomer fraction. **Nature Communications** 15, 1464 (2024). https://doi.org/10.1038/s41467-024-45986-6
+
+#. W. Wang, S. Wang, Y. Gu, et al. Contact-separation-induced self-recoverable mechanoluminescence of CaF2:Tb3+/PDMS elastomer. **Nature Communications** 15, 2014 (2024). https://doi.org/10.1038/s41467-024-
+46432-3
 
 #. S. Xu, S. Feng, Y. Yu, et al. Dual-site segmentally synergistic catalysis mechanism: boosting CoFeSx nanocluster for sustainable water oxidation. **Nature Communications** 15, 1720 (2024). https://doi.org/10.1038/s41467-024-45700-6
 
@@ -148,11 +153,15 @@ Cited publications
 
 #. C. Wu, L. Lin, J. Liu, J. Zhang, F. Zhang, et al. Inverse ZrO2/Cu as a highly efficient methanol synthesis catalyst from CO2 hydrogenation,  **Nature Communications** 11, 5767 (2020). https://doi.org/10.1038/s41467-020-19634-8
 
+#. S. Chen, Y. Xia, R. Zeng, Z. Luo, et al. ,Ordered planar plating/stripping enables deep cycling zinc metal batteries. **Science Advances** 10, eadn2265 (2024).https://doi.org/10.1126/sciadv.adn2265
+
 #. S. Liu, H. Li, J. Zhong, K. Xu, et al. A crystal glass–nanostructured Al-based electrocatalyst for hydrogen evolution reaction. **Science Advances** 8, eadd6421 (2022). https://doi.org/10.1126/sciadv.add6421 
 
 #. M. Peng, R. Xie, Z. Wang, et al. Blackbody-sensitive room-temperature infrared photodetectors based on low-dimensional tellurium grown by chemical vapor deposition. **Science Advances** 7, eabf7358 (2021). https://doi.org/10.1126/sciadv.abf7358 
 
 #. Y. Ohtsuka, N. Kanazawa, M. Hirayama, et al. Emergence of spin-orbit coupled ferromagnetic surface state derived from Zak phase in a nonmagnetic insulator FeSi, **Science Advances** 7, eabj0498 (2021). https://doi.org/10.1126/sciadv.abj0498
+
+#. B. Zhang, H. Tan, B. Yan, C. Xu, H. Xiang. Atomistic Origin of Diverse Charge Density Wave States in CsV3Sb5. **Physical Review Letters** 132, 096101 (2024). https://doi.org/10.1103/PhysRevLett.132.096101
 
 #. H. F. Yang, K. Y. He, J. Koo, S. W. Shen, et al. Visualization of Chiral Electronic Structure and Anomalous Optical Response in a Material with Chiral Charge Density Waves. **Physical Review Letters** 129, 156401 (2022). https://doi.org/10.1103/PhysRevLett.129.156401 
 
