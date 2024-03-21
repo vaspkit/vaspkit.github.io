@@ -48,6 +48,8 @@ Cited publications
 
 #. Y. Zhao, C. Deng, D. Tang, et al. α-Fe2O3 as a versatile and efficient oxygen atom transfer catalyst in combination with H2O as the oxygen source. **Nature Catalysis** 4, 684 (2021). https://doi.org/10.1038/s41929-021-00659-1
 
+#. J. Zhou, S.Q. Fu, S. Zhou, L.S. Shuai, et al. Mixed tin-lead perovskites with balanced crystallization and oxidation barrier for all-perovskite tandem solar cells. **Nature Communications** 15, 2324 (2024). https://doi.org/10.1038/s41467-024-46679-w 
+
 #. C. Fan, C.D. Liu, B.D. Liang, et al. Tuning ferroelectric phase transition temperature by enantiomer fraction. **Nature Communications** 15, 1464 (2024). https://doi.org/10.1038/s41467-024-45986-6
 
 #. W. Wang, S. Wang, Y. Gu, et al. Contact-separation-induced self-recoverable mechanoluminescence of CaF2:Tb3+/PDMS elastomer. **Nature Communications** 15, 2014 (2024). https://doi.org/10.1038/s41467-024-46432-3
@@ -157,6 +159,8 @@ Cited publications
 #. M. Peng, R. Xie, Z. Wang, et al. Blackbody-sensitive room-temperature infrared photodetectors based on low-dimensional tellurium grown by chemical vapor deposition. **Science Advances** 7, eabf7358 (2021). https://doi.org/10.1126/sciadv.abf7358 
 
 #. Y. Ohtsuka, N. Kanazawa, M. Hirayama, et al. Emergence of spin-orbit coupled ferromagnetic surface state derived from Zak phase in a nonmagnetic insulator FeSi, **Science Advances** 7, eabj0498 (2021). https://doi.org/10.1126/sciadv.abj0498
+
+#. A. Consiglio, G. Gatti, E. Martino, L. Moreschini, et al. Electron Glass Phase with Resilient Zhang-Rice Singlets in LiCu3O3. **Physical Review Letters** 132, 126502 (2024). https://doi.org/10.1103/PhysRevLett.132.126502 
 
 #. B. Zhang, H. Tan, B. Yan, C. Xu, H. Xiang. Atomistic Origin of Diverse Charge Density Wave States in CsV3Sb5. **Physical Review Letters** 132, 096101 (2024). https://doi.org/10.1103/PhysRevLett.132.096101
 
