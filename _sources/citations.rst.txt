@@ -40,6 +40,8 @@ Cited publications
 
 #. F. Li, X. Deng, Z. Shi, S. Wu, et al. Hydrogen-bond-bridged intermediate for perovskite solar cells with enhanced efficiency and stability. **Nature Photonics** 17, 478 (2023). https://doi.org/10.1038/s41566-023-01180-6 
 
+#. Z. Lian, F. Dattila, N. López. Stability and lifetime of diffusion-trapped oxygen in oxide-derived copper CO2 reduction electrocatalysts. **Nature Catalysis** (2024). https://doi.org/10.1038/s41929-024-01132-5
+
 #. K. Sun, J.C. Dong, H. Sun, X.D. Wang, et al. Co(CN)3 catalysts with well-defined coordination structure for the oxygen reduction reaction. **Nature Catalysis** 6, 1164 (2023). https://doi.org/10.1038/s41929-023-01047-7
 
 #. Z. Wang, Y. Wang, J. Wang, et al. Rational design of perovskite ferrites as high-performance proton-conducting fuel cell cathodes. **Nature Catalysis** 5, 777 (2022). https://doi.org/10.1038/s41929-022-00829-9
@@ -47,6 +49,10 @@ Cited publications
 #. D. Li, F. Xu, X. Tang, S. Dai, T. Pu, X. Liu, et al. Induced activation of the commercial Cu/ZnO/Al2O3 catalyst for the steam reforming of methanol. **Nature Catalysis** 5, 99 (2022). https://doi.org/10.1038/s41929-021-00729-4
 
 #. Y. Zhao, C. Deng, D. Tang, et al. α-Fe2O3 as a versatile and efficient oxygen atom transfer catalyst in combination with H2O as the oxygen source. **Nature Catalysis** 4, 684 (2021). https://doi.org/10.1038/s41929-021-00659-1
+
+#. J. Li, W.Z. Si, L. Shi, R.Q. Gao, Q.J. Li, et al. Essential role of lattice oxygen in hydrogen sensing reaction. **Nature Communications** 15, 2998 (2024). https://doi.org/10.1038/s41467-024-47078-x
+
+#. X. Ming, W. Si, Q.L. Yu, Z.Y. Sun, et al. Molecular insight into the initial hydration of tricalcium aluminate. **Nature Communications** 15, 2929 (2024). https://doi.org/10.1038/s41467-024-47164-0
 
 #. J. Zhou, S.Q. Fu, S. Zhou, L.S. Shuai, et al. Mixed tin-lead perovskites with balanced crystallization and oxidation barrier for all-perovskite tandem solar cells. **Nature Communications** 15, 2324 (2024). https://doi.org/10.1038/s41467-024-46679-w 
 
