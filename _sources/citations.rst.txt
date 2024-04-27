@@ -50,6 +50,12 @@ Cited publications
 
 #. Y. Zhao, C. Deng, D. Tang, et al. α-Fe2O3 as a versatile and efficient oxygen atom transfer catalyst in combination with H2O as the oxygen source. **Nature Catalysis** 4, 684 (2021). https://doi.org/10.1038/s41929-021-00659-1
 
+#. K. Dong, Y.C, Yao, H.B. Li, H.J. Li, et al. H2O2-mediated electrosynthesis of nitrate from air. **Nature Synthesis** (2024). https://doi.org/10.1038/s44160-024-00522-8
+
+#. C. Xie, C. Wang, Y. Xu, T.Y. Li, Q. Fu, et al. Reversible multielectron transfer I−/IO3− cathode enabled by a hetero-halogen electrolyte for high-energy-density aqueous batteries. **Nature Energy** (2024). https://doi.org/10.1038/s41560-024-01515-9
+
+#. Y. Wang, Z.H. Li, X. Luo, J.J. Gao, Y.Y. Han, et al. Dualistic insulator states in 1T-TaS2 crystals. **Nature Communications** 15, 3425 (2024). https://doi.org/10.1038/s41467-024-47728-0
+
 #. J. Li, W.Z. Si, L. Shi, R.Q. Gao, Q.J. Li, et al. Essential role of lattice oxygen in hydrogen sensing reaction. **Nature Communications** 15, 2998 (2024). https://doi.org/10.1038/s41467-024-47078-x
 
 #. X. Ming, W. Si, Q.L. Yu, Z.Y. Sun, et al. Molecular insight into the initial hydration of tricalcium aluminate. **Nature Communications** 15, 2929 (2024). https://doi.org/10.1038/s41467-024-47164-0
