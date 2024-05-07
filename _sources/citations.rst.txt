@@ -32,6 +32,9 @@ Cited publications
 
 #. J. Liu, M. De Bastiani, E. Aydin, G. T. Harrison, et al. Efficient and stable perovskite-silicon tandem solar cells through contact displacement by MgFx. **Science**, eabn8910 (2022). https://doi.org/10.1126/science.abn8910
 
+
+#. M. Ahmadi Khoshooei, X. Wang, G. Vitale, F. Formalik, et al. An active, stable cubic molybdenum carbide catalyst for the high-temperature reverse water-gas shift reaction. **Science** 384, 540-546 (2024). https://doi.org/10.1126/science.adl1260
+
 #. P. Wu, Y.B. Tu, Z.Y. Wang, S.K. Yu, et al. Unidirectional electron–phonon coupling in the nematic state of a kagome superconductor. **Nature Physics** 19, 1143 (2023). https://doi.org/10.1038/s41567-023-02031-5 
 
 #. Y. Xu, T. Liu, K. Liu, et al. Scalable integration of hybrid high-κ dielectric materials on two-dimensional semiconductors. **Nature Materials** 22, 1078 (2023). https://doi.org/10.1038/s41563-023-01626-w
@@ -53,6 +56,8 @@ Cited publications
 #. K. Dong, Y.C, Yao, H.B. Li, H.J. Li, et al. H2O2-mediated electrosynthesis of nitrate from air. **Nature Synthesis** (2024). https://doi.org/10.1038/s44160-024-00522-8
 
 #. C. Xie, C. Wang, Y. Xu, T.Y. Li, Q. Fu, et al. Reversible multielectron transfer I−/IO3− cathode enabled by a hetero-halogen electrolyte for high-energy-density aqueous batteries. **Nature Energy** (2024). https://doi.org/10.1038/s41560-024-01515-9
+
+#. Y. Fang, H. Yang, Y. Hou, L. Wang, et al. Timescale correlation of shallow trap states increases electrochemiluminescence efficiency in carbon nitrides. **Nature Communications** 15, 3597 (2024). https://doi.org/10.1038/s41467-024-48011-y
 
 #. Y. Wang, Z.H. Li, X. Luo, J.J. Gao, Y.Y. Han, et al. Dualistic insulator states in 1T-TaS2 crystals. **Nature Communications** 15, 3425 (2024). https://doi.org/10.1038/s41467-024-47728-0
 
@@ -164,6 +169,8 @@ Cited publications
 
 #. C. Wu, L. Lin, J. Liu, J. Zhang, F. Zhang, et al. Inverse ZrO2/Cu as a highly efficient methanol synthesis catalyst from CO2 hydrogenation,  **Nature Communications** 11, 5767 (2020). https://doi.org/10.1038/s41467-020-19634-8
 
+#. J. Wang, J.M. Cai, K.-X. Ren, L. Liu, et al. Stepwise structural evolution toward robust carboranealkynyl-protected copper nanocluster catalysts for nitrate electroreduction. **Science Advances** 10, eadn7556(2024). https://doi.org/10.1126/sciadv.adn7556
+
 #. S. Chen, Y. Xia, R. Zeng, Z. Luo, et al. ,Ordered planar plating/stripping enables deep cycling zinc metal batteries. **Science Advances** 10, eadn2265 (2024).https://doi.org/10.1126/sciadv.adn2265
 
 #. S. Liu, H. Li, J. Zhong, K. Xu, et al. A crystal glass–nanostructured Al-based electrocatalyst for hydrogen evolution reaction. **Science Advances** 8, eadd6421 (2022). https://doi.org/10.1126/sciadv.add6421 
@@ -185,6 +192,8 @@ Cited publications
 #. J. Cheng, B.F. Miao, Z. Liu, M. Yang, K. He, Y.L. Zeng, et al. Coherent Picture on the Pure Spin Transport between Ag/Bi and Ferromagnets. **Physical Review Letters** 129, 097203 (2022). https://doi.org/10.1103/PhysRevLett.129.097203
 
 #. S. Zhang, Y. Wang, Q. Zeng, J. Sheng, et al. Scaling of Berry-curvature monopole dominated large linear positive magnetoresistance. **PNAS** 119, e2208505119 (2022). https://doi.org/10.1073/pnas.2208505119
+
+#. X. Xu, H.-P. Liang, Q.-S. Huang, Z. Liu, et al. Computational Screening of Promising Deep-Ultraviolet Light Emitters. **Journal of the American Chemical Society** (2024). https://doi.org/10.1021/jacs.4c03711 
 
 #. C. Long, K. Wang, Y. Chen, L. Li, et al. Steering the Reconstruction of Oxide-Derived Cu by Secondary Metal for Electrosynthesis of n-Propanol from CO. **Journal of the American Chemical Society** 146, 4632 (2024). https://doi.org/10.1021/jacs.3c11359
 
