@@ -30,10 +30,9 @@ Cited publications
 
 #. B. Yang, Z.-M. Zhang, P.-T. Liu, X.-K. Fu, L. Zuo, et al. Flatband λ-Ti3O5 towards extraordinary solar steam generation. **Nature** 622, 499 (2023). https://doi.org/10.1038/s41586-023-06509-3
 
-#. J. Liu, M. De Bastiani, E. Aydin, G. T. Harrison, et al. Efficient and stable perovskite-silicon tandem solar cells through contact displacement by MgFx. **Science**, eabn8910 (2022). https://doi.org/10.1126/science.abn8910
-
-
 #. M. Ahmadi Khoshooei, X. Wang, G. Vitale, F. Formalik, et al. An active, stable cubic molybdenum carbide catalyst for the high-temperature reverse water-gas shift reaction. **Science** 384, 540-546 (2024). https://doi.org/10.1126/science.adl1260
+
+#. J. Liu, M. De Bastiani, E. Aydin, G. T. Harrison, et al. Efficient and stable perovskite-silicon tandem solar cells through contact displacement by MgFx. **Science** 377, 302-306 (2022). https://doi.org/10.1126/science.abn8910
 
 #. P. Wu, Y.B. Tu, Z.Y. Wang, S.K. Yu, et al. Unidirectional electron–phonon coupling in the nematic state of a kagome superconductor. **Nature Physics** 19, 1143 (2023). https://doi.org/10.1038/s41567-023-02031-5 
 
