@@ -192,9 +192,10 @@ Cited publications
 
 #. J. Cheng, B.F. Miao, Z. Liu, M. Yang, K. He, Y.L. Zeng, et al. Coherent Picture on the Pure Spin Transport between Ag/Bi and Ferromagnets. **Physical Review Letters** 129, 097203 (2022). https://doi.org/10.1103/PhysRevLett.129.097203
 
+#. J. Wu, T.H. Yang, Y.J. Sun, Y. Min, Y. Hu, F. Chen, et al. Tailoring the selective generation of oxidative organic radicals for toxic-by-product-free water decontamination. **PNAS** 121, e2403544121 (2024). https://doi.org/10.1073/pnas.2403544121
+
 #. S. Zhang, Y. Wang, Q. Zeng, J. Sheng, et al. Scaling of Berry-curvature monopole dominated large linear positive magnetoresistance. **PNAS** 119, e2208505119 (2022). https://doi.org/10.1073/pnas.2208505119
 
-#. J. Wu, T.H. Yang, Y.J. Sun, Y. Min, Y. Hu, F. Chen, et al. Tailoring the selective generation of oxidative organic radicals for toxic-by-product-free water decontamination. **PNAS** 121, e2403544121 (2024). https://doi.org/10.1073/pnas.2403544121
 
 #. X. Xu, H.-P. Liang, Q.-S. Huang, Z. Liu, et al. Computational Screening of Promising Deep-Ultraviolet Light Emitters. **Journal of the American Chemical Society** 146, 12864 (2024). https://doi.org/10.1021/jacs.4c03711 
 
