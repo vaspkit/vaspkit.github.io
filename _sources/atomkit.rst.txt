@@ -8,8 +8,10 @@ toolkit that can run across different platforms to meet various research
 needs. ATOMKIT integrates crystal structure manipulation, modeling,
 format conversion, and visualization capabilities, while also providing
 support for exporting various common material simulation software
-structure file formats. The compiled version of the program can be obtained 
-from the `latest release page <https://sourceforge.net/projects/atomkit/files/Binaries/>`_ on sourceforge.
+structure file formats. The compiled version of the program can be obtained
+from the `latest release page <https://sourceforge.net/projects/atomkit/files/Binaries/>`_ on sourceforge. ATOMKIT and
+its sister software VASPKIT have very similar usage methods, allowing
+for seamless switching between them.
 
 ATOMKIT software aims to provide researchers and engineers with a
 comprehensive tool for convenient handling of crystal structure data and
@@ -47,11 +49,7 @@ experimental data, ATOMKIT will serve as a powerful assistant tool.
 
 The logo of ATOMKIT and a workflow diagram showcasing its features have
 been implemented and are presented below, providing an intuitive
-representation of the software's advantages. To download ATOMKIT, you
-can visit the following URL:
-https://sourceforge.net/projects/vaspkit/files/Binaries/. ATOMKIT and
-its sister software VASPKIT have very similar usage methods, allowing
-for seamless switching between them.
+representation of the software's advantages.
 
 .. image:: ../images/atomkit_logo.png
     :width: 400
