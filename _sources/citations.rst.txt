@@ -56,6 +56,8 @@ Cited publications
 
 #. C. Xie, C. Wang, Y. Xu, T.Y. Li, Q. Fu, et al. Reversible multielectron transfer I−/IO3− cathode enabled by a hetero-halogen electrolyte for high-energy-density aqueous batteries. **Nature Energy** (2024). https://doi.org/10.1038/s41560-024-01515-9
 
+#. A. Li, Y. Wang, Y. Li, X. Yang, P. Nan, K. Liu, et al. High performance magnesium-based plastic semiconductors for flexible thermoelectrics. **Nature Communications** 15, 5108 (2024). 
+
 #. K. Jhuria, V. Ivanov, D. Polley, W. Liu, A. Persaud, Y. Zhiyenbayev, et al. Programmable quantum emitter formation in silicon. **Nature Communications** 15, 4497 (2024). https://doi.org/10.1038/s41467-024-48714-2
 
 #. Y. Fang, H. Yang, Y. Hou, L. Wang, et al. Timescale correlation of shallow trap states increases electrochemiluminescence efficiency in carbon nitrides. **Nature Communications** 15, 3597 (2024). https://doi.org/10.1038/s41467-024-48011-y
@@ -170,9 +172,11 @@ Cited publications
 
 #. C. Wu, L. Lin, J. Liu, J. Zhang, F. Zhang, et al. Inverse ZrO2/Cu as a highly efficient methanol synthesis catalyst from CO2 hydrogenation,  **Nature Communications** 11, 5767 (2020). https://doi.org/10.1038/s41467-020-19634-8
 
+#. Y. Kang, S.J. Li, O. Cretru, K. Kimoto, et al. Mesoporous amorphous non-noble metals as versatile substrates for high loading and uniform dispersion of Pt-group single atoms. **Science Advances** 10, eado2442 (2024). https://doi.org/10.1126/sciadv.ado2442 
+
 #. J. Wang, J.M. Cai, K.-X. Ren, L. Liu, et al. Stepwise structural evolution toward robust carboranealkynyl-protected copper nanocluster catalysts for nitrate electroreduction. **Science Advances** 10, eadn7556(2024). https://doi.org/10.1126/sciadv.adn7556
 
-#. S. Chen, Y. Xia, R. Zeng, Z. Luo, et al. ,Ordered planar plating/stripping enables deep cycling zinc metal batteries. **Science Advances** 10, eadn2265 (2024).https://doi.org/10.1126/sciadv.adn2265
+#. S. Chen, Y. Xia, R. Zeng, Z. Luo, et al. Ordered planar plating/stripping enables deep cycling zinc metal batteries. **Science Advances** 10, eadn2265 (2024). https://doi.org/10.1126/sciadv.adn2265
 
 #. S. Liu, H. Li, J. Zhong, K. Xu, et al. A crystal glass–nanostructured Al-based electrocatalyst for hydrogen evolution reaction. **Science Advances** 8, eadd6421 (2022). https://doi.org/10.1126/sciadv.add6421 
 
@@ -196,6 +200,7 @@ Cited publications
 
 #. S. Zhang, Y. Wang, Q. Zeng, J. Sheng, et al. Scaling of Berry-curvature monopole dominated large linear positive magnetoresistance. **PNAS** 119, e2208505119 (2022). https://doi.org/10.1073/pnas.2208505119
 
+#. B. Wan, Y. Yuan, L. Zheng, Y. Xu, S. Zhao, K. Liu, et al. BaCu, a Two-Dimensional Electride with Cu Anions. **Journal of the American Chemical Society**, (2024). https://pubs.acs.org/doi/full/10.1021/jacs.4c05723
 
 #. X. Xu, H.-P. Liang, Q.-S. Huang, Z. Liu, et al. Computational Screening of Promising Deep-Ultraviolet Light Emitters. **Journal of the American Chemical Society** 146, 12864 (2024). https://doi.org/10.1021/jacs.4c03711 
 
