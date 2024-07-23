@@ -30,6 +30,10 @@ Cited publications
 
 #. B. Yang, Z.-M. Zhang, P.-T. Liu, X.-K. Fu, L. Zuo, et al. Flatband λ-Ti3O5 towards extraordinary solar steam generation. **Nature** 622, 499 (2023). https://doi.org/10.1038/s41586-023-06509-3
 
+#. W. Li, T. Zhou, Z. Zhang, L. Li, et al. Ultrastrong MXene film induced by sequential bridging with liquid metal. **Science**, 385, 62 (2024). https://doi.org/10.1126/science.ado4257
+
+#. I. Abdelwahab, D. Kumar, T. Bian, H. Zheng, et al. Two-dimensional chiral perovskites with large spin Hall angle and collinear spin Hall conductivity. **Science**, 385, 311 (2024). https://doi.org/10.1126/science.adq0967
+
 #. M. Ahmadi Khoshooei, X. Wang, G. Vitale, F. Formalik, et al. An active, stable cubic molybdenum carbide catalyst for the high-temperature reverse water-gas shift reaction. **Science** 384, 540-546 (2024). https://doi.org/10.1126/science.adl1260
 
 #. J. Liu, M. De Bastiani, E. Aydin, G. T. Harrison, et al. Efficient and stable perovskite-silicon tandem solar cells through contact displacement by MgFx. **Science** 377, 302-306 (2022). https://doi.org/10.1126/science.abn8910
@@ -37,6 +41,8 @@ Cited publications
 #. P. Wu, Y.B. Tu, Z.Y. Wang, S.K. Yu, et al. Unidirectional electron–phonon coupling in the nematic state of a kagome superconductor. **Nature Physics** 19, 1143 (2023). https://doi.org/10.1038/s41567-023-02031-5 
 
 #. Y. Xu, T. Liu, K. Liu, et al. Scalable integration of hybrid high-κ dielectric materials on two-dimensional semiconductors. **Nature Materials** 22, 1078 (2023). https://doi.org/10.1038/s41563-023-01626-w
+
+#. B. Ma, H. Zhang, R. Li, et al. Molecular-docking electrolytes enable high-voltage lithium battery chemistries. **Nature Chemistry** (2024). https://doi.org/10.1038/s41557-024-01585-y
 
 #. K. Sun, O. J. Silveira, Y. Ma, Y. Hasegawa, et al. On-surface synthesis of disilabenzene-bridged covalent organic frameworks. **Nature Chemistry** 15, 36 (2023). https://doi.org/10.1038/s41557-022-01071-3 
 
@@ -57,6 +63,12 @@ Cited publications
 #. C. Xie, C. Wang, Y. Xu, T.Y. Li, Q. Fu, et al. Reversible multielectron transfer I−/IO3− cathode enabled by a hetero-halogen electrolyte for high-energy-density aqueous batteries. **Nature Energy** (2024). https://doi.org/10.1038/s41560-024-01515-9
 
 #. A. Li, Y. Wang, Y. Li, X. Yang, P. Nan, K. Liu, et al. High performance magnesium-based plastic semiconductors for flexible thermoelectrics. **Nature Communications** 15, 5108 (2024). 
+
+#. M. Tang, J. Shen, Y. Wang, et al. Highly efficient recycling of polyester wastes to diols using Ru and Mo dual-atom catalyst. **Nature Communications** 15, 5630 (2024). https://doi.org/10.1038/s41467-024-49880-z
+
+#. L. Meng, CW. Kao, Z. Wang, et al. Alloying and confinement effects on hierarchically nanoporous CuAu for efficient electrocatalytic semi-hydrogenation of terminal alkynes. **Nature Communications** 15, 5999 (2024). https://doi.org/10.1038/s41467-024-50499-3
+
+#. Y. Cai, Z. Wang, J. Wan, et al. Ion diffusion retarded by diverging chemical susceptibility. **Nature Communications** 15, 5814 (2024). https://doi.org/10.1038/s41467-024-50213-3
 
 #. K. Jhuria, V. Ivanov, D. Polley, W. Liu, A. Persaud, Y. Zhiyenbayev, et al. Programmable quantum emitter formation in silicon. **Nature Communications** 15, 4497 (2024). https://doi.org/10.1038/s41467-024-48714-2
 
@@ -176,6 +188,8 @@ Cited publications
 
 #. J. Wang, J.M. Cai, K.-X. Ren, L. Liu, et al. Stepwise structural evolution toward robust carboranealkynyl-protected copper nanocluster catalysts for nitrate electroreduction. **Science Advances** 10, eadn7556(2024). https://doi.org/10.1126/sciadv.adn7556
 
+#. Y. Kang, S. Li, O. Cretu, K. Kimoto, et al. Mesoporous amorphous non-noble metals as versatile substrates for high loading and uniform dispersion of Pt-group single atoms. **Science Advances**, 10(25), eado2442 (2024). https://doi.org/10.1126/sciadv.ado2442
+
 #. S. Chen, Y. Xia, R. Zeng, Z. Luo, et al. Ordered planar plating/stripping enables deep cycling zinc metal batteries. **Science Advances** 10, eadn2265 (2024). https://doi.org/10.1126/sciadv.adn2265
 
 #. S. Liu, H. Li, J. Zhong, K. Xu, et al. A crystal glass–nanostructured Al-based electrocatalyst for hydrogen evolution reaction. **Science Advances** 8, eadd6421 (2022). https://doi.org/10.1126/sciadv.add6421 
@@ -223,6 +237,8 @@ Cited publications
 #. D. Luo, K. Yin, R. Dronskowski, Existence of BeCN2 and Its First-Principles Phase Diagram: Be and C Introducing Structural Diversity. **Journal of the American Chemical Society** 144, 5155 (2022). https://doi.org/10.1021/jacs.2c00592
 
 #. D. Han, C. Feng, M. H. Du, et al. Design of High-Performance Lead-Free Quaternary Antiperovskites for Photovoltaics via Ion Type Inversion and Anion Ordering. **Journal of the American Chemical Society** 143, 12369 (2021). https://doi.org/10.1021/jacs.1c06403
+
+#. A. Xu, T. Liu, D. Liu, W. Li, et al. Edge‐Rich Pt‐O‐Ce Sites in CeO2 Supported Patchy Atomic‐Layer Pt Enable a Non‐CO Pathway for Efficient Methanol Oxidation. **Angewandte Chemie** e202410545 (2024). https://doi.org/10.1002/ange.202410545
 
 #. D. Luo, X. Qiao, R. Dronskowski, Predicting Nitrogen-based Families of Compounds: Transition-metal Guanidinates TCN3 (T= V, Nb, Ta) and Ortho-nitrido Carbonates T2CN4 (T= Ti, Zr, Hf), **Angewandte Chemie** 60, 486 (2020). https://doi.org/10.1002/anie.202011196
 
