@@ -62,6 +62,10 @@ Cited publications
 
 #. C. Xie, C. Wang, Y. Xu, T.Y. Li, Q. Fu, et al. Reversible multielectron transfer I−/IO3− cathode enabled by a hetero-halogen electrolyte for high-energy-density aqueous batteries. **Nature Energy** (2024). https://doi.org/10.1038/s41560-024-01515-9
 
+#. J. Zhao, R. Urrego-Ortiz, N. Liao,  F. Calle-Vallejo, J.S. Luo. Rationally designed Ru catalysts supported on TiN for highly efficient and stable hydrogen evolution in alkaline conditions. **Nature Communications** 15, 6391 (2024). https://doi.org/10.1038/s41467-024-50691-5
+
+#. J. Luo,  L. Xu, Y. Yang, S. Huang, Y. Zhou, et al. Stable zinc anode solid electrolyte interphase via inner Helmholtz plane engineering. **Nature Communications** 15, 6471 (2024). https://doi.org/10.1038/s41467-024-50890-0
+
 #. A. Li, Y. Wang, Y. Li, X. Yang, P. Nan, K. Liu, et al. High performance magnesium-based plastic semiconductors for flexible thermoelectrics. **Nature Communications** 15, 5108 (2024). 
 
 #. M. Tang, J. Shen, Y. Wang, et al. Highly efficient recycling of polyester wastes to diols using Ru and Mo dual-atom catalyst. **Nature Communications** 15, 5630 (2024). https://doi.org/10.1038/s41467-024-49880-z
@@ -211,6 +215,9 @@ Cited publications
 #. J. Cheng, B.F. Miao, Z. Liu, M. Yang, K. He, Y.L. Zeng, et al. Coherent Picture on the Pure Spin Transport between Ag/Bi and Ferromagnets. **Physical Review Letters** 129, 097203 (2022). https://doi.org/10.1103/PhysRevLett.129.097203
 
 #. J. Wu, T.H. Yang, Y.J. Sun, Y. Min, Y. Hu, F. Chen, et al. Tailoring the selective generation of oxidative organic radicals for toxic-by-product-free water decontamination. **PNAS** 121, e2403544121 (2024). https://doi.org/10.1073/pnas.2403544121
+
+
+#. Z. Ye, K.R. Yang, B.X. ZHang, I. Ahmed Navid, Y.F. Shen, et al. A synergetic cocatalyst for conversion of carbon dioxide, sunlight, and water into methanol. **PANS** 121, e2408183121 (2024). https://doi.org/10.1073/pnas.2408183121
 
 #. S. Zhang, Y. Wang, Q. Zeng, J. Sheng, et al. Scaling of Berry-curvature monopole dominated large linear positive magnetoresistance. **PNAS** 119, e2208505119 (2022). https://doi.org/10.1073/pnas.2208505119
 
